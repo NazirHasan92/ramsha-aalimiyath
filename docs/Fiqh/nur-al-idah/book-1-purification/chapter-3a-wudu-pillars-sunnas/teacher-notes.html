@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nur al-Idah · Book I Ch 3a · Wudu (Pillars &amp; Sunnas) · Teacher Notes</title>
+<link rel="stylesheet" href="../../shared/styles.css">
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js"></script>
+</head>
+<body>
+
+<header class="page-header">
+  <div class="ar-title">كِتَابُ الطَّهَارَة · الْوُضُوء</div>
+  <h1>Chapter 3a — Wudu (Part 1): Performing the Ablution · Teacher Notes</h1>
+  <div class="meta">Nur al-Idah · Book I: Purification · Hasan Shurunbulali (Hanafi) · For adult Urdu-speaking learners</div>
+</header>
+
+<main>
+
+<nav class="toc">
+  <h3>📚 In this chapter</h3>
+  <ol>
+    <li><a href="#overview">★ Master Overview — the four-tier gradient</a></li>
+    <li><a href="#objectives">Learning objectives</a></li>
+    <li><a href="#concept-0">Concept 0: The opening — hadith &amp; al-Māʾidah 5:6</a></li>
+    <li><a href="#concept-1">Concept 1: The 4 Pillars (<span class="ar">الْفَرَائِض</span>)</a></li>
+    <li><a href="#concept-2">Concept 2: Conditions — obligate vs validate</a></li>
+    <li><a href="#concept-3">Concept 3: Fulfilling the rulings (beard, ring, barriers)</a></li>
+    <li><a href="#concept-4">Concept 4: The 18 Sunnas</a></li>
+    <li><a href="#concept-5">Concept 5: The 14 Etiquettes (<span class="ar">الْآدَاب</span>)</a></li>
+    <li><a href="#concept-6">Concept 6: The 6 Disliked acts (<span class="ar">الْمَكْرُوهَات</span>)</a></li>
+    <li><a href="#vocab">Vocabulary list (Arabic + Roman + English + Urdu)</a></li>
+    <li><a href="#mistakes">Common student mistakes</a></li>
+    <li><a href="#quran">Connect to Qur'an &amp; Hadith</a></li>
+    <li><a href="#resources">Companion files</a></li>
+  </ol>
+</nav>
+
+<div class="legend">
+  <strong>Colour key:</strong>
+  <span class="chip"><span class="dot" style="background:#1e3a8a"></span>Root</span>
+  <span class="chip"><span class="dot" style="background:#0e7490"></span>Main concept</span>
+  <span class="chip"><span class="dot" style="background:#b45309"></span>Sub-rule</span>
+  <span class="chip"><span class="dot" style="background:#166534"></span>Detail</span>
+  <span class="chip"><span class="dot" style="background:#be123c"></span>Example / watch-out</span>
+</div>
+
+<div class="callout tip" style="margin:18px 0;">
+  <h4>💡 Read <a href="deep-notes.md">deep-notes.md</a> first</h4>
+  <p>This file is your <em>in-class reference</em> — chart-driven, fast to scan while teaching. The conceptual scaffolding (why each ruling works the way it does), the five landmines for Urdu-speaking adult learners, and the suggested 75-min class plan live in <a href="deep-notes.md">deep-notes.md</a>. Read that before your first session; this file is what you have open during class.</p>
+</div>
+
+<div class="callout warn" style="margin:18px 0;">
+  <h4>✂️ This is "Chapter 3a", not all of Chapter 3</h4>
+  <p>Wudu is the densest chapter in Book I, so it is split in two. <strong>3a (this file)</strong> = <em>performing wudu</em>: the opening, 4 pillars, conditions, fulfilment sub-rules, 18 sunnas, 14 etiquettes, 6 disliked acts. <strong>3b (next session)</strong> = <em>the status of wudu</em>: the 3 types, 12 nullifiers, 10 non-nullifiers. Teach 3a first — 3b only makes sense once the cohort can already perform wudu.</p>
+</div>
+
+<div class="callout warn" style="margin:18px 0;">
+  <h4>📖 Source constraint</h4>
+  <p>Every ruling, every verse, every hadith below is drawn <strong>only</strong> from Nur al-Idah (book pp. 45–55). Nothing has been added from outside sources. If a classmate asks a question whose answer is not in this chapter, say: <em>"Yeh is hisse mein nahin hai — Chapter 3b ya kisi aur kitaab mein khulega."</em></p>
+</div>
+
+<!-- ===== MASTER OVERVIEW ===== -->
+<section class="block overview" id="overview">
+  <h2>★ Master Overview — <span class="ar">نَقْشَةُ الْبَاب</span></h2>
+  <p class="block-meta">One bird's-eye map. The whole chapter is a <strong>four-tier gradient of obligation</strong>: Farḍ (the floor) → Sunna → Adab → Makrūh (avoid). Everything else hangs on this spine.</p>
+  <div class="mermaid">
+flowchart TB
+  ROOT(["الْوُضُوء<br/>Wudu — performing the ablution<br/>(Chapter 3a)"]):::root
+
+  ROOT --> A["0 · The opening<br/>Hadith (sins fall away)<br/>+ al-Māʾidah 5:6"]:::main
+  ROOT --> B["1 · The 4 PILLARS<br/>farḍ — the floor"]:::main
+  ROOT --> C["2 · Conditions<br/>obligate vs validate"]:::main
+  ROOT --> D["3 · Fulfilling the rulings<br/>(water must reach skin)"]:::main
+  ROOT --> E["The QUALITY GRADIENT"]:::main
+
+  B --> B1["Wash face · Wash arms+elbows<br/>Wash feet+ankles · Wipe ¼ head"]:::sub
+
+  C --> C1["OBLIGATE (wujūb):<br/>person + moment"]:::sub
+  C --> C2["VALIDATE (ṣiḥḥa):<br/>the act itself"]:::sub
+
+  E --> E1["FARḌ · 4<br/>miss → INVALID"]:::ex
+  E --> E2["SUNNA · 18<br/>miss → valid, deficient"]:::sub
+  E --> E3["ADAB · 14<br/>reward only"]:::leaf
+  E --> E4["MAKRŪH · 6<br/>avoid (still valid)"]:::leaf
+
+  classDef root fill:#1e3a8a,stroke:#1e3a8a,color:#fff,stroke-width:3px,font-weight:bold;
+  classDef main fill:#cffafe,stroke:#0e7490,color:#0c4a6e,stroke-width:2px,font-weight:bold;
+  classDef sub  fill:#fef3c7,stroke:#b45309,color:#7c2d12,stroke-width:2px;
+  classDef leaf fill:#dcfce7,stroke:#166534,color:#14532d;
+  classDef ex   fill:#ffe4e6,stroke:#be123c,color:#881337;
+  </div>
+</section>
+
+<!-- ===== OBJECTIVES ===== -->
+<section class="block" id="objectives">
+  <h2>🎯 Learning Objectives</h2>
+  <p>By the end of this chapter (Part 1), the student will be able to:</p>
+  <ol style="line-height:2;">
+    <li>Recite the <strong>four pillars (farāʾiḍ)</strong> in order, with each limb's boundary, and define what "washing" means.</li>
+    <li>Explain that <strong>wiping a quarter of the head is the farḍ</strong> (whole head = sunna), and that the head is <em>wiped</em>, not washed.</li>
+    <li>Separate the <strong>conditions that obligate</strong> wudu (person + moment) from the <strong>conditions that validate</strong> it (the act).</li>
+    <li>Apply the sub-rules of <strong>fulfilment</strong> — thick vs sparse beard, tight ring, barriers, the pin-hole/heel danger-zones.</li>
+    <li>Recall the <strong>18 sunnas in six groups</strong>, and explain why <strong>niyyah, tartīb, and muwālāt are sunna (not farḍ) in the Ḥanafī school</strong>.</li>
+    <li>Distinguish <strong>adab</strong> (reward-only) from sunna, and list the <strong>6 makrūhāt</strong> (leading with isrāf and taqtīr).</li>
+    <li>Place any given action of wudu into its correct tier — farḍ, sunna, adab, or makrūh.</li>
+  </ol>
+</section>
+
+<!-- ===== CONCEPT 0: THE OPENING ===== -->
+<section class="block" id="concept-0">
+  <h2>0 · The Opening — <span class="ar">حَدِيثٌ وَآيَة</span></h2>
+  <p class="block-meta">Begin every class here. Wudu is grounded in a hadith of mercy and a Qur'anic command — and the four pillars are read straight out of the verse.</p>
+
+  <div class="breadcrumb">
+    <b>Where this fits:</b> the emotional and textual entry point. Before any rule, show the cohort <em>why</em> wudu matters and <em>where</em> it comes from.
+  </div>
+
+  <div class="callout quran">
+    <h4>🕊️ The opening hadith — sins falling away (Mālik, an-Nasāī, Ibn Mājah)</h4>
+    <p>The Prophet ﷺ said: <em>"When a person performs ablution and rinses his mouth, his wrong deeds fall from it. As he rinses his nose, his wrong deeds fall from it. When he washes his face, his wrong deeds fall from it until they fall from beneath his eyelashes… When he washes his feet, his wrong deeds fall from him until they fall from beneath his toenails. Then his walking to the masjid and his prayer give him extra reward."</em></p>
+    <p><strong>Teaching frame:</strong> wudu is not "putting water on the body" — it is <em>gunaahon ka jhadna</em>. Open the heart before opening the rulebook.</p>
+  </div>
+
+  <div class="callout quran">
+    <h4>📖 The Qur'anic basis — al-Māʾidah 5:6</h4>
+    <p><em>"O you who believe! When you prepare for prayer wash your faces and your hands (and arms) to the elbows; Rub your head (with water) and (wash) your feet to the ankles."</em></p>
+    <p><strong>The four pillars are in the verse, in order:</strong> wash face · wash arms to elbows · <em>rub</em> (wipe) head · wash feet to ankles. Show the class that the jurists did not invent the pillars — they unpacked the āyah.</p>
+  </div>
+
+  <div class="callout tip">
+    <h4>💡 Teaching tip</h4>
+    <p>Write al-Māʾidah 5:6 on the board and <strong>underline the four actions</strong> as you read. Then say: <em>"Yeh chaaron arkān seedha Qur'an se aaye hain."</em> When you reach Concept 1, you are simply pointing back at words already on the board.</p>
+  </div>
+</section>
+
+<!-- ===== CONCEPT 1: THE 4 PILLARS ===== -->
+<section class="block" id="concept-1">
+  <h2>1 · The Four Pillars — <span class="ar">أَرْكَانُ الْوُضُوء</span> (farāʾiḍ)</h2>
+  <p class="block-meta">The non-negotiable core. Miss any one — even a pin-hole of one — and there is no wudu. Exactly four.</p>
+
+  <div class="breadcrumb">
+    <b>Where this fits:</b> the floor of the four-tier gradient. Everything in Concepts 4–6 is refinement on top of these four.
+  </div>
+
+  <div class="mermaid">
+flowchart TB
+  P["The 4 Pillars (farḍ)<br/>from al-Māʾidah 5:6"]:::root
+  P --> F1["1 · WASH the face<br/>length: hairline → chin<br/>breadth: earlobe → earlobe"]:::sub
+  P --> F2["2 · WASH hands + arms<br/>INCLUDING the elbows"]:::sub
+  P --> F3["3 · WASH feet<br/>INCLUDING the ankles"]:::sub
+  P --> F4["4 · WIPE a QUARTER<br/>of the head (masḥ)"]:::sub
+  F1 --> DEF["'Washing' =<br/>at least a couple of drops<br/>must FLOW (not just wet)"]:::ex
+  F3 --> HEEL["⚠️ 'Woe to the dry heels<br/>from Hellfire' (Abū Dāwūd 97)"]:::ex
+  F4 --> HEAD["⚠️ farḍ = ¼ only<br/>(whole head = sunna);<br/>WIPE, never wash"]:::ex
+
+  classDef root fill:#1e3a8a,stroke:#1e3a8a,color:#fff,stroke-width:2px,font-weight:bold;
+  classDef sub  fill:#fef3c7,stroke:#b45309,color:#7c2d12,stroke-width:2px;
+  classDef ex   fill:#ffe4e6,stroke:#be123c,color:#881337;
+  </div>
+
+  <div class="defs">
+    <div class="def-card">
+      <h4>Pillar 1 · Wash the face</h4>
+      <div class="def-row">
+        <div class="label">From the book</div>
+        <div class="body english"><em>"The first of these is to wash the face… its limit length wise, is from the start of the top of the forehead (typically from the hairline) to the bottom of the chin. And breadth wise, its limit is the area between the two ear lobes. The definition of washing is that at least a couple of drops should flow from the limb."</em></div>
+      </div>
+      <div class="def-row">
+        <div class="label">Boundary</div>
+        <div class="body english">Length: hairline → bottom of chin. Breadth: earlobe → earlobe.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">"Washing" defined</div>
+        <div class="body english">At least <strong>a couple of drops must flow</strong> from the limb. Merely wetting the skin is <em>not</em> washing.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Roman Urdu</div>
+        <div class="body roman">Chehra: baalon ki jadh se thodi (chin) tak, ek kaan ki lau se doosri tak. <b>"Dhona" = paani baha</b> — sirf geela karna nahin.</div>
+      </div>
+    </div>
+
+    <div class="def-card">
+      <h4>Pillars 2 &amp; 3 · Wash arms (with elbows) &amp; feet (with ankles)</h4>
+      <div class="def-row">
+        <div class="label">From the book</div>
+        <div class="body english"><em>"The second is to wash the hands with the arms (and elbows) once. The third is to wash the feet with the ankles…"</em></div>
+      </div>
+      <div class="def-row">
+        <div class="label">Key point</div>
+        <div class="body english">The elbows and ankles are <strong>included</strong> — they are part of what is washed, not a line you stop before.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">The heel warning</div>
+        <div class="body english">The Prophet ﷺ saw dry heels and said: <em>"Woe to the dry heels from Hellfire. Perform ablution in full."</em> (Abū Dāwūd 97). The heel is the most-missed spot.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Roman Urdu</div>
+        <div class="body roman">Haath + bāzu <b>kuhniyon samet</b>, paaon <b>takhno samet</b>. Edi sab se zyada chhootti hai — "sukhi edi ke liye jahannam".</div>
+      </div>
+    </div>
+
+    <div class="def-card">
+      <h4>Pillar 4 · Wipe a quarter of the head (masḥ)</h4>
+      <div class="def-row">
+        <div class="label">From the book</div>
+        <div class="body english"><em>"The fourth pillar is to wipe a quarter of the head as the Prophet ﷺ wiped the front of his head."</em></div>
+      </div>
+      <div class="def-row">
+        <div class="label">Two corrections</div>
+        <div class="body english">(1) The <strong>farḍ is one quarter</strong> — wiping the <em>whole</em> head is a sunna (Concept 4, #10). (2) The head is <strong>wiped</strong> (masḥ), not washed — a wet hand passing over it, no flowing water.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Roman Urdu</div>
+        <div class="body roman">Sar ka farḍ <b>sirf chauthayi</b> ka masah — pura sar sunna hai. Aur sar <b>dhoya nahin jaata, masah hota hai</b>: geela haath pher do.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="callout warn">
+    <h4>⚠️ The pillars ARE the floor — the validity test is unforgiving</h4>
+    <p>A single dry pin-hole on a farḍ limb (heel, between toes/fingers, under a ring) means the wudu is deficient there. Drill the four pillars until the cohort recites them in order without notes — this is the irreducible minimum the whole chapter is built on.</p>
+  </div>
+</section>
+
+<!-- ===== CONCEPT 2: CONDITIONS ===== -->
+<section class="block" id="concept-2">
+  <h2>2 · Conditions — <span class="ar">شُرُوط</span> · Obligate vs Validate</h2>
+  <p class="block-meta">Two different question-words. <em>Wujūb</em> = "is this person even required to make wudu now?" (person + moment). <em>Ṣiḥḥa</em> = "did the wudu they made actually count?" (the act).</p>
+
+  <div class="breadcrumb">
+    <b>Where this fits:</b> after the pillars tell you <em>what</em> wudu is, the conditions tell you <em>when it is demanded</em> and <em>when it succeeds</em>. Keep the two columns separate.
+  </div>
+
+  <div class="mermaid">
+flowchart TB
+  C["Conditions of wudu"]:::root
+  C --> W["OBLIGATE — wujūb<br/>(person + moment)"]:::main
+  C --> S["VALIDATE — ṣiḥḥa<br/>(the act itself)"]:::main
+
+  W --> W1["Sane · mature · Muslim<br/>(maturity: wet dream, else age 15)"]:::sub
+  W --> W2["Enough water · in ḥadath<br/>(no menses/nifās) · prayer-time cramped"]:::sub
+
+  S --> S1["Water reaches ALL skin<br/>(a dry pin-hole → invalid)"]:::ex
+  S --> S2["Incompatible state ceases first<br/>(menses/nifās/active ḥadath)"]:::sub
+  S --> S3["Remove barriers<br/>(wax, grease, nail polish, glue)"]:::ex
+
+  classDef root fill:#1e3a8a,stroke:#1e3a8a,color:#fff,stroke-width:2px,font-weight:bold;
+  classDef main fill:#cffafe,stroke:#0e7490,color:#0c4a6e,stroke-width:2px,font-weight:bold;
+  classDef sub  fill:#fef3c7,stroke:#b45309,color:#7c2d12;
+  classDef ex   fill:#ffe4e6,stroke:#be123c,color:#881337;
+  </div>
+
+  <div class="defs">
+    <div class="def-card">
+      <h4>The reason for wudu (al-sabab)</h4>
+      <div class="def-row">
+        <div class="label">From the book</div>
+        <div class="body english"><em>"Its reason is to make lawful those actions that cannot be valid except with wudu. This is its ruling pertaining to this life, while in the hereafter; it is the attainment of rewards."</em></div>
+      </div>
+      <div class="def-row">
+        <div class="label">The framing</div>
+        <div class="body english">Wudu is a <strong>key, not an end</strong> — this life: it makes prayer (etc.) lawful; the hereafter: reward.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Roman Urdu</div>
+        <div class="body roman">Wudu maqsad nahin, <b>chaabi</b> hai — namaz ko jaiz banata hai (duniya), sawaab deta hai (aakhirat).</div>
+      </div>
+    </div>
+
+    <div class="def-card">
+      <h4>Conditions that OBLIGATE (shurūṭ al-wujūb)</h4>
+      <div class="def-row">
+        <div class="label">From the book</div>
+        <div class="body english"><em>"The conditions that render wudu obligatory are sanity, maturity, and Islam… Additionally, one must have the ability to use a sufficient amount of water… Being in a state of minor ritual impurity obligates wudu… the absence of menstrual periods and postnatal bleeding requires the performance of ablution… When there is inadequate time left for the obligatory prayer, the wudu must be made immediately."</em></div>
+      </div>
+      <div class="def-row">
+        <div class="label">Maturity</div>
+        <div class="body english">Reached by a wet dream, or — failing that — at <strong>age fifteen</strong> (view of the two disciples, also Shāfiʿī &amp; Aḥmad; another view: eighteen, from Ibn ʿAbbās). <strong>Fatwa = fifteen.</strong> "The pen has been lifted from three…" (Ibn Mājah 2041).</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Roman Urdu</div>
+        <div class="body roman">Kis par wudu <b>farḍ hota</b> hai: ʿaql, bulūgh, Islam · paani ki istitāʿat · ḥadath / hayd-nifās ka na hona · waqt ka tang hona.</div>
+      </div>
+    </div>
+
+    <div class="def-card">
+      <h4>Conditions that VALIDATE (shurūṭ al-ṣiḥḥa) — exactly three</h4>
+      <div class="def-row">
+        <div class="label">From the book</div>
+        <div class="body english"><em>"1. Pure water is to reach the complete outer skin, and if the area of a pin hole remains in which water does not touch… wudu is not valid. 2. The things that are incompatible with wudu must cease before commencing… 3. One must remove objects of dirt that prevent water from reaching the body, such as wax or fatty grease… nail polish, paint, or glue."</em></div>
+      </div>
+      <div class="def-row">
+        <div class="label">The pin-hole rule</div>
+        <div class="body english">A single dry pin-prick on a farḍ limb invalidates the <em>whole</em> wudu. This is the strict edge of validity.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Nail polish</div>
+        <div class="body english">A film over the nail stops water reaching the skin → wudu invalid. (It is a <em>validity</em> issue, never an <em>obligation</em> issue.)</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Roman Urdu</div>
+        <div class="body roman">Wudu <b>sahih kab hota</b> hai: paani pure khaal tak (sui ki nok jitni sukhi jagah bhi nahin) · maniʿ haalat khatam ho · har <b>rukāwat</b> (nail polish, mom, glue) hati ho.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="callout tip">
+    <h4>💡 Teaching tip — two columns, one example</h4>
+    <p>Draw two columns: <strong>OBLIGATE</strong> (person + moment) and <strong>VALIDATE</strong> (the act). Then ask: <em>"Nail polish konse column mein aati hai?"</em> Answer: VALIDATE — it never changes <em>whether</em> you must make wudu, only <em>whether the wudu you made counts</em>. One good example fixes the whole distinction.</p>
+  </div>
+</section>
+
+<!-- ===== CONCEPT 3: FULFILLING THE RULINGS ===== -->
+<section class="block" id="concept-3">
+  <h2>3 · Fulfilling the Rulings — the fine print of "reaching the skin"</h2>
+  <p class="block-meta">Every rule here is one principle applied: <strong>water must reach the skin</strong>. The body's obstacles — hair, nails, rings, wounds — each get a ruling.</p>
+
+  <div class="breadcrumb">
+    <b>Where this fits:</b> the detailed application of validity-condition #1 (water reaches the skin) and #3 (remove barriers). Practical and high-impact — this is where the cohort's daily wudu improves.
+  </div>
+
+  <div class="mermaid">
+flowchart TB
+  R["Water must reach the skin"]:::root
+  R --> BEARD["Beard: thick = wash VISIBLE part;<br/>sparse = water to the skin beneath"]:::sub
+  R --> RING["Tight RING → MOVE it<br/>(Prophet ﷺ did — Ibn Mājah 449)"]:::ex
+  R --> CLEAR["Long nails / dough / tight fingers →<br/>clear obstruction, then wash"]:::sub
+  R --> WOUND["Painful cut → pass water<br/>OVER the medicine on it"]:::sub
+  R --> NOBLOCK["Insect &amp; flea dung →<br/>does NOT block water (valid)"]:::leaf
+  R --> NORE["No re-do after shaving /<br/>cutting nails or moustache"]:::leaf
+
+  classDef root fill:#1e3a8a,stroke:#1e3a8a,color:#fff,stroke-width:2px,font-weight:bold;
+  classDef sub  fill:#fef3c7,stroke:#b45309,color:#7c2d12;
+  classDef leaf fill:#dcfce7,stroke:#166534,color:#14532d;
+  classDef ex   fill:#ffe4e6,stroke:#be123c,color:#881337;
+  </div>
+
+  <div class="defs">
+    <div class="def-card">
+      <h4>The beard — thick vs sparse</h4>
+      <div class="def-row">
+        <div class="label">From the book</div>
+        <div class="body english"><em>"It is obligatory to wash the visible part of a thick beard… A thick beard is one that covers the skin… the obligation passes from the skin to the beard. It is obligatory for water to reach the skin of a person with a small beard, one of the reasons being that it is easy to wash and poses no hardship."</em></div>
+      </div>
+      <div class="def-row">
+        <div class="label">Thick beard</div>
+        <div class="body english">Hides the skin → wash the <strong>visible (outer) part</strong>; obligation moves from skin to hair surface. (The book wrote <em>wājib</em> here but means <em>farḍ/obligatory</em>, per Marāqī al-Falāḥ.)</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Sparse beard</div>
+        <div class="body english">Skin visible through it → water <strong>must reach the skin</strong> beneath (it's easy, no hardship).</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Roman Urdu</div>
+        <div class="body roman">Ghani daadhi: oopri hissa dhona (baal khaal ki jagah le leta hai). Halki daadhi: neeche khaal tak paani lazmi.</div>
+      </div>
+    </div>
+
+    <div class="def-card">
+      <h4>Obstructions — nails, fingers, ring</h4>
+      <div class="def-row">
+        <div class="label">From the book</div>
+        <div class="body english"><em>"If the fingers are tightly held together… or the finger nails have grown over the finger tips… or if there is something which prevents water from the skin such as dough, it becomes obligatory to wash it after removing the obstruction… It is necessary to move around the tight ring during wudu… and when the Prophet ﷺ performed wudu, he moved his ring."</em> (Ibn Mājah 449)</div>
+      </div>
+      <div class="def-row">
+        <div class="label">What blocks (must clear)</div>
+        <div class="body english">Tightly-held fingers, nails grown over the tips, dough under nails — remove, then wash beneath.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">What does NOT block</div>
+        <div class="body english">Insect droppings, the dung of fleas, and the like — washing is valid even with them present.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Roman Urdu</div>
+        <div class="body roman">Tight angoothi: <b>ghumao</b> (Nabi ﷺ ne ghumayi). Nakhun ke neeche aata / lamba nakhun: rukāwat hata kar dhona farḍ. Makkhi ki beeT waghaira: rukāwat nahin (wudu sahih).</div>
+      </div>
+    </div>
+
+    <div class="def-card">
+      <h4>Hardship &amp; no re-doing</h4>
+      <div class="def-row">
+        <div class="label">From the book</div>
+        <div class="body english"><em>"If the washing of cuts on one's feet would cause harm or pain, it is permitted to pass water over the medicine that is placed on the cuts. One is not required to repeat the wiping on the place of the hair after it has been shaved, and neither is one required to repeat the washing after cutting his nails or moustache."</em></div>
+      </div>
+      <div class="def-row">
+        <div class="label">Wound</div>
+        <div class="body english">If washing a cut harms you, pass water <strong>over the medicine</strong> on it — don't injure yourself.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">No re-doing</div>
+        <div class="body english">Already wiped your head then shaved? No re-wipe. Cut nails/moustache after wudu? No re-wash.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Roman Urdu</div>
+        <div class="body roman">Zakhm par dhona takleef de: paani <b>dawaa ke oopar se</b> gujaar do. Masah ke baad baal mundaye / nakhun kaate: dobaara karne ki zaroorat nahin.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONCEPT 4: THE 18 SUNNAS ===== -->
+<section class="block" id="concept-4">
+  <h2>4 · The Eighteen Sunnas — <span class="ar">سُنَنُ الْوُضُوء</span></h2>
+  <p class="block-meta">Tier two: the Prophet's confirmed practice. Omit and the wudu is valid but <strong>deficient</strong>. Don't teach 18 loose items — teach <strong>six groups</strong>.</p>
+
+  <div class="breadcrumb">
+    <b>Where this fits:</b> the climb from <em>valid</em> (the 4 pillars) toward <em>excellent</em>. The Prophet ﷺ made wudu this way and called the threefold wash "the wudu of the Prophets before me."
+  </div>
+
+  <div class="mermaid">
+flowchart TB
+  S["18 Sunnas — in 6 groups"]:::root
+  S --> G1["A · Openers (3)<br/>wash hands · Bismillah · siwāk"]:::sub
+  S --> G2["B · Mouth &amp; nose (3)<br/>rinse ×3 · nose ×3 ·<br/>go deeper (not fasting)"]:::sub
+  S --> G3["C · Hidden places (2)<br/>comb beard · interlace fingers"]:::sub
+  S --> G4["D · Three &amp; head (3)<br/>each limb ×3 · whole head · ears"]:::sub
+  S --> G5["E · Quality (2)<br/>rub (dalk) · successively (muwālāt)"]:::sub
+  S --> G6["F · Last four (4)<br/>niyyah · tartīb · start-right · neck"]:::ex
+  G6 --> NB["⚠️ niyyah, tartīb, muwālāt<br/>= SUNNA, not farḍ (Ḥanafī)"]:::ex
+
+  classDef root fill:#1e3a8a,stroke:#1e3a8a,color:#fff,stroke-width:2px,font-weight:bold;
+  classDef sub  fill:#fef3c7,stroke:#b45309,color:#7c2d12;
+  classDef ex   fill:#ffe4e6,stroke:#be123c,color:#881337;
+  </div>
+
+  <div class="defs">
+    <div class="def-card">
+      <h4>Groups A–C · Openers · Mouth &amp; nose · Hidden places</h4>
+      <div class="def-row">
+        <div class="label">A · Openers (3)</div>
+        <div class="body english">(1) Wash the hands to the wrists first (Muslim 252). (2) Tasmiyah — "Bismillāh…" (Abū Dāwūd 101: <em>"no wudu for one who does not mention the name of Allah on it"</em>). (3) Siwāk, even with the finger (Muslim 487).</div>
+      </div>
+      <div class="def-row">
+        <div class="label">B · Mouth &amp; nose (3)</div>
+        <div class="body english">(4) Rinse the mouth ×3 (Abū Dāwūd 144). (5) Draw water into the nose ×3 with fresh handfuls. (6) Go deeper (mubālagha) — <strong>but not when fasting</strong>.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">C · Hidden places (2)</div>
+        <div class="body english">(7) Comb the fingers through a large beard (Abū Yūsuf: sunna; Abū Ḥanīfah: permissible). (8) Interlace the fingers (and toes) — at-Tirmidhī 39; Ṭabarānī 22/64.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Roman Urdu</div>
+        <div class="body roman">A: haath dhona, Bismillah, miswāk. B: kulli ×3, naak ×3, gehraai (roze mein nahin). C: daadhi ka khilāl, ungliyon ka khilāl.</div>
+      </div>
+    </div>
+
+    <div class="def-card">
+      <h4>Groups D–E · Three &amp; head · Quality of washing</h4>
+      <div class="def-row">
+        <div class="label">D · Three &amp; head (3)</div>
+        <div class="body english">(9) Wash each limb ×3 (Ibn Mājah 420 — once = obligation, thrice = <em>"this is my wudu, the wudu of the Prophets before me"</em>). (10) Wipe the <strong>entire</strong> head (Bukhārī 185). (11) Wipe the ears, even with leftover head-water (Abū Dāwūd 134: <em>"The ears are from the head"</em>).</div>
+      </div>
+      <div class="def-row">
+        <div class="label">E · Quality (2)</div>
+        <div class="body english">(12) Rub the limbs with water (dalk). (13) Wash the limbs successively — muwālāt — without pausing long enough for the previous limb to dry.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Note on #10</div>
+        <div class="body english">Wiping the <em>whole</em> head is sunna #10 — the <em>quarter</em> was the farḍ (Concept 1). This is exactly where students conflate the two.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Roman Urdu</div>
+        <div class="body roman">D: har aʿzaa teen baar, pura sar (sunna), kaan. E: malna (dalk), lagaataar (muwālāt). Yaad rakho: pura sar = sunna, chauthayi = farḍ.</div>
+      </div>
+    </div>
+
+    <div class="def-card">
+      <h4>Group F · The "last four" — and the niyyah rule</h4>
+      <div class="def-row">
+        <div class="label">From the book</div>
+        <div class="body english"><em>"The intention of wudu is sunna. Though Mālik and Shāfiʿī said that it is compulsory… Our argument is the words of Allah [When you prepare for prayer wash your faces…] and there is no mention of intention."</em> And: <em>"It has been said that the last four mentioned acts (15, 16, 17, 18) are recommended (mandūb), and not sunna."</em></div>
+      </div>
+      <div class="def-row">
+        <div class="label">The four</div>
+        <div class="body english">(14) Niyyah (intention). (15) Tartīb (the verse's order). (16/17) Begin with the right; start from fingertips/toes &amp; front of head. (18) Wipe the neck (not the throat).</div>
+      </div>
+      <div class="def-row">
+        <div class="label">★ The key ruling</div>
+        <div class="body english"><strong>Niyyah, tartīb, and muwālāt are sunna — not farḍ — in the Ḥanafī school.</strong> A wudu is technically valid without them (e.g. falling into a river); but you should never drop them on purpose.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Roman Urdu</div>
+        <div class="body roman">F: niyyah, tartīb, daahne se shuru, gardan. <b>Ḥanafī mein niyyah/tartīb/muwālāt SUNNA hain — farḍ nahin.</b> Iska matlab chhodna nahin — sirf darja samajhna.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="callout warn">
+    <h4>⚠️ The doctrinal heart of this chapter</h4>
+    <p>Most learners believe <strong>niyyah</strong> (and often <em>tartīb</em>) is obligatory. In the Ḥanafī school they are <strong>sunna</strong>. Nur al-Idah's argument: al-Māʾidah 5:6 commands the <em>washing</em> with no mention of intention, and water is itself a purifier (unlike the soil of tayammum, where intention <em>is</em> farḍ). Teach the <em>rank</em> carefully — never let it become "so I'll skip the niyyah."</p>
+  </div>
+
+  <div class="callout tip">
+    <h4>💡 Teaching tip</h4>
+    <p>Teach the 18 sunnas in their <strong>six groups</strong> on the board (A–F), not as a numbered list of 18. The cohort will remember "openers / mouth-nose / hidden places / three-and-head / quality / last-four" far longer than "sunna number 13."</p>
+  </div>
+</section>
+
+<!-- ===== CONCEPT 5: THE 14 ETIQUETTES ===== -->
+<section class="block" id="concept-5">
+  <h2>5 · The Fourteen Etiquettes — <span class="ar">آدَابُ الْوُضُوء</span> (mandūb)</h2>
+  <p class="block-meta">Tier three: pure bonus. The book defines adab as <em>"what the Prophet performed once or twice"</em> — rewarded if done, <strong>no blame if omitted</strong>.</p>
+
+  <div class="breadcrumb">
+    <b>Where this fits:</b> above sunna, below "must". Keep these clearly separate from the 18 sunnas, or the cohort will start treating everything as obligatory.
+  </div>
+
+  <div class="mermaid">
+flowchart TB
+  A["14 Etiquettes (adab)<br/>'done once or twice' — reward only"]:::root
+  A --> A1["Posture &amp; place<br/>sit elevated · face qibla"]:::sub
+  A --> A2["Inner state<br/>no worldly talk · heart+tongue united ·<br/>no help (self-reliant)"]:::sub
+  A --> A3["Dhikr &amp; du'a<br/>Bismillah on each limb ·<br/>transmitted supplications"]:::sub
+  A --> A4["Refinements<br/>little finger in ears ·<br/>move loose ring · R-hand nose etc."]:::sub
+  A --> A5["Before prayer time<br/>(except the 'excused' person)"]:::sub
+  A --> A6["After wudu<br/>two shahādahs · drink leftover ·<br/>'tawwābīn' du'a"]:::leaf
+
+  classDef root fill:#1e3a8a,stroke:#1e3a8a,color:#fff,stroke-width:2px,font-weight:bold;
+  classDef sub  fill:#fef3c7,stroke:#b45309,color:#7c2d12;
+  classDef leaf fill:#dcfce7,stroke:#166534,color:#14532d;
+  </div>
+
+  <div class="defs">
+    <div class="def-card">
+      <h4>What "adab" means — and the full list</h4>
+      <div class="def-row">
+        <div class="label">From the book</div>
+        <div class="body english"><em>"Adab… is considered as that which the Prophet performed once or twice. This is also called nafl, mustahab, mandub and tatawwuʿ. The one who undertakes its performance is rewarded though it is not blameworthy for its omission."</em></div>
+      </div>
+      <div class="def-row">
+        <div class="label">The 14 (book order)</div>
+        <div class="body english">1 sit elevated · 2 face qibla · 3 no seeking help · 4 no worldly talk · 5 unite heart+tongue · 6 transmitted supplications · 7 Bismillah at each limb · 8 little finger in ears · 9 move the loose ring · 10 gargle/nose with right hand, mucus with left · 11 wudu before prayer-time (not the excused) · 12 two shahādahs standing · 13 drink leftover water standing · 14 the "tawwābīn" du'a.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Adab vs sunna</div>
+        <div class="body english">Sunna = the Prophet <em>kept to it</em>; adab = he did it <em>once or twice</em>. Both rewarded — but omitting adab carries truly no blame.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Roman Urdu</div>
+        <div class="body roman">Adab = Nabi ﷺ ne <b>ek-do baar</b> kiya (sunna = hamesha). Karne par sawaab, na karne par <b>koi gunaah nahin</b>. In 14 ko 18 sunna se alag rakho.</div>
+      </div>
+    </div>
+
+    <div class="def-card">
+      <h4>The two closing du'as (adab 12–14)</h4>
+      <div class="def-row">
+        <div class="label">Two shahādahs (Abū Dāwūd 169)</div>
+        <div class="body english"><em>"If anyone performs ablution and performs it well, and when he finishes ablution, he utters the words 'I bear witness that there is no god except Allah and I bear witness that Muhammad is His servant and Messenger', all the eight doors of Paradise will be opened for him…"</em></div>
+      </div>
+      <div class="def-row">
+        <div class="label">Drink the leftover (Bukhārī 1637)</div>
+        <div class="body english">To drink from the remaining wudu water while standing, facing the qibla — the Prophet ﷺ drank standing from the excess of Zamzam.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">The closing du'a</div>
+        <div class="body english"><strong>"Allāhumma ijʿalnī min at-tawwābīn wa-jʿalnī min al-mutaṭahhirīn"</strong> — <em>"O Allah, make me of those who repent and of those who purify themselves."</em></div>
+      </div>
+      <div class="def-row">
+        <div class="label">Roman Urdu</div>
+        <div class="body roman">Wudu ke baad: <b>shahādatain</b> (Jannat ke aathon darwaze khulte hain), bacha hua paani khade ho kar peena, aur <b>"tawwābīn"</b> waali du'a.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="callout tip">
+    <h4>💡 Teaching tip — the spirit of adab</h4>
+    <p>Frame the 14 adab as turning wudu into <strong>a moment of dhikr and du'a</strong>: face the qibla, Bismillah on each limb, finish with the two shahādahs and the tawwābīn du'a. Don't drill them as a checklist — present them as the <em>beauty</em> layer. <em>"Adab woh hai jo wudu ko ek du'a bana de."</em></p>
+  </div>
+</section>
+
+<!-- ===== CONCEPT 6: THE 6 MAKRUHAT ===== -->
+<section class="block" id="concept-6">
+  <h2>6 · The Six Disliked Acts — <span class="ar">مَكْرُوهَاتُ الْوُضُوء</span></h2>
+  <p class="block-meta">The top tier: what to <strong>avoid</strong>. These do not invalidate wudu, but they are disliked and cost reward. Exactly six.</p>
+
+  <div class="breadcrumb">
+    <b>Where this fits:</b> the mirror of the adab — adab <em>adds</em> to a valid wudu, makrūhāt <em>subtract</em> from it. Together they complete the picture of an <em>excellent</em> wudu.
+  </div>
+
+  <div class="mermaid">
+flowchart TB
+  M["6 Makrūhāt — disliked (still valid)"]:::root
+  M --> WAT["Water — the middle path"]:::main
+  M --> ACT["Manner"]:::main
+  WAT --> W1["1 · Isrāf (waste)<br/>'even at a flowing river'"]:::ex
+  WAT --> W2["2 · Taqtīr (too little)<br/>nearly mere wiping"]:::ex
+  ACT --> A1["3 · Slapping the face<br/>('the face has honour')"]:::sub
+  ACT --> A2["4 · Worldly talk &amp;<br/>5 · seeking help without need"]:::sub
+  ACT --> A3["6 · Wiping head ×3<br/>with fresh water each time"]:::sub
+
+  classDef root fill:#1e3a8a,stroke:#1e3a8a,color:#fff,stroke-width:2px,font-weight:bold;
+  classDef main fill:#cffafe,stroke:#0e7490,color:#0c4a6e,stroke-width:2px,font-weight:bold;
+  classDef sub  fill:#fef3c7,stroke:#b45309,color:#7c2d12;
+  classDef ex   fill:#ffe4e6,stroke:#be123c,color:#881337;
+  </div>
+
+  <div class="defs">
+    <div class="def-card">
+      <h4>The two-sided water rule (makrūh 1 &amp; 2)</h4>
+      <div class="def-row">
+        <div class="label">From the book</div>
+        <div class="body english"><em>"To waste water is disliked… the Prophet ﷺ [said to Saʿd] 'What is this wastage, O Saʿd?'… 'Is there wastage in wudu?' The Prophet ﷺ said 'Yes, even if you were at a flowing river.' It is disliked to use very little water… that it nearly becomes like wiping. 'The best of matters is the middle course.'"</em></div>
+      </div>
+      <div class="def-row">
+        <div class="label">Both extremes</div>
+        <div class="body english"><strong>Too much (isrāf)</strong> and <strong>too little (taqtīr)</strong> are <em>both</em> makrūh. Islam wants the middle path even in how much water you use.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Source</div>
+        <div class="body english">Isrāf: Ibn Mājah 425. Taqtīr / "middle course": al-Bayhaqī 261.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Roman Urdu</div>
+        <div class="body roman">Paani ka <b>israaf ("behte darya par bhi")</b> aur <b>taqtīr (bohot kam)</b> — <b>dono</b> makrūh. Beech ka raasta.</div>
+      </div>
+    </div>
+
+    <div class="def-card">
+      <h4>Manner — makrūh 3 to 6</h4>
+      <div class="def-row">
+        <div class="label">From the book</div>
+        <div class="body english"><em>"To slap water on the face is disliked for the reason that the face has honour… 'Do not hit the face.' To speak words of general speech… is disliked as it entails distraction from supplication. To seek assistance from others without a reason is disliked… To wipe the head three times using new water each time is disliked, because wiping is only performed once."</em></div>
+      </div>
+      <div class="def-row">
+        <div class="label">3 · Slap the face</div>
+        <div class="body english">Apply water gently — "the face has honour" (ʿAbd ar-Razzāq 9/333).</div>
+      </div>
+      <div class="def-row">
+        <div class="label">4 · Worldly talk</div>
+        <div class="body english">Mirror of adab #4. Distracts from supplication.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">5 · Help without need · 6 · Head ×3 fresh water</div>
+        <div class="body english">ʿUmar moved to pour for the Prophet ﷺ, who said <em>"Stop, O ʿUmar — I do not need anyone to help me with my prayers."</em> · Wiping the head is done <strong>once</strong>, not thrice with new water.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Roman Urdu</div>
+        <div class="body roman">Chehre par paani maarna (izzat-e-chehra), duniyaawi baat, bila-zaroorat madad, sar ka masah teen baar naye paani se — sab makrūh.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="callout warn">
+    <h4>⚠️ Makrūh ≠ invalid</h4>
+    <p>None of these six break the wudu — the wudu is still valid. They are <em>disliked</em> and cost reward. Keep the cohort precise: a makrūh act means "avoid it," not "redo your wudu." Only a missing <strong>farḍ</strong> forces a redo.</p>
+  </div>
+</section>
+
+<!-- ===== VOCABULARY ===== -->
+<section class="block" id="vocab">
+  <h2>📖 Vocabulary — <span class="ar">الْمُفْرَدَات</span></h2>
+  <p class="block-meta">The Arabic fiqh terms introduced or used in this chapter. Drill them — they recur throughout Book I.</p>
+
+  <table class="vocab-table">
+    <thead>
+      <tr>
+        <th>Arabic</th>
+        <th>Transliteration</th>
+        <th>English</th>
+        <th>Roman Urdu</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="ar">الْوُضُوء</td><td class="translit">al-wuḍūʾ</td><td>the minor ablution</td><td>wudu</td></tr>
+      <tr><td class="ar">رُكْن · أَرْكَان</td><td class="translit">rukn · arkān</td><td>pillar(s) / obligatory element(s)</td><td>arkān — wudu ke farḍ hisse</td></tr>
+      <tr><td class="ar">فَرْض · فَرَائِض</td><td class="translit">farḍ · farāʾiḍ</td><td>obligatory (miss → invalid)</td><td>farḍ — lazmi (chhoot jaaye to wudu nahin)</td></tr>
+      <tr><td class="ar">غَسْل</td><td class="translit">ghasl</td><td>washing (water must flow)</td><td>ghasl — dhona (paani bahe)</td></tr>
+      <tr><td class="ar">مَسْح</td><td class="translit">masḥ</td><td>wiping (wet hand, no flow)</td><td>masah — geele haath se pherna</td></tr>
+      <tr><td class="ar">سُنَّة · سُنَن</td><td class="translit">sunna · sunan</td><td>confirmed Prophetic practice</td><td>sunna — Nabi ka mustaqil tareeqa</td></tr>
+      <tr><td class="ar">أَدَب · آدَاب</td><td class="translit">adab · ādāb</td><td>etiquette (reward, no blame if omitted)</td><td>adab — pasandeeda tareeqa</td></tr>
+      <tr><td class="ar">مَنْدُوب</td><td class="translit">mandūb</td><td>recommended</td><td>mandub — pasandeeda</td></tr>
+      <tr><td class="ar">مَكْرُوه</td><td class="translit">makrūh</td><td>disliked (still valid)</td><td>makrūh — na-pasandeeda</td></tr>
+      <tr><td class="ar">نِيَّة</td><td class="translit">niyya</td><td>intention (sunna in Ḥanafī wudu)</td><td>niyyat — iraada (wudu mein sunna)</td></tr>
+      <tr><td class="ar">تَرْتِيب</td><td class="translit">tartīb</td><td>order/sequence (sunna)</td><td>tartīb — silsila (sunna)</td></tr>
+      <tr><td class="ar">مُوَالَاة</td><td class="translit">muwālāt</td><td>washing successively without pausing (sunna)</td><td>muwālāt — lagaataar (sunna)</td></tr>
+      <tr><td class="ar">دَلْك</td><td class="translit">dalk</td><td>rubbing the limb with water</td><td>dalk — malna</td></tr>
+      <tr><td class="ar">مَضْمَضَة</td><td class="translit">maḍmaḍa</td><td>rinsing the mouth</td><td>kulli karna</td></tr>
+      <tr><td class="ar">اسْتِنْشَاق</td><td class="translit">istinshāq</td><td>drawing water into the nose</td><td>naak mein paani chadhana</td></tr>
+      <tr><td class="ar">تَخْلِيل</td><td class="translit">takhlīl</td><td>combing water through beard / between fingers</td><td>khilāl — daadhi/ungliyon mein paani</td></tr>
+      <tr><td class="ar">سِوَاك</td><td class="translit">siwāk</td><td>tooth-stick</td><td>miswāk</td></tr>
+      <tr><td class="ar">شَرْطُ الْوُجُوب</td><td class="translit">sharṭ al-wujūb</td><td>condition that makes wudu obligatory</td><td>shart-e-wujūb — wudu farḍ hone ki shart</td></tr>
+      <tr><td class="ar">شَرْطُ الصِّحَّة</td><td class="translit">sharṭ al-ṣiḥḥa</td><td>condition that makes wudu valid</td><td>shart-e-sehat — wudu sahih hone ki shart</td></tr>
+      <tr><td class="ar">إِسْرَاف</td><td class="translit">isrāf</td><td>wasting (water)</td><td>israaf — barbaadi</td></tr>
+      <tr><td class="ar">بُلُوغ</td><td class="translit">bulūgh</td><td>maturity (fatwa: age 15)</td><td>bulūgh — baligh hona (fatwa: 15 saal)</td></tr>
+      <tr><td class="ar">حَدَث</td><td class="translit">ḥadath</td><td>minor ritual impurity</td><td>ḥadath — chhoti napaaki</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- ===== COMMON MISTAKES ===== -->
+<section class="block" id="mistakes">
+  <h2>⚠️ Common Student Mistakes — Watch For These</h2>
+
+  <div class="callout warn">
+    <h4>1. "Niyyah is farḍ" — the intention misconception</h4>
+    <p>In the Ḥanafī school the intention is a <strong>sunna</strong>, not a farḍ. The book's argument: al-Māʾidah 5:6 commands the washing with no mention of intention, and water is itself a purifier (unlike the soil of tayammum, where intention <em>is</em> farḍ). Teach the rank carefully — never let it become "so I can skip the niyyah."</p>
+  </div>
+
+  <div class="callout warn">
+    <h4>2. "The whole head must be wiped" — head confusion</h4>
+    <p>The <strong>farḍ is a quarter</strong> of the head; the whole head is a <em>sunna</em> (#10). And the head is <strong>wiped</strong> (masḥ), not washed — wet hand, no flowing water. Two corrections in one.</p>
+  </div>
+
+  <div class="callout warn">
+    <h4>3. Treating every sunna as make-or-break</h4>
+    <p>The opposite over-correction: panicking that a wudu where one forgot the siwāk or rinsed only once is "invalid." A missed <em>sunna</em> = valid wudu, less reward. A missed <em>farḍ</em> = redo. The four-tier gradient is the cure.</p>
+  </div>
+
+  <div class="callout warn">
+    <h4>4. Collapsing "obligate" and "validate" into one list</h4>
+    <p>They answer two different questions: <em>wujūb</em> = "is this person required to make wudu now?"; <em>ṣiḥḥa</em> = "did the wudu they made count?" Nail polish lives under <strong>validate</strong>, never under obligate.</p>
+  </div>
+
+  <div class="callout warn">
+    <h4>5. The dry heel / pin-hole</h4>
+    <p>A single dry pin-hole on a farḍ limb invalidates the wudu. Most-missed spots: heels ("Woe to the dry heels"), between toes/fingers, under a ring. Induce <em>attention</em>, not guilt.</p>
+  </div>
+
+  <div class="callout warn">
+    <h4>6. Forgetting the fasting caveat on rinsing</h4>
+    <p>Going deeper (mubālagha) when rinsing the mouth and nose is sunna #6 — <strong>but not when fasting</strong> (water could go down the throat). Don't drop the caveat.</p>
+  </div>
+</section>
+
+<!-- ===== CONNECT TO QURAN ===== -->
+<section class="block" id="quran">
+  <h2>📿 Connect to the Qur'an &amp; Hadith</h2>
+  <p class="block-meta">Every text below is quoted by Nur al-Idah itself in this chapter. Use 1–2 in class to anchor the rulings in the sources.</p>
+
+  <div class="callout quran">
+    <h4>al-Māʾidah 5:6 — the foundation verse</h4>
+    <p><em>"O you who believe! When you prepare for prayer wash your faces and your hands (and arms) to the elbows; Rub your head (with water) and (wash) your feet to the ankles."</em></p>
+    <p>The four pillars are read straight out of this āyah. It is also the Ḥanafī proof that niyyah and tartīb are sunna (the verse commands only the washing).</p>
+  </div>
+
+  <div class="callout quran">
+    <h4>The opening hadith — sins falling away (Mālik, an-Nasāī, Ibn Mājah)</h4>
+    <p>The Prophet ﷺ said: <em>"When a person performs ablution and rinses his mouth, his wrong deeds fall from it… When he washes his feet, his wrong deeds fall from him until they fall from beneath his toenails. Then his walking to the masjid and his prayer give him extra reward."</em></p>
+    <p>The mercy-frame for the whole chapter: wudu is the falling-away of sins.</p>
+  </div>
+
+  <div class="callout quran">
+    <h4>"Woe to the dry heels" (Abū Dāwūd 97)</h4>
+    <p>The Prophet ﷺ saw people whose heels were dry and said: <em>"Woe to the dry heels from Hellfire. Perform ablution in full."</em></p>
+    <p>The textual basis for the validity-rule that no farḍ limb may be left dry — the heel above all.</p>
+  </div>
+
+  <div class="callout quran">
+    <h4>The threefold wash (Ibn Mājah 420)</h4>
+    <p>The Prophet ﷺ performed each act of ablution once and said <em>"This is the obligatory requisite of ablution"</em>; then twice, <em>"the ablution who God grants a double reward"</em>; then thrice, <em>"This is my wudu, the wudu of the Prophets before me."</em></p>
+    <p>The basis for sunna #9 — and a clean illustration of farḍ (once) vs sunna (thrice).</p>
+  </div>
+
+  <div class="callout quran">
+    <h4>"No wudu without the name of Allah" (Abū Dāwūd 101)</h4>
+    <p>The Prophet ﷺ said: <em>"There is no prayer for one with no wudu, and there is no wudu for one who does not mention the name of Allah on it."</em></p>
+    <p>The basis for the tasmiyah (sunna #2) — read by the Ḥanafīs as a denial of <em>perfection</em>, not of validity.</p>
+  </div>
+
+  <div class="callout quran">
+    <h4>The two shahādahs after wudu (Abū Dāwūd 169)</h4>
+    <p>The Prophet ﷺ said: <em>"If anyone performs ablution and performs it well, and when he finishes… he utters the words 'I bear witness that there is no god except Allah and… Muhammad is His servant and Messenger', all the eight doors of Paradise will be opened for him."</em></p>
+    <p>The basis for adab #12 — the two declarations of faith after wudu.</p>
+  </div>
+
+  <div class="callout quran">
+    <h4>"Even at a flowing river" (Ibn Mājah 425)</h4>
+    <p>The Prophet ﷺ said to Saʿd, who was making wudu: <em>"What is this wastage, O Saʿd?"</em> Saʿd asked, <em>"Is there wastage in wudu?"</em> He replied: <em>"Yes, even if you were at a flowing river."</em></p>
+    <p>The basis for makrūh #1 (isrāf) — waste is disliked even where water is endless.</p>
+  </div>
+</section>
+
+<!-- ===== COMPANION FILES ===== -->
+<section class="block" id="resources">
+  <h2>🔗 Companion files for this chapter</h2>
+  <div class="resources">
+    <ul>
+      <li>📝 <a href="deep-notes.md">Deep Notes</a> — Ramsha's prose deep-dive (read this <em>first</em> to internalise the chapter before teaching)</li>
+      <li>🧑‍🎓 <a href="student-handout.html">Student Handout</a> — printable, with exercises for classmates</li>
+      <li>📽️ <a href="slides.html">Slide Deck</a> — for classroom projection</li>
+    </ul>
+    <p style="margin-top:10px;"><strong>Next session:</strong> Chapter 3b — the 3 types of wudu, the 12 nullifiers, and the 10 non-nullifiers.</p>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  Nur al-Idah · Book I: Purification · Chapter 3a: Wudu (Pillars &amp; Sunnas) · Teacher Notes · eMahad<br>
+  Source text: Hasan Shurunbulali, <em>Nur al-Idah</em> (English translation), pp. 45–55.
+</footer>
+
+<script>
+mermaid.initialize({
+  startOnLoad:true,
+  securityLevel:'loose',
+  flowchart:{ htmlLabels:true, useMaxWidth:true, curve:'basis', nodeSpacing:40, rankSpacing:55 },
+  theme:'base',
+  themeVariables:{ fontFamily:'"Scheherazade New","Amiri","Noto Nastaliq Urdu","Inter",sans-serif', fontSize:'15px' }
+});
+</script>
+
+</body>
+</html>

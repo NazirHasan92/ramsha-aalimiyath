@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zad ut-Taalibeen · Chapter 5 · Slides</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/white.css">
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Scheherazade+New:wght@400;700&family=Noto+Nastaliq+Urdu:wght@400;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+  .reveal { font-family:'Inter',sans-serif; }
+  .reveal h1, .reveal h2, .reveal h3 { color:#14532d; font-weight:700; }
+  .reveal .ar {
+    font-family:'Scheherazade New','Amiri',serif;
+    direction:rtl;
+    color:#14532d;
+    font-weight:700;
+  }
+  .reveal .ar-huge { font-size:3.4rem; line-height:1.6; }
+  .reveal .ar-big { font-size:2.4rem; line-height:1.7; }
+  .reveal .ar-med { font-size:1.8rem; line-height:1.7; }
+  .reveal .translit { color:#9a3412; font-style:italic; font-size:1.05rem; }
+  .reveal .english { color:#1f2937; font-size:1.3rem; }
+  .reveal .urdu { color:#374151; font-style:italic; font-size:1.15rem; }
+  .reveal .source-pill {
+    display:inline-block;
+    margin-top:14px;
+    padding:5px 14px;
+    background:#14532d;
+    color:#fff;
+    border-radius:14px;
+    font-size:.85rem;
+    font-weight:600;
+    letter-spacing:.02em;
+  }
+  .reveal .cover {
+    background:linear-gradient(135deg, #14532d 0%, #0e7490 100%);
+    color:#fff !important;
+    padding:60px 40px;
+    border-radius:14px;
+  }
+  .reveal .cover h1, .reveal .cover .ar { color:#fff; }
+  .reveal .cover .urdu { color:#e0f2fe; }
+  .reveal .theme-banner {
+    background:#0e7490;
+    color:#fff;
+    padding:8px 18px;
+    border-radius:20px;
+    display:inline-block;
+    font-size:1rem;
+    font-weight:600;
+    letter-spacing:.05em;
+    margin-bottom:18px;
+  }
+  .reveal .key-box {
+    background:#f0fdf4;
+    border:2px solid #14532d;
+    border-radius:12px;
+    padding:18px 24px;
+    margin:18px auto;
+    max-width:80%;
+  }
+  .reveal .warn-box {
+    background:#fef2f2;
+    border-left:5px solid #dc2626;
+    padding:12px 18px;
+    border-radius:0 8px 8px 0;
+    margin:14px 0;
+    text-align:left;
+  }
+  .reveal .pill {
+    display:inline-block;
+    padding:6px 14px;
+    border-radius:18px;
+    margin:0 4px;
+    font-weight:600;
+    font-size:1rem;
+  }
+  .reveal .pill-min { background:#fee2e2; color:#991b1b; }
+  .reveal .pill-up  { background:#fef3c7; color:#92400e; }
+  .reveal .pill-in  { background:#cffafe; color:#0c4a6e; }
+  .reveal .pill-daily { background:#dcfce7; color:#14532d; }
+  .reveal .arrow { font-size:2rem; vertical-align:middle; color:#14532d; }
+  .reveal table { margin:0 auto; font-size:1.1rem; }
+  .reveal table th, .reveal table td { padding:8px 14px; vertical-align:middle; }
+  .reveal table th { background:#14532d; color:#fff; font-size:.9rem; }
+  .reveal .three-cols {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:14px;
+    margin:14px 0;
+  }
+  .reveal .three-cols .col {
+    background:#f9fafb;
+    border:2px solid #14532d;
+    border-radius:10px;
+    padding:14px;
+  }
+  .reveal .three-cols .col h4 { color:#14532d; margin:0 0 6px; }
+  .reveal .stairs {
+    background:#f0fdf4;
+    border:2px solid #14532d;
+    border-radius:12px;
+    padding:18px 24px;
+    margin:14px auto;
+    max-width:90%;
+    text-align:left;
+  }
+  .reveal .stairs ol { margin:6px 0; padding-left:32px; }
+  .reveal .stairs li { line-height:1.7; margin:6px 0; }
+</style>
+</head>
+<body>
+<div class="reveal">
+  <div class="slides">
+
+    <!-- COVER -->
+    <section class="cover">
+      <div class="ar ar-huge">زَادُ الطَّالِبِيْنَ</div>
+      <h1 style="font-size:2rem; margin-top:20px;">Provisions for the Seekers</h1>
+      <p style="font-size:1.2rem; opacity:.95;">Chapter 5 — Aḥādīth 41 to 50</p>
+      <p style="font-size:1.1rem; opacity:.9;">The believer's mind, heart, and hands</p>
+      <p class="urdu" style="font-size:1.1rem;">Aaj ki kitaab — das hadithein: zehn, dil, aur haath</p>
+      <p style="font-size:.95rem; opacity:.85; margin-top:30px;">Press → to begin · Press F for fullscreen</p>
+    </section>
+
+    <!-- OBJECTIVES -->
+    <section>
+      <h2>What we'll cover today</h2>
+      <p style="font-size:1.3rem;">10 short aḥādīth — falling into 3 themes:</p>
+      <div class="three-cols" style="margin-top:24px;">
+        <div class="col">
+          <h4>Theme 1 · The mind</h4>
+          <p style="margin:0;"><strong>Sacred knowledge</strong></p>
+          <p style="font-size:.95rem; margin:6px 0 0;">Aḥādīth 41, 42, 43</p>
+          <p style="font-size:.85rem; margin:4px 0 0;">(know your dīn)</p>
+        </div>
+        <div class="col">
+          <h4>Theme 2 · The heart</h4>
+          <p style="margin:0;"><strong>Steady deeds &amp; love</strong></p>
+          <p style="font-size:.95rem; margin:6px 0 0;">Aḥādīth 44, 46, 49</p>
+          <p style="font-size:.85rem; margin:4px 0 0;">(consistency &amp; attachment)</p>
+        </div>
+        <div class="col">
+          <h4>Theme 3 · The hands</h4>
+          <p style="margin:0;"><strong>Wealth &amp; provision</strong></p>
+          <p style="font-size:.95rem; margin:6px 0 0;">Aḥādīth 45, 47, 48, 50</p>
+          <p style="font-size:.85rem; margin:4px 0 0;">(debt, contentment, charity)</p>
+        </div>
+      </div>
+      <p style="margin-top:24px; font-size:1.1rem;">The deep current: <strong>love of this world</strong> vs <strong>love of the next</strong>.</p>
+      <p class="urdu" style="font-size:1rem;">Zehn → dil → haath. Sab ke neeche: ḥubb al-dunyā banaam ḥubb al-Ākhirah.</p>
+    </section>
+
+    <!-- ============ THEME 1 BANNER ============ -->
+    <section>
+      <span class="theme-banner">THEME 1 · THE MIND</span>
+      <h1>Sacred knowledge</h1>
+      <p style="font-size:1.3rem;">Aḥādīth 41, 42, 43 — know your dīn.</p>
+      <p class="urdu" style="font-size:1.1rem;">Jaano · sachay khwaab · seekho aur sikhao.</p>
+    </section>
+
+    <!-- ============ ḤADĪTH 41 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 41</h3>
+        <div class="ar ar-big">طَلَبُ الْعِلْمِ فَرِيْضَةٌ عَلَى كُلِّ مُسْلِمٍ</div>
+        <p class="translit" style="font-size:1.15rem;">ṭalabu l-ʿilmi farīḍatun ʿalā kulli muslim</p>
+        <p class="english" style="margin-top:18px;">"Seeking knowledge is an obligation upon every Muslim."</p>
+        <p class="urdu">"ʿIlm haasil karna har musalman par farz hai."</p>
+        <span class="source-pill">Ibn Mājah</span>
+      </section>
+
+      <section>
+        <h3>Which knowledge?</h3>
+        <table>
+          <tr>
+            <td style="background:#cffafe; padding:16px; border:2px solid #0e7490; vertical-align:top;">
+              <h4 style="color:#0c4a6e; margin:0;">FARḌ ʿAYN</h4>
+              <p style="font-size:1rem;">On <strong>every</strong> Muslim:<br>who Allah is, tawḥīd, prophethood, how to pray &amp; fast</p>
+            </td>
+            <td style="background:#fef3c7; padding:16px; border:2px solid #b45309; vertical-align:top;">
+              <h4 style="color:#7c2d12; margin:0;">FARḌ KIFĀYAH</h4>
+              <p style="font-size:1rem;">On the <strong>community</strong>:<br>fatāwā, deep tafsīr, ḥadīth sciences — enough that scholars exist</p>
+            </td>
+          </tr>
+        </table>
+        <p style="margin-top:18px; font-size:1.1rem;">Learn enough to do your <em>own</em> dīn correctly.</p>
+        <p class="urdu" style="font-size:1.05rem;">Har ek ko ʿālim banna zaroori nahin — itna seekho jitne se apni dīn sahi ho.</p>
+      </section>
+
+      <section>
+        <div class="warn-box">
+          <p style="margin:0;"><strong>⚠️ The trap:</strong> "I can never be a scholar — this is too much."</p>
+          <p style="margin:8px 0 0; font-size:1.05rem;">The obligation is the <em>farḍ ʿayn</em> — your own dīn's basics. Scholarship is a <em>communal</em> duty, not yours alone.</p>
+        </div>
+        <p style="margin-top:14px;">Connect to Qurʾān · 58:11 — <em>"Allah raises those given knowledge by degrees."</em></p>
+        <p class="urdu" style="font-size:1.05rem;">Dabaav mat lo. Bunyaadi ʿilm har ek par; gehra ʿilm community par.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 42 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 42</h3>
+        <div class="ar ar-big">أَصْدَقُ الرُّؤْيَا بِالْأَسْحَارِ</div>
+        <p class="translit" style="font-size:1.15rem;">aṣdaqu l-ruʾyā bi-l-asḥār</p>
+        <p class="english" style="margin-top:18px;">"The most truthful dreams are those [seen] just before dawn."</p>
+        <p class="urdu">"Sab se sachay khwaab seher ke waqt (fajr se thori pehle) aate hain."</p>
+        <span class="source-pill">Tirmidhī</span>
+      </section>
+
+      <section>
+        <h3>Why the pre-dawn hour?</h3>
+        <div class="key-box">
+          <p style="margin:0;"><strong>1.</strong> After a night of rest, the <strong>mind is calm</strong> — a clearer receiver.</p>
+          <p style="margin:10px 0 0;"><strong>2.</strong> It is the hour of the <strong>angels' descent</strong>, who witness the morning prayer.</p>
+        </div>
+        <div class="warn-box" style="margin-top:18px;">
+          <p style="margin:0;"><strong>⚠️ Keep it small.</strong> NOT a basis for action, law, or dream-interpretation. One narrow observation — nothing more.</p>
+        </div>
+        <p class="urdu" style="font-size:1.05rem;">Khwaab pe amal ya taʿbīr ki baat nahin. Choti baat — choti rakho. ʿIlm laazim, khwaab nahin.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 43 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 43</h3>
+        <div class="ar ar-big">خَيْرُكُمْ مَنْ تَعَلَّمَ الْقُرْآنَ وَعَلَّمَهُ</div>
+        <p class="translit" style="font-size:1.15rem;">khayrukum man taʿallama l-qurʾāna wa ʿallamah</p>
+        <p class="english" style="margin-top:18px;">"The best among you is the one who learns the Qurʾān and teaches it."</p>
+        <p class="urdu">"Tum mein behtareen woh hai jo Qurʾān seekhe aur sikhaaye."</p>
+        <span class="source-pill">Bukhārī · ʿUthmān ibn ʿAffān</span>
+      </section>
+
+      <section>
+        <h3>Two parts — joined</h3>
+        <table>
+          <tr>
+            <td style="background:#cffafe; padding:18px; border:2px solid #0e7490; vertical-align:top;">
+              <h4 style="color:#0c4a6e; margin:0;">تَعَلَّمَ</h4>
+              <p style="font-size:1.05rem;"><strong>Learned</strong> the Qurʾān</p>
+            </td>
+            <td style="vertical-align:middle; padding:0 8px;"><span class="arrow">+</span></td>
+            <td style="background:#cffafe; padding:18px; border:2px solid #0e7490; vertical-align:top;">
+              <h4 style="color:#0c4a6e; margin:0;">عَلَّمَهُ</h4>
+              <p style="font-size:1.05rem;"><strong>Taught</strong> it</p>
+            </td>
+          </tr>
+        </table>
+        <p style="margin-top:18px; font-size:1.1rem;">Not one or the other — <strong>both</strong>. The 14-century chain: learn → teach → they learn → they teach.</p>
+        <p class="urdu" style="font-size:1.05rem;">"Behtareen" woh jo dono kare — seekhe aur sikhaaye.</p>
+      </section>
+
+      <section>
+        <h3>This is what <em>we</em> are doing</h3>
+        <div class="key-box">
+          <p style="margin:0;">Every one of us is inside this ḥadīth: <strong>we learn, then we teach.</strong></p>
+          <p style="margin:10px 0 0; font-size:1.05rem;">You need not be a scholar. Teaching a child <em>Sūrat al-Fātiḥah</em> already counts.</p>
+        </div>
+        <p style="margin-top:14px; font-size:1.1rem;">Pass on what you learn this week — even one ḥadīth.</p>
+        <p class="urdu" style="font-size:1.05rem;">Hum sab is hadith ke andar hain. Jo seekho, kisi ko sikhao.</p>
+      </section>
+    </section>
+
+    <!-- ============ THEME 2 BANNER ============ -->
+    <section>
+      <span class="theme-banner">THEME 2 · THE HEART</span>
+      <h1>Steady deeds &amp; where love leads</h1>
+      <p style="font-size:1.3rem;">Aḥādīth 44, 46, 49 — constancy, and the danger of misplaced love.</p>
+      <p class="urdu" style="font-size:1.1rem;">Pabandi · mohabbat andha karti hai · dunya ki mohabbat har gunaah ki jaḍ.</p>
+    </section>
+
+    <!-- ============ ḤADĪTH 44 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 44</h3>
+        <div class="ar ar-big">أَحَبُّ الْأَعْمَالِ إِلَى اللهِ أَدْوَمُهَا وَإِنْ قَلَّ</div>
+        <p class="translit" style="font-size:1.1rem;">aḥabbu l-aʿmāli ilā Llāhi adwamuhā wa in qall</p>
+        <p class="english" style="margin-top:18px;">"The most beloved deeds to Allah are the most constant, even if few."</p>
+        <p class="urdu">"Allah ko sab se pyaare aʿmāl woh hain jo hamesha kiye jaayein, chahe thoray hon."</p>
+        <span class="source-pill">Bukhārī · Muslim · ʿĀʾishah</span>
+      </section>
+
+      <section>
+        <h3>Consistency beats intensity</h3>
+        <div class="key-box">
+          <p style="margin:0;">A small <em>wird</em> done <strong>every day</strong> beats a huge burst that burns out in a week.</p>
+          <p style="margin:10px 0 0; font-size:1.05rem;">The "deeds" = <em>voluntary</em> acts (nafl prayer, daily recitation, dhikr) you take on regularly.</p>
+        </div>
+        <p style="margin-top:14px;">Why? It proves a <em>settled</em> relationship with Allah — not a mood — and it is sustainable.</p>
+        <p class="urdu" style="font-size:1.05rem;">Roz ka chhota wird bare josh se behtar. Ramadan ka josh phir gyarah maheene khaali — yeh kamzor model.</p>
+      </section>
+
+      <section>
+        <div class="warn-box">
+          <p style="margin:0;"><strong>⚠️ Not a laziness license.</strong></p>
+          <p style="margin:8px 0 0; font-size:1.05rem;">"Even if few" praises <em>constancy</em> — not <em>smallness</em>. The lesson is steadiness, not minimum effort.</p>
+        </div>
+        <p style="margin-top:18px; font-size:1.15rem;"><strong>Pick one small thing and never drop it.</strong></p>
+        <p style="margin-top:8px;">Connect to Qurʾān · 11:112 — <em>"So remain steadfast as you are commanded."</em></p>
+        <p class="urdu" style="font-size:1.05rem;">Ek chhoti cheez pakdo aur kabhi mat chhodo. Yeh istiqāmat hai.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 46 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 46</h3>
+        <div class="ar ar-big">حُبُّكَ الشَّيْءَ يُعْمِيْ وَيُصِمُّ</div>
+        <p class="translit" style="font-size:1.15rem;">ḥubbuka l-shayʾa yuʿmī wa yuṣimm</p>
+        <p class="english" style="margin-top:18px;">"Your love for a thing blinds you and deafens you."</p>
+        <p class="urdu">"Kisi cheez se teri mohabbat tujhe andha aur behra kar deti hai."</p>
+        <span class="source-pill">Abū Dāwūd · Aḥmad · Abū al-Dardāʾ</span>
+      </section>
+
+      <section>
+        <h3>Love as a distorting lens</h3>
+        <table>
+          <tr>
+            <td style="background:#cffafe; padding:16px; border:2px solid #0e7490; vertical-align:top;">
+              <h4 style="color:#0c4a6e; margin:0;">يُعْمِيْ — BLINDS</h4>
+              <p style="font-size:1rem;">you to the thing's <strong>defects</strong></p>
+            </td>
+            <td style="background:#cffafe; padding:16px; border:2px solid #0e7490; vertical-align:top;">
+              <h4 style="color:#0c4a6e; margin:0;">يُصِمُّ — DEAFENS</h4>
+              <p style="font-size:1rem;">you to <strong>criticism</strong> of it</p>
+            </td>
+          </tr>
+        </table>
+        <p style="margin-top:18px;">A parent blind to a child's faults; the infatuated deaf to all warning. Love becomes a filter on reality.</p>
+        <p class="urdu" style="font-size:1.05rem;">Mohabbat ʿaib chhupa deti hai, tanqeed sunne nahin deti. Khud parda ban jaati hai.</p>
+      </section>
+
+      <section>
+        <h3>The hinge — and the flip side</h3>
+        <div class="key-box">
+          <p style="margin:0;">If love blinds &amp; deafens — <strong>what is the most dangerous thing to love?</strong></p>
+          <p style="margin:10px 0 0; font-size:1.05rem;">The next ḥadīth answers: <strong>the dunyā</strong> (#49).</p>
+        </div>
+        <p style="margin-top:14px;">Love is not the enemy — <em>misplaced</em> love is. Love of Allah &amp; His Messenger ﷺ re-tunes you <em>toward</em> the truth.</p>
+        <p class="urdu" style="font-size:1.05rem;">Dushman mohabbat nahin — ghalat jagah ki mohabbat. Sahi rukh do, to wahi taaqat rehnumā.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 49 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 49</h3>
+        <div class="ar ar-big">حُبُّ الدُّنْيَا رَأْسُ كُلِّ خَطِيْئَةٍ</div>
+        <p class="translit" style="font-size:1.15rem;">ḥubbu l-dunyā raʾsu kulli khaṭīʾah</p>
+        <p class="english" style="margin-top:18px;">"Love of this world is the head [origin] of every sin."</p>
+        <p class="urdu">"Dunya ki mohabbat har gunaah ki jaḍ hai."</p>
+        <span class="source-pill">Bayhaqī · Shuʿab al-Īmān</span>
+      </section>
+
+      <section>
+        <h3>The root of every sin</h3>
+        <ul style="font-size:1.1rem; line-height:1.9; text-align:left; max-width:80%; margin:0 auto;">
+          <li>Lying → to protect worldly standing</li>
+          <li>Stealing → love of wealth</li>
+          <li>Backbiting → love of status</li>
+          <li>Abandoning prayer → love of comfort</li>
+        </ul>
+        <p style="margin-top:14px;">Strip any sin down — at the bottom sits <em>attachment to this world</em>.</p>
+        <p class="urdu" style="font-size:1.05rem;">Koi bhi gunaah khol ke dekho — neeche dunya se lagaav milega.</p>
+      </section>
+
+      <section>
+        <h3>⚠️ The love — NOT the world</h3>
+        <table>
+          <tr>
+            <td style="background:#dcfce7; padding:18px; border:2px solid #14532d; vertical-align:top;">
+              <h4 style="color:#14532d; margin:0;">Dunyā in your HAND</h4>
+              <p style="font-size:1.05rem;">Fine — it's your field, gift, tool. The Prophet ﷺ married, traded, ate.</p>
+            </td>
+            <td style="background:#fef2f2; padding:18px; border:2px solid #dc2626; vertical-align:top;">
+              <h4 style="color:#991b1b; margin:0;">Dunyā in your HEART</h4>
+              <p style="font-size:1.05rem;">The root of sin — the goal you'd disobey Allah to keep.</p>
+            </td>
+          </tr>
+        </table>
+        <p style="margin-top:16px;">Like water: under the boat it carries you; inside the boat it sinks you.</p>
+        <p class="urdu" style="font-size:1.05rem;">Maal kashti ke <em>neeche</em> theek, kashti ke <em>andar</em> doobne ka sabab.</p>
+      </section>
+
+      <section>
+        <h3>The chapter is also the cure</h3>
+        <div class="key-box" style="text-align:left;">
+          <p style="margin:0;"><strong>#41 knowledge</strong> — re-orders priorities</p>
+          <p style="margin:8px 0 0;"><strong>#44 steady worship</strong> — keeps the heart turned to Allah</p>
+          <p style="margin:8px 0 0;"><strong>#47 contentment</strong> · <strong>#48 lawful earning</strong> · <strong>#50 giving it away</strong></p>
+        </div>
+        <p style="margin-top:14px; font-size:1.1rem;">If #49 is the disease, the chapter prescribes the medicine.</p>
+        <p style="margin-top:6px;">Connect to Qurʾān · 3:14 — the love of desires made attractive, then Allah as the better return.</p>
+      </section>
+    </section>
+
+    <!-- ============ THEME 3 BANNER ============ -->
+    <section>
+      <span class="theme-banner">THEME 3 · THE HANDS</span>
+      <h1>Wealth, debt &amp; provision</h1>
+      <p style="font-size:1.3rem;">Aḥādīth 45, 47, 48, 50 — pay debts, be content, earn lawfully, feed the hungry.</p>
+      <p class="urdu" style="font-size:1.1rem;">Qarz ada karo · qanāʿat · halāl kamaai · bhooke ko khilao.</p>
+    </section>
+
+    <!-- ============ ḤADĪTH 45 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 45</h3>
+        <div class="ar ar-big">مَطْلُ الْغَنِيِّ ظُلْمٌ</div>
+        <p class="translit" style="font-size:1.15rem;">maṭlu l-ghaniyyi ẓulm</p>
+        <p class="english" style="margin-top:18px;">"The delay [in repayment] by a wealthy [debtor] is oppression."</p>
+        <p class="urdu">"Maaldaar (jo de sakta hai) ka qarz taalna zulm hai."</p>
+        <span class="source-pill">Bukhārī · Muslim · Abū Hurayrah</span>
+      </section>
+
+      <section>
+        <h3>A weighty word — <em>ẓulm</em></h3>
+        <div class="key-box">
+          <p style="margin:0;">Not "rude". Not "inconvenient". <strong>Oppression</strong> — the word for grave injustice.</p>
+          <p style="margin:10px 0 0; font-size:1.05rem;"><em>Maṭl</em> = deliberately stalling — <em>"next month," "after Eid"</em> — when you <strong>can pay now</strong>.</p>
+        </div>
+        <p style="margin-top:14px;">The creditor helped you with his own wealth and trusted you. Making him chase it = injustice.</p>
+        <p class="urdu" style="font-size:1.05rem;">De sakte ho aur taal rahe ho? Sirf bad-akhlaqi nahin — zulm hai.</p>
+      </section>
+
+      <section>
+        <div class="warn-box">
+          <p style="margin:0;"><strong>⚠️ The genuinely broke are NOT the target.</strong></p>
+          <p style="margin:8px 0 0; font-size:1.05rem;">The ḥadīth targets <em>al-ghaniyy</em> — the one who <strong>can</strong> pay and stalls. The truly poor debtor is owed <em>patience</em>.</p>
+        </div>
+        <p style="margin-top:18px; font-size:1.1rem;">If you can pay — pay on time. It's part of your dīn, not just manners.</p>
+        <p class="urdu" style="font-size:1.05rem;">Muflis ho to zaalim nahin — magar taaqat aate hi foran ada karo.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 47 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 47</h3>
+        <div class="ar ar-med">مَا قَلَّ وَكَفَى خَيْرٌ مِمَّا كَثُرَ وَأَلْهَى</div>
+        <p class="translit" style="font-size:1.05rem;">mā qalla wa kafā khayrun mimmā kathura wa alhā</p>
+        <p class="english" style="margin-top:18px;">"What is little but sufficient is better than what is abundant but distracts."</p>
+        <p class="urdu">"Jo thora magar kaafi ho, woh us se behtar jo zyada magar ghaafil karne wala ho."</p>
+        <span class="source-pill">Ibn Ḥibbān</span>
+      </section>
+
+      <section>
+        <h3>The scale — <em>kafā</em> vs <em>alhā</em></h3>
+        <table>
+          <tr>
+            <td style="background:#dcfce7; padding:16px; border:2px solid #14532d; vertical-align:top;">
+              <h4 style="color:#14532d; margin:0;">قَلَّ وَكَفَى</h4>
+              <p style="font-size:1rem;">little + <strong>sufficient</strong><br>(meets your need)</p>
+            </td>
+            <td style="background:#fef2f2; padding:16px; border:2px solid #dc2626; vertical-align:top;">
+              <h4 style="color:#991b1b; margin:0;">كَثُرَ وَأَلْهَى</h4>
+              <p style="font-size:1rem;">much + <strong>distracting</strong><br>(pulls you from Allah)</p>
+            </td>
+          </tr>
+        </table>
+        <p style="margin-top:18px;">Not praise of <em>little</em>, nor blame of <em>much</em> — but of <strong>sufficiency</strong> vs <strong>distraction</strong>. The test is the heart, not the amount.</p>
+        <p class="urdu" style="font-size:1.05rem;">Sawaal miqdaar ka nahin — dil par asar ka. Yeh qanāʿat hai.</p>
+      </section>
+
+      <section>
+        <h3>The same principle as #44</h3>
+        <div class="key-box">
+          <p style="margin:0;"><strong>#44:</strong> little-but-constant worship &gt; burst-and-burnout.</p>
+          <p style="margin:10px 0 0;"><strong>#47:</strong> little-but-sufficient provision &gt; much-but-heedless wealth.</p>
+        </div>
+        <p style="margin-top:14px; font-size:1.1rem;">Sustainable sufficiency over distracting excess — in worship <em>and</em> provision.</p>
+        <p class="urdu" style="font-size:1.05rem;">Yeh #49 (dunya ki mohabbat) ka ʿamali toḍ hai.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 48 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 48</h3>
+        <div class="ar ar-med">طَلَبُ الْحَلَالِ فَرِيْضَةٌ بَعْدَ الْفَرِيْضَةِ</div>
+        <p class="translit" style="font-size:1.05rem;">ṭalabu l-ḥalāli farīḍatun baʿda l-farīḍah</p>
+        <p class="english" style="margin-top:18px;">"Seeking the lawful [earning] is an obligation after the [primary] obligation."</p>
+        <p class="urdu">"Halāl kamaai talab karna bunyaadi farz ke baad (agla) farz hai."</p>
+        <span class="source-pill">Bayhaqī · Shuʿab al-Īmān</span>
+      </section>
+
+      <section>
+        <h3>Lawful earning IS worship</h3>
+        <div class="key-box">
+          <p style="margin:0;">Echo of #41 — both <em>ʿilm</em> and <em>ḥalāl rizq</em> are called <strong>farīḍah</strong>.</p>
+          <p style="margin:10px 0 0; font-size:1.05rem;">After the primary obligations, earning a <strong>lawful</strong> living is the next obligation.</p>
+        </div>
+        <p style="margin-top:14px; font-size:1.1rem;">The one who earns ḥalāl for his dependants is doing an act of <em>dīn</em> — not just "working".</p>
+        <p class="urdu" style="font-size:1.05rem;">Halāl kamaana ʿibādat hai — sirf "naukri" nahin.</p>
+      </section>
+
+      <section>
+        <div class="warn-box">
+          <p style="margin:0;"><strong>⚠️ Not "everyone must earn".</strong></p>
+          <p style="margin:8px 0 0; font-size:1.05rem;">The obligation falls on those <em>responsible</em> for their own &amp; dependants' support. One already provided for (e.g. a woman supported by her father or husband) is not obligated.</p>
+        </div>
+        <p style="margin-top:18px;">The duty tracks <strong>responsibility</strong>, not gender or people as such.</p>
+        <p class="urdu" style="font-size:1.05rem;">Yeh farz zimmedaari ke saath juda hai. Connect: Qurʾān 2:168 — halāl ṭayyib khaao.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 50 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 50 — the chapter's close</h3>
+        <div class="ar ar-med">أَفْضَلُ الصَّدَقَةِ أَنْ تُشْبِعَ كَبِدًا جَائِعَةً</div>
+        <p class="translit" style="font-size:1.05rem;">afḍalu l-ṣadaqati an tushbiʿa kabidan jāʾiʿah</p>
+        <p class="english" style="margin-top:18px;">"The most virtuous charity is that you satisfy a hungry stomach."</p>
+        <p class="urdu">"Sab se afzal sadaqah yeh ke kisi bhooke ka pet bhar do."</p>
+        <span class="source-pill">Bayhaqī · Shuʿab al-Īmān</span>
+      </section>
+
+      <section>
+        <h3>The most concrete charity</h3>
+        <div class="key-box">
+          <p style="margin:0;"><em>Kabid</em> = "liver", the organ of hunger (= "stomach"). To fill a hungry kabid = feed someone hungry, right now.</p>
+        </div>
+        <p style="margin-top:14px;">The book widens it: a hungry <strong>Muslim</strong>, a hungry <strong>non-Muslim</strong>, or even a hungry <strong>animal</strong>. The merit is in relieving <em>real hunger</em>, wherever found.</p>
+        <p class="urdu" style="font-size:1.05rem;">Musalman ho ya ghair-musalman ya jaanwar — asli bhook mitaane mein fazīlat hai.</p>
+      </section>
+
+      <section>
+        <h3>Why the perfect ending</h3>
+        <div class="key-box">
+          <p style="margin:0;">Charity is <strong>love of the world reversed</strong> — taking what the world-lover hoards and giving it away.</p>
+          <p style="margin:10px 0 0; font-size:1.05rem;">And the chapter chooses the <em>humblest</em> charity — a fed stomach — so its highest reward is within reach of even the poorest believer.</p>
+        </div>
+        <p style="margin-top:14px; font-size:1.1rem;">You may never build a masjid; you can always feed someone hungry.</p>
+        <p class="urdu" style="font-size:1.05rem;">Sab se bara ajr sab se chhote kaam mein. Connect: Qurʾān 76:8 — bhooke ko khilana.</p>
+      </section>
+    </section>
+
+    <!-- ============ RECAP ============ -->
+    <section>
+      <h2>The chapter, on one slide</h2>
+      <div class="three-cols">
+        <div class="col">
+          <h4>Theme 1 · The mind</h4>
+          <p style="font-size:.9rem;"><strong>#41</strong> Knowledge is obligatory</p>
+          <p style="font-size:.9rem;"><strong>#42</strong> Truest dreams before dawn</p>
+          <p style="font-size:.9rem;"><strong>#43</strong> Learn &amp; teach the Qurʾān</p>
+        </div>
+        <div class="col">
+          <h4>Theme 2 · The heart</h4>
+          <p style="font-size:.9rem;"><strong>#44</strong> Beloved deeds = constant</p>
+          <p style="font-size:.9rem;"><strong>#46</strong> Love blinds &amp; deafens</p>
+          <p style="font-size:.9rem;"><strong>#49</strong> Love of world = root of sin</p>
+        </div>
+        <div class="col">
+          <h4>Theme 3 · The hands</h4>
+          <p style="font-size:.9rem;"><strong>#45</strong> Stalling a debt = ẓulm</p>
+          <p style="font-size:.9rem;"><strong>#47</strong> Sufficient &gt; distracting</p>
+          <p style="font-size:.9rem;"><strong>#48</strong> Lawful earning = obligation</p>
+          <p style="font-size:.9rem;"><strong>#50</strong> Best charity = feed the hungry</p>
+        </div>
+      </div>
+      <p style="font-size:1.15rem; margin-top:20px; color:#14532d;"><strong>Mind → heart → hands. 10 aḥādīth, one training of the self.</strong></p>
+      <p class="urdu" style="font-size:1.05rem;">Zehn → dil → haath. Das hadithein, ek tarbiyat.</p>
+    </section>
+
+    <!-- ============ HOMEWORK ============ -->
+    <section>
+      <h2>🏠 Homework</h2>
+      <ol style="font-size:1.1rem; line-height:1.9; text-align:left; max-width:85%; margin:0 auto;">
+        <li>Memorise the Arabic of <strong>5 aḥādīth</strong> (the short ones: 41, 45, 46, 49 — add 43).</li>
+        <li>Know all 10 in translation + their sources.</li>
+        <li>Complete Exercises 1–4 from the handout.</li>
+        <li>Reflection journal (Ex. 5) — private, for yourself.</li>
+        <li><strong>One deed, every day</strong> — begin a small daily deed and don't drop it (living #44).</li>
+        <li><strong>The "root" check</strong>: each time you slip into a small sin, ask — <em>"What love of the dunyā is under this?"</em> (#49).</li>
+      </ol>
+      <p class="urdu" style="font-size:1rem; margin-top:18px;">Yeh self-tarbiyah hai — har roz thora, magar pabandi se.</p>
+    </section>
+
+    <!-- ============ CLOSING ============ -->
+    <section class="cover">
+      <div class="ar ar-huge">جَزَاكُمُ اللهُ خَيْرًا</div>
+      <p style="font-size:1.4rem; margin-top:24px;">May Allah reward you</p>
+      <p class="urdu" style="font-size:1.15rem;">Allah aap sab ko jazaa-e-khair de</p>
+      <p style="font-size:1.05rem; opacity:.9; margin-top:24px;">Ten aḥādīth — the believer's mind, heart, and hands. May Allah make us know, love rightly, and give freely.</p>
+      <p class="urdu" style="font-size:1rem; opacity:.9;">Das hadithein — zehn, dil, haath. Allah humein ʿilm, sahi mohabbat, aur dene ki taufeeq de. Aameen.</p>
+    </section>
+
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+<script>
+  Reveal.initialize({
+    hash: true,
+    slideNumber: 'c/t',
+    controls: true,
+    progress: true,
+    transition: 'slide',
+    width: 1280,
+    height: 800,
+    margin: 0.06
+  });
+</script>
+</body>
+</html>

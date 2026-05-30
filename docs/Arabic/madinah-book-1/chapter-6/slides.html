@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Madinah Book 1 · Chapter 6 · Slides</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/white.css">
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Scheherazade+New:wght@400;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+  .reveal { font-family:'Inter',sans-serif; }
+  .reveal h1, .reveal h2, .reveal h3 { color:#064e3b; font-weight:700; }
+  .reveal .ar {
+    font-family:'Scheherazade New','Amiri',serif;
+    direction:rtl;
+    color:#064e3b;
+    font-weight:700;
+  }
+  .reveal .ar-huge { font-size:4rem; }
+  .reveal .ar-big { font-size:3rem; }
+  .reveal .translit { color:#9a3412; font-style:italic; font-size:1.1rem; }
+  .reveal .english { color:#1f2937; font-size:1.4rem; }
+  .reveal .urdu { color:#374151; font-style:italic; font-size:1.2rem; }
+  .reveal .cover {
+    background:linear-gradient(135deg, #064e3b 0%, #0e7490 100%);
+    color:#fff !important;
+    padding:60px 40px;
+    border-radius:14px;
+  }
+  .reveal .cover h1, .reveal .cover .ar { color:#fff; }
+  .reveal .cover .urdu { color:#e0f2fe; }
+  .reveal .pill {
+    display:inline-block;
+    padding:8px 18px;
+    border-radius:30px;
+    margin:0 6px;
+    font-weight:600;
+  }
+  .reveal .pill-blue{ background:#cffafe; color:#0c4a6e; }
+  .reveal .pill-amber{ background:#fef3c7; color:#7c2d12; }
+  .reveal .pill-rose{ background:#ffe4e6; color:#881337; }
+  .reveal .grid-2 {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:20px;
+    margin:20px 0;
+  }
+  .reveal .card{
+    background:#f9fafb;
+    border:2px solid;
+    border-radius:10px;
+    padding:14px;
+    text-align:center;
+  }
+  .reveal .card.masc{ border-color:#0e7490; background:#cffafe; }
+  .reveal .card.fem{ border-color:#be123c; background:#ffe4e6; }
+  .reveal .vocab-grid{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:14px;
+    margin:14px 0;
+  }
+  .reveal .vocab-grid .v-card{
+    background:#fff;
+    border:1.5px solid #064e3b;
+    border-radius:8px;
+    padding:10px;
+    text-align:center;
+  }
+  .reveal .vocab-grid .v-card .ar{ font-size:1.7rem; display:block; margin-bottom:4px; }
+  .reveal .vocab-grid .v-card .english{ font-size:0.95rem; display:block; }
+  .reveal .vocab-grid .v-card .translit{ font-size:0.8rem; display:block; }
+  .reveal .vocab-grid .v-card .urdu{ font-size:0.85rem; color:#7c2d12; display:block; font-style:italic; margin-top:2px; }
+  .reveal .warn-box{
+    background:#fef2f2;
+    border-left:5px solid #dc2626;
+    padding:12px 16px;
+    border-radius:0 8px 8px 0;
+    text-align:left;
+    margin:14px 0;
+  }
+  .reveal .tip-box{
+    background:#ecfeff;
+    border-left:5px solid #0891b2;
+    padding:12px 16px;
+    border-radius:0 8px 8px 0;
+    text-align:left;
+    margin:14px 0;
+  }
+  .reveal .quran-box{
+    background:#fefce8;
+    border-left:5px solid #ca8a04;
+    padding:14px 18px;
+    border-radius:0 8px 8px 0;
+    text-align:left;
+    margin:14px 0;
+  }
+  .reveal .ta-hl{
+    color:#be123c;
+    font-weight:900;
+  }
+  .reveal .crossed{
+    text-decoration:line-through;
+    text-decoration-color:#dc2626;
+    text-decoration-thickness:3px;
+  }
+</style>
+</head>
+<body>
+<div class="reveal">
+  <div class="slides">
+
+    <!-- COVER -->
+    <section class="cover">
+      <div class="ar ar-huge">الدَّرْسُ السَّادِسُ</div>
+      <h1 style="font-size:2.2rem; margin-top:20px;">Madinah Book 1 — Chapter 6</h1>
+      <p style="font-size:1.3rem; opacity:.9;">The Feminine · <span class="ar" style="color:#fff;">التَّأْنِيث</span> · the <span class="ar" style="color:#fff;">ة</span> marker</p>
+      <p class="urdu" style="font-size:1.2rem;">Chhata sabaq — mu'annath, <span class="ar" style="color:#fff;">ة</span> ka switch, aur agreement</p>
+      <p style="font-size:1rem; opacity:.8; margin-top:30px;">Press → to begin · Press F for fullscreen</p>
+    </section>
+
+    <!-- OBJECTIVES -->
+    <section>
+      <h2>By the end of this lesson, you will:</h2>
+      <ol style="font-size:1.15rem; line-height:1.9;">
+        <li>Make a word feminine by adding <span class="ar">ة</span>.<br><span class="urdu" style="font-size:1rem;">Mardaana → zanaana, <span class="ar">ة</span> laga ke</span></li>
+        <li>Match adjectives/professions to a feminine subject.<br><span class="urdu" style="font-size:1rem;">Agreement — <span class="ar">هِيَ طَبِيبَةٌ</span></span></li>
+        <li>Spot the body parts that are feminine without a <span class="ar">ة</span>.<br><span class="urdu" style="font-size:1rem;">Jodi-wale ange feminine</span></li>
+        <li>Use the feminine in iḍāfa &amp; "whose?".<br><span class="urdu" style="font-size:1rem;"><span class="ar">سَيَّارَةُ مَنْ هَذِهِ ؟</span></span></li>
+      </ol>
+    </section>
+
+    <!-- RECAP -->
+    <section>
+      <h2>📋 Quick recap — Chapters 1–5</h2>
+      <ul style="font-size:1.1rem; line-height:1.85;">
+        <li>Pointing: <span class="ar">هَذَا · ذَلِكَ · هَذِهِ</span> · <span class="ar">الـ</span> = "the"</li>
+        <li>Pronouns: <span class="ar">هُوَ · هِيَ</span> (gender-matched)</li>
+        <li>6 kasra-triggers: <span class="ar">فِي · عَلَى · إِلَى · مِنْ · لِـ · تَحْتَ</span></li>
+        <li>Iḍāfa: <span class="ar">كِتَابُ مُحَمَّدٍ</span> · "whose?" <span class="ar">لِمَنْ · قَلَمُ مَنْ</span></li>
+      </ul>
+      <p style="margin-top:18px; font-size:1.1rem; color:#0e7490;">Today: the feminine — the <span class="ar">ة</span> that runs through everything.</p>
+    </section>
+
+    <!-- RULE 1: TA MARBUTA -->
+    <section>
+      <section>
+        <h2>Rule 1 · <span class="ar">التَّأْنِيث</span> — the <span class="ar">ة</span> marker</h2>
+        <p style="font-size:1.3rem;">Arabic has two genders — <strong>no "it"</strong>.</p>
+        <div style="display:flex; justify-content:center; gap:60px; margin:24px 0;">
+          <div class="pill pill-blue" style="font-size:1.3rem;"><span class="ar">مُذَكَّر</span> · masculine → <span class="ar">هَذَا / هُوَ</span></div>
+        </div>
+        <div style="display:flex; justify-content:center; gap:60px;">
+          <div class="pill pill-rose" style="font-size:1.3rem;"><span class="ar">مُؤَنَّث</span> · feminine → <span class="ar">هَذِهِ / هِيَ</span></div>
+        </div>
+      </section>
+
+      <section>
+        <h3>The switch — add <span class="ar">ة</span></h3>
+        <div style="font-size:2.4rem; margin:30px 0;" class="ar">
+          طَبِيب &nbsp;+&nbsp; <span class="ta-hl">ة</span> &nbsp;=&nbsp; طَبِيبَة
+        </div>
+        <p style="font-size:1.2rem;">"male doctor → female doctor"</p>
+        <table style="margin:18px auto 0; font-size:1.2rem;">
+          <tr><td class="ar ar-big" style="padding:6px 14px;">مُسْلِم → مُسْلِمَة</td></tr>
+          <tr><td class="ar ar-big" style="padding:6px 14px;">مُهَنْدِس → مُهَنْدِسَة</td></tr>
+          <tr><td class="ar ar-big" style="padding:6px 14px;">كَبِير → كَبِيرَة</td></tr>
+        </table>
+        <p class="urdu" style="font-size:1.05rem; margin-top:14px;">Mardaana lafz le lo, aakhir mein <span class="ar">ة</span> laga do.</p>
+      </section>
+
+      <section>
+        <h3>⚠️ Urdu gender will trick you</h3>
+        <div class="warn-box">
+          <p style="font-size:1.15rem;">Urdu gender does <strong>not</strong> match Arabic.</p>
+          <ul style="font-size:1.1rem; line-height:1.85;">
+            <li><em>kitaab</em> — feminine in Urdu, but <span class="ar">كِتَابٌ</span> is <strong>masculine</strong> in Arabic (<span class="ar">هَذَا</span>, <span class="ar">هُوَ</span>).</li>
+          </ul>
+          <p class="urdu" style="font-size:1.05rem; margin-top:8px;">Urdu wali gender bhool jao — Arabic mein <span class="ar">ة</span> dekho ya yaad karo.</p>
+        </div>
+      </section>
+    </section>
+
+    <!-- RULE 2: AGREEMENT -->
+    <section>
+      <section>
+        <h2>Rule 2 · Agreement — the <span class="ar">ة</span> flows through</h2>
+        <p style="font-size:1.25rem;">Feminine subject → feminine describing words.</p>
+        <div class="ar ar-big" style="margin:24px 0;">هَذِهِ دَرَّاجَةٌ جَدِيدَةٌ</div>
+        <p style="font-size:1.2rem;"><em>hādhihi darrājatun jadīdatun</em> — "this is a new bicycle"</p>
+        <p style="font-size:1.05rem; color:#0e7490;">Three feminine markers in a row · <span class="urdu">teen <span class="ar">ة</span> ek line mein</span></p>
+      </section>
+
+      <section>
+        <h3>From the lesson</h3>
+        <table style="margin:0 auto; font-size:1.05rem;">
+          <tr>
+            <td class="ar ar-big" style="padding:8px 14px;">أَهِيَ مُهَنْدِسَةٌ ؟ — لَا، هِيَ طَبِيبَةٌ</td>
+          </tr>
+          <tr><td style="padding:0 14px 12px; font-size:0.9rem;">"Is she an engineer? — No, she is a doctor."</td></tr>
+          <tr>
+            <td class="ar ar-big" style="padding:8px 14px;">هَذِهِ سَاعَةُ عَلِيٍّ. هِيَ جَمِيلَةٌ جِدًّا</td>
+          </tr>
+          <tr><td style="padding:0 14px 12px; font-size:0.9rem;">"This is Ali's watch. It is very beautiful."</td></tr>
+        </table>
+      </section>
+
+      <section>
+        <h3>⚠️ Don't forget the <span class="ar">ة</span> on the adjective</h3>
+        <div class="warn-box">
+          <p style="font-size:1.2rem;">✅ <span class="ar">هِيَ طَبِيبَةٌ</span> &nbsp;·&nbsp; ❌ <span class="ar crossed">هِيَ طَبِيبٌ</span></p>
+          <p style="font-size:1.2rem;">✅ <span class="ar">سَيَّارَةٌ جَدِيدَةٌ</span> &nbsp;·&nbsp; ❌ <span class="ar crossed">سَيَّارَةٌ جَدِيدٌ</span></p>
+          <p class="urdu" style="font-size:1.05rem; margin-top:8px;">Ek switch dab gaya — poori line roshan honi chahiye.</p>
+        </div>
+      </section>
+    </section>
+
+    <!-- RULE 3: FEMININE WITHOUT TA -->
+    <section>
+      <section>
+        <h2>Rule 3 · Feminine <em>without</em> a <span class="ar">ة</span></h2>
+        <p style="font-size:1.25rem;">Most feminine words have <span class="ar">ة</span> — but a few don't.</p>
+        <p style="font-size:1.2rem; color:#0e7490;">In this lesson: the body parts that come in <strong>pairs</strong>.</p>
+        <p class="urdu" style="font-size:1.1rem;">Jodi-wale ange — bina <span class="ar">ة</span> ke feminine.</p>
+      </section>
+
+      <section>
+        <h3>Two columns to memorise</h3>
+        <div class="grid-2">
+          <div class="card masc">
+            <h4 style="color:#155e75;"><span class="ar">هَذَا</span> (masculine)</h4>
+            <p class="ar" style="font-size:1.6rem; line-height:1.9;">أَنْفٌ (nose)<br>فَمٌ (mouth)</p>
+          </div>
+          <div class="card fem">
+            <h4 style="color:#881337;"><span class="ar">هَذِهِ</span> (feminine, no <span class="ar">ة</span>)</h4>
+            <p class="ar" style="font-size:1.6rem; line-height:1.9;">عَيْنٌ (eye) · أُذُنٌ (ear)<br>يَدٌ (hand) · رِجْلٌ (leg)</p>
+          </div>
+        </div>
+        <p style="font-size:1.05rem; color:#0e7490;">Hook: two eyes, two ears, two hands, two feet — all feminine.</p>
+      </section>
+
+      <section>
+        <h3>The "obvious" ones too</h3>
+        <p style="font-size:1.2rem;">Family words are also feminine without a <span class="ar">ة</span>:</p>
+        <div style="font-size:2rem; margin:24px 0;" class="ar">بِنْتٌ · أُخْتٌ · أُمٌّ</div>
+        <p style="font-size:1.2rem;">"daughter/girl · sister · mother"</p>
+        <p class="urdu" style="font-size:1.05rem; margin-top:10px;">Yeh aasaan hain — aurat ke liye hain, isliye feminine.</p>
+      </section>
+    </section>
+
+    <!-- RULE 4: FEMININE IDAFA & WHOSE -->
+    <section>
+      <section>
+        <h2>Rule 4 · The feminine in iḍāfa &amp; "Whose?"</h2>
+        <p style="font-size:1.25rem;">Nothing new — old machinery, feminine nouns.</p>
+        <p style="font-size:1.15rem; color:#0e7490;">First noun stays bare: <strong>no <span class="ar">الـ</span>, no tanween</strong> → just <span class="ar">ـةُ</span>.</p>
+      </section>
+
+      <section>
+        <h3>Feminine iḍāfa</h3>
+        <table style="margin:0 auto; font-size:1.1rem;">
+          <tr><td class="ar ar-big" style="padding:8px 14px;">بِنْتُ يَاسِرٍ</td><td>Yasir's daughter</td></tr>
+          <tr><td class="ar ar-big" style="padding:8px 14px;">أُخْتُ الْمُهَنْدِسِ</td><td>the engineer's sister</td></tr>
+          <tr><td class="ar ar-big" style="padding:8px 14px;">سَيَّارَةُ الْمُدِيرِ</td><td>the director's car</td></tr>
+          <tr><td class="ar ar-big" style="padding:8px 14px;">بَقَرَةُ الْفَلَّاحِ</td><td>the farmer's cow</td></tr>
+        </table>
+      </section>
+
+      <section>
+        <h3>"Whose?" about a feminine thing</h3>
+        <div style="margin:20px 0;">
+          <div class="ar ar-big" style="background:#fef3c7; padding:14px 24px; border-radius:8px; display:inline-block;">سَيَّارَةُ مَنْ هَذِهِ ؟</div>
+        </div>
+        <div style="font-size:2rem;">⬇️</div>
+        <div style="margin:18px 0;">
+          <div class="ar ar-big" style="background:#dcfce7; padding:14px 24px; border-radius:8px; display:inline-block;">هَذِهِ سَيَّارَةُ الْمُدِيرِ</div>
+        </div>
+        <p style="font-size:1.15rem;">"Whose car is this? — This is the director's car."</p>
+      </section>
+
+      <section>
+        <h3>⚠️ Keep the iḍāfa rules</h3>
+        <div class="warn-box">
+          <p style="font-size:1.2rem;">✅ <span class="ar">سَيَّارَةُ الْمُدِيرِ</span></p>
+          <p style="font-size:1.2rem;">❌ <span class="ar crossed">السَّيَّارَةُ الْمُدِيرِ</span> &nbsp; ❌ <span class="ar crossed">سَيَّارَةٌ الْمُدِيرِ</span></p>
+          <p class="urdu" style="font-size:1.05rem; margin-top:8px;">Pehla lafz — chahe feminine ho — bare rehta hai.</p>
+        </div>
+      </section>
+    </section>
+
+    <!-- VOCABULARY -->
+    <section>
+      <section>
+        <h2>📖 Today's Vocabulary</h2>
+        <p style="font-size:1.3rem;">Family · household objects · body parts</p>
+        <p class="urdu" style="font-size:1.1rem;">Rishtedaar · ghar ki cheezein · jism ke ange</p>
+      </section>
+
+      <section>
+        <h3>👨‍👩‍👧 Family &amp; people (feminine, no <span class="ar">ة</span>)</h3>
+        <div class="vocab-grid">
+          <div class="v-card" style="background:#fef9c3;"><span class="ar">بِنْتٌ</span><span class="english">daughter/girl</span><span class="translit">bint</span><span class="urdu">beti</span></div>
+          <div class="v-card" style="background:#fef9c3;"><span class="ar">أُخْتٌ</span><span class="english">sister</span><span class="translit">ukht</span><span class="urdu">behen</span></div>
+          <div class="v-card" style="background:#fef9c3;"><span class="ar">أُمٌّ</span><span class="english">mother</span><span class="translit">umm</span><span class="urdu">maa</span></div>
+        </div>
+      </section>
+
+      <section>
+        <h3>🏠 Household objects (feminine, with <span class="ar">ة</span>)</h3>
+        <div class="vocab-grid">
+          <div class="v-card" style="background:#fef9c3;"><span class="ar">مِكْوَاةٌ</span><span class="english">iron</span><span class="translit">mikwāh</span><span class="urdu">istri</span></div>
+          <div class="v-card" style="background:#fef9c3;"><span class="ar">دَرَّاجَةٌ</span><span class="english">bicycle</span><span class="translit">darrājah</span><span class="urdu">cycle</span></div>
+          <div class="v-card" style="background:#fef9c3;"><span class="ar">سَاعَةٌ</span><span class="english">watch/clock</span><span class="translit">sāʿah</span><span class="urdu">ghadi</span></div>
+          <div class="v-card" style="background:#fef9c3;"><span class="ar">مِلْعَقَةٌ</span><span class="english">spoon</span><span class="translit">milʿaqah</span><span class="urdu">chamach</span></div>
+          <div class="v-card" style="background:#fef9c3;"><span class="ar">ثَلَّاجَةٌ</span><span class="english">refrigerator</span><span class="translit">thallājah</span><span class="urdu">fridge</span></div>
+          <div class="v-card" style="background:#fef9c3;"><span class="ar">نَافِذَةٌ</span><span class="english">window</span><span class="translit">nāfidhah</span><span class="urdu">khidki</span></div>
+        </div>
+      </section>
+
+      <section>
+        <h3>🧍 Body parts</h3>
+        <div class="vocab-grid">
+          <div class="v-card"><span class="ar">أَنْفٌ</span><span class="english">nose (m)</span><span class="translit">anf</span><span class="urdu">naak</span></div>
+          <div class="v-card"><span class="ar">فَمٌ</span><span class="english">mouth (m)</span><span class="translit">fam</span><span class="urdu">mooh</span></div>
+          <div class="v-card" style="background:#fef9c3;"><span class="ar">عَيْنٌ</span><span class="english">eye (f)</span><span class="translit">ʿayn</span><span class="urdu">aankh</span></div>
+          <div class="v-card" style="background:#fef9c3;"><span class="ar">أُذُنٌ</span><span class="english">ear (f)</span><span class="translit">udhun</span><span class="urdu">kaan</span></div>
+          <div class="v-card" style="background:#fef9c3;"><span class="ar">يَدٌ</span><span class="english">hand (f)</span><span class="translit">yad</span><span class="urdu">haath</span></div>
+          <div class="v-card" style="background:#fef9c3;"><span class="ar">رِجْلٌ</span><span class="english">leg/foot (f)</span><span class="translit">rijl</span><span class="urdu">taang</span></div>
+        </div>
+      </section>
+
+      <section>
+        <h3>📝 More new words</h3>
+        <div class="vocab-grid">
+          <div class="v-card"><span class="ar">بَقَرَةٌ</span><span class="english">cow (f)</span><span class="translit">baqarah</span><span class="urdu">gaai</span></div>
+          <div class="v-card"><span class="ar">فَلَّاحٌ</span><span class="english">farmer (m)</span><span class="translit">fallāḥ</span><span class="urdu">kisaan</span></div>
+          <div class="v-card"><span class="ar">قَهْوَةٌ</span><span class="english">coffee (f)</span><span class="translit">qahwah</span><span class="urdu">qahwah</span></div>
+          <div class="v-card"><span class="ar">شَايٌ</span><span class="english">tea (m)</span><span class="translit">shāy</span><span class="urdu">chai</span></div>
+          <div class="v-card"><span class="ar">قِدْرٌ</span><span class="english">pot (m)</span><span class="translit">qidr</span><span class="urdu">handi</span></div>
+          <div class="v-card" style="background:#ffe4e6;"><span class="ar">أَنَسٌ</span><span class="english">Anas (name)</span><span class="translit">Anas</span><span class="urdu">Anas</span></div>
+        </div>
+      </section>
+    </section>
+
+    <!-- CONNECT TO QURAN -->
+    <section>
+      <section>
+        <h2>📿 Connect to the Qur'an</h2>
+        <p style="font-size:1.4rem;">The lesson prints its own Qur'anic phrase.</p>
+        <p class="urdu" style="font-size:1.1rem;">Sabaq mein hi ek Qur'ani jumla aata hai.</p>
+      </section>
+
+      <section>
+        <h3>Surah Al-Baqarah · 2:115</h3>
+        <p class="ar ar-big" style="line-height:2;"><span style="color:#0e7490;">لِلَّهِ</span> الْمَشْرِقُ وَالْمَغْرِبُ</p>
+        <p style="font-size:1.25rem;"><em>li-llāhi l-mashriqu wa-l-maghrib</em></p>
+        <p style="font-size:1.2rem;">"To Allah belong the East and the West."</p>
+        <p style="margin-top:14px; font-size:1rem; color:#0e7490;">Printed in the lesson (Exercise 5). You can already read <span class="ar">لِلَّهِ</span> (Ch 4) and the two <span class="ar">الـ</span>-nouns.</p>
+      </section>
+
+      <section>
+        <h3>The <span class="ar">ة</span> you learned is everywhere</h3>
+        <div class="quran-box">
+          <p style="font-size:1.15rem;">Words you already know that carry the feminine <span class="ar">ة</span>:</p>
+          <p class="ar ar-big" style="line-height:1.8; text-align:center;">الْكَعْبَة · الْفَاتِحَة · الْبَقَرَة · سُورَة · آيَة</p>
+          <p style="font-size:1.05rem;"><em>al-Kaʿbah · al-Fātiḥah · al-Baqarah · sūrah · āyah</em></p>
+          <p class="urdu" style="font-size:1rem; margin-top:8px;">Wahi <span class="ar">ة</span> jo aaj seekhi — in sab ko feminine banati hai.</p>
+        </div>
+      </section>
+    </section>
+
+    <!-- RECAP -->
+    <section>
+      <h2>📋 Recap — what we covered</h2>
+      <ol style="font-size:1.1rem; line-height:1.85;">
+        <li><span class="ar">التَّأْنِيث</span> — add <span class="ar">ة</span> to make a word feminine</li>
+        <li>Agreement — feminine subject → feminine adjective/profession</li>
+        <li>A few words are feminine without a <span class="ar">ة</span> (paired body parts; <span class="ar">بِنْت/أُخْت/أُمّ</span>)</li>
+        <li>Feminine iḍāfa &amp; "whose?" — same rules, feminine nouns</li>
+      </ol>
+      <p style="margin-top:14px; font-size:1.05rem; color:#0e7490;">Next lesson: <span class="ar">تِلْكَ</span> — "that" (feminine far). Not today!</p>
+    </section>
+
+    <!-- HOMEWORK -->
+    <section>
+      <h2>🏠 Homework</h2>
+      <ol style="font-size:1.05rem; line-height:1.85;">
+        <li>Drill the <span class="ar">ة</span> switch: 10 masculine words → feminine · <span class="urdu" style="font-size:1rem;"><span class="ar">ة</span> switch drill</span></li>
+        <li>Build 5 full-agreement feminine sentences · <span class="urdu" style="font-size:1rem;">5 jumle, poori agreement</span></li>
+        <li>Memorise body-part demonstratives (paired = feminine) · <span class="urdu" style="font-size:1rem;">ange yaad karo</span></li>
+        <li>Build 5 feminine iḍāfa phrases · <span class="urdu" style="font-size:1rem;">5 iḍāfa</span></li>
+        <li>Complete all 8 exercises on the handout · <span class="urdu" style="font-size:1rem;">8 exercises</span></li>
+      </ol>
+    </section>
+
+    <!-- CLOSING -->
+    <section class="cover">
+      <div class="ar ar-huge">جَزَاكُمُ اللهُ خَيْرًا</div>
+      <p style="font-size:1.5rem; margin-top:20px;">May Allah reward you with goodness</p>
+      <p class="urdu" style="font-size:1.3rem;">Allah aap ko bhalaai ka badla de</p>
+      <p style="font-size:1.2rem; margin-top:25px; opacity:.9;">You can now read every word of<br><em>li-llāhi l-mashriqu wa-l-maghrib</em> —<br>and make any word feminine.<br><span class="urdu" style="font-size:1rem;">Ab har lafz ko feminine bana sakte ho.</span></p>
+    </section>
+
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+<script>
+Reveal.initialize({
+  hash:true,
+  controls:true,
+  progress:true,
+  center:true,
+  transition:'slide',
+  slideNumber:'c/t'
+});
+</script>
+
+</body>
+</html>
