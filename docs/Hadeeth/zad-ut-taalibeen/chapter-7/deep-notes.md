@@ -37,7 +37,7 @@ Work through each ḥadīth below. For each, ask yourself: *can I explain this h
 
 ## Theme 1 · Answer for your watch
 
-## 61 · كُلُّكُمْ رَاعٍ وَكُلُّكُمْ مَسْؤُولٌ عَنْ رَعِيَّتِهِ — "Each of you is a shepherd, and each will be questioned about his flock"
+## 61 · أَلَا كُلُّكُمْ رَاعٍ وَكُلُّكُمْ مَسْؤُولٌ عَنْ رَعِيَّتِهِ — "Each of you is a shepherd, and each will be questioned about his flock"
 
 **Full wording:** *Verily each of you is a shepherd, and each of you will be questioned [on the Day of Judgement] regarding his flock.* The ḥadīth continues: *the leader of a people is responsible and will be questioned about his responsibility; a man is responsible for his household and will be questioned about his family; and a woman is responsible for [the sanctity of] her husband's house and will be questioned about that.*
 **Source:** Bukhārī, Muslim.
@@ -74,7 +74,7 @@ Be careful here. The ḥadīth dislikes the market *as a place* because of what 
 
 ---
 
-## 64 · الْمَوْتُ تُحْفَةُ الْمُؤْمِنِ — "Death is a gift for a believer"
+## 64 · تُحْفَةُ الْمُؤْمِنِ الْمَوْتُ — "Death is a gift for a believer"
 
 **Source:** Bayhaqī (*Shuʿab al-Īmān*).
 
@@ -94,10 +94,12 @@ Hold this carefully. "Death is a gift" describes how the believer *views* death 
 
 ## Theme 2 · Stand together and guard your tongue
 
-## 65 · يَدُ اللهِ مَعَ الْجَمَاعَةِ — "Allah's hand is with the group"
+## 65 · يَدُ اللهِ عَلَى الْجَمَاعَةِ — "Allah's hand is with the group"
 
 **Full wording:** *Allah's hand is with the group (jamāʿa).* The narration continues: *whoever becomes apart [from the group] will be set apart in the Hellfire.*
 **Source:** Tirmidhī.
+
+> **A note on the Arabic preposition:** the book *prints* the matn with **عَلَى** (*ʿalā*, lit. "upon/over"), while its **English** renders it "Allah's hand is **with** a group." We reproduce the printed Arabic عَلَى exactly and keep the book's English "with" — the same pattern as #59 (where the book printed الظَّمَأُ "thirst" but its English said "hunger"). The transliteration is therefore *yadu-Llāhi **ʿalā** l-jamāʿa*.
 
 ### The help of Allah is with the united body
 

@@ -29,7 +29,7 @@ Work through each ḥadīth below. For each ask yourself: *can I explain this ha
 
 ---
 
-## 11 · الْيَدُ الْعُلْيَا خَيْرٌ مِنَ الْيَدِ السُّفْلَى — "The upper hand is better than the lower hand"
+## 11 · الْيَدُ الْعُلْيَا خَيْرٌ مِّنَ الْيَدِ السُّفْلَى — "The upper hand is better than the lower hand"
 
 **Source:** Bukhārī, Muslim.
 
@@ -63,13 +63,13 @@ A class of "comfortable" learners can hear this ḥadīth and develop a quiet co
 
 ## 12 · الطُّهُورُ شَطْرُ الْإِيمَانِ — "Purity is half of faith"
 
-**Source:** Muslim. From Abū Mālik al-Ashʿarī (raḍiyallāhu ʿanhu) — part of a longer ḥadīth on the virtues of various acts.
+**Source:** Muslim.
 
 ### What "half of faith" actually means
 
 This is one of those striking, paradox-sounding sayings. *How is something as physical as purity "half" of something as spiritual as faith?* The book offers two readings; you need both.
 
-**Reading 1 — *īmān* here means *ṣalāh*.** Some commentators (Imam al-Nawawī among them) read *īmān* in this ḥadīth as a synonym for ṣalāh — based on the Qurʾānic verse where Allah refers to the Companions' prayers as "your *īmān*" (Qurʾān 2:143, where *"Allah would not let your īmān go to waste"* is understood by mufassirūn as referring to their prayers facing Bayt al-Maqdis). Under this reading: ṭuhūr is half of ṣalāh, because wuḍūʾ is the *most important prerequisite* — without it, prayer doesn't even begin.
+**Reading 1 — *īmān* here means *ṣalāh*.** Some scholars read *īmān* in this ḥadīth as *ṣalāh* (prayer). Under this reading, *ṭuhūr* becomes half of *ṣalāh*, because wuḍūʾ is the *most important prerequisite* of the prayer — without it, prayer doesn't even begin.
 
 **Reading 2 — purity *parallels* faith's effect on sin.** Just as entering into faith *eliminates* one's prior major and minor sins (the famous ḥadīth: *"Islam wipes out what came before it"*), so the performance of wuḍūʾ *eliminates* the minor sins. Faith cleans the soul at the level of belief; wuḍūʾ cleans it at the level of action. Twin processes — hence "half".
 
@@ -100,7 +100,7 @@ Stand back from the textual readings and feel the spiritual weight: purity is th
 
 ### What's actually being said
 
-The Prophet ﷺ calls *al-jaras* (الْجَرَس — bells, *ghanti*) the **mazāmīr** (مَزَامِير) — the **musical flutes / pipes** of Satan. Note the plural: *mazāmīr*, not singular *mizmār*. The book explains the plural is used because of the **incessant, repeating ringing sound** of a bell — like the continuous notes of a flute, one after another.
+The Prophet ﷺ calls *al-jaras* (الْجَرَس — bells, *ghanti*) the **mazāmīr** (مَزَامِير) — the **flutes / pipes** of Satan. Note the plural: *mazāmīr*, not singular *mizmār*. The book explains the plural is used because of the **incessant, repeating ringing sound** of a bell — like the continuous notes of a flute, one after another.
 
 This is a sharp metaphor. A bell is not, on the face of it, a sinful object. But the Prophet ﷺ is naming the *function* it performs in the soul.
 
@@ -182,13 +182,13 @@ Don't promise classmates that the eater's reward *equals* the faster's reward in
 
 ---
 
-## 15 · الْبَادِئُ بِالسَّلَامِ بَرِيءٌ مِنَ الْكِبْرِ — "The one who initiates the salām is free of pride"
+## 15 · الْبَادِئُ بِالسَّلَامِ بَرِيْءٌ مِّنَ الْكِبْرِ — "The one who initiates the salām is free of pride"
 
 **Source:** Bayhaqī, Shuʿab al-Īmān.
 
 ### The diagnostic claim
 
-The Arabic structure is sharp: *al-bādiʾ bi-l-salām* (الْبَادِئُ بِالسَّلَامِ) — "the one who *begins* with the salām" — *barīʾun mina l-kibr* (بَرِيءٌ مِنَ الْكِبْرِ) — "is *free* of pride."
+The Arabic structure is sharp: *al-bādiʾ bi-l-salām* (الْبَادِئُ بِالسَّلَامِ) — "the one who *begins* with the salām" — *barīʾun mina l-kibr* (بَرِيْءٌ مِّنَ الْكِبْرِ) — "is *free* of pride."
 
 Notice the word *barīʾ* — "free, acquitted, innocent." It's the same root used legally: someone is *barīʾ al-dhimmah*, cleared of charges. So initiating the salām is a *legal-spiritual acquittal* from the charge of kibr.
 
@@ -224,16 +224,16 @@ In Urdu-speaking culture, there's an age and status hierarchy: younger should sa
 
 ---
 
-## 16 · السِّوَاكُ مَطْهَرَةٌ لِلْفَمِ مَرْضَاةٌ لِلرَّبِّ — "The tooth-stick is a purifier for the mouth and a pleasure for the Lord"
+## 16 · السِّوَاكُ مَطْهَرَةٌ لِّلْفَمِ مَرْضَاةٌ لِّلرَّبِّ — "The tooth-stick is a purifier for the mouth and a pleasure for the Lord"
 
-**Source:** Bukhārī (in muʿallaq form, *taʿlīqan*), Nasāʾī, Dārimī, Aḥmad.
+**Source:** Bukhārī (in muʿallaq form, *taʿlīqan*), Nasāʾī, Dārimī.
 
 ### Two effects in one line
 
 The Arabic gives two parallel effects of using the *siwāk*:
 
-1. **maṭharatun li-l-fam** (مَطْهَرَةٌ لِلْفَم) — "a *purifier* for the mouth" — the *physical* effect.
-2. **marḍātun li-l-rabb** (مَرْضَاةٌ لِلرَّبّ) — "a *cause of pleasure* for the Lord" — the *spiritual* effect.
+1. **maṭharatun li-l-fam** (مَطْهَرَةٌ لِّلْفَم) — "a *purifier* for the mouth" — the *physical* effect.
+2. **marḍātun li-l-rabb** (مَرْضَاةٌ لِّلرَّبّ) — "a *cause of pleasure* for the Lord" — the *spiritual* effect.
 
 What a simple, beautiful pairing: one tiny act, two domains. The body benefits, and Allah is pleased.
 
@@ -327,9 +327,9 @@ For the actual *definition* of gheebah (and there is a critical, narrow definiti
 
 ---
 
-## 18 · الْقُرْآنُ حُجَّةٌ لَكَ أَوْ عَلَيْكَ — "The Qurʾān will be evidence for you, or against you"
+## 18 · الْقُرْآنُ حُجَّةٌ لَّكَ أَوْ عَلَيْكَ — "The Qurʾān will be evidence for you, or against you"
 
-**Source:** Muslim. Part of a longer narration by Abū Mālik al-Ashʿarī (raḍiyallāhu ʿanhu).
+**Source:** Muslim.
 
 ### The forensic metaphor
 

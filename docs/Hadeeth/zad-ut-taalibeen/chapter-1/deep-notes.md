@@ -136,7 +136,7 @@ Not casual liking. Not "Oh I follow them on Instagram". The Arabic *aḥabba* (t
 
 ---
 
-## 4 · التَّأَنِّي مِنَ اللهِ وَالْعَجَلَةُ مِنَ الشَّيْطَانِ — "Calmness is from Allah, haste is from Satan"
+## 4 · الْأَنَاةُ مِنَ اللهِ وَالْعَجَلَةُ مِنَ الشَّيْطَانِ — "Calmness is from Allah, haste is from Satan"
 
 **Source:** Tirmidhī.
 
@@ -144,7 +144,7 @@ Not casual liking. Not "Oh I follow them on Instagram". The Arabic *aḥabba* (t
 
 This ḥadīth is one of the most *misquoted* aḥādīth in casual settings. People take it as a blanket rule — "always be slow, never rush". This is **wrong**, and it's important you teach the proper scope.
 
-The classical commentators (Mullā ʿAlī al-Qārī in *Mirqāt al-Mafātīḥ* 8:786) explicitly clarify: **this ḥadīth refers to ordinary daily activities, not to acts of worship.** For acts of worship, the *opposite* is true — *"hasten toward forgiveness from your Lord"* (Qurʾān 3:133), *"compete with one another in good"* (Qurʾān 5:48).
+The classical commentators (Mullā ʿAlī al-Qārī in *Mirqāt al-Mafātīḥ* 8:786) explicitly clarify: **this ḥadīth refers to ordinary daily activities, not to acts of worship.** For acts of worship, the *opposite* is true — *"hasten toward forgiveness from your Lord"* (Qurʾān 3:133), *"compete with one another in good"* (Qurʾān 5:48). *(Note: the book makes this "hasten toward good" point in its commentary but does **not** print these verse numbers on this page — 3:133 and 5:48 are linked by us, not book-sourced.)*
 
 The two rules together:
 - **Daily affairs** (transactions, decisions, reactions, opinions, judgements): calmness, deliberation, patience. Acting in haste = spoiling the action.
@@ -208,7 +208,7 @@ These all fall under the three exceptions. The ḥadīth protects *gossip*, not 
 
 ---
 
-## 6 · الْحَيَاءُ شُعْبَةٌ مِنَ الإِيمَانِ — "*Ḥayāʾ* is a branch of faith"
+## 6 · الْحَيَاءُ شُعْبَةٌ مِّنَ الإِيمَانِ — "*Ḥayāʾ* is a branch of faith"
 
 **Source:** Bukhārī, Muslim.
 
@@ -255,17 +255,17 @@ This is the **operational definition** of *ḥayāʾ* of faith. It's not a feeli
 
 ---
 
-## 7 · الْخَمْرُ جِمَاعُ الإِثْمِ — "*Khamr* is the gathering of sin"
+## 7 · الْخَمْرُ جُمَّاعُ الإِثْمِ — "*Khamr* is the gathering of sin"
 
 **Source:** Razīn.
 
-### The word *jimāʿ*
+### The word *jummāʿ*
 
-*Jimāʿ* (جِمَاع) — literally "the gathering, the convening, the bringing together". Not "one sin among many" — but the *gathering* of sins.
+*Jummāʿ* (جُمَّاع) — literally "the gathering, the convening, the bringing together". Not "one sin among many" — but the *gathering* of sins.
 
 The Arabic conveys: *khamr* (alcohol / intoxicants) is the place where sins *meet, assemble, and feed each other*. It's the gateway through which other sins enter. The Prophet ﷺ is saying: if you take this one thing, all the other sins are now within reach.
 
-**Yaad rakho:** *Jimāʿ* matlab "majma" (gathering). Khamr akela gunaah nahin — yeh wo dawaza hai jahaan se baqi gunaah ghar mein daakhil hote hain. Ek se chhoot do, to baqi automatically aa jaate hain. Yeh hi root logic hai is hadith ki.
+**Yaad rakho:** *Jummāʿ* matlab "majma" (gathering). Khamr akela gunaah nahin — yeh wo dawaza hai jahaan se baqi gunaah ghar mein daakhil hote hain. Ek se chhoot do, to baqi automatically aa jaate hain. Yeh hi root logic hai is hadith ki.
 
 ### The supporting narration
 
@@ -277,7 +277,7 @@ The graphic specifics are deliberate — the narration is naming what intoxicati
 
 And the story the book includes is sharp: a man was once invited to **prostrate to an idol** — he refused. Asked to **commit murder** — he refused. Asked to **commit adultery** — he refused. Then offered **alcohol** — he accepted... and then committed all the other sins.
 
-That story is the perfect illustration of *jimāʿ* — the gathering. One yes leads to many yeses, because the gatekeeper (reason, conscience) is gone.
+That story is the perfect illustration of *jummāʿ* — the gathering. One yes leads to many yeses, because the gatekeeper (reason, conscience) is gone.
 
 **Yaad rakho:** Hadith ka story important hai — ek banda jo shirk, qatl, zina sab ko mana karta tha, sirf sharab pi li, aur phir woh sab kar gaya. Sharab kyun? Kyunki sharab *ʿaql* ko band kar deti hai. Aur ʿaql gunah ka guard hai. Guard so jaaye to chor ghar mein.
 
@@ -296,7 +296,7 @@ The principle = *anything that takes your ʿaql offline opens the gate*. Apply i
 
 ---
 
-## 8 · الْمُؤْمِنُ غِرٌّ كَرِيمٌ وَالْفَاجِرُ خِبٌّ لَئِيمٌ — "The believer is *ghirr karīm*; the *fājir* is *khibb laʾīm*"
+## 8 · الْمُؤْمِنُ غِرٌّ كَرِيمٌ وَالْفَاجِرُ خَبٌّ لَئِيمٌ — "The believer is *ghirr karīm*; the *fājir* is *khabb laʾīm*"
 
 **Source:** Abū Dāwūd, Tirmidhī.
 
@@ -306,12 +306,12 @@ This is one of the most lexically rich short aḥādīth — four key adjectives
 
 - **غِرّ** (*ghirr*) — uncynical, trusting, easily deceived because they don't expect deception. Root *gh-r-r* = the deceived/unaware. Used for someone whose default posture is *good faith*.
 - **كَرِيم** (*karīm*) — noble, generous, of high character. Not financially rich — *spiritually* generous.
-- **خِبّ** (*khibb*) — cunning, deceitful, calculating. Someone who anticipates and plans deception, often as their default.
+- **خَبّ** (*khabb*) — cunning, deceitful, calculating. Someone who anticipates and plans deception, often as their default.
 - **لَئِيم** (*laʾīm*) — base, mean, low. Stingy in spirit, ungenerous, petty. The opposite of *karīm*.
 
 So the believer is **uncynical + noble**; the transgressor is **cunning + base**. Notice the *pairing* — Allah connects these two qualities each time. They cluster together: nobility brings simplicity; baseness brings cunning.
 
-**Yaad rakho:** Char lafz hain — *ghirr* (saaf-dil, dhoka khaane wala) + *karīm* (sharif) = momin. *Khibb* (chālāk) + *laʾīm* (kameena) = faasiq. Yeh quality "pairs" hain — alag nahin. Sharif log saaf-dil hote hain; kameena log chālāk hote hain.
+**Yaad rakho:** Char lafz hain — *ghirr* (saaf-dil, dhoka khaane wala) + *karīm* (sharif) = momin. *Khabb* (chālāk) + *laʾīm* (kameena) = faasiq. Yeh quality "pairs" hain — alag nahin. Sharif log saaf-dil hote hain; kameena log chālāk hote hain.
 
 ### Why being *ghirr* (deceivable) is praised
 
@@ -350,7 +350,7 @@ Arabic wordplay at its sharpest. **Ẓulm** (الظُّلْم) and **ẓulumāt*
 
 So the Prophet ﷺ is saying — using a single root in two grammatical forms — that the **act** of misplacing rights (*ẓulm*) becomes a literal physical **state** of displaced light (*ẓulumāt*) on the Day. The internal logic is exact: you produce darkness, and on the Day you walk in it.
 
-In contrast: *the believer's deeds become light* — see Qurʾān 57:12 (*"on the Day when you will see the believers, the men and women, with their light proceeding before them and on their right"*).
+In contrast: *the believer's deeds become light* — see Qurʾān 57:12 (*"on the Day when you will see the believers, the men and women, with their light proceeding before them and on their right"*). *(57:12 is linked by us to illuminate the contrast; the book does not cite it on this page.)*
 
 **Yaad rakho:** Arabic ka khoobsurat khel — *ẓulm* (zulm) aur *ẓulumāt* (andheray) — ek hi jad se. Insaan zulm karta hai — andheray paida karta hai. Qiyamat ke din wahi andheray uski raah par hote hain. Buraai ka phal "metaphor" nahin — *literal* roohani roshni ka ghaayb ho jaana hai.
 
@@ -358,7 +358,7 @@ In contrast: *the believer's deeds become light* — see Qurʾān 57:12 (*"on th
 
 The book gives a precise categorisation (from *Jāmiʿ al-ʿUlūm wa-l-Ḥikam* of Ibn Rajab al-Ḥanbalī, p. 334) — three directions:
 
-1. **Ẓulm against oneself** — the worst of which is *shirk* (associating partners with Allah). Then the major sins. Then the minor sins. Allah says: *"Indeed shirk is the greatest ẓulm"* (Qurʾān 31:13).
+1. **Ẓulm against oneself** — the worst of which is *shirk* (associating partners with Allah). Then the major sins. Then the minor sins. *"Indeed shirk is the greatest ẓulm"* (Qurʾān 31:13 — the verse is added by us; the book names shirk as the worst ẓulm but does not cite this āyah here).
 2. **Ẓulm against Allah** — denying His rights, refusing His worship.
 3. **Ẓulm against others** — wrongful taking of honour, life, or property.
 
@@ -505,7 +505,7 @@ Some classmates will internalise this as "I must be sad in this world" or "I can
 | 5–10 min | The chapter's three themes (faith / character / world) — write the arc on the board. Tell them: 10 ḥadīths, one portrait. |
 | 10–25 min | **Aḥādīth 1, 2, 6** (faith's content). Read each, recite the Arabic together, explain the depth, take Q&A. Spend extra time on "naṣīḥa = not just naseehat". |
 | 25–45 min | **Aḥādīth 3, 4, 5, 8, 9** (the believer's character). Same pattern. Use real-life examples. Drill Landmines 3, 4, 5, 6 specifically. |
-| 45–55 min | **Aḥādīth 7, 10** (the world). Walk through the *jimāʿ al-ithm* logic of ḥadīth 7. Then unpack ḥadīth 10 as comparative-not-absolute. |
+| 45–55 min | **Aḥādīth 7, 10** (the world). Walk through the *jummāʿ al-ithm* logic of ḥadīth 7. Then unpack ḥadīth 10 as comparative-not-absolute. |
 | 55–60 min | Recap — the chapter's arc, one-line takeaway per ḥadīth. Distribute student handout. Assign reflection homework. Close with duʿāʾ. |
 
 **Yaad rakho:** Pacing important hai. 10 hadithein hain — har ek pe 4-5 minute average. Kuch zyada lambi hongi (jaise #1 naṣīḥa, #10 dunya), kuch chhoti (#5 majlis, #6 ḥayāʾ). Time prison ban gayi to themes pe focus karo — agle hafte revisit kar dena.

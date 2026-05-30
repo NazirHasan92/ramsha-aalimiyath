@@ -30,7 +30,7 @@ Work through each ḥadīth below. For each, ask yourself: *can I explain this i
 
 ---
 
-## 21 · الاقْتِصَادُ فِي الْمَعِيشَةِ نِصْفُ الْمَعِيشَةِ — "Three halves"
+## 21 · الاقْتِصَادُ فِي النَّفَقَةِ نِصْفُ الْمَعِيشَةِ — "Three halves"
 
 **Source:** Bayhaqī, *Shuʿab al-Īmān*.
 
@@ -91,7 +91,7 @@ Standing back: a person who **manages money with measure**, **gives warmth to pe
 
 ## 22 · الْكَيِّسُ مَنْ دَانَ نَفْسَهُ — "The intelligent one is he who has subdued his nafs"
 
-**Source:** Tirmidhī, Ibn Mājah. Narrated by Shaddād ibn Aws (raḍiyallāhu ʿanhu).
+**Source:** Tirmidhī, Ibn Mājah.
 
 The full ḥadīth: *"The intelligent one (al-kayyis) is he who has subdued his lower self (dāna nafsahu) and worked for what comes after death; and the foolish one (al-ʿājiz) is he who has put his lower self in pursuit of its desires and has vain hopes about Allah."*
 
@@ -147,23 +147,25 @@ The book points exactly to this: it quotes *Qurʾān 82:6* — *"O man! What has
 
 ---
 
-## 23 · الْمُؤْمِنُ يَأْلَفُ وَيُؤْلَفُ — "The believer is sociable"
+## 23 · الْمُؤْمِنُ مَأْلَفٌ — "The believer is sociable"
 
-**Source:** Mustadrak, Bayhaqī *Shuʿab al-Īmān*.
+**Source:** Mustadrak, Bayhaqī, *Shuʿab al-Īmān*.
 
-The matn: *"The believer is one who is sociable [with others] (yaʾlafu) and who is sociably met [by them] (yuʾlafu); and there is no good in one who is not sociable [with others] nor in one who is not met sociably."*
+The matn: *"The believer is one who is sociable [with others] (maʾlaf); and there is no good in one who is not sociable [with others] (yaʾlafu) nor in one who is not met sociably [by them] (yuʾlafu)."*
 
-### The two-directional *ulfa*
+### *Maʾlaf* — and the two-directional *ulfa* in the negation
 
-The Arabic verb *aliffa* (to be intimate, to find ease with) — used here in two forms:
+The believer is described by a single word: **maʾlaf** (مَأْلَف) — from the root *alifa* (to be intimate, to find ease with). A *maʾlaf* is *a locus of affinity*: someone with whom people feel at home, easy to be near, easy to warm to. The believer **is** that.
+
+Then the matn names what its *absence* looks like — and here the same root appears in **two forms**:
 - **Yaʾlafu** (active) — *he is at ease with people; he goes toward them.*
 - **Yuʾlafu** (passive) — *people are at ease with him; they come toward him.*
 
-Both verbs from the same root. The believer is **socially flowing in both directions** — neither cold from his end, nor cold-toward from theirs.
+*"There is no good in one who **neither** yaʾlafu **nor** yuʾlafu"* — neither warm from his end, nor warmed-to from theirs. So warmth must flow in *both* directions, and the believer (the *maʾlaf*) is precisely the one in whom it does.
 
 The negation is severe: *"there is no good in"* (*lā khayra fīman*) the one who lacks this. Not "less good" — *no good*. This is a strong rhetorical assertion. Bulandshehrī notes this aligns directly with the Qurʾān 3:103: *"Hold fast, all together, to the rope of Allah, and be not divided among yourselves..."*
 
-**Yaad rakho:** Hadith do tarafa hai — *yaʾlafu* (woh logon ke paas jaata hai) aur *yuʾlafu* (log uske paas aate hain). Dono direction mein flow chahiye. Aur "no good in" wali zubaan bohot sakht hai — koi naram lafz nahin. Islam ek social deen hai.
+**Yaad rakho:** Momin *maʾlaf* hai — woh insaan jisse log raahat paayein, ghul-mil ke rehne wala. Aur jo *na khud milta* (*yaʾlafu*) *na log uss se milein* (*yuʾlafu*) — uss mein "koi khair nahin". Dono direction mein garmi chahiye. Yeh zubaan bohot sakht hai — koi naram lafz nahin. Islam ek social deen hai.
 
 ### Why this ḥadīth lands hard on introverted classmates
 
@@ -234,7 +236,7 @@ Don't ban anything from the classmates' lives in class. Just plant the spiritual
 
 ---
 
-## 25 · إِنَّ التُّجَّارَ يُبْعَثُونَ يَوْمَ الْقِيَامَةِ فُجَّارًا — "Traders will be raised as transgressors"
+## 25 · التُّجَّارُ يُحْشَرُونَ يَوْمَ الْقِيَامَةِ فُجَّارًا — "Traders will be gathered as transgressors"
 
 **Source:** Tirmidhī, Ibn Mājah, Dārimī.
 
@@ -418,7 +420,7 @@ The book reminds (implicit in the listing) that there are *other* major sins not
 
 ## 29 · الْبِرُّ حُسْنُ الْخُلُقِ — "Righteousness is good character"
 
-**Source:** Muslim, Tirmidhī. From the famous narration of al-Nawwās ibn Samʿān (raḍiyallāhu ʿanhu).
+**Source:** Muslim, Tirmidhī.
 
 The matn: *"Righteousness (al-birr) is good character (ḥusn al-khuluq), and sin is what causes unease in your chest and what you dislike others to become aware of."*
 
@@ -462,11 +464,11 @@ A person drowned in sin has a *dead conscience* — their chest doesn't flutter 
 
 ---
 
-## 30 · الْخَلْقُ كُلُّهُمْ عِيَالُ اللَّهِ — "All creation is Allah's family"
+## 30 · الْخَلْقُ عِيَالُ اللهِ — "All creation is Allah's family"
 
 **Source:** Bayhaqī, *Shuʿab al-Īmān*.
 
-The matn: *"All created beings are Allah's dependants (ʿiyāl), and the most beloved of creation to Allah is the one who is most beneficial to His dependants."*
+The matn: *"All created beings are Allah's dependants (ʿiyāl), and the most beloved of creation to Allah is the one who is good (man aḥsana) to His dependants."*
 
 ### *ʿIyāl* — the family metaphor
 
@@ -486,15 +488,11 @@ A famous variant of this ḥadīth (also cited in *Mirqāt 8:731*) is: *"The bes
 
 **Yaad rakho:** Hadith ka *ʿiyāl* lafz Allah ki *zaroorat* nahin batata — uske *taʿalluq aur shafqat* batata hai. Aur ek variant mein saaf kaha gaya — *"sabse acha tum mein woh hai jo logon ke sabse zyada kaam aaye"*. Yeh hi rule hai.
 
-### The radical claim — being beneficial is the highest
+### The radical claim — doing good to creation is the highest
 
-Look at the structure: *"the most beloved (aḥabbu) of creation to Allah is the one most beneficial (anfaʿu) to His dependants."*
+Look at the structure: *"the most beloved (aḥabbu) of creation to Allah is **the one who is good** (man aḥsana) to His dependants."*
 
-Two superlatives in one sentence:
-- The *most* beloved.
-- The *most* beneficial.
-
-So Allah's *most beloved* isn't necessarily the *most knowledgeable*, the *most worshipping*, the *most ascetic*, the *most articulate*. It is **the most useful to His creation**. Service to the *ʿiyāl* of Allah = the highest possible station in Allah's love.
+The most beloved is defined not by a private quality but by a *relationship to others*: doing **iḥsān** — good — to Allah's family. So Allah's *most beloved* isn't necessarily the *most knowledgeable*, the *most worshipping*, the *most ascetic*, the *most articulate*. It is **the one who does the most good to His creation**. Service to the *ʿiyāl* of Allah = the highest possible station in Allah's love. (The book reinforces this with the related variant it cites — *"the best of you is the one most beneficial, anfaʿ, to people"* — same rule, plainer words.)
 
 This is a re-orientation. Many classmates think Allah's love is won by *more rakʿahs*, more dhikr, more fasting. The Prophet ﷺ here points to a different — and harder — track: **being useful to people, animals, neighbours, the poor, the elderly, the sick, the lost.** *That* is the access route to being most-beloved.
 
@@ -502,12 +500,12 @@ This is a re-orientation. Many classmates think Allah's love is won by *more rak
 
 ### The chapter's closing image
 
-Notice how the chapter *ends*. Ḥadīth 21 opened with *"friendliness toward people is half of intelligence"* — and now Ḥadīth 30 closes with *"the most beloved is the one most useful to people"*. The two ḥadīths frame the entire chapter:
+Notice how the chapter *ends*. Ḥadīth 21 opened with *"friendliness toward people is half of intelligence"* — and now Ḥadīth 30 closes with *"the most beloved is the one who is good to people"*. The two ḥadīths frame the entire chapter:
 
 - Open: *be sociable, learn from others, deal warmly.* (Theme: relational.)
 - Close: *be useful, serve them, be the channel of their welfare.* (Theme: relational, deepened.)
 
-The arc of the chapter is — among other things — a slow deepening of what it means to be **relationally alive as a Muslim**. From *friendliness* in #21, to *sociability as a sign of īmān* in #23, to *being most useful to creation* in #30. Each ḥadīth in this thread takes the previous one one level deeper.
+The arc of the chapter is — among other things — a slow deepening of what it means to be **relationally alive as a Muslim**. From *friendliness* in #21, to *sociability as a sign of īmān* in #23, to *doing good (iḥsān) to creation* in #30. Each ḥadīth in this thread takes the previous one one level deeper.
 
 **Yaad rakho:** Chapter shuru hoti hai #21 mein "logon se ghul mil ke rehna" se — aur khatm hoti hai #30 mein "logon ke kaam aana = Allah ki sabse zyada mohabbat" pe. Yeh ek arc hai — relational maturity ki seedhi. Class ko aakhir mein dikhao — *Chapter 3 ek tareeqe se yeh seekhata hai ke ek momin logon ke beech kaisa hota hai*.
 
