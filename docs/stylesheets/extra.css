@@ -13,7 +13,7 @@
  * Palette: deep indigo + saffron + cream
  * ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&family=Amiri+Quran&family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@500;600;700&family=Amiri+Quran&family=Inter:wght@400;500;600;700&display=swap');
 
 /* ---- Palette ---- */
 [data-md-color-scheme="default"] {
@@ -57,6 +57,7 @@
 /* ---- Base typography ---- */
 .md-typeset {
   font-size: 1.3rem;
+  font-weight: 500;
   line-height: 2.05;
 }
 
@@ -97,6 +98,7 @@
   text-align: right;
   line-height: 2.4;
   font-size: 1.1em;
+  font-weight: 500;
 }
 
 /* ---- Blockquotes ---- */
