@@ -13,37 +13,44 @@ theme:
   language: en
   features:
     - navigation.instant
+    - navigation.instant.progress
     - navigation.tracking
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
     - navigation.top
     - navigation.footer
     - toc.follow
+    - toc.integrate
     - search.suggest
     - search.highlight
+    - search.share
     - content.code.copy
     - content.action.edit
+    - content.tooltips
+    - announce.dismiss
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: deep purple
-      accent: deep purple
+      primary: indigo
+      accent: deep orange
       toggle:
-        icon: material/weather-sunny
+        icon: material/weather-night
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: deep purple
-      accent: deep purple
+      primary: indigo
+      accent: amber
       toggle:
-        icon: material/weather-night
+        icon: material/weather-sunny
         name: Switch to light mode
   font:
-    text: Inter
+    text: Reem Kufi
     code: JetBrains Mono
   icon:
     repo: fontawesome/brands/github
+    logo: material/book-education-outline
 
 extra_css:
   - stylesheets/extra.css
