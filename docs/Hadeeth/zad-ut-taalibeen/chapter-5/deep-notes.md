@@ -79,7 +79,7 @@ A true dream (*ruʾyā ṣādiqah*) is, the scholars say, a small part of prophe
 
 ## 43 · خَيْرُكُمْ مَنْ تَعَلَّمَ الْقُرْآنَ وَعَلَّمَهُ — "The best among you is the one who learns the Qurʾān and teaches it"
 
-**Source:** Bukhārī. Narrated by ʿUthmān ibn ʿAffān (raḍiyallāhu ʿanhu).
+**Source:** Bukhārī.
 
 ### The two-part qualification
 
@@ -99,7 +99,7 @@ The "best" rank is tied to the *Qurʾān* in this ḥadīth — the speech of Al
 
 ## 44 · أَحَبُّ الْأَعْمَالِ إِلَى اللهِ أَدْوَمُهَا وَإِنْ قَلَّ — "The most beloved deeds to Allah are the most constant, even if few"
 
-**Source:** Bukhārī, Muslim. Narrated by ʿĀʾishah (raḍiyallāhu ʿanhā).
+**Source:** Bukhārī, Muslim.
 
 ### Consistency beats intensity
 
@@ -124,7 +124,7 @@ This is one of the most *practically liberating* aḥādīth in the chapter. It 
 
 ## 46 · حُبُّكَ الشَّيْءَ يُعْمِيْ وَيُصِمُّ — "Your love for a thing blinds you and deafens you"
 
-**Source:** Abū Dāwūd, Aḥmad. (Narrated from Abū al-Dardāʾ, raḍiyallāhu ʿanhu.)
+**Source:** Abū Dāwūd, Aḥmad.
 
 *(We take #46 before #45 here, because it belongs to the heart's theme with #44 and #49. In the book it appears in numerical order — but the underlying ideas group this way.)*
 
@@ -176,7 +176,7 @@ If love of the dunyā is the disease (#49), the chapter quietly prescribes the c
 
 ## 45 · مَطْلُ الْغَنِيِّ ظُلْمٌ — "The delay [in repayment] of a wealthy [debtor] is oppression"
 
-**Source:** Bukhārī, Muslim. Narrated by Abū Hurayrah (raḍiyallāhu ʿanhu).
+**Source:** Bukhārī, Muslim.
 
 *(Theme 3 — wealth — begins here. In the book #45 sits between #44 and #46; we group it with the wealth aḥādīth because that is its subject.)*
 
@@ -216,13 +216,13 @@ This is *qanāʿah* (contentment), and it sits beautifully between the chapter's
 
 ---
 
-## 48 · طَلَبُ الْحَلَالِ فَرِيْضَةٌ بَعْدَ الْفَرِيْضَةِ — "Seeking the lawful is an obligation after the [primary] obligation"
+## 48 · طَلَبُ كَسْبِ الْحَلَالِ فَرِيْضَةٌ بَعْدَ الْفَرِيْضَةِ — "Seeking lawful earnings is an obligation after the [primary] obligation"
 
 **Source:** Bayhaqī (*Shuʿab al-Īmān*).
 
 ### Earning lawfully is itself an act of worship
 
-Notice the deliberate echo of Ḥadīth 41. There, *seeking knowledge* was a *farīḍah*. Here, *seeking lawful earning* (*ṭalab al-ḥalāl*) is also a *farīḍah* — *baʿda l-farīḍah*, "after the obligation". The chapter bookends its knowledge theme and its wealth theme with the same word: both *ʿilm* and *ḥalāl rizq* are *obligations*, not optional extras.
+Notice the deliberate echo of Ḥadīth 41. There, *seeking knowledge* was a *farīḍah*. Here, *seeking lawful earning* (*ṭalab kasb al-ḥalāl*) is also a *farīḍah* — *baʿda l-farīḍah*, "after the obligation". The chapter bookends its knowledge theme and its wealth theme with the same word: both *ʿilm* and *ḥalāl rizq* are *obligations*, not optional extras.
 
 The meaning of *baʿda l-farīḍah*: after you have fulfilled the *primary* individual obligations (ṣalāh, ṣawm, etc.), earning a *lawful* living becomes the *next* obligation. It is not of the *same* rank as prayer — the book is careful to say this is a lower tier than the *farḍ ʿayn* of worship — but it is a genuine obligation, not a worldly distraction. **The Muslim who earns ḥalāl to support himself and his dependants is performing an act of dīn, not merely "working".**
 
@@ -236,7 +236,7 @@ The book adds a crucial precision: this obligation falls on **those who must sup
 
 ---
 
-## 50 · أَفْضَلُ الصَّدَقَةِ أَنْ تُشْبِعَ كَبِدًا جَائِعَةً — "The most virtuous charity is to satisfy a hungry liver [stomach]"
+## 50 · أَفْضَلُ الصَّدَقَةِ أَنْ تُشْبِعَ كَبِدًا جَائِعًا — "The most virtuous charity is to satisfy a hungry liver [stomach]"
 
 **Source:** Bayhaqī (*Shuʿab al-Īmān*).
 

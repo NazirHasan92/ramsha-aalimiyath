@@ -116,7 +116,7 @@ It does **not** say worship is worthless, nor that the worshipper is inferior *a
 
 ## Theme 2 · Honour your ties
 
-## 56 · رِضَا الرَّبِّ فِي رِضَا الْوَالِدِ — "The Lord's pleasure is in the father's pleasure"
+## 56 · رِضَى الرَّبِّ فِي رِضَى الْوَالِدِ — "The Lord's pleasure is in the father's pleasure"
 
 **Full wording:** *The pleasure of the Lord (Allah) is in the pleasure of the father, and the displeasure of the Lord is in the displeasure of the father.*
 **Source:** Tirmidhī.

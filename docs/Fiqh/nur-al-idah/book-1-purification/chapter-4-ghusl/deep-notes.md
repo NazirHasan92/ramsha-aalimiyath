@@ -91,7 +91,7 @@ The book's heading: *"There are ten things a person is not required to perform t
 
 ## 3 · How to make a *valid* ghusl — the 3 farḍ to wash
 
-This is the heart of the practical chapter. The book heads it *"That Which Is Compulsory To Wash"* and states: *"It is compulsory to wash **three** things during the major bath."* That is the famous **three farḍ of ghusl**:
+This is the heart of the practical chapter. The book heads it *"That Which Is Compulsory To Wash"* and then enumerates **three** things — *"Washing the mouth, nostrils and the entire body once, is obligatory in the major bath."* (Note: this edition's heading sentence misprints the count as "eleven", but its prose lists exactly three — follow the prose.) These are the famous **three farḍ of ghusl**:
 
 | # | Farḍ | What it means |
 |---|---|---|
