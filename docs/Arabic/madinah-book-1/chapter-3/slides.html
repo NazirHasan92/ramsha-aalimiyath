@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Madinah Book 1 · Chapter 3 · Slides</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/white.css">
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Scheherazade+New:wght@400;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+  .reveal { font-family:'Inter',sans-serif; }
+  .reveal h1, .reveal h2, .reveal h3 { color:#064e3b; font-weight:700; }
+  .reveal .ar {
+    font-family:'Scheherazade New','Amiri',serif;
+    direction:rtl;
+    color:#064e3b;
+    font-weight:700;
+  }
+  .reveal .ar-huge { font-size:4rem; }
+  .reveal .ar-big { font-size:3rem; }
+  .reveal .translit { color:#9a3412; font-style:italic; font-size:1.1rem; }
+  .reveal .english { color:#1f2937; font-size:1.4rem; }
+  .reveal .urdu { color:#374151; font-style:italic; font-size:1.2rem; }
+  .reveal .cover {
+    background:linear-gradient(135deg, #064e3b 0%, #0e7490 100%);
+    color:#fff !important;
+    padding:60px 40px;
+    border-radius:14px;
+  }
+  .reveal .cover h1, .reveal .cover .ar { color:#fff; }
+  .reveal .cover .urdu { color:#e0f2fe; }
+  .reveal .pill {
+    display:inline-block;
+    padding:8px 18px;
+    border-radius:30px;
+    margin:0 6px;
+    font-weight:600;
+  }
+  .reveal .pill-blue{ background:#cffafe; color:#0c4a6e; }
+  .reveal .pill-amber{ background:#fef3c7; color:#7c2d12; }
+  .reveal .pill-rose{ background:#ffe4e6; color:#881337; }
+  .reveal .pill-green{ background:#dcfce7; color:#14532d; }
+  .reveal .grid-2 {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:20px;
+    margin:20px 0;
+  }
+  .reveal .grid-4 {
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap:14px;
+    margin:20px 0;
+  }
+  .reveal .card{
+    background:#f9fafb;
+    border:2px solid;
+    border-radius:10px;
+    padding:14px;
+    text-align:center;
+  }
+  .reveal .card.prep{ border-color:#0e7490; background:#ecfeff; }
+  .reveal .card.masc{ border-color:#0891b2; background:#cffafe; }
+  .reveal .card.fem{ border-color:#be123c; background:#ffe4e6; }
+  .reveal .vocab-grid{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:14px;
+    margin:14px 0;
+  }
+  .reveal .vocab-grid .v-card{
+    background:#fff;
+    border:1.5px solid #064e3b;
+    border-radius:8px;
+    padding:10px;
+    text-align:center;
+  }
+  .reveal .vocab-grid .v-card .ar{ font-size:1.7rem; display:block; margin-bottom:4px; }
+  .reveal .vocab-grid .v-card .english{ font-size:0.95rem; display:block; }
+  .reveal .vocab-grid .v-card .translit{ font-size:0.8rem; display:block; }
+  .reveal .vocab-grid .v-card .urdu{ font-size:0.85rem; color:#7c2d12; display:block; font-style:italic; margin-top:2px; }
+  .reveal .warn-box{
+    background:#fef2f2;
+    border-left:5px solid #dc2626;
+    padding:12px 16px;
+    border-radius:0 8px 8px 0;
+    text-align:left;
+    margin:14px 0;
+  }
+  .reveal .tip-box{
+    background:#ecfeff;
+    border-left:5px solid #0891b2;
+    padding:12px 16px;
+    border-radius:0 8px 8px 0;
+    text-align:left;
+    margin:14px 0;
+  }
+  .reveal .kasra-hl{
+    color:#be123c;
+    font-weight:900;
+  }
+</style>
+</head>
+<body>
+<div class="reveal">
+  <div class="slides">
+
+    <!-- COVER -->
+    <section class="cover">
+      <div class="ar ar-huge">الدَّرْسُ الثَّالِثُ</div>
+      <h1 style="font-size:2.2rem; margin-top:20px;">Madinah Book 1 — Chapter 3</h1>
+      <p style="font-size:1.3rem; opacity:.9;">Prepositions · "Where?" · feminine "this"</p>
+      <p class="urdu" style="font-size:1.2rem;">Teesra sabaq — <span class="ar" style="color:#fff;">فِي · عَلَى · إِلَى · مِنْ</span> · "kahaan?" · feminine "yeh"</p>
+      <p style="font-size:1rem; opacity:.8; margin-top:30px;">Press → to begin · Press F for fullscreen</p>
+    </section>
+
+    <!-- OBJECTIVES -->
+    <section>
+      <h2>By the end of this lesson, you will:</h2>
+      <ol style="font-size:1.2rem; line-height:1.9;">
+        <li>Use 4 prepositions: <span class="ar">فِي / عَلَى / إِلَى / مِنْ</span>.<br><span class="urdu" style="font-size:1rem;">Char prepositions — mein, par, tak, se</span></li>
+        <li>Change the noun's ending to <strong>kasra</strong> after them.<br><span class="urdu" style="font-size:1rem;">Preposition ke baad noun ke aakhir mein <strong>zer</strong></span></li>
+        <li>Ask <strong>"Where is ___?"</strong> with <span class="ar">أَيْنَ</span>.<br><span class="urdu" style="font-size:1rem;">"Kahaan hai?" wala sawal</span></li>
+        <li>Use feminine "this" — <span class="ar">هَذِهِ</span> — for ة-ending nouns.<br><span class="urdu" style="font-size:1rem;">Zanaana lafz ke saath "yeh"</span></li>
+        <li>Know <strong>12 new words</strong>.<br><span class="urdu" style="font-size:1rem;">12 naye lafz</span></li>
+      </ol>
+    </section>
+
+    <!-- 2-MIN RECAP OF CH 1+2 -->
+    <section>
+      <h2>📋 Quick recap — Chapters 1 & 2</h2>
+      <ul style="font-size:1.15rem; line-height:1.9;">
+        <li><span class="ar">هَذَا</span> (this, near M) · <span class="ar">ذَلِكَ</span> (that, far M)</li>
+        <li><span class="ar">الـ</span> = "the" — drops tanween doubling</li>
+        <li><span class="ar">مَا</span> (what?) · <span class="ar">مَنْ</span> (who?) · <span class="ar">أَمْ</span> (or?)</li>
+        <li>Sentences have no "is" — silence does the work</li>
+      </ul>
+      <p style="margin-top:20px; font-size:1.1rem; color:#0e7490;">All of this comes back today — and we add the first noun-ending change.</p>
+      <p class="urdu" style="font-size:1rem;">Aaj noun ke aakhir mein pehli baar tabdeeli — pesh hat ke zer aayega.</p>
+    </section>
+
+    <!-- RULE 1: PREPOSITIONS -->
+    <section>
+      <section>
+        <h2>Rule 1 · The four prepositions</h2>
+        <p style="font-size:1.3rem;">A <strong>preposition</strong> is a small "anchor word" that locates or directs a noun.</p>
+        <p class="urdu" style="font-size:1.1rem;">Preposition = jagah ya direction batane wala chhota lafz</p>
+        <div class="grid-4" style="margin-top:30px;">
+          <div class="card prep"><span class="ar ar-big">فِي</span><br><span class="translit">fee</span><br><b>in</b><br><span class="urdu">mein</span></div>
+          <div class="card prep"><span class="ar ar-big">عَلَى</span><br><span class="translit">ʿalā</span><br><b>on</b><br><span class="urdu">par</span></div>
+          <div class="card prep"><span class="ar ar-big">إِلَى</span><br><span class="translit">ilā</span><br><b>to</b><br><span class="urdu">tak / ki taraf</span></div>
+          <div class="card prep"><span class="ar ar-big">مِنْ</span><br><span class="translit">min</span><br><b>from</b><br><span class="urdu">se</span></div>
+        </div>
+      </section>
+
+      <section>
+        <h3>⚠️ Pronunciation watch — <span class="ar">عَلَى</span> and <span class="ar">إِلَى</span></h3>
+        <div class="warn-box">
+          <p style="font-size:1.2rem;"><strong>The ending <span class="ar" style="font-size:1.6rem;">ى</span> is <em>alif-maqsoorah</em> — it sounds like long "aa", NOT "y".</strong></p>
+          <ul style="font-size:1.1rem; line-height:1.9;">
+            <li><span class="ar" style="font-size:1.4rem;">عَلَى</span> = <strong>ʿa-laa</strong> &nbsp;❌ NOT <em>"ʿa-lay"</em></li>
+            <li><span class="ar" style="font-size:1.4rem;">إِلَى</span> = <strong>i-laa</strong> &nbsp;❌ NOT <em>"i-lay"</em></li>
+          </ul>
+          <p class="urdu" style="font-size:1rem; margin-top:10px;">Aakhir wali ى ya jaisi dikhti hai par sunaayi "aa" deti hai — yeh alif-maqsoorah hai. Vocalised Qur'an mein dagger-alif ke saath dikhayi deti hai: <span class="ar">عَلَىٰ</span></p>
+        </div>
+      </section>
+
+      <section>
+        <h3>⚠️ Pronunciation watch — <span class="ar">مِنْ</span></h3>
+        <div class="warn-box">
+          <p style="font-size:1.2rem;"><strong>The final <span class="ar" style="font-size:1.6rem;">ن</span> is silent (sukoon).</strong> Say crisp: <strong>min</strong>. No phantom vowel.</p>
+          <p style="font-size:1.1rem; margin-top:14px;">But when <span class="ar">مِنْ</span> meets <span class="ar">الـ</span>, the <span class="ar">ن</span> takes a <strong>fatḥa</strong>:</p>
+          <p class="ar ar-big" style="text-align:center; margin:14px 0;">مِنْ + الْبَيْتِ → <span class="kasra-hl">مِنَ</span> الْبَيْتِ</p>
+          <p style="font-size:1.1rem;"><em>min + al-bayti → <strong>minal-</strong>bayti</em></p>
+          <p class="urdu" style="font-size:1rem;">"Min" + "al-" = "minal-" — ن par zabar aa jaati hai. Yeh pair yaad rakho.</p>
+        </div>
+      </section>
+
+      <section>
+        <h3>Examples — feel them in sentences</h3>
+        <table style="margin:0 auto; font-size:1.05rem;">
+          <tr>
+            <td class="ar ar-big" style="padding:8px 14px;">الْكِتَابُ فِي الْحَقِيبَةِ</td>
+            <td style="padding:8px 14px;">The book is in the bag</td>
+          </tr>
+          <tr><td colspan="2" class="urdu" style="font-size:0.9rem; padding:0 14px 12px;">"Kitaab bag mein hai"</td></tr>
+          <tr>
+            <td class="ar ar-big" style="padding:8px 14px;">الْقَلَمُ عَلَى الْمَكْتَبِ</td>
+            <td style="padding:8px 14px;">The pen is on the desk</td>
+          </tr>
+          <tr><td colspan="2" class="urdu" style="font-size:0.9rem; padding:0 14px 12px;">"Qalam mez par hai"</td></tr>
+          <tr>
+            <td class="ar ar-big" style="padding:8px 14px;">هَذَا مِنَ السُّوقِ</td>
+            <td style="padding:8px 14px;">This is from the market</td>
+          </tr>
+          <tr><td colspan="2" class="urdu" style="font-size:0.9rem; padding:0 14px 12px;">"Yeh bazaar se hai"</td></tr>
+        </table>
+      </section>
+    </section>
+
+    <!-- RULE 2: KASRA RULE -->
+    <section>
+      <section>
+        <h2>Rule 2 · The big rule of Chapter 3</h2>
+        <div class="warn-box" style="font-size:1.3rem; text-align:center;">
+          <p style="font-size:1.5rem;"><strong>After one of the 4 prepositions,<br>the noun's ending becomes <span class="kasra-hl">kasra</span>.</strong></p>
+          <p class="urdu" style="font-size:1.1rem; margin-top:10px;">Preposition ke baad noun ke aakhir mein <strong>zer (ـِ)</strong> aa jaati hai. Pesh nahin — zer.</p>
+        </div>
+        <p style="margin-top:24px; font-size:1.05rem; color:#7c2d12;">This is the most important rule of today — if you forget it, the Arabic is grammatically wrong.</p>
+      </section>
+
+      <section>
+        <h3>Definite nouns — <span class="ar">ـُ</span> becomes <span class="kasra-hl"><span class="ar">ـِ</span></span></h3>
+        <table style="margin:0 auto; font-size:1.05rem;">
+          <thead>
+            <tr><th style="padding:6px 14px;">Default</th><th style="padding:6px 14px;">After preposition</th></tr>
+          </thead>
+          <tr><td class="ar ar-big" style="padding:8px 14px;">الْبَيْتُ</td><td class="ar ar-big" style="padding:8px 14px;">فِي الْبَيْت<span class="kasra-hl">ِ</span></td></tr>
+          <tr><td colspan="2" style="font-size:0.95rem; padding:0 14px 10px;"><em>al-bayt<strong>u</strong> → fil-bayt<strong>i</strong></em></td></tr>
+          <tr><td class="ar ar-big" style="padding:8px 14px;">الْمَكْتَبُ</td><td class="ar ar-big" style="padding:8px 14px;">عَلَى الْمَكْتَب<span class="kasra-hl">ِ</span></td></tr>
+          <tr><td colspan="2" style="font-size:0.95rem; padding:0 14px 10px;"><em>al-maktab<strong>u</strong> → ʿalal-maktab<strong>i</strong></em></td></tr>
+          <tr><td class="ar ar-big" style="padding:8px 14px;">الْمَدْرَسَةُ</td><td class="ar ar-big" style="padding:8px 14px;">إِلَى الْمَدْرَسَة<span class="kasra-hl">ِ</span></td></tr>
+          <tr><td colspan="2" style="font-size:0.95rem; padding:0 14px 10px;"><em>al-madrasat<strong>u</strong> → ilal-madrasat<strong>i</strong></em></td></tr>
+        </table>
+      </section>
+
+      <section>
+        <h3>Indefinite nouns — <span class="ar">ـٌ</span> becomes <span class="kasra-hl"><span class="ar">ـٍ</span></span></h3>
+        <p style="font-size:1.1rem;">The doubling stays. Pesh becomes zer.</p>
+        <table style="margin:0 auto; font-size:1.05rem;">
+          <thead>
+            <tr><th style="padding:6px 14px;">Default</th><th style="padding:6px 14px;">After preposition</th></tr>
+          </thead>
+          <tr><td class="ar ar-big" style="padding:8px 14px;">بَيْتٌ</td><td class="ar ar-big" style="padding:8px 14px;">فِي بَيْت<span class="kasra-hl">ٍ</span></td></tr>
+          <tr><td colspan="2" style="font-size:0.95rem; padding:0 14px 10px;"><em>bayt<strong>un</strong> → fee bayt<strong>in</strong></em></td></tr>
+          <tr><td class="ar ar-big" style="padding:8px 14px;">قَلَمٌ</td><td class="ar ar-big" style="padding:8px 14px;">عَلَى قَلَم<span class="kasra-hl">ٍ</span></td></tr>
+          <tr><td colspan="2" style="font-size:0.95rem; padding:0 14px 10px;"><em>qalam<strong>un</strong> → ʿalā qalam<strong>in</strong></em></td></tr>
+          <tr><td class="ar ar-big" style="padding:8px 14px;">سُوقٌ</td><td class="ar ar-big" style="padding:8px 14px;">إِلَى سُوق<span class="kasra-hl">ٍ</span></td></tr>
+          <tr><td colspan="2" style="font-size:0.95rem; padding:0 14px 10px;"><em>sūq<strong>un</strong> → ilā sūq<strong>in</strong></em></td></tr>
+        </table>
+        <p class="urdu" style="font-size:1rem; margin-top:14px;">"-un" hat gaya — "-in" aa gaya. Doubling baqi — par direction badal gayi (upar se neeche).</p>
+      </section>
+
+      <section>
+        <h3>Side by side — pesh family vs zer family</h3>
+        <div class="grid-2">
+          <div class="card" style="border-color:#0891b2; background:#cffafe;">
+            <h4 style="color:#155e75;">Default (pesh / pesh-tanween)</h4>
+            <p class="ar ar-big">بَيْتٌ · الْبَيْتُ</p>
+            <p class="translit">baytun · al-baytu</p>
+            <p>Mubtada' / subject form</p>
+          </div>
+          <div class="card" style="border-color:#be123c; background:#ffe4e6;">
+            <h4 style="color:#881337;">After preposition (zer / zer-tanween)</h4>
+            <p class="ar ar-big">فِي بَيْتٍ · فِي الْبَيْتِ</p>
+            <p class="translit">fee baytin · fil-bayti</p>
+            <p>After <span class="ar">فِي / عَلَى / إِلَى / مِنْ</span></p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h3>⚠️ The mistake to catch on day one</h3>
+        <div class="warn-box">
+          <p style="font-size:1.2rem;">❌ Wrong: <em>"fee bayt<strong>un</strong>"</em>, <em>"ʿalal-maktab<strong>u</strong>"</em>, <em>"minal-bayt<strong>u</strong>"</em></p>
+          <p style="font-size:1.2rem;">✅ Right: <em>"fee bayt<strong>in</strong>"</em>, <em>"ʿalal-maktab<strong>i</strong>"</em>, <em>"minal-bayt<strong>i</strong>"</em></p>
+          <p class="urdu" style="font-size:1.05rem; margin-top:10px;">Do chapters tak pesh-pesh padhi hai — aaj se preposition ke baad zer. Pakka rule.</p>
+        </div>
+      </section>
+    </section>
+
+    <!-- RULE 3: AYNA -->
+    <section>
+      <section>
+        <h2>Rule 3 · Asking "Where?"</h2>
+        <div class="ar ar-huge">أَيْنَ</div>
+        <p class="translit" style="font-size:1.4rem;">ayna</p>
+        <p class="english" style="font-size:1.4rem;">= "where?" — to ask for a location</p>
+        <p class="urdu" style="font-size:1.2rem;">= "kahaan?" — jagah poochne ke liye</p>
+      </section>
+
+      <section>
+        <h3>The pattern</h3>
+        <div style="margin:25px 0;">
+          <div class="ar ar-big" style="background:#fef3c7; padding:14px 24px; border-radius:8px; display:inline-block;">أَيْنَ الْكِتَابُ ؟</div>
+          <p style="font-size:1.2rem; margin-top:10px;">"Where is the book?" · <span class="urdu">"Kitaab kahaan hai?"</span></p>
+        </div>
+        <div style="font-size:2rem;">⬇️</div>
+        <div style="margin:18px 0;">
+          <div class="ar ar-big" style="background:#dcfce7; padding:14px 24px; border-radius:8px; display:inline-block;">الْكِتَابُ عَلَى الْمَكْتَبِ</div>
+          <p style="font-size:1.2rem; margin-top:10px;">"The book is on the desk" · <span class="urdu">"Kitaab mez par hai"</span></p>
+        </div>
+        <p style="font-size:1rem; color:#0e7490; margin-top:14px;">The answer uses today's prepositions + the kasra rule!</p>
+      </section>
+
+      <section>
+        <h3>More Q&A examples</h3>
+        <table style="margin:0 auto; font-size:1.05rem;">
+          <tr>
+            <td class="ar ar-big" style="padding:8px 14px;">أَيْنَ الْقَلَمُ ؟</td>
+            <td class="ar ar-big" style="padding:8px 14px;">الْقَلَمُ فِي الْحَقِيبَةِ</td>
+          </tr>
+          <tr><td colspan="2" style="font-size:0.95rem; padding:0 14px 12px;">"Where is the pen? — The pen is in the bag."</td></tr>
+          <tr>
+            <td class="ar ar-big" style="padding:8px 14px;">أَيْنَ الْإِمَامُ ؟</td>
+            <td class="ar ar-big" style="padding:8px 14px;">الْإِمَامُ فِي الْمَسْجِدِ</td>
+          </tr>
+          <tr><td colspan="2" style="font-size:0.95rem; padding:0 14px 12px;">"Where is the imam? — The imam is in the mosque."</td></tr>
+          <tr>
+            <td class="ar ar-big" style="padding:8px 14px;">أَيْنَ السَّرِيرُ ؟</td>
+            <td class="ar ar-big" style="padding:8px 14px;">السَّرِيرُ فِي الْغُرْفَةِ</td>
+          </tr>
+          <tr><td colspan="2" style="font-size:0.95rem; padding:0 14px 12px;">"Where is the bed? — The bed is in the room."</td></tr>
+        </table>
+      </section>
+
+      <section>
+        <h3>⚠️ Twin words — <span class="ar">مَنْ</span> vs <span class="ar">مِنْ</span></h3>
+        <p style="font-size:1.2rem;">Two words, same letters, different vowel — and different meanings!</p>
+        <div class="grid-2">
+          <div class="card" style="border-color:#b45309; background:#fef3c7;">
+            <h4 style="color:#7c2d12;">Ch 2 — "who?"</h4>
+            <div class="ar ar-huge">مَنْ</div>
+            <p class="translit">man</p>
+            <p>fatḥa on م</p>
+            <p class="urdu">kaun? (insaan ke liye)</p>
+          </div>
+          <div class="card" style="border-color:#be123c; background:#ffe4e6;">
+            <h4 style="color:#881337;">Ch 3 — "from"</h4>
+            <div class="ar ar-huge">مِنْ</div>
+            <p class="translit">min</p>
+            <p>kasra on م</p>
+            <p class="urdu">se (preposition)</p>
+          </div>
+        </div>
+        <p class="urdu" style="font-size:1.05rem; margin-top:14px;">Sirf zabar / zer ka farq — par poora matlab badla. Likhne mein hamesha vowels lagao pehle 2 hafte.</p>
+      </section>
+    </section>
+
+    <!-- RULE 4: HAADHIHI -->
+    <section>
+      <section>
+        <h2>Rule 4 · "This" — for feminine</h2>
+        <div class="ar ar-huge">هَذِهِ</div>
+        <p class="translit" style="font-size:1.4rem;">haadhihi</p>
+        <p class="english" style="font-size:1.4rem;">= "this is..." (for feminine nouns near)</p>
+        <p class="urdu" style="font-size:1.2rem;">= "yeh hai..." (zanaana lafz ke saath, qareeb)</p>
+      </section>
+
+      <section>
+        <h3>The demonstrative grid — now 3/4 full</h3>
+        <table style="margin:0 auto; font-size:1.1rem; border-collapse:collapse;">
+          <thead>
+            <tr>
+              <th style="padding:10px 18px; border:1px solid #064e3b;"></th>
+              <th style="padding:10px 18px; border:1px solid #064e3b;">Near (qareeb)</th>
+              <th style="padding:10px 18px; border:1px solid #064e3b;">Far (door)</th>
+            </tr>
+          </thead>
+          <tr>
+            <td style="padding:10px 18px; border:1px solid #064e3b; background:#cffafe;"><b>Masculine</b><br><span class="urdu" style="font-size:0.9rem;">mardaana</span></td>
+            <td style="padding:10px 18px; border:1px solid #064e3b;"><span class="ar ar-big">هَذَا</span><br><em>haadhaa</em> (Ch 1)</td>
+            <td style="padding:10px 18px; border:1px solid #064e3b;"><span class="ar ar-big">ذَلِكَ</span><br><em>dhaalika</em> (Ch 2)</td>
+          </tr>
+          <tr>
+            <td style="padding:10px 18px; border:1px solid #064e3b; background:#ffe4e6;"><b>Feminine</b><br><span class="urdu" style="font-size:0.9rem;">zanaana</span></td>
+            <td style="padding:10px 18px; border:1px solid #be123c; background:#ffe4e6;"><span class="ar ar-big" style="color:#be123c;">هَذِهِ</span><br><em>haadhihi</em> (← <b>today!</b>)</td>
+            <td style="padding:10px 18px; border:1px solid #064e3b; color:#9ca3af;"><span class="ar ar-big">تِلْكَ</span><br><em>tilka</em> — later</td>
+          </tr>
+        </table>
+        <p style="margin-top:18px; font-size:1rem; color:#0e7490;">One cell still empty (<span class="ar">تِلْكَ</span>) — for a much later chapter.</p>
+      </section>
+
+      <section>
+        <h3>How do you spot a feminine noun?</h3>
+        <div class="tip-box">
+          <p style="font-size:1.3rem;"><strong>Look at the end: <span class="ar" style="font-size:2rem;">ة</span> (taa marbuuta).</strong></p>
+          <p>If a noun ends in <span class="ar">ة</span> → feminine → use <span class="ar">هَذِهِ</span>.</p>
+          <p class="urdu" style="font-size:1.05rem;">Aakhir mein ة (gol-mol wali "h" jaisi) dikhi? Feminine hai. <span class="ar">هَذِهِ</span> lagao.</p>
+        </div>
+        <div class="grid-2" style="margin-top:18px;">
+          <div class="card fem">
+            <h4 style="color:#881337;">✅ Feminine (with ة)</h4>
+            <p class="ar ar-big">غُرْفَةٌ · مَدْرَسَةٌ · حَدِيقَةٌ</p>
+            <p>room · school · garden</p>
+            <p><span class="ar">هَذِهِ</span> goes with these</p>
+          </div>
+          <div class="card masc">
+            <h4 style="color:#155e75;">✅ Masculine (no ة)</h4>
+            <p class="ar ar-big">بَيْتٌ · قَلَمٌ · مَكْتَبٌ</p>
+            <p>house · pen · desk</p>
+            <p><span class="ar">هَذَا</span> goes with these</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h3>Examples — read aloud</h3>
+        <table style="margin:0 auto; font-size:1.05rem;">
+          <tr>
+            <td class="ar ar-big" style="padding:10px 16px;">هَذِهِ غُرْفَةٌ</td>
+            <td style="padding:10px 16px;">This is a room</td>
+            <td class="urdu" style="padding:10px 16px;">Yeh ek kamra hai</td>
+          </tr>
+          <tr>
+            <td class="ar ar-big" style="padding:10px 16px;">هَذِهِ مَدْرَسَةٌ</td>
+            <td style="padding:10px 16px;">This is a school</td>
+            <td class="urdu" style="padding:10px 16px;">Yeh ek school hai</td>
+          </tr>
+          <tr>
+            <td class="ar ar-big" style="padding:10px 16px;">هَذِهِ حَقِيبَةٌ</td>
+            <td style="padding:10px 16px;">This is a bag</td>
+            <td class="urdu" style="padding:10px 16px;">Yeh ek bag hai</td>
+          </tr>
+          <tr>
+            <td class="ar ar-big" style="padding:10px 16px;">مَا هَذِهِ ؟ — هَذِهِ سَيَّارَةٌ</td>
+            <td colspan="2" style="padding:10px 16px;">What is this? — This is a car.</td>
+          </tr>
+        </table>
+      </section>
+    </section>
+
+    <!-- COMBINE -->
+    <section>
+      <h2>🎯 Putting it all together</h2>
+      <p style="font-size:1.2rem;">A sentence using <em>all four</em> of today's concepts:</p>
+      <p class="ar ar-big" style="margin:30px 0;">أَيْنَ الْحَقِيبَةُ ؟ — هَذِهِ الْحَقِيبَةُ فِي الْغُرْفَةِ</p>
+      <p style="font-size:1.2rem;"><em>ayna l-ḥaqeebatu? — haadhihi l-ḥaqeebatu fil-ghurfati</em></p>
+      <p style="font-size:1.2rem;">"Where is the bag? — This bag is in the room."</p>
+      <p class="urdu" style="font-size:1.1rem;">"Bag kahaan hai? — Yeh bag kamre mein hai."</p>
+      <p style="margin-top:25px; font-size:1rem; color:#0e7490;">In one sentence: <span class="ar">أَيْنَ</span>, <span class="ar">هَذِهِ</span>, the preposition <span class="ar">فِي</span>, and the kasra rule (on <span class="ar">الْغُرْفَةِ</span>).</p>
+    </section>
+
+    <!-- VOCABULARY -->
+    <section>
+      <section>
+        <h2>📖 Today's Vocabulary</h2>
+        <p style="font-size:1.4rem;">12 new words — yellow = feminine (note the ة)</p>
+        <p class="urdu" style="font-size:1.1rem;">12 naye lafz — peelay rang wale feminine hain (ة ke saath)</p>
+      </section>
+
+      <section>
+        <h3>🏠 Places · <span class="urdu" style="font-size:1.05rem;">jagahein</span></h3>
+        <div class="vocab-grid">
+          <div class="v-card"><span class="ar">مَكْتَبٌ</span><span class="english">a desk / office</span><span class="translit">maktabun</span><span class="urdu">mez / daftar</span></div>
+          <div class="v-card"><span class="ar">سُوقٌ</span><span class="english">a market</span><span class="translit">sūqun</span><span class="urdu">bazaar</span></div>
+          <div class="v-card" style="background:#fef9c3;"><span class="ar">غُرْفَةٌ</span><span class="english">a room (f)</span><span class="translit">ghurfatun</span><span class="urdu">kamra</span></div>
+          <div class="v-card"><span class="ar">مَطْبَخٌ</span><span class="english">a kitchen</span><span class="translit">maṭbakhun</span><span class="urdu">baawarchi-khaana</span></div>
+          <div class="v-card" style="background:#fef9c3;"><span class="ar">مَدْرَسَةٌ</span><span class="english">a school (f)</span><span class="translit">madrasatun</span><span class="urdu">school</span></div>
+          <div class="v-card" style="background:#fef9c3;"><span class="ar">حَدِيقَةٌ</span><span class="english">a garden (f)</span><span class="translit">ḥadeeqatun</span><span class="urdu">baagh</span></div>
+        </div>
+      </section>
+
+      <section>
+        <h3>🎒 Things · <span class="urdu" style="font-size:1.05rem;">cheezein</span></h3>
+        <div class="vocab-grid">
+          <div class="v-card"><span class="ar">سَرِيرٌ</span><span class="english">a bed</span><span class="translit">sareerun</span><span class="urdu">palang</span></div>
+          <div class="v-card"><span class="ar">جَيْبٌ</span><span class="english">a pocket</span><span class="translit">jaybun</span><span class="urdu">jeb</span></div>
+          <div class="v-card" style="background:#fef9c3;"><span class="ar">حَقِيبَةٌ</span><span class="english">a bag (f)</span><span class="translit">ḥaqeebatun</span><span class="urdu">bag / thaila</span></div>
+          <div class="v-card" style="background:#fef9c3;"><span class="ar">سَيَّارَةٌ</span><span class="english">a car (f)</span><span class="translit">sayyāratun</span><span class="urdu">gaadi</span></div>
+          <div class="v-card" style="background:#fef9c3;"><span class="ar">شَجَرَةٌ</span><span class="english">a tree (f)</span><span class="translit">shajaratun</span><span class="urdu">darakht</span></div>
+          <div class="v-card"><span class="ar">مَسْجِدٌ</span><span class="english">a mosque</span><span class="translit">masjidun</span><span class="urdu">masjid</span></div>
+        </div>
+      </section>
+
+      <section>
+        <h3>🔑 Grammar words · <span class="urdu" style="font-size:1.05rem;">grammar wale lafz</span></h3>
+        <div class="vocab-grid">
+          <div class="v-card" style="background:#f0fdf4;"><span class="ar">فِي</span><span class="english">in</span><span class="translit">fī</span><span class="urdu">mein</span></div>
+          <div class="v-card" style="background:#f0fdf4;"><span class="ar">عَلَى</span><span class="english">on</span><span class="translit">ʿalā</span><span class="urdu">par</span></div>
+          <div class="v-card" style="background:#f0fdf4;"><span class="ar">إِلَى</span><span class="english">to</span><span class="translit">ilā</span><span class="urdu">tak / ki taraf</span></div>
+          <div class="v-card" style="background:#f0fdf4;"><span class="ar">مِنْ</span><span class="english">from</span><span class="translit">min</span><span class="urdu">se</span></div>
+          <div class="v-card" style="background:#f0fdf4;"><span class="ar">أَيْنَ</span><span class="english">where?</span><span class="translit">ayna</span><span class="urdu">kahaan?</span></div>
+          <div class="v-card" style="background:#f0fdf4;"><span class="ar">هَذِهِ</span><span class="english">this (f)</span><span class="translit">haadhihi</span><span class="urdu">yeh (zanaana)</span></div>
+        </div>
+      </section>
+    </section>
+
+    <!-- CONNECT TO QURAN -->
+    <section>
+      <section>
+        <h2>📿 Connect to the Qur'an</h2>
+        <p style="font-size:1.4rem;">Today's prepositions are everywhere in the Qur'an — you'll start recognising them right away.</p>
+        <p class="urdu" style="font-size:1.1rem;">Aaj ki prepositions Qur'an mein har jagah aati hain — aap fauran pehchaan lenge.</p>
+      </section>
+
+      <section>
+        <h3>Surah Al-Falaq 113:1–2</h3>
+        <p class="ar ar-big" style="line-height:2;">قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ ۝ <span style="color:#be123c;">مِن</span> شَرِّ مَا خَلَقَ</p>
+        <p style="font-size:1.2rem;">"...<strong>from</strong> the evil of what He created."</p>
+        <p class="urdu" style="font-size:1.05rem;">"Us cheez ke shar <strong>se</strong> jo Us ne paida ki."</p>
+        <p style="margin-top:14px; font-size:1rem;">You see <span class="ar" style="font-size:1.5rem; color:#be123c;">مِنْ</span> — and the kasra ending on <span class="ar">شَرِّ</span> (after the preposition).</p>
+      </section>
+
+      <section>
+        <h3>Surah An-Nas 114:6</h3>
+        <p class="ar ar-big" style="line-height:2;"><span style="color:#be123c;">مِنَ</span> الْجِنَّةِ وَالنَّاسِ</p>
+        <p style="font-size:1.2rem;">"<strong>From</strong> [among] the jinn and mankind."</p>
+        <p style="margin-top:14px; font-size:1rem;">You see the <span class="ar" style="font-size:1.5rem; color:#be123c;">مِنَ الْ</span> bridge (ن with a fatḥa), plus kasra endings on <span class="ar">الْجِنَّةِ</span> and <span class="ar">النَّاسِ</span>.</p>
+      </section>
+
+      <section>
+        <h3>Surah Ash-Shura 42:52 (ending)</h3>
+        <p class="ar ar-big" style="line-height:2;">لَتَهْدِي <span style="color:#be123c;">إِلَىٰ</span> صِرَاطٍ مُّسْتَقِيمٍ</p>
+        <p style="font-size:1.2rem;">"...you guide <strong>to</strong> a straight path."</p>
+        <p style="margin-top:14px; font-size:1rem;">You see <span class="ar" style="font-size:1.5rem; color:#be123c;">إِلَى</span> (with the dagger-alif on top, showing the "aa" sound), and the indefinite kasra-tanween (<em>"-in"</em>) on <span class="ar">صِرَاطٍ</span>.</p>
+      </section>
+
+      <section>
+        <h3>Surah At-Takwir 81:26</h3>
+        <p class="ar ar-big" style="line-height:2;">فَ<span style="color:#be123c;">أَيْنَ</span> تَذْهَبُونَ</p>
+        <p style="font-size:1.2rem;">"<strong>Where</strong> then are you going?"</p>
+        <p class="urdu" style="font-size:1.05rem;">"To phir tum <strong>kahaan</strong> jaa rahe ho?"</p>
+        <p style="margin-top:14px; font-size:1rem;">You see <span class="ar" style="font-size:1.5rem; color:#be123c;">أَيْنَ</span> — the "where?" question word, just learned today!</p>
+      </section>
+    </section>
+
+    <!-- RECAP -->
+    <section>
+      <h2>📋 Recap — what we covered</h2>
+      <ol style="font-size:1.1rem; line-height:1.9;">
+        <li><strong>4 prepositions:</strong> <span class="ar">فِي / عَلَى / إِلَى / مِنْ</span> · <span class="urdu" style="font-size:1rem;">mein, par, tak, se</span></li>
+        <li><strong>Kasra rule:</strong> after preposition, noun's ending becomes <span class="ar">ـِ</span> / <span class="ar">ـٍ</span> · <span class="urdu" style="font-size:1rem;">pesh nahin, zer</span></li>
+        <li><span class="ar">مِنَ الْ</span> bridge — ن takes fatḥa · <span class="urdu" style="font-size:1rem;">"min" + "al-" = "minal-"</span></li>
+        <li><span class="ar">أَيْنَ</span> = "where?" · <span class="urdu" style="font-size:1rem;">"kahaan?" wala sawal</span></li>
+        <li><span class="ar">هَذِهِ</span> = feminine "this" (for ة-ending nouns) · <span class="urdu" style="font-size:1rem;">zanaana "yeh"</span></li>
+        <li>⚠️ <span class="ar">مَنْ</span> (kaun) vs <span class="ar">مِنْ</span> (se) — twin words, different vowels</li>
+        <li>⚠️ <span class="ar">عَلَى</span> / <span class="ar">إِلَى</span> end in "aa", not "y"</li>
+        <li>12 new vocabulary words</li>
+      </ol>
+    </section>
+
+    <!-- HOMEWORK -->
+    <section>
+      <h2>🏠 Homework</h2>
+      <ol style="font-size:1.15rem; line-height:1.9;">
+        <li>Memorise the 4 prepositions with Urdu meanings · <span class="urdu" style="font-size:1rem;">char prepositions Urdu matlab ke saath</span></li>
+        <li>Take 5 Ch 1 nouns, put each one after each preposition aloud — drill the kasra ending · <span class="urdu" style="font-size:1rem;">5 lafz × 4 prepositions = 20 drills</span></li>
+        <li>Say <em>haadhihi</em> 20 times glued to feminine nouns · <span class="urdu" style="font-size:1rem;">"haadhihi ghurfatun, haadhihi madrasatun..."</span></li>
+        <li>Complete the 6 exercises on your handout · <span class="urdu" style="font-size:1rem;">handout ke 6 exercises mukammal karo</span></li>
+        <li>5 objects at home — write a "where is ___?" Q&A for each · <span class="urdu" style="font-size:1rem;">ghar mein 5 cheezein — har ek ka "kahaan hai?" sawal-jawab likho</span></li>
+        <li>Re-read Ch 1 + Ch 2 vocab · <span class="urdu" style="font-size:1rem;">pichhle dono chapters ke lafz phir dohrao</span></li>
+      </ol>
+    </section>
+
+    <!-- CLOSING -->
+    <section class="cover">
+      <div class="ar ar-huge">جَزَاكُمُ اللهُ خَيْرًا</div>
+      <p style="font-size:1.5rem; margin-top:20px;">May Allah reward you with goodness</p>
+      <p class="urdu" style="font-size:1.3rem;">Allah aap ko bhalaai ka badla de</p>
+      <p style="font-size:1.2rem; margin-top:25px; opacity:.9;">See you in Chapter 4 — <span class="ar" style="color:#fff;">لِـ</span> (for/belongs to), <span class="ar" style="color:#fff;">لِمَنْ ؟</span> (whose?), and proper names!<br><span class="urdu" style="font-size:1rem;">Agle chapter mein "ke liye", "kis ka?", aur naam wale lafz</span></p>
+    </section>
+
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+<script>
+Reveal.initialize({
+  hash:true,
+  controls:true,
+  progress:true,
+  center:true,
+  transition:'slide',
+  slideNumber:'c/t'
+});
+</script>
+
+</body>
+</html>

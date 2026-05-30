@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Madinah Book 1 · Chapter 2 · Slides</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/white.css">
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Scheherazade+New:wght@400;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+  .reveal { font-family:'Inter',sans-serif; }
+  .reveal h1, .reveal h2, .reveal h3 { color:#064e3b; font-weight:700; }
+  .reveal .ar {
+    font-family:'Scheherazade New','Amiri',serif;
+    direction:rtl;
+    color:#064e3b;
+    font-weight:700;
+  }
+  .reveal .ar-huge { font-size:4rem; }
+  .reveal .ar-big { font-size:3rem; }
+  .reveal .translit { color:#9a3412; font-style:italic; font-size:1.1rem; }
+  .reveal .english { color:#1f2937; font-size:1.4rem; }
+  .reveal .urdu { color:#374151; font-style:italic; font-size:1.2rem; }
+  .reveal .cover {
+    background:linear-gradient(135deg, #064e3b 0%, #0e7490 100%);
+    color:#fff !important;
+    padding:60px 40px;
+    border-radius:14px;
+  }
+  .reveal .cover h1, .reveal .cover .ar { color:#fff; }
+  .reveal .cover .urdu { color:#e0f2fe; }
+  .reveal .pill {
+    display:inline-block;
+    padding:8px 18px;
+    border-radius:30px;
+    margin:0 6px;
+    font-weight:600;
+  }
+  .reveal .pill-blue{ background:#cffafe; color:#0c4a6e; }
+  .reveal .pill-amber{ background:#fef3c7; color:#7c2d12; }
+  .reveal .pill-rose{ background:#ffe4e6; color:#881337; }
+  .reveal .grid-2 {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:20px;
+    margin:20px 0;
+  }
+  .reveal .grid-2 .card{
+    background:#f9fafb;
+    border:2px solid;
+    border-radius:10px;
+    padding:18px;
+  }
+  .reveal .card.near{ border-color:#0891b2; background:#cffafe; }
+  .reveal .card.far{ border-color:#be123c; background:#ffe4e6; }
+  .reveal .card.thing{ border-color:#0e7490; background:#ecfeff; }
+  .reveal .card.person{ border-color:#b45309; background:#fef3c7; }
+  .reveal .vocab-grid{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:14px;
+    margin:14px 0;
+  }
+  .reveal .vocab-grid .v-card{
+    background:#fff;
+    border:1.5px solid #064e3b;
+    border-radius:8px;
+    padding:10px;
+    text-align:center;
+  }
+  .reveal .vocab-grid .v-card .ar{ font-size:1.7rem; display:block; margin-bottom:4px; }
+  .reveal .vocab-grid .v-card .english{ font-size:0.95rem; display:block; }
+  .reveal .vocab-grid .v-card .translit{ font-size:0.8rem; display:block; }
+  .reveal .vocab-grid .v-card .urdu{ font-size:0.85rem; color:#7c2d12; display:block; font-style:italic; margin-top:2px; }
+  .reveal .question-banner{
+    background:#064e3b;
+    color:#fff;
+    padding:14px 24px;
+    border-radius:8px;
+    display:inline-block;
+    font-size:1.6rem;
+    margin:16px 0;
+  }
+  .reveal .warn-box{
+    background:#fef2f2;
+    border-left:5px solid #dc2626;
+    padding:12px 16px;
+    border-radius:0 8px 8px 0;
+    text-align:left;
+    margin:14px 0;
+  }
+  .reveal .tip-box{
+    background:#ecfeff;
+    border-left:5px solid #0891b2;
+    padding:12px 16px;
+    border-radius:0 8px 8px 0;
+    text-align:left;
+    margin:14px 0;
+  }
+</style>
+</head>
+<body>
+<div class="reveal">
+  <div class="slides">
+
+    <!-- COVER -->
+    <section class="cover">
+      <div class="ar ar-huge">الدَّرْسُ الثَّانِي</div>
+      <h1 style="font-size:2.2rem; margin-top:20px;">Madinah Book 1 — Chapter 2</h1>
+      <p style="font-size:1.3rem; opacity:.9;">"That is a ___" · "What/Who is this?" · "X or Y?"</p>
+      <p class="urdu" style="font-size:1.2rem;">Doosra Arabic sabaq — "woh hai", "kya/kaun hai?", "ya"</p>
+      <p style="font-size:1rem; opacity:.8; margin-top:30px;">Press → to begin · Press F for fullscreen</p>
+    </section>
+
+    <!-- OBJECTIVES -->
+    <section>
+      <h2>By the end of this lesson, you will:</h2>
+      <ol style="font-size:1.3rem; line-height:1.9;">
+        <li>Say <strong>"That is a ___"</strong> for far things.<br><span class="urdu" style="font-size:1rem;">Door wali cheez ke liye "woh ___ hai"</span></li>
+        <li>Ask <strong>"What is this?"</strong> (for things).<br><span class="urdu" style="font-size:1rem;">Cheezon ke baare mein "yeh kya hai?"</span></li>
+        <li>Ask <strong>"Who is this?"</strong> (for people).<br><span class="urdu" style="font-size:1rem;">Logon ke baare mein "yeh kaun hai?"</span></li>
+        <li>Offer a choice — <strong>"Is this X or Y?"</strong><br><span class="urdu" style="font-size:1rem;">"Kya yeh X hai ya Y?" sawal</span></li>
+        <li>Know <strong>16 new words</strong>.<br><span class="urdu" style="font-size:1rem;">16 naye Arabic lafz</span></li>
+      </ol>
+    </section>
+
+    <!-- 2-MIN RECAP OF CH 1 -->
+    <section>
+      <h2>📋 Quick recap — Chapter 1</h2>
+      <ul style="font-size:1.2rem; line-height:1.9;">
+        <li><span class="ar">هَذَا</span> = "this is..." (for near, masculine)</li>
+        <li>No word for "is" — silence does the work</li>
+        <li><span class="ar">الـ</span> = "the" — drops tanween doubling</li>
+        <li>Sun letters: L silent · Moon letters: L heard</li>
+        <li><span class="ar">أَ</span> + sentence = yes/no question</li>
+      </ul>
+      <p style="margin-top:20px; font-size:1.1rem; color:#0e7490;">All of this comes back today — Chapter 2 builds on it.</p>
+    </section>
+
+    <!-- RULE 1: DHAALIKA -->
+    <section>
+      <section>
+        <h2>Rule 1 · The word for "that" (far)</h2>
+        <div class="ar ar-huge">ذَلِكَ</div>
+        <p class="translit" style="font-size:1.4rem;">dhaalika</p>
+        <p class="english">= "that is..." (pointing to something <strong>far</strong>)</p>
+        <p class="urdu">= "woh hai..." (door wali cheez ki taraf ishaara)</p>
+      </section>
+
+      <section>
+        <h3>⚠️ Pronunciation — the biggest mistake</h3>
+        <div class="warn-box">
+          <p style="font-size:1.3rem;"><strong>Say <em>dhaalika</em> — NOT <em>zaalika</em>.</strong></p>
+          <p>The Arabic <span class="ar" style="font-size:1.8rem;">ذ</span> is the English <strong>"th"</strong> in <em>"this"</em>, <em>"that"</em>, <em>"the"</em>.</p>
+          <p class="urdu" style="font-size:1.1rem;">Urdu mein "ذ" ko "z" bolte ho — Arabic mein nahin. Zubaan daaton ke beech mein laao — jaisa English mein "this" bolte ho.</p>
+        </div>
+        <p style="font-size:1.2rem; margin-top:18px;">Try it now: say English <em>"this"</em> — feel your tongue. Same position for <em>dhaalika</em>.</p>
+      </section>
+
+      <section>
+        <h3>Two more things</h3>
+        <ol style="font-size:1.2rem; line-height:1.9;">
+          <li>The middle alif is <strong>silent</strong>.<br>
+              Say <strong>"dhaa-li-ka"</strong> — not "dhaa-AA-li-ka".<br>
+              <span class="urdu" style="font-size:1rem;">Beech wali alif silent — "aa" beech mein hai</span></li>
+          <li>Use it for <strong>masculine</strong>, far things only.<br>
+              (Feminine "that" comes later.)<br>
+              <span class="urdu" style="font-size:1rem;">Sirf mardaana, door wali cheez ke liye</span></li>
+        </ol>
+      </section>
+
+      <section>
+        <h3>Example</h3>
+        <div class="ar ar-huge">ذَلِكَ بَيْتٌ</div>
+        <p class="translit" style="font-size:1.6rem;">dhaalika baytun</p>
+        <p class="english" style="font-size:1.6rem;">"That is a house"</p>
+        <p class="urdu" style="font-size:1.4rem;">"Woh ek ghar hai"</p>
+      </section>
+
+      <section>
+        <h3>Near vs Far — same noun, different word</h3>
+        <div class="grid-2">
+          <div class="card near">
+            <h4 style="color:#155e75;">🤚 Near · <span class="urdu" style="font-size:0.95rem; color:#155e75;">qareeb</span></h4>
+            <div class="ar ar-big">هَذَا قَلَمٌ</div>
+            <p class="translit">haadhaa qalamun</p>
+            <p>"This is a pen"</p>
+            <p class="urdu">"Yeh ek qalam hai"</p>
+          </div>
+          <div class="card far">
+            <h4 style="color:#881337;">👉 Far · <span class="urdu" style="font-size:0.95rem; color:#881337;">door</span></h4>
+            <div class="ar ar-big">ذَلِكَ قَلَمٌ</div>
+            <p class="translit">dhaalika qalamun</p>
+            <p>"That is a pen"</p>
+            <p class="urdu">"Woh ek qalam hai"</p>
+          </div>
+        </div>
+        <p style="margin-top:15px;">Same word for "pen" — different demonstrative based on <strong>distance</strong>.</p>
+      </section>
+
+      <section>
+        <h3>More examples — read each aloud</h3>
+        <table style="margin:0 auto; font-size:1.1rem;">
+          <thead>
+            <tr>
+              <th style="padding:6px 14px;">Arabic</th>
+              <th style="padding:6px 14px;">English</th>
+              <th style="padding:6px 14px;">Roman Urdu</th>
+            </tr>
+          </thead>
+          <tr><td class="ar ar-big" style="padding:8px 14px;">ذَلِكَ جَبَلٌ</td><td style="padding:8px 14px;">That is a mountain</td><td class="urdu" style="padding:8px 14px;">Woh ek pahaad hai</td></tr>
+          <tr><td class="ar ar-big" style="padding:8px 14px;">ذَلِكَ نَهْرٌ</td><td style="padding:8px 14px;">That is a river</td><td class="urdu" style="padding:8px 14px;">Woh ek nahar hai</td></tr>
+          <tr><td class="ar ar-big" style="padding:8px 14px;">ذَلِكَ صَدِيقٌ</td><td style="padding:8px 14px;">That is a friend</td><td class="urdu" style="padding:8px 14px;">Woh ek dost hai</td></tr>
+          <tr><td class="ar ar-big" style="padding:8px 14px;">ذَلِكَ إِمَامٌ</td><td style="padding:8px 14px;">That is an imam</td><td class="urdu" style="padding:8px 14px;">Woh ek imam hai</td></tr>
+        </table>
+      </section>
+    </section>
+
+    <!-- RULE 2: MAA -->
+    <section>
+      <section>
+        <h2>Rule 2 · Asking "What is this?"</h2>
+        <div class="ar ar-huge">مَا</div>
+        <p class="translit" style="font-size:1.4rem;">maa</p>
+        <p class="english" style="font-size:1.4rem;">= "what?" — for <strong>things, animals, non-humans</strong></p>
+        <p class="urdu" style="font-size:1.2rem;">= "kya?" — sirf cheezon, jaanwaron ke liye</p>
+      </section>
+
+      <section>
+        <h3>The pattern</h3>
+        <div style="margin:25px 0;">
+          <div class="ar ar-big" style="background:#fef3c7; padding:14px 24px; border-radius:8px; display:inline-block;">مَا هَذَا ؟</div>
+          <p style="font-size:1.2rem; margin-top:10px;">"What is this?" · <span class="urdu">"Yeh kya hai?"</span></p>
+        </div>
+        <div style="font-size:2rem;">⬇️</div>
+        <div style="margin:18px 0;">
+          <div class="ar ar-big" style="background:#dcfce7; padding:14px 24px; border-radius:8px; display:inline-block;">هَذَا كِتَابٌ</div>
+          <p style="font-size:1.2rem; margin-top:10px;">"This is a book" · <span class="urdu">"Yeh ek kitaab hai"</span></p>
+        </div>
+        <p style="font-size:1rem; color:#0e7490;">The answer = a Chapter 1 sentence!</p>
+      </section>
+
+      <section>
+        <h3>More examples</h3>
+        <table style="margin:0 auto; font-size:1.1rem;">
+          <tr>
+            <td class="ar ar-big" style="padding:10px 16px;">مَا هَذَا ؟</td>
+            <td class="ar ar-big" style="padding:10px 16px;">هَذَا حَجَرٌ</td>
+            <td style="padding:10px 16px;">What is this? — A stone</td>
+          </tr>
+          <tr>
+            <td class="ar ar-big" style="padding:10px 16px;">مَا ذَلِكَ ؟</td>
+            <td class="ar ar-big" style="padding:10px 16px;">ذَلِكَ نَهْرٌ</td>
+            <td style="padding:10px 16px;">What is that? — A river</td>
+          </tr>
+          <tr>
+            <td class="ar ar-big" style="padding:10px 16px;">مَا هَذَا ؟</td>
+            <td class="ar ar-big" style="padding:10px 16px;">هَذَا لَبَنٌ</td>
+            <td style="padding:10px 16px;">What is this? — Milk</td>
+          </tr>
+        </table>
+        <p style="margin-top:20px; font-size:1rem; color:#9a3412;">Notice the Arabic question mark <span class="ar" style="font-size:1.5rem;">؟</span> — curves the other way (RTL).</p>
+      </section>
+    </section>
+
+    <!-- RULE 3: MAN -->
+    <section>
+      <section>
+        <h2>Rule 3 · Asking "Who is this?"</h2>
+        <div class="ar ar-huge">مَنْ</div>
+        <p class="translit" style="font-size:1.4rem;">man</p>
+        <p class="english" style="font-size:1.4rem;">= "who?" — for <strong>people only</strong></p>
+        <p class="urdu" style="font-size:1.2rem;">= "kaun?" — sirf insaanon ke liye</p>
+      </section>
+
+      <section>
+        <h3>The strict rule</h3>
+        <div class="grid-2">
+          <div class="card thing">
+            <h4>📦 Things, animals</h4>
+            <div class="ar ar-big">مَا</div>
+            <p class="translit">maa</p>
+            <p>"what?"</p>
+            <p class="urdu">cheez ke liye</p>
+          </div>
+          <div class="card person">
+            <h4>👤 People</h4>
+            <div class="ar ar-big">مَنْ</div>
+            <p class="translit">man</p>
+            <p>"who?"</p>
+            <p class="urdu">insaan ke liye</p>
+          </div>
+        </div>
+        <p style="font-size:1.2rem; margin-top:20px;">In Arabic, this split is <strong>strict</strong>.</p>
+        <p class="urdu" style="font-size:1.1rem;">Urdu mein "kya" har cheez chal jaata hai — Arabic mein nahin. Insaan ke liye sirf "man".</p>
+      </section>
+
+      <section>
+        <h3>The pattern</h3>
+        <div style="margin:25px 0;">
+          <div class="ar ar-big" style="background:#fef3c7; padding:14px 24px; border-radius:8px; display:inline-block;">مَنْ هَذَا ؟</div>
+          <p style="font-size:1.2rem; margin-top:10px;">"Who is this?" · <span class="urdu">"Yeh kaun hai?"</span></p>
+        </div>
+        <div style="font-size:2rem;">⬇️</div>
+        <div style="margin:18px 0;">
+          <div class="ar ar-big" style="background:#dcfce7; padding:14px 24px; border-radius:8px; display:inline-block;">هَذَا وَلَدٌ</div>
+          <p style="font-size:1.2rem; margin-top:10px;">"This is a boy" · <span class="urdu">"Yeh ek ladka hai"</span></p>
+        </div>
+      </section>
+
+      <section>
+        <h3>More examples</h3>
+        <table style="margin:0 auto; font-size:1.1rem;">
+          <tr>
+            <td class="ar ar-big" style="padding:10px 16px;">مَنْ هَذَا ؟</td>
+            <td class="ar ar-big" style="padding:10px 16px;">هَذَا صَدِيقٌ</td>
+            <td style="padding:10px 16px;">Who is this? — A friend</td>
+          </tr>
+          <tr>
+            <td class="ar ar-big" style="padding:10px 16px;">مَنْ ذَلِكَ ؟</td>
+            <td class="ar ar-big" style="padding:10px 16px;">ذَلِكَ إِمَامٌ</td>
+            <td style="padding:10px 16px;">Who is that? — An imam</td>
+          </tr>
+          <tr>
+            <td class="ar ar-big" style="padding:10px 16px;">مَنْ هَذَا ؟</td>
+            <td class="ar ar-big" style="padding:10px 16px;">هَذَا ابْنٌ</td>
+            <td style="padding:10px 16px;">Who is this? — A son</td>
+          </tr>
+        </table>
+      </section>
+    </section>
+
+    <!-- RULE 4: AM -->
+    <section>
+      <section>
+        <h2>Rule 4 · "Or" in a question</h2>
+        <div class="ar ar-huge">أَمْ</div>
+        <p class="translit" style="font-size:1.4rem;">am</p>
+        <p class="english" style="font-size:1.4rem;">= "or" — to offer a choice in a question</p>
+        <p class="urdu" style="font-size:1.2rem;">= "ya" — sawal ke andar do options dene ke liye</p>
+      </section>
+
+      <section>
+        <h3>The structure</h3>
+        <p style="font-size:1.3rem; margin:20px 0;">
+          <span class="pill pill-amber"><span class="ar" style="font-size:1.4rem;">أَ</span> question</span>
+          +
+          <span class="pill pill-blue">option 1</span>
+          +
+          <span class="pill pill-rose"><span class="ar" style="font-size:1.4rem;">أَمْ</span> or</span>
+          +
+          <span class="pill pill-blue">option 2</span>
+          +
+          <span class="ar" style="font-size:1.4rem;">؟</span>
+        </p>
+        <div class="ar ar-big" style="margin-top:30px;">أَهَذَا قَلَمٌ <span style="color:#be123c;">أَمْ</span> مِفْتَاحٌ ؟</div>
+        <p class="translit" style="font-size:1.3rem;">a-haadhaa qalamun am miftaaḥun?</p>
+        <p style="font-size:1.3rem;">"Is this a pen or a key?"</p>
+        <p class="urdu" style="font-size:1.2rem;">"Kya yeh qalam hai ya chaabi?"</p>
+      </section>
+
+      <section>
+        <h3>⚠️ The answer must be a FULL sentence</h3>
+        <div class="warn-box">
+          <p style="font-size:1.2rem; margin-bottom:10px;"><strong>NOT <em>naʿam</em> (yes). NOT just the noun. Full sentence.</strong></p>
+          <ul style="font-size:1.1rem; line-height:1.9;">
+            <li>❌ <em>naʿam</em> — wrong (this isn't yes/no!)</li>
+            <li>❌ <em>qalamun</em> — wrong (incomplete!)</li>
+            <li>✅ <em>haadhaa qalamun</em> — correct (full sentence!)</li>
+          </ul>
+          <p class="urdu" style="font-size:1rem; margin-top:10px;">Choice wala sawal hai — "haan/nahin" se kaam nahin chalega. Poora jumla chahiye, jaisa Ch 1 mein seekha.</p>
+        </div>
+      </section>
+
+      <section>
+        <h3>Q&A example</h3>
+        <div style="font-size:1.2rem; line-height:2;">
+          <p><span class="ar ar-big">أَذَلِكَ جَبَلٌ أَمْ حَجَرٌ ؟</span></p>
+          <p style="color:#64748b;">"Is that a mountain or a stone?" · <span class="urdu">"Woh pahaad hai ya patthar?"</span></p>
+          <p style="margin-top:18px;"><span class="ar ar-big" style="color:#16a34a;">ذَلِكَ جَبَلٌ</span></p>
+          <p style="color:#64748b;">"That is a mountain." · <span class="urdu">"Woh pahaad hai."</span></p>
+        </div>
+      </section>
+
+      <section>
+        <h3>More examples</h3>
+        <table style="margin:0 auto; font-size:1rem;">
+          <tr>
+            <td class="ar ar-big" style="padding:10px 14px;">أَهَذَا سُكَّرٌ أَمْ لَبَنٌ ؟</td>
+            <td class="ar ar-big" style="padding:10px 14px;">هَذَا سُكَّرٌ</td>
+          </tr>
+          <tr><td colspan="2" style="font-size:0.95rem; padding:0 14px 14px;">"Sugar or milk?" — "This is sugar."</td></tr>
+          <tr>
+            <td class="ar ar-big" style="padding:10px 14px;">أَهَذَا أَنْفٌ أَمْ فَمٌ ؟</td>
+            <td class="ar ar-big" style="padding:10px 14px;">هَذَا أَنْفٌ</td>
+          </tr>
+          <tr><td colspan="2" style="font-size:0.95rem; padding:0 14px 14px;">"Nose or mouth?" — "This is a nose."</td></tr>
+          <tr>
+            <td class="ar ar-big" style="padding:10px 14px;">أَهَذَا ابْنٌ أَمْ خَالٌ ؟</td>
+            <td class="ar ar-big" style="padding:10px 14px;">هَذَا ابْنٌ</td>
+          </tr>
+          <tr><td colspan="2" style="font-size:0.95rem; padding:0 14px 14px;">"Son or maternal uncle?" — "This is a son."</td></tr>
+        </table>
+      </section>
+    </section>
+
+    <!-- VOCABULARY -->
+    <section>
+      <section>
+        <h2>📖 Today's Vocabulary</h2>
+        <p style="font-size:1.4rem;">16 new words — let's see them by category</p>
+        <p class="urdu" style="font-size:1.1rem;">16 naye lafz — categories ke hisaab se</p>
+      </section>
+
+      <section>
+        <h3>🏞️ Nature · <span class="urdu" style="font-size:1.1rem;">qudrat</span></h3>
+        <div class="vocab-grid">
+          <div class="v-card"><span class="ar">نَهْرٌ</span><span class="english">a river</span><span class="translit">nahrun</span><span class="urdu">ek nahar</span></div>
+          <div class="v-card"><span class="ar">بَحْرٌ</span><span class="english">a sea</span><span class="translit">baḥrun</span><span class="urdu">ek samandar</span></div>
+          <div class="v-card"><span class="ar">جَبَلٌ</span><span class="english">a mountain</span><span class="translit">jabalun</span><span class="urdu">ek pahaad</span></div>
+          <div class="v-card"><span class="ar">حَجَرٌ</span><span class="english">a stone</span><span class="translit">ḥajarun</span><span class="urdu">ek patthar</span></div>
+        </div>
+      </section>
+
+      <section>
+        <h3>🍯 Food · <span class="urdu" style="font-size:1.1rem;">khaane peene ki cheezein</span></h3>
+        <div class="vocab-grid">
+          <div class="v-card"><span class="ar">سُكَّرٌ</span><span class="english">sugar</span><span class="translit">sukkarun</span><span class="urdu">cheeni</span></div>
+          <div class="v-card"><span class="ar">لَبَنٌ</span><span class="english">milk</span><span class="translit">labanun</span><span class="urdu">doodh</span></div>
+          <div class="v-card"><span class="ar">عَسَلٌ</span><span class="english">honey</span><span class="translit">ʿasalun</span><span class="urdu">shahad</span></div>
+          <div class="v-card"><span class="ar">بَيْضٌ</span><span class="english">egg(s)</span><span class="translit">bayḍun</span><span class="urdu">anda</span></div>
+        </div>
+      </section>
+
+      <section>
+        <h3>🧑 Body parts · <span class="urdu" style="font-size:1.1rem;">jism ke hisse</span></h3>
+        <div class="vocab-grid">
+          <div class="v-card"><span class="ar">بَطْنٌ</span><span class="english">a stomach</span><span class="translit">baṭnun</span><span class="urdu">pet</span></div>
+          <div class="v-card"><span class="ar">أَنْفٌ</span><span class="english">a nose</span><span class="translit">anfun</span><span class="urdu">naak</span></div>
+          <div class="v-card"><span class="ar">فَمٌ</span><span class="english">a mouth</span><span class="translit">famun</span><span class="urdu">moonh</span></div>
+        </div>
+      </section>
+
+      <section>
+        <h3>👨‍👦 People · <span class="urdu" style="font-size:1.1rem;">log</span></h3>
+        <div class="vocab-grid">
+          <div class="v-card"><span class="ar">ابْنٌ</span><span class="english">a son</span><span class="translit">ibnun</span><span class="urdu">ek beta</span></div>
+          <div class="v-card"><span class="ar">إِمَامٌ</span><span class="english">an imam</span><span class="translit">imaamun</span><span class="urdu">ek imam</span></div>
+          <div class="v-card"><span class="ar">صَدِيقٌ</span><span class="english">a friend</span><span class="translit">ṣadeequn</span><span class="urdu">ek dost</span></div>
+          <div class="v-card"><span class="ar">خَالٌ</span><span class="english">maternal uncle</span><span class="translit">khaalun</span><span class="urdu">ek maamoon</span></div>
+        </div>
+      </section>
+
+      <section>
+        <h3>📚 Other · <span class="urdu" style="font-size:1.1rem;">aur</span></h3>
+        <div class="vocab-grid">
+          <div class="v-card"><span class="ar">دَفْتَرٌ</span><span class="english">a notebook</span><span class="translit">daftarun</span><span class="urdu">ek copy</span></div>
+        </div>
+        <p style="margin-top:24px;">Plus the 4 new grammar words:</p>
+        <div class="vocab-grid">
+          <div class="v-card" style="background:#f0fdf4;"><span class="ar">ذَلِكَ</span><span class="english">that (m, far)</span><span class="translit">dhaalika</span><span class="urdu">woh</span></div>
+          <div class="v-card" style="background:#f0fdf4;"><span class="ar">مَا</span><span class="english">what?</span><span class="translit">maa</span><span class="urdu">kya?</span></div>
+          <div class="v-card" style="background:#f0fdf4;"><span class="ar">مَنْ</span><span class="english">who?</span><span class="translit">man</span><span class="urdu">kaun?</span></div>
+        </div>
+        <div class="vocab-grid" style="margin-top:14px; grid-template-columns:1fr;">
+          <div class="v-card" style="background:#f0fdf4;"><span class="ar">أَمْ</span><span class="english">or (in question)</span><span class="translit">am</span><span class="urdu">ya (sawal mein)</span></div>
+        </div>
+      </section>
+    </section>
+
+    <!-- CONNECT TO QURAN -->
+    <section>
+      <section>
+        <h2>📿 Connect to the Qur'an</h2>
+        <p style="font-size:1.4rem;">You can already see Chapter 2 grammar in the Qur'an!</p>
+        <p class="urdu" style="font-size:1.1rem;">Aap Chapter 2 ki grammar Qur'an mein dekh sakte ho!</p>
+      </section>
+
+      <section>
+        <h3>Surah Al-Baqarah 2:2</h3>
+        <p class="ar ar-big" style="line-height:2;"><span style="color:#be123c;">ذَٰلِكَ</span> الْكِتَابُ لَا رَيْبَ فِيهِ</p>
+        <p style="font-size:1.3rem;">"<strong>That</strong> is the Book — there is no doubt in it."</p>
+        <p class="urdu" style="font-size:1.1rem;">"<strong>Woh</strong> kitaab hai — is mein koi shak nahin."</p>
+        <p style="margin-top:18px;">You see <span class="ar" style="font-size:1.5rem; color:#be123c;">ذَلِكَ</span> — the far masculine "that", just learned!</p>
+      </section>
+
+      <section>
+        <h3>Surah Al-Baqarah 2:6</h3>
+        <p class="ar ar-big" style="line-height:2;">سَوَاءٌ عَلَيْهِمْ أَأَنذَرْتَهُمْ <span style="color:#be123c;">أَمْ</span> لَمْ تُنذِرْهُمْ</p>
+        <p style="font-size:1.2rem;">"...the same for them whether you warn them <strong>or</strong> do not warn them."</p>
+        <p class="urdu" style="font-size:1.1rem;">"...un ke liye barabar hai ke aap unhe daraao <strong>ya</strong> na daraao."</p>
+        <p style="margin-top:18px;">You see <span class="ar" style="font-size:1.5rem; color:#be123c;">أَمْ</span> — the "or" in a choice, just learned!</p>
+      </section>
+    </section>
+
+    <!-- RECAP -->
+    <section>
+      <h2>📋 Recap — what we covered</h2>
+      <ol style="font-size:1.1rem; line-height:1.9;">
+        <li><span class="ar">ذَلِكَ</span> = "that" (far, masculine) · <span class="urdu" style="font-size:1rem;">door wali mardaana cheez</span></li>
+        <li><span class="ar">ذ</span> = English "th" in "this" — NOT "z" · <span class="urdu" style="font-size:1rem;">zubaan beech mein</span></li>
+        <li><span class="ar">مَا</span> = "what?" (for things) · <span class="urdu" style="font-size:1rem;">cheez ke liye "kya?"</span></li>
+        <li><span class="ar">مَنْ</span> = "who?" (for people) · <span class="urdu" style="font-size:1rem;">insaan ke liye "kaun?"</span></li>
+        <li><span class="ar">أَمْ</span> = "or" in a question; answer with full sentence · <span class="urdu" style="font-size:1rem;">choice wala sawal, poora jawab</span></li>
+        <li>16 new vocabulary words · <span class="urdu" style="font-size:1rem;">16 naye lafz</span></li>
+      </ol>
+    </section>
+
+    <!-- HOMEWORK -->
+    <section>
+      <h2>🏠 Homework</h2>
+      <ol style="font-size:1.2rem; line-height:1.9;">
+        <li>Memorise all 16 new vocab words · <span class="urdu" style="font-size:1rem;">16 naye lafz yaad karo</span></li>
+        <li>Say <em>dhaalika</em> aloud 20 times — tongue between teeth · <span class="urdu" style="font-size:1rem;">20 baar "dhaalika" — zubaan daaton ke beech</span></li>
+        <li>Complete the 5 exercises on your handout · <span class="urdu" style="font-size:1rem;">handout ke 5 exercises mukammal karo</span></li>
+        <li>5 things + 3 people at home — write Q&A using <span class="ar">مَا</span> or <span class="ar">مَنْ</span> · <span class="urdu" style="font-size:1rem;">ghar mein 5 cheezein + 3 log — sawal-jawab likho</span></li>
+        <li>Re-read Chapter 1 vocab · <span class="urdu" style="font-size:1rem;">Ch 1 ke lafz phir dohrao</span></li>
+      </ol>
+    </section>
+
+    <!-- CLOSING -->
+    <section class="cover">
+      <div class="ar ar-huge">جَزَاكُمُ اللهُ خَيْرًا</div>
+      <p style="font-size:1.5rem; margin-top:20px;">May Allah reward you with goodness</p>
+      <p class="urdu" style="font-size:1.3rem;">Allah aap ko bhalaai ka badla de</p>
+      <p style="font-size:1.2rem; margin-top:25px; opacity:.9;">See you in Chapter 3 — prepositions, <span class="ar" style="color:#fff;">أَيْنَ</span> (where?), and feminine <span class="ar" style="color:#fff;">هَذِهِ</span>!<br><span class="urdu" style="font-size:1rem;">Agle chapter mein prepositions, "kahan?", aur feminine "yeh"</span></p>
+    </section>
+
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+<script>
+Reveal.initialize({
+  hash:true,
+  controls:true,
+  progress:true,
+  center:true,
+  transition:'slide',
+  slideNumber:'c/t'
+});
+</script>
+
+</body>
+</html>

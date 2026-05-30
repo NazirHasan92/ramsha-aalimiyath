@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zad ut-Taalibeen · Chapter 3 · Slides</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/white.css">
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Scheherazade+New:wght@400;700&family=Noto+Nastaliq+Urdu:wght@400;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+  .reveal { font-family:'Inter',sans-serif; }
+  .reveal h1, .reveal h2, .reveal h3 { color:#14532d; font-weight:700; }
+  .reveal .ar {
+    font-family:'Scheherazade New','Amiri',serif;
+    direction:rtl;
+    color:#14532d;
+    font-weight:700;
+  }
+  .reveal .ar-huge { font-size:3rem; line-height:1.6; }
+  .reveal .ar-big { font-size:2.1rem; line-height:1.7; }
+  .reveal .ar-mid { font-size:1.7rem; line-height:1.7; }
+  .reveal .translit { color:#9a3412; font-style:italic; font-size:1.05rem; }
+  .reveal .english { color:#1f2937; font-size:1.3rem; }
+  .reveal .urdu { color:#374151; font-style:italic; font-size:1.15rem; }
+  .reveal .source-pill {
+    display:inline-block;
+    margin-top:14px;
+    padding:5px 14px;
+    background:#14532d;
+    color:#fff;
+    border-radius:14px;
+    font-size:.85rem;
+    font-weight:600;
+    letter-spacing:.02em;
+  }
+  .reveal .cover {
+    background:linear-gradient(135deg, #14532d 0%, #0e7490 100%);
+    color:#fff !important;
+    padding:60px 40px;
+    border-radius:14px;
+  }
+  .reveal .cover h1, .reveal .cover .ar { color:#fff; }
+  .reveal .cover .urdu { color:#e0f2fe; }
+  .reveal .theme-banner {
+    background:#0e7490;
+    color:#fff;
+    padding:8px 18px;
+    border-radius:20px;
+    display:inline-block;
+    font-size:1rem;
+    font-weight:600;
+    letter-spacing:.05em;
+    margin-bottom:18px;
+  }
+  .reveal .key-box {
+    background:#f0fdf4;
+    border:2px solid #14532d;
+    border-radius:12px;
+    padding:18px 24px;
+    margin:18px auto;
+    max-width:85%;
+  }
+  .reveal .warn-box {
+    background:#fef2f2;
+    border-left:5px solid #dc2626;
+    padding:12px 18px;
+    border-radius:0 8px 8px 0;
+    margin:14px 0;
+    text-align:left;
+  }
+  .reveal .pill {
+    display:inline-block;
+    padding:6px 14px;
+    border-radius:18px;
+    margin:0 4px;
+    font-weight:600;
+    font-size:1rem;
+  }
+  .reveal .pill-believer{ background:#cffafe; color:#0c4a6e; }
+  .reveal .pill-fajir{ background:#fee2e2; color:#991b1b; }
+  .reveal .arrow { font-size:2rem; vertical-align:middle; color:#14532d; }
+  .reveal table { margin:0 auto; font-size:1.1rem; }
+  .reveal table th, .reveal table td { padding:8px 14px; vertical-align:middle; }
+  .reveal table th { background:#14532d; color:#fff; font-size:.9rem; }
+  .reveal .three-cols {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:14px;
+    margin:14px 0;
+  }
+  .reveal .three-cols .col {
+    background:#f9fafb;
+    border:2px solid #14532d;
+    border-radius:10px;
+    padding:14px;
+  }
+  .reveal .three-cols .col h4 { color:#14532d; margin:0 0 6px; }
+  .reveal .four-cols {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    gap:10px;
+    margin:14px 0;
+  }
+  .reveal .four-cols .col {
+    background:#f9fafb;
+    border:2px solid #14532d;
+    border-radius:10px;
+    padding:10px;
+    font-size:.9rem;
+  }
+  .reveal .four-cols .col h4 { color:#14532d; margin:0 0 4px; font-size:.95rem; }
+</style>
+</head>
+<body>
+<div class="reveal">
+  <div class="slides">
+
+    <!-- COVER -->
+    <section class="cover">
+      <div class="ar ar-huge">زَادُ الطَّالِبِيْنَ</div>
+      <h1 style="font-size:2rem; margin-top:20px;">Provisions for the Seekers</h1>
+      <p style="font-size:1.2rem; opacity:.95;">Chapter 3 — Aḥādīth 21 to 30</p>
+      <p class="urdu" style="font-size:1.1rem;">Aql · meeljol · tijaarat · jaal — char rukhon wala momin</p>
+      <p style="font-size:.95rem; opacity:.85; margin-top:30px;">Press → to begin · Press F for fullscreen</p>
+    </section>
+
+    <!-- OBJECTIVES -->
+    <section>
+      <h2>What we'll cover today</h2>
+      <p style="font-size:1.3rem;">10 short aḥādīth — falling into 4 themes:</p>
+      <div class="four-cols" style="margin-top:24px;">
+        <div class="col">
+          <h4>Theme 1</h4>
+          <p style="margin:0;"><strong>Intelligent believer</strong></p>
+          <p style="font-size:.85rem; margin:6px 0 0;">Aḥādīth 21, 22, 29</p>
+        </div>
+        <div class="col">
+          <h4>Theme 2</h4>
+          <p style="margin:0;"><strong>Social presence</strong></p>
+          <p style="font-size:.85rem; margin:6px 0 0;">Aḥādīth 23, 30</p>
+        </div>
+        <div class="col">
+          <h4>Theme 3</h4>
+          <p style="margin:0;"><strong>Trade & truthfulness</strong></p>
+          <p style="font-size:.85rem; margin:6px 0 0;">Aḥādīth 25, 26</p>
+        </div>
+        <div class="col">
+          <h4>Theme 4</h4>
+          <p style="margin:0;"><strong>Spiritual traps</strong></p>
+          <p style="font-size:.85rem; margin:6px 0 0;">Aḥādīth 24, 27, 28</p>
+        </div>
+      </div>
+      <p style="margin-top:30px; font-size:1.1rem;">Inner intelligence → outer warmth → market integrity → vigilance against traps.<br><span class="urdu">Char rukh — ek awakened momin ki tasveer.</span></p>
+    </section>
+
+    <!-- ============ THEME 1 BANNER ============ -->
+    <section>
+      <span class="theme-banner">THEME 1</span>
+      <h1>The intelligent believer</h1>
+      <p style="font-size:1.3rem;">Aḥādīth 21, 22, 29 — measured spending, self-mastery, character.</p>
+      <p class="urdu" style="font-size:1.1rem;">Aqlmandi · nafs ka qaaboo · husn-e-khulq.</p>
+    </section>
+
+    <!-- ============ ḤADĪTH 21 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 21</h3>
+        <div class="ar ar-big">الاقْتِصَادُ فِي الْمَعِيشَةِ نِصْفُ الْمَعِيشَةِ</div>
+        <p class="translit" style="font-size:1.1rem;">al-iqtiṣād fī'l-maʿīsha niṣf al-maʿīsha · al-tawaddud ilā al-nās niṣf al-ʿaql · ḥusn al-suʾāl niṣf al-ʿilm</p>
+        <p class="english" style="margin-top:16px;">"Moderation in spending = half of provision. Friendliness toward people = half of intelligence. Asking well = half of knowledge."</p>
+        <p class="urdu">"Mizaan se kharch = rizq ka aadha. Logon se ghul-mil = aql ka aadha. Acha sawaal = ilm ka aadha."</p>
+        <span class="source-pill">Bayhaqī · Shuʿab al-Īmān</span>
+      </section>
+
+      <section>
+        <h3>"Half" is idiomatic</h3>
+        <div class="warn-box">
+          <p><strong>Don't ask "what's the other half?"</strong> — wrong question.</p>
+        </div>
+        <p style="font-size:1.2rem; margin-top:20px;"><em>Niṣf</em> in Arabic = "the decisive portion, the bulk of it".</p>
+        <p style="font-size:1.2rem;">Three habits — each accounts for the bulk of its domain.</p>
+        <p class="urdu" style="font-size:1.05rem;">"Niṣf" yahaan literal nahin — Arabic ka mohaawra. Matlab: "sabse bara hissa". Teen adatein — har ek apne shoʿbay ki jaan.</p>
+      </section>
+
+      <section>
+        <h3>Three habits, three domains</h3>
+        <div class="three-cols">
+          <div class="col">
+            <h4>Iqtiṣād</h4>
+            <p style="font-size:.95rem;">Moderation in spending</p>
+            <p style="font-size:.85rem;"><em>Neither extravagant nor stingy</em></p>
+            <p class="urdu" style="font-size:.9rem;">Mizaan se kharch</p>
+          </div>
+          <div class="col">
+            <h4>Tawaddud</h4>
+            <p style="font-size:.95rem;">Active warmth toward people</p>
+            <p style="font-size:.85rem;"><em>Access to others' minds</em></p>
+            <p class="urdu" style="font-size:.9rem;">Logon se ghul-mil ke rehna</p>
+          </div>
+          <div class="col">
+            <h4>Ḥusn al-suʾāl</h4>
+            <p style="font-size:.95rem;">Asking well, not just asking</p>
+            <p style="font-size:.85rem;"><em>Question contains half the answer</em></p>
+            <p class="urdu" style="font-size:.9rem;">Sawaal banaana</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h3>Qurʾān 25:67 — the spending verse</h3>
+        <div class="ar ar-mid" style="margin:18px 0;">وَالَّذِيْنَ إِذَا أَنْفَقُوْا لَمْ يُسْرِفُوْا وَلَمْ يَقْتُرُوْا وَكَانَ بَيْنَ ذَٰلِكَ قَوَامًا</div>
+        <p class="english"><em>"Those who, when they spend, are neither extravagant nor stingy, but hold a just balance between the two."</em></p>
+        <p style="font-size:1.05rem; margin-top:14px; color:#14532d;">The Qurʾān's <em>qawām</em> = the ḥadīth's <em>iqtiṣād</em>. Both describe the <em>ʿibād al-Raḥmān</em>.</p>
+        <p class="urdu" style="font-size:1rem;">Quran khud bata raha hai — *israaf* aur *bukhl* dono se bachke darmiyaan rakho. Yeh ḥadīth uska practical form hai.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 22 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 22</h3>
+        <div class="ar ar-mid">الْكَيِّسُ مَنْ دَانَ نَفْسَهُ وَعَمِلَ لِمَا بَعْدَ الْمَوْتِ</div>
+        <p class="translit" style="font-size:1rem;">al-kayyisu man dāna nafsahu wa ʿamila li-mā baʿda al-mawt</p>
+        <p class="english" style="margin-top:14px;">"The intelligent one has subdued his nafs and worked for what comes after death."</p>
+        <p class="urdu">"Aqlmand woh jisne apne nafs ko qaaboo kiya aur Akhirah ke liye kaam kiya."</p>
+        <span class="source-pill">Tirmidhī, Ibn Mājah</span>
+      </section>
+
+      <section>
+        <h3>Two redefinitions</h3>
+        <table>
+          <tr>
+            <td style="background:#f0fdf4; padding:16px; border:2px solid #14532d; vertical-align:top;">
+              <h4 style="color:#14532d; margin:0;">KAYYIS (intelligent)</h4>
+              <p style="font-size:1rem; margin:8px 0 0;">1. Subdued his nafs</p>
+              <p style="font-size:1rem;">2. Works for after-death</p>
+              <p class="urdu" style="font-size:.95rem; margin-top:8px;">Nafs ka maalik · Akhirah ki taraf rukh</p>
+            </td>
+            <td style="background:#fef2f2; padding:16px; border:2px solid #dc2626; vertical-align:top;">
+              <h4 style="color:#991b1b; margin:0;">ʿĀJIZ (foolish)</h4>
+              <p style="font-size:1rem; margin:8px 0 0;">1. Followed his nafs</p>
+              <p style="font-size:1rem;">2. <em>Tamannā ʿalā Allāh</em></p>
+              <p class="urdu" style="font-size:.95rem; margin-top:8px;">Nafs ka naukar · Khaali ummeed bina amal</p>
+            </td>
+          </tr>
+        </table>
+        <p style="margin-top:18px; font-size:1.1rem;">Same words ("intelligent" / "foolish") — but redefined along a completely different axis.</p>
+      </section>
+
+      <section>
+        <h3>The <em>tamannā</em> trap</h3>
+        <p style="font-size:1.2rem;">"Allah is Most Merciful — He'll forgive."</p>
+        <div class="warn-box">
+          <p>True. <strong>But quoting it to license sin = misuse.</strong> The Qurʾān always pairs mercy with warning.</p>
+        </div>
+        <div class="key-box">
+          <p class="ar ar-mid" style="margin:0;">نَبِّئْ عِبَادِيْ أَنِّيْ أَنَا الْغَفُوْرُ الرَّحِيْمُ ۝ وَأَنَّ عَذَابِيْ هُوَ الْعَذَابُ الأَلِيْمُ</p>
+          <p style="margin:10px 0 0; font-style:italic;"><em>"I am the Oft-Forgiving, the Most Merciful — AND My chastisement is the most grievous."</em> (15:49–50)</p>
+        </div>
+        <p class="urdu" style="font-size:1rem;">Quran rehmat aur azab ek saath laata hai. Sirf rehmat ka hawala — yeh "ʿajiz" ka rasta hai.</p>
+      </section>
+
+      <section>
+        <h3>The nafs — horse and child</h3>
+        <p style="font-size:1.05rem;">From <em>Qaṣīdat al-Burda</em>:</p>
+        <div class="key-box" style="text-align:left;">
+          <p style="margin:0; font-style:italic; font-size:1.05rem;">"The self is like a child — left alone, it grows up loving suckling. Weaned, it is weaned. Keep its desires in check; beware lest it overpower you — for lust, when it overpowers, humiliates or destroys."</p>
+        </div>
+        <p style="font-size:1.1rem; margin-top:14px;">Parental discipline — not cruelty. <em>Dāna</em> = "trained the nafs", not "destroyed it".</p>
+        <p class="urdu" style="font-size:1rem;">Nafs *bachcha* hai — discipline chahiye, na ke azaab. Parental sakhti, mohabbat ke saath.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 29 (placed in Theme 1 for narrative flow) ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 29</h3>
+        <div class="ar ar-mid">الْبِرُّ حُسْنُ الْخُلُقِ</div>
+        <p class="translit" style="font-size:1.1rem;">al-birru ḥusnu al-khuluq</p>
+        <p class="english" style="margin-top:14px;">"Righteousness IS good character."</p>
+        <p class="urdu">"Naik amal acha akhlaq hai."</p>
+        <span class="source-pill">Muslim, Tirmidhī</span>
+      </section>
+
+      <section>
+        <h3>The strongest equation in Arabic</h3>
+        <div class="key-box">
+          <p style="margin:0; font-size:1.2rem;"><span class="ar">الْبِرّ = حُسْن الْخُلُق</span></p>
+          <p style="margin:10px 0 0; font-size:1.1rem;">Not "good character is <em>part of</em> birr."</p>
+          <p style="margin:6px 0 0; font-size:1.1rem;"><strong>Birr IS good character.</strong></p>
+        </div>
+        <p style="font-size:1.1rem; margin-top:18px;">A person can fast, pray, perform ḥajj — and <strong>still</strong> be harsh, gossipy, cruel. Years of ʿibādah that don't soften the character — haven't done their job.</p>
+        <p class="urdu" style="font-size:1rem;">Banda saari ʿibādat kare — magar bad-mizaaj rahe — to ʿibādat ka asar nahin pohncha. Birr matlab husn al-khuluq — yeh sakht aur saaf equation hai.</p>
+      </section>
+
+      <section>
+        <h3>Sin has two markers</h3>
+        <p style="font-size:1.1rem;">For grey areas (where fiqh isn't clear):</p>
+        <table>
+          <tr>
+            <td style="background:#fffbeb; padding:14px;">
+              <h4 style="color:#92400e; margin:0;">ḤĀKA · حَاكَ</h4>
+              <p style="margin:6px 0 0;">"Snags in your chest" — conscience-flutter</p>
+              <p class="urdu" style="font-size:.95rem;">Seene mein chubhna</p>
+            </td>
+            <td style="background:#fffbeb; padding:14px;">
+              <h4 style="color:#92400e; margin:0;">KARIHTA · كَرِهْت</h4>
+              <p style="margin:6px 0 0;">"You'd dislike others knowing" — privacy test</p>
+              <p class="urdu" style="font-size:.95rem;">Sharm aaye agar log jaan jaayein</p>
+            </td>
+          </tr>
+        </table>
+      </section>
+
+      <section>
+        <h3 style="color:#991b1b;">⚠️ Two important caveats</h3>
+        <div class="warn-box">
+          <p><strong>1. Only for grey areas.</strong> If fiqh has clearly ruled — the ruling settles it. Don't wait for your chest to sting.</p>
+          <p style="margin-top:10px;"><strong>2. Only for a heart on <em>fiṭra</em>.</strong> Years of sin numb the chest. The instrument has to be working before you can trust it.</p>
+        </div>
+        <p style="margin-top:14px; font-size:1.05rem;">Don't use "my chest doesn't sting" as a license.</p>
+        <p class="urdu" style="font-size:1rem;">"Mere dil ko chubhan nahin hoti" = excuse nahin. Hosakta hai zameer numb ho gaya ho. Aur fiqh ki ruling saaf ho to ruling kafi hai.</p>
+      </section>
+    </section>
+
+    <!-- ============ THEME 2 BANNER ============ -->
+    <section>
+      <span class="theme-banner">THEME 2</span>
+      <h1>Social presence</h1>
+      <p style="font-size:1.3rem;">Aḥādīth 23, 30 — the relational arc, opens and closes the chapter.</p>
+      <p class="urdu" style="font-size:1.1rem;">Logon se mohabbat · logon ke kaam aana.</p>
+    </section>
+
+    <!-- ============ ḤADĪTH 23 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 23</h3>
+        <div class="ar ar-big">الْمُؤْمِنُ يَأْلَفُ وَيُؤْلَفُ</div>
+        <p class="translit" style="font-size:1.2rem;">al-muʾminu yaʾlafu wa-yuʾlafu</p>
+        <p class="english" style="margin-top:18px;">"The believer is sociable [with others] and is met sociably [by them]."</p>
+        <p class="urdu">"Momin logon se ghul mil jaata hai aur log uss se ghul-mil ke rehte hain."</p>
+        <span class="source-pill">Mustadrak, Bayhaqī</span>
+      </section>
+
+      <section>
+        <h3>Two-way warmth</h3>
+        <table>
+          <tr>
+            <td style="background:#f0fdf4; padding:16px; border:2px solid #14532d;">
+              <h4 style="color:#14532d; margin:0;">YAʾLAFU (active)</h4>
+              <p style="font-size:1rem; margin:8px 0 0;">HE goes toward others.</p>
+              <p style="font-size:.95rem;">Greets · visits · helps</p>
+              <p class="urdu" style="font-size:.95rem;">Khud pohnchta hai</p>
+            </td>
+            <td style="background:#f0fdf4; padding:16px; border:2px solid #14532d;">
+              <h4 style="color:#14532d; margin:0;">YUʾLAFU (passive)</h4>
+              <p style="font-size:1rem; margin:8px 0 0;">OTHERS feel at ease with him.</p>
+              <p style="font-size:.95rem;">Seek him · trust him · return</p>
+              <p class="urdu" style="font-size:.95rem;">Log uske paas aate hain</p>
+            </td>
+          </tr>
+        </table>
+        <p style="margin-top:18px; font-size:1.05rem;">Both directions, both from root <em>alifa</em>. And <strong>"no good"</strong> (<em>lā khayra</em>) in the one who has neither.</p>
+      </section>
+
+      <section>
+        <h3 style="color:#0e7490;">"But I'm an introvert!"</h3>
+        <div class="warn-box">
+          <p><strong>The ḥadīth doesn't condemn introverts.</strong></p>
+          <p style="margin-top:10px;">It condemns <em>coldness of heart</em> — arrogance, looking down on people, making others feel unwelcome.</p>
+        </div>
+        <p style="margin-top:16px; font-size:1.1rem;">Quiet + warm = <em>yuʾlafu</em> fulfilled.<br>Reserved + reliable = <em>yaʾlafu</em> fulfilled.</p>
+        <p class="urdu" style="font-size:1.05rem;">Chup-chup rehne wali ho? Theek hai. Magar dil thanda na ho. Jab mile, garmi se mile. Kabhi-kabhi pohncho. Yeh kafi hai.</p>
+      </section>
+
+      <section>
+        <h3>The Qurʾān on <em>ulfa</em> · 3:103</h3>
+        <div class="ar ar-mid" style="margin:18px 0;">فَأَلَّفَ بَيْنَ قُلُوْبِكُمْ فَأَصْبَحْتُمْ بِنِعْمَتِهِ إِخْوَانًا</div>
+        <p class="english"><em>"He brought your hearts together — so by His grace you became brothers."</em></p>
+        <p style="margin-top:14px; font-size:1.05rem;">The verb <em>allafa</em> is the <strong>same root</strong> as <em>yaʾlafu / yuʾlafu</em>.</p>
+        <p style="font-size:1.05rem; color:#14532d;"><strong>The Qurʾān frames <em>ulfa</em> as a divine gift. The ḥadīth makes it a baseline expectation.</strong></p>
+      </section>
+
+      <section>
+        <h3>Warmth is contagious</h3>
+        <div class="key-box">
+          <p style="margin:0; font-size:1.15rem;">Whatever you bring into a room — the room returns to the next person.</p>
+          <p style="margin:10px 0 0; font-size:1.15rem;">Cold spreads. Warm spreads.</p>
+          <p style="margin:10px 0 0; font-size:1.15rem; color:#14532d;"><strong>Your job in every room: raise the temperature of warmth.</strong></p>
+        </div>
+        <p style="font-size:1.05rem; margin-top:18px;">This is <em>daʿwa</em> before a single word is spoken.</p>
+        <p class="urdu" style="font-size:1rem;">Tumhari garmi infectious hai. Har jagah jahaan tum jaati ho, ulfa ka temperature thoda barhao — yeh hi daʿwa hai.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 30 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 30</h3>
+        <div class="ar ar-mid">الْخَلْقُ كُلُّهُمْ عِيَالُ اللَّهِ، وَأَحَبُّهُمْ إِلَى اللَّهِ أَنْفَعُهُمْ لِعِيَالِهِ</div>
+        <p class="translit" style="font-size:1rem;">al-khalqu kulluhum ʿiyālu Allāh · wa-aḥabbuhum ilā Allāhi anfaʿuhum li-ʿiyālihi</p>
+        <p class="english" style="margin-top:14px;">"All creation is Allah's family; the most beloved is the one most useful to His family."</p>
+        <p class="urdu">"Saari makhlooq Allah ka kunba hai; sab se zyada mahboob woh hai jo uss kunbe ke kaam aaye."</p>
+        <span class="source-pill">Bayhaqī</span>
+      </section>
+
+      <section>
+        <h3><em>ʿIyāl</em> — the family metaphor</h3>
+        <p style="font-size:1.15rem;"><em>ʿIyāl</em> = <strong>family members one carries</strong> — wife, children, parents.</p>
+        <p style="font-size:1.15rem;">Not abstract "subjects". <strong>People whose welfare you hold.</strong></p>
+        <div class="key-box">
+          <p style="margin:0; font-size:1.1rem;">The Prophet ﷺ uses this word for <strong>ALL of creation</strong> in relation to Allah —</p>
+          <p style="margin:10px 0 0; font-size:1.05rem;">every human, every animal, every tree, every fish — <em>ʿiyāl Allāh</em>.</p>
+        </div>
+        <p class="urdu" style="font-size:1.05rem; margin-top:14px;">Yeh Allah ki softest tasveer hai — door wala Maalik nahin, sab ko kunbe mein samete hue Rabb.</p>
+      </section>
+
+      <section>
+        <h3>The radical reroute</h3>
+        <p style="font-size:1.2rem;">Allah's MOST beloved isn't:</p>
+        <ul style="font-size:1.1rem; line-height:1.9; text-align:left; max-width:75%; margin:0 auto;">
+          <li>the most knowledgeable</li>
+          <li>the most worshipping</li>
+          <li>the most ascetic</li>
+        </ul>
+        <div class="key-box" style="margin-top:18px;">
+          <p style="margin:0; font-size:1.2rem; color:#14532d;"><strong>It is the most USEFUL to His creation.</strong></p>
+        </div>
+        <p class="urdu" style="font-size:1.05rem; margin-top:14px;">Bohot log socht hain Allah ki mohabbat zyada rakaʿton se milti hai. Hadith batati hai — logon ke kaam aana sabse bara rasta hai.</p>
+      </section>
+
+      <section>
+        <h3>What "useful" looks like</h3>
+        <p style="font-size:1.05rem;">Not big charity drives. <strong>Continuous small kindness, when no one is watching:</strong></p>
+        <ul style="font-size:1.05rem; line-height:1.9; text-align:left; max-width:80%; margin:0 auto;">
+          <li>Helping your mother in the kitchen</li>
+          <li>Listening — really listening — to a stressed friend</li>
+          <li>Checking on an elderly neighbour</li>
+          <li>Reassuring a child</li>
+          <li>A kind word to someone who looks lost</li>
+          <li>A glass of water for a thirsty cat</li>
+        </ul>
+        <p class="urdu" style="font-size:1rem; margin-top:14px;">Maa ka haath bantana, pareshan saheli ko sun-na, hamsaaye ko poochna — yeh sab is hadith mein hai.</p>
+      </section>
+
+      <section>
+        <h3>The chapter's arc — opens and closes here</h3>
+        <table style="font-size:1rem;">
+          <tr>
+            <td style="background:#f9fafb; padding:14px;">
+              <h4 style="color:#14532d; margin:0;">OPENS · #21</h4>
+              <p style="margin:6px 0 0;"><em>Tawaddud</em> = half of intelligence</p>
+            </td>
+            <td style="background:#f9fafb; padding:14px;">
+              <h4 style="color:#14532d; margin:0;">DEEPENS · #23</h4>
+              <p style="margin:6px 0 0;">Sociability = sign of īmān</p>
+            </td>
+            <td style="background:#f0fdf4; padding:14px; border:2px solid #14532d;">
+              <h4 style="color:#14532d; margin:0;">CLOSES · #30</h4>
+              <p style="margin:6px 0 0;">Most-useful = most-beloved</p>
+            </td>
+          </tr>
+        </table>
+        <p style="font-size:1.05rem; margin-top:18px; color:#14532d;"><strong>The chapter slowly deepens what it means to be relationally alive.</strong></p>
+        <p class="urdu" style="font-size:1rem;">Yeh chapter relational maturity ki seedhi hai — *garmi se milna* se *log ke kaam aana* tak.</p>
+      </section>
+    </section>
+
+    <!-- ============ THEME 3 BANNER ============ -->
+    <section>
+      <span class="theme-banner">THEME 3</span>
+      <h1>Trade & truthfulness</h1>
+      <p style="font-size:1.3rem;">Aḥādīth 25, 26 — a pair: the warning and the promise.</p>
+      <p class="urdu" style="font-size:1.1rem;">Tijaarat ki dhamki · sachhe taajir ki khushkhabri.</p>
+    </section>
+
+    <!-- ============ ḤADĪTH 25 + 26 paired ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 25 — the warning</h3>
+        <div class="ar ar-mid">إِنَّ التُّجَّارَ يُبْعَثُونَ يَوْمَ الْقِيَامَةِ فُجَّارًا، إِلا مَنِ اتَّقَى اللَّهَ وَبَرَّ وَصَدَقَ</div>
+        <p class="english" style="margin-top:14px;">"Traders will be raised on the Day of Judgement as transgressors — except those who feared Allah, were righteous, and spoke the truth."</p>
+        <p class="urdu">"Taajir Qiyamat ke din fujjar bana ke uthaye jaayenge — siwaay un ke jinhone Allah se daraa, ihsaan kiya aur sach bola."</p>
+        <span class="source-pill">Tirmidhī, Ibn Mājah, Dārimī</span>
+      </section>
+
+      <section>
+        <h3>Why such a sweeping warning?</h3>
+        <p style="font-size:1.15rem;">Trade's <strong>pressure-field</strong> pushes toward small dishonesties:</p>
+        <ul style="font-size:1.05rem; line-height:1.9; text-align:left; max-width:80%; margin:0 auto;">
+          <li>Exaggeration in marketing</li>
+          <li>Concealing defects</li>
+          <li>False oaths to close a sale</li>
+          <li>Breaking agreements</li>
+        </ul>
+        <p style="font-size:1.1rem; margin-top:18px;">Without active <em>taqwā</em>, even a sincere person drifts.</p>
+        <p style="font-size:1.05rem; color:#14532d;"><strong>The Prophet ﷺ isn't condemning trade — he's naming its pressure.</strong></p>
+        <p class="urdu" style="font-size:1rem;">Tijaarat halaal hai — magar uska maahaul khud pressure laata hai. Bina taqwa ke yeh pressure kheech leta hai.</p>
+      </section>
+
+      <section>
+        <h3>The three escape-conditions — targeted counters</h3>
+        <table>
+          <tr>
+            <th>Condition</th>
+            <th>What it counters</th>
+          </tr>
+          <tr>
+            <td><strong>Ittaqā Allāh</strong> — feared Allah</td>
+            <td>"No one is watching"</td>
+          </tr>
+          <tr>
+            <td><strong>Barra</strong> — was kind/righteous</td>
+            <td>Cutting corners on quality</td>
+          </tr>
+          <tr>
+            <td><strong>Ṣadaqa</strong> — spoke the truth</td>
+            <td>The temptation to deceive</td>
+          </tr>
+        </table>
+        <p style="font-size:1.05rem; margin-top:14px;">Not a random list of virtues. Exact counters to the exact temptations.</p>
+        <p class="urdu" style="font-size:1rem;">Teen shartein, teen pressures ke counter — random nahin, targeted.</p>
+      </section>
+
+      <section>
+        <h3>Ḥadīth 26 — the promise</h3>
+        <div class="ar ar-mid">التَّاجِرُ الصَّدُوقُ الأَمِينُ مَعَ النَّبِيِّيْنَ وَالصِّدِّيْقِيْنَ وَالشُّهَدَاءِ</div>
+        <p class="english" style="margin-top:14px;">"The truthful and trustworthy trader will be in the company of the prophets, the very truthful, and the martyrs."</p>
+        <p class="urdu">"Sachha aur amaanat-daar taajir anbiya, siddiqeen aur shuhada ke saath hoga."</p>
+        <span class="source-pill">Tirmidhī, Dārimī, Dāraquṭnī</span>
+      </section>
+
+      <section>
+        <h3>The hidden Prophetic echo</h3>
+        <div class="key-box">
+          <p style="margin:0; font-size:1.15rem;"><em>al-Ṣādiq · al-Amīn</em></p>
+          <p style="margin:10px 0 0; font-size:1.05rem;">These were the Quraysh's two titles for the Prophet ﷺ <strong>before</strong> prophethood —</p>
+          <p style="margin:10px 0 0; font-size:1.05rem;">when he was himself a trader in Khadīja's caravans.</p>
+        </div>
+        <p style="font-size:1.1rem; margin-top:18px; color:#14532d;">The ḥadīth says: <em>"Carry his pre-prophetic character — share his company."</em></p>
+        <p class="urdu" style="font-size:1rem;">*Sadiq* aur *Amīn* — yeh wahi do alqab the jo Quraysh Rasool ﷺ ko nubuwwat se pehle dete the. Subtle, magar zabardast taʿalluq.</p>
+      </section>
+
+      <section>
+        <h3>The promotion in scale</h3>
+        <p style="font-size:1.2rem; text-align:center;">FROM <span class="pill pill-fajir">fujjār</span> TO <span class="pill pill-believer">company of prophets</span></p>
+        <p style="font-size:1.05rem; margin-top:18px;">One of the largest single moral promotions in the entire ḥadīth corpus.</p>
+        <p style="font-size:1.05rem;">Basis: <strong>two qualities</strong> — <em>ṣidq</em> + <em>amāna</em>.</p>
+        <div class="key-box">
+          <p style="margin:0; font-size:1.05rem;">Rank in dīn isn't only for scholars or martyrs. The honest shopkeeper, the truthful online seller, the trustworthy contractor — <strong>same ranks, through their transactions</strong>.</p>
+        </div>
+        <p class="urdu" style="font-size:1rem;">Anbiya ki sangat sirf ulama ke liye nahin. Sachha taajir bhi wahi maqaam paa sakta hai — apne lain-deen ke zariye.</p>
+      </section>
+    </section>
+
+    <!-- ============ THEME 4 BANNER ============ -->
+    <section>
+      <span class="theme-banner">THEME 4</span>
+      <h1>Spiritual traps</h1>
+      <p style="font-size:1.3rem;">Aḥādīth 24, 27, 28 — silent corroders that pull the portrait off.</p>
+      <p class="urdu" style="font-size:1.1rem;">Khamoshi se dil bigaadne wali cheezein.</p>
+    </section>
+
+    <!-- ============ ḤADĪTH 24 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 24</h3>
+        <div class="ar ar-mid">الْغِنَاءُ يُنْبِتُ النِّفَاقَ فِي الْقَلْبِ كَمَا يُنْبِتُ الْمَاءُ الزَّرْعَ</div>
+        <p class="translit" style="font-size:1.1rem;">al-ghināʾu yunbitu al-nifāqa fī'l-qalbi kamā yunbitu al-māʾu al-zarʿ</p>
+        <p class="english" style="margin-top:14px;">"Songs grow hypocrisy in the heart just as water grows crops."</p>
+        <p class="urdu">"Gaane dil mein nifaaq ko ugaate hain, jaise paani fasal ko ugaata hai."</p>
+        <span class="source-pill">Bayhaqī · Shuʿab al-Īmān</span>
+      </section>
+
+      <section>
+        <h3>The plant metaphor</h3>
+        <p style="font-size:1.15rem;">Water doesn't <em>force</em> growth — it provides the <strong>medium</strong> for whatever seed is there.</p>
+        <p style="font-size:1.15rem;">Songs don't <em>make</em> nifāq from nothing — they <strong>water seeds already in the heart</strong>.</p>
+        <div class="key-box">
+          <p style="margin:0; font-size:1.05rem;">The seeds = small inconsistencies between belief and feeling.<br>The water = repeated immersion in songs.<br>The crop = a growing gap between profession and actuality.</p>
+        </div>
+        <p class="urdu" style="font-size:1rem;">Paani plant nahin banaata — medium deta hai. Gaane *paani* hain. Tumhare dil mein jo seeds hain — woh paani milne se barhte hain.</p>
+      </section>
+
+      <section>
+        <h3>Which "nifāq"?</h3>
+        <table>
+          <tr>
+            <td style="background:#fef2f2; padding:14px; border:2px solid #dc2626;">
+              <h4 style="color:#991b1b; margin:0;">NOT this</h4>
+              <p style="margin:6px 0 0; font-size:.95rem;">Iʿtiqādī nifāq — the kufr-level hypocrisy of the Madinan munāfiqūn.</p>
+            </td>
+            <td style="background:#f0fdf4; padding:14px; border:2px solid #14532d;">
+              <h4 style="color:#14532d; margin:0;">THIS one</h4>
+              <p style="margin:6px 0 0; font-size:.95rem;"><em>ʿAmali nifāq</em> — the gap between what one professes and how one feels and acts.</p>
+            </td>
+          </tr>
+        </table>
+        <p style="margin-top:18px; font-size:1.05rem;">Songs widen this gap. Over years, the gap is a real spiritual problem — even for a praying, fasting Muslim.</p>
+        <p class="urdu" style="font-size:1rem;">Yahaan kafir wala nifaaq nahin — amal aur dil ke beech ka farq. Yeh gap chup-chup barhta hai.</p>
+      </section>
+
+      <section>
+        <h3>Why songs specifically?</h3>
+        <div class="key-box">
+          <p style="margin:0; font-size:1.1rem;">Songs <strong>bypass the ʿaql</strong> — the rational filter.</p>
+          <p style="margin:10px 0 0; font-size:1.1rem;">They act directly on the <em>qalb</em> and the desires.</p>
+          <p style="margin:10px 0 0; font-size:1.05rem;">Film teaches with words. <strong>Song teaches with feeling.</strong></p>
+          <p style="margin:10px 0 0; font-size:1.05rem;">Feeling, repeated, becomes belief — without notice.</p>
+        </div>
+        <p class="urdu" style="font-size:1.05rem; margin-top:18px;">Gaane ʿaql ka filter skip karte hain — seedhe dil pe asar. Feel bar bar mile to "yaqeen" ban jata hai. Yahi khaas khatra hai.</p>
+      </section>
+
+      <section>
+        <h3>An observation exercise (not a ruling)</h3>
+        <div class="key-box" style="text-align:left;">
+          <p style="margin:0;">This week — observe, don't change:</p>
+          <p style="margin:10px 0 0;"><strong>1.</strong> Which songs do I return to most?</p>
+          <p style="margin:6px 0 0;"><strong>2.</strong> What do they teach my heart to long for?</p>
+          <p style="margin:6px 0 0;"><strong>3.</strong> Is that longing aligned with what I'm trying to become?</p>
+        </div>
+        <p style="font-size:1.05rem; margin-top:18px;">Behaviour change follows insight, not lecture.</p>
+        <p class="urdu" style="font-size:1rem;">Stop karne ka hukm nahin — sirf observe karo. Awareness ke baad behaviour apne aap shift hota hai.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 27 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 27</h3>
+        <div class="ar ar-mid">آيَةُ الْمُنَافِقِ ثَلاثٌ: إِذَا حَدَّثَ كَذَبَ، وَإِذَا وَعَدَ أَخْلَفَ، وَإِذَا اؤْتُمِنَ خَانَ</div>
+        <p class="english" style="margin-top:14px;">"The signs of a hypocrite are three: he lies when he speaks, he breaks his promise, and he betrays trust."</p>
+        <p class="urdu">"Munaafiq ki teen nishaaniyaan — jhoot bolna, waadaa toḍna, amaanat mein khayanat."</p>
+        <span class="source-pill">Bukhārī, Muslim</span>
+      </section>
+
+      <section>
+        <h3 style="color:#991b1b;">⚠️ THE most-misused ḥadīth</h3>
+        <div class="warn-box">
+          <p><strong>This ḥadīth is a MIRROR — not a LABEL for others.</strong></p>
+          <p style="margin-top:10px;">It's for self-diagnosis: <em>"Are any of these three growing in me?"</em></p>
+          <p style="margin-top:10px;">Using it to call a relative, friend, or spouse "munāfiq" = <strong>misuse</strong> of the Prophet ﷺ's words.</p>
+        </div>
+        <p class="urdu" style="font-size:1.05rem; margin-top:18px;">Yeh aaina hai — doosre pe ungli rakhne ki cheez nahin. Rishtedaaron ko "munafiq" kehne ke liye yeh hadith use karna ghalat hai. Sirf khud se poochho.</p>
+      </section>
+
+      <section>
+        <h3>Why "signs" (<em>āya</em>), not "definition"</h3>
+        <p style="font-size:1.15rem;">A <em>sign</em> is a symptom — not the disease itself.</p>
+        <ul style="font-size:1.05rem; line-height:1.9; text-align:left; max-width:80%; margin:0 auto;">
+          <li>One lie ≠ hypocrite. A believer slips.</li>
+          <li>One broken promise ≠ hypocrite. Circumstances change.</li>
+          <li>One betrayal ≠ hypocrite. Repentance covers.</li>
+        </ul>
+        <p style="font-size:1.1rem; margin-top:18px; color:#14532d;"><strong>The signs show when these become HABITS</strong> — a person's default.</p>
+        <p class="urdu" style="font-size:1rem;">*Āya* matlab "nishaani" — *taʿrif* nahin. Ek baar nahin — *aadat* ki baat hai.</p>
+      </section>
+
+      <section>
+        <h3>Sharper definitions</h3>
+        <table style="font-size:.95rem;">
+          <tr>
+            <th>Sign</th>
+            <th>Often missed</th>
+          </tr>
+          <tr>
+            <td>Lies when speaking</td>
+            <td>Casual exaggeration, story-drift, replies suggesting what you know isn't quite true</td>
+          </tr>
+          <tr>
+            <td>Breaks promises</td>
+            <td>(a) Promising with no intent to fulfil, OR (b) sincere promise then broken without valid reason</td>
+          </tr>
+          <tr>
+            <td>Betrays trust</td>
+            <td>Any <em>amāna</em> — money, secret, responsibility. Small daily trusts count</td>
+          </tr>
+        </table>
+        <p class="urdu" style="font-size:1rem; margin-top:14px;">Casual exaggeration jhoot mein hai. Bina niyat ka waadaa bhi gina jaata hai. Aur har choti zimmedaari amaanat hai.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 28 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 28</h3>
+        <div class="ar ar-mid">الْكَبَائِرُ: الإِشْرَاكُ بِاللَّهِ، وَعُقُوقُ الْوَالِدَيْنِ، وَقَتْلُ النَّفْسِ، وَالْيَمِينُ الْغَمُوسُ</div>
+        <p class="english" style="margin-top:14px;">"The major sins: shirk, disobeying parents, unlawful killing, and the immersing oath."</p>
+        <p class="urdu">"Bade gunaah — shirk, walidain ki naafarmaani, na-haq qatl, aur dubaane wali jhoothi qasm."</p>
+        <span class="source-pill">Bukhārī, Muslim</span>
+      </section>
+
+      <section>
+        <h3>Four foundational, NOT exhaustive</h3>
+        <div class="four-cols">
+          <div class="col">
+            <h4>1. Shirk</h4>
+            <p style="margin:0; font-size:.85rem;">Violates Allah's right (greatest right)</p>
+          </div>
+          <div class="col">
+            <h4>2. ʿUqūq</h4>
+            <p style="margin:0; font-size:.85rem;">Violates the highest human right over you</p>
+          </div>
+          <div class="col">
+            <h4>3. Qatl</h4>
+            <p style="margin:0; font-size:.85rem;">Violates the foundation of all rights — life</p>
+          </div>
+          <div class="col">
+            <h4>4. Ghamūs</h4>
+            <p style="margin:0; font-size:.85rem;">Violates Allah's name (weaponised to deceive)</p>
+          </div>
+        </div>
+        <p style="font-size:1rem; margin-top:18px;">Other major sins (<em>zinā, riba, theft, khamr</em>...) appear in other aḥādīth. This list is foundational.</p>
+        <p class="urdu" style="font-size:.95rem;">Yeh char *foundational* hain — complete nahin. Doosre kabaa'ir doosri hadithein mein.</p>
+      </section>
+
+      <section>
+        <h3>Minor shirk (often missed)</h3>
+        <div class="warn-box">
+          <p>Not bowing to an idol — but still shirk:</p>
+        </div>
+        <ul style="font-size:1.05rem; line-height:1.9; text-align:left; max-width:80%; margin:0 auto;">
+          <li><strong>Riyāʾ</strong> — showing off in worship (praying differently when watched)</li>
+          <li><strong>Swearing oaths by anything other than Allah</strong> (by my mother's life, by my honour)</li>
+          <li><strong>Attributing power</strong> to other than Allah (in causation, in protection)</li>
+        </ul>
+        <p class="urdu" style="font-size:1rem; margin-top:14px;">Minor shirk easy to overlook — kyunki koi but ke saamne nahin jhuk raha. Magar yeh real hai.</p>
+      </section>
+
+      <section>
+        <h3><em>ʿUqūq</em> — wider than you think</h3>
+        <p style="font-size:1.1rem;">Not just hitting / shouting. ALSO:</p>
+        <ul style="font-size:1.05rem; line-height:1.9; text-align:left; max-width:80%; margin:0 auto;">
+          <li>Disregarding them</li>
+          <li>Embarrassing them</li>
+          <li>Not visiting them</li>
+          <li>Not consulting them</li>
+          <li>Making them feel a burden</li>
+        </ul>
+        <div class="key-box">
+          <p class="ar ar-mid" style="margin:0;">فَلَا تَقُلْ لَهُمَا أُفٍّ</p>
+          <p style="margin:6px 0 0; font-style:italic;"><em>"Do not say to them even 'uff'."</em> — Qurʾān 17:23</p>
+        </div>
+        <p style="font-size:1.05rem;">If even a syllable of dismissiveness is forbidden — the threshold is high.</p>
+      </section>
+
+      <section>
+        <h3><em>Yamīn al-ghamūs</em> — the "immersing" oath</h3>
+        <div class="key-box" style="text-align:left;">
+          <p style="margin:0;"><strong>Definition:</strong> A sworn oath by Allah's name about a <strong>past</strong> event — affirming it happened or didn't — <strong>while knowing the contrary is true</strong>.</p>
+          <p style="margin:10px 0 0;"><strong>Why "immersing":</strong> the oath plunges the swearer into sin, then submerges him into Hellfire.</p>
+        </div>
+        <p style="font-size:1.05rem; margin-top:14px;">Modern examples:</p>
+        <ul style="font-size:1rem; line-height:1.7; text-align:left; max-width:75%; margin:0 auto;">
+          <li>"By Allah, I didn't say it" — when you did.</li>
+          <li>"I wasn't there" — when you were.</li>
+          <li>"The goods are new" — when they're used.</li>
+          <li>"I paid him" — when you didn't.</li>
+        </ul>
+        <p class="urdu" style="font-size:1rem; margin-top:14px;">Allah ke naam ki *casual* qasm bohot khatarnak hai. Bina zaroorat na khao — aur jab khao, sirf such.</p>
+      </section>
+    </section>
+
+    <!-- ============ RECAP ============ -->
+    <section>
+      <h2>The chapter, on one slide</h2>
+      <div class="four-cols">
+        <div class="col">
+          <h4>Theme 1 · Intelligent</h4>
+          <p style="font-size:.85rem;"><strong>#21</strong> Three halves</p>
+          <p style="font-size:.85rem;"><strong>#22</strong> Kayyis subdues nafs</p>
+          <p style="font-size:.85rem;"><strong>#29</strong> Birr = good character</p>
+        </div>
+        <div class="col">
+          <h4>Theme 2 · Social</h4>
+          <p style="font-size:.85rem;"><strong>#23</strong> Sociable both ways</p>
+          <p style="font-size:.85rem;"><strong>#30</strong> Most-useful = most-beloved</p>
+        </div>
+        <div class="col">
+          <h4>Theme 3 · Trade</h4>
+          <p style="font-size:.85rem;"><strong>#25</strong> Traders raised as fujjār</p>
+          <p style="font-size:.85rem;"><strong>#26</strong> Truthful trader with prophets</p>
+        </div>
+        <div class="col">
+          <h4>Theme 4 · Traps</h4>
+          <p style="font-size:.85rem;"><strong>#24</strong> Songs grow nifāq</p>
+          <p style="font-size:.85rem;"><strong>#27</strong> Three signs (mirror)</p>
+          <p style="font-size:.85rem;"><strong>#28</strong> Four major sins</p>
+        </div>
+      </div>
+      <p style="font-size:1.1rem; margin-top:24px; color:#14532d;"><strong>10 aḥādīth — 1 portrait of the awakened Muslim.</strong></p>
+      <p class="urdu" style="font-size:1rem;">10 hadithein — 1 tasveer. Aql, garmi, deyanat, hoshiyari — char rukh ek insan ke.</p>
+    </section>
+
+    <!-- ============ HOMEWORK ============ -->
+    <section>
+      <h2>🏠 Homework</h2>
+      <ol style="font-size:1.1rem; line-height:1.85; text-align:left; max-width:80%; margin:0 auto;">
+        <li>Memorise the Arabic of <strong>5 aḥādīth</strong> (your choice).</li>
+        <li>Know all 10 in translation + sources.</li>
+        <li><strong>Memorise the term <em>yamīn al-ghamūs</em></strong> — it will come up in life.</li>
+        <li>Complete Exercises 1–4 from the handout.</li>
+        <li>Reflection journal (Ex. 5) — private, for yourself.</li>
+        <li>Daily check-in: <em>"Did I live one of these today? Where did I fall short, where did I do well?"</em></li>
+      </ol>
+    </section>
+
+    <!-- ============ CLOSING ============ -->
+    <section class="cover">
+      <div class="ar ar-huge">جَزَاكُمُ اللهُ خَيْرًا</div>
+      <p style="font-size:1.4rem; margin-top:24px;">May Allah reward you</p>
+      <p class="urdu" style="font-size:1.15rem;">Allah aap sab ko jazaa-e-khair de</p>
+      <p style="font-size:1rem; opacity:.9; margin-top:30px;">In sha Allah — next session: Aḥādīth 31–40</p>
+    </section>
+
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+<script>
+  Reveal.initialize({
+    hash: true,
+    slideNumber: 'c/t',
+    controls: true,
+    progress: true,
+    transition: 'slide',
+    width: 1280,
+    height: 800,
+    margin: 0.06
+  });
+</script>
+</body>
+</html>

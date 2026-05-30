@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Madinah Book 1 · Chapter 4 · Slides</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/white.css">
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Scheherazade+New:wght@400;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+  .reveal { font-family:'Inter',sans-serif; }
+  .reveal h1, .reveal h2, .reveal h3 { color:#064e3b; font-weight:700; }
+  .reveal .ar {
+    font-family:'Scheherazade New','Amiri',serif;
+    direction:rtl;
+    color:#064e3b;
+    font-weight:700;
+  }
+  .reveal .ar-huge { font-size:4rem; }
+  .reveal .ar-big { font-size:3rem; }
+  .reveal .translit { color:#9a3412; font-style:italic; font-size:1.1rem; }
+  .reveal .english { color:#1f2937; font-size:1.4rem; }
+  .reveal .urdu { color:#374151; font-style:italic; font-size:1.2rem; }
+  .reveal .cover {
+    background:linear-gradient(135deg, #064e3b 0%, #0e7490 100%);
+    color:#fff !important;
+    padding:60px 40px;
+    border-radius:14px;
+  }
+  .reveal .cover h1, .reveal .cover .ar { color:#fff; }
+  .reveal .cover .urdu { color:#e0f2fe; }
+  .reveal .pill {
+    display:inline-block;
+    padding:8px 18px;
+    border-radius:30px;
+    margin:0 6px;
+    font-weight:600;
+  }
+  .reveal .pill-blue{ background:#cffafe; color:#0c4a6e; }
+  .reveal .pill-amber{ background:#fef3c7; color:#7c2d12; }
+  .reveal .pill-rose{ background:#ffe4e6; color:#881337; }
+  .reveal .pill-green{ background:#dcfce7; color:#14532d; }
+  .reveal .grid-2 {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:20px;
+    margin:20px 0;
+  }
+  .reveal .grid-3 {
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:14px;
+    margin:20px 0;
+  }
+  .reveal .card{
+    background:#f9fafb;
+    border:2px solid;
+    border-radius:10px;
+    padding:14px;
+    text-align:center;
+  }
+  .reveal .card.name{ border-color:#be123c; background:#ffe4e6; }
+  .reveal .card.al{ border-color:#0e7490; background:#cffafe; }
+  .reveal .card.family{ border-color:#0891b2; background:#cffafe; }
+  .reveal .card.idafa{ border-color:#b45309; background:#fef3c7; }
+  .reveal .vocab-grid{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:14px;
+    margin:14px 0;
+  }
+  .reveal .vocab-grid .v-card{
+    background:#fff;
+    border:1.5px solid #064e3b;
+    border-radius:8px;
+    padding:10px;
+    text-align:center;
+  }
+  .reveal .vocab-grid .v-card .ar{ font-size:1.7rem; display:block; margin-bottom:4px; }
+  .reveal .vocab-grid .v-card .english{ font-size:0.95rem; display:block; }
+  .reveal .vocab-grid .v-card .translit{ font-size:0.8rem; display:block; }
+  .reveal .vocab-grid .v-card .urdu{ font-size:0.85rem; color:#7c2d12; display:block; font-style:italic; margin-top:2px; }
+  .reveal .warn-box{
+    background:#fef2f2;
+    border-left:5px solid #dc2626;
+    padding:12px 16px;
+    border-radius:0 8px 8px 0;
+    text-align:left;
+    margin:14px 0;
+  }
+  .reveal .tip-box{
+    background:#ecfeff;
+    border-left:5px solid #0891b2;
+    padding:12px 16px;
+    border-radius:0 8px 8px 0;
+    text-align:left;
+    margin:14px 0;
+  }
+  .reveal .kasra-hl{
+    color:#be123c;
+    font-weight:900;
+  }
+  .reveal .crossed{
+    text-decoration:line-through;
+    text-decoration-color:#dc2626;
+    text-decoration-thickness:3px;
+  }
+</style>
+</head>
+<body>
+<div class="reveal">
+  <div class="slides">
+
+    <!-- COVER -->
+    <section class="cover">
+      <div class="ar ar-huge">الدَّرْسُ الرَّابِعُ</div>
+      <h1 style="font-size:2.2rem; margin-top:20px;">Madinah Book 1 — Chapter 4</h1>
+      <p style="font-size:1.3rem; opacity:.9;"><span class="ar" style="color:#fff;">لِـ</span> · "Whose?" · Iḍāfa (possession)</p>
+      <p class="urdu" style="font-size:1.2rem;">Chautha sabaq — "ke liye / ka", "kis ka?", aur iḍāfa</p>
+      <p style="font-size:1rem; opacity:.8; margin-top:30px;">Press → to begin · Press F for fullscreen</p>
+    </section>
+
+    <!-- OBJECTIVES -->
+    <section>
+      <h2>By the end of this lesson, you will:</h2>
+      <ol style="font-size:1.15rem; line-height:1.85;">
+        <li>Use the preposition <span class="ar">لِـ</span> (for / belongs to).<br><span class="urdu" style="font-size:1rem;">"Ke liye / ka" wala lafz</span></li>
+        <li>Apply the spelling rule: <span class="ar">لِـ + الْ = لِلْـ</span>.<br><span class="urdu" style="font-size:1rem;">Alif gum, do لَامs back-to-back</span></li>
+        <li>Know that names take tanween (and are still definite).<br><span class="urdu" style="font-size:1rem;">Naam khaas, par tanween rakhte hain</span></li>
+        <li>Ask <strong>"Whose ___?"</strong> with <span class="ar">لِمَنْ</span>.<br><span class="urdu" style="font-size:1rem;">"Kis ka?" wala sawal</span></li>
+        <li>Build an <strong>iḍāfa</strong> (possessive) — two nouns glued together.<br><span class="urdu" style="font-size:1rem;">Bina preposition ke possession ka tarika</span></li>
+      </ol>
+    </section>
+
+    <!-- 2-MIN RECAP OF CH 1-3 -->
+    <section>
+      <h2>📋 Quick recap — Chapters 1–3</h2>
+      <ul style="font-size:1.15rem; line-height:1.85;">
+        <li><span class="ar">هَذَا · ذَلِكَ · هَذِهِ</span> — pointing words</li>
+        <li><span class="ar">الـ</span> = "the"; sun/moon letter rules</li>
+        <li>Questions: <span class="ar">أَ · مَا · مَنْ · أَمْ · أَيْنَ</span></li>
+        <li>4 prepositions: <span class="ar">فِي · عَلَى · إِلَى · مِنْ</span> → noun in <span class="kasra-hl">kasra</span></li>
+        <li>Gender: nouns ending in <span class="ar">ة</span> are feminine</li>
+      </ul>
+      <p style="margin-top:20px; font-size:1.1rem; color:#0e7490;">Today we add a 5th preposition and the biggest idea so far — iḍāfa.</p>
+      <p class="urdu" style="font-size:1rem;">Aaj ek aur preposition aur sab se badi cheez — iḍāfa.</p>
+    </section>
+
+    <!-- RULE 1: LI- -->
+    <section>
+      <section>
+        <h2>Rule 1 · <span class="ar">لِـ</span> — "for / belongs to"</h2>
+        <div class="ar ar-huge">لِـ</div>
+        <p class="translit" style="font-size:1.4rem;">li-</p>
+        <p class="english" style="font-size:1.4rem;">= "for" / "belongs to" (possession)</p>
+        <p class="urdu" style="font-size:1.2rem;">= "ke liye" / "ka / ki / ke"</p>
+      </section>
+
+      <section>
+        <h3>The 5th preposition — but with a twist</h3>
+        <div class="tip-box">
+          <p style="font-size:1.2rem;"><strong>Two facts:</strong></p>
+          <ol style="font-size:1.1rem; line-height:1.8;">
+            <li><span class="ar">لِـ</span> is a <strong>single letter</strong> — written <strong>attached</strong> to the next word. No space.<br><span class="urdu" style="font-size:0.95rem;">Agle lafz se judi — alag space nahin</span></li>
+            <li>Same kasra rule as Ch 3 — noun after <span class="ar">لِـ</span> takes <strong>kasra</strong>.<br><span class="urdu" style="font-size:0.95rem;">Aage wale ism ke aakhir mein zer — Ch 3 wala rule</span></li>
+          </ol>
+        </div>
+        <p style="margin-top:20px; font-size:1.1rem;">Compare with Ch 3 prepositions:</p>
+        <p style="font-size:1.3rem;">
+          <span class="ar">فِي · عَلَى · إِلَى · مِنْ</span> (separate words) <br>
+          <span class="ar">لِـ</span> (attached prefix)
+        </p>
+      </section>
+
+      <section>
+        <h3>Example — with a name</h3>
+        <div class="ar ar-huge">لِمُحَمَّدٍ</div>
+        <p class="translit" style="font-size:1.6rem;">li-Muḥammad<span class="kasra-hl">in</span></p>
+        <p class="english" style="font-size:1.5rem;">"for Muhammad" / "Muhammad's"</p>
+        <p class="urdu" style="font-size:1.4rem;">"Muhammad ke liye / Muhammad ka"</p>
+        <p style="margin-top:18px; font-size:1rem; color:#0e7490;">Notice: kasra-tanween on Muhammad (<span class="ar" style="color:#be123c;">ـٍ</span>) — the "-in" doubling.</p>
+      </section>
+
+      <section>
+        <h3>The 6 names, with and without <span class="ar">لِـ</span></h3>
+        <table style="margin:0 auto; font-size:1.05rem;">
+          <thead>
+            <tr><th style="padding:6px 16px;">Citing form</th><th style="padding:6px 16px;">After <span class="ar">لِـ</span></th></tr>
+          </thead>
+          <tr><td class="ar ar-big" style="padding:6px 16px;">مُحَمَّدٌ</td><td class="ar ar-big" style="padding:6px 16px;">لِمُحَمَّد<span class="kasra-hl">ٍ</span></td></tr>
+          <tr><td class="ar ar-big" style="padding:6px 16px;">عَلِيٌّ</td><td class="ar ar-big" style="padding:6px 16px;">لِعَلِي<span class="kasra-hl">ٍّ</span></td></tr>
+          <tr><td class="ar ar-big" style="padding:6px 16px;">حَامِدٌ</td><td class="ar ar-big" style="padding:6px 16px;">لِحَامِد<span class="kasra-hl">ٍ</span></td></tr>
+          <tr><td class="ar ar-big" style="padding:6px 16px;">عَبَّاسٌ</td><td class="ar ar-big" style="padding:6px 16px;">لِعَبَّاس<span class="kasra-hl">ٍ</span></td></tr>
+          <tr><td class="ar ar-big" style="padding:6px 16px;">يَاسِرٌ</td><td class="ar ar-big" style="padding:6px 16px;">لِيَاسِر<span class="kasra-hl">ٍ</span></td></tr>
+          <tr><td class="ar ar-big" style="padding:6px 16px;">خَالِدٌ</td><td class="ar ar-big" style="padding:6px 16px;">لِخَالِد<span class="kasra-hl">ٍ</span></td></tr>
+        </table>
+        <p class="urdu" style="font-size:1rem; margin-top:10px;">"-un" hat gaya, "-in" aa gaya — doubling barqaraar.</p>
+      </section>
+    </section>
+
+    <!-- RULE 2: LIL- spelling rule -->
+    <section>
+      <section>
+        <h2>Rule 2 · The big spelling rule</h2>
+        <div class="warn-box" style="font-size:1.4rem; text-align:center;">
+          <p style="font-size:1.5rem;"><strong><span class="ar">لِـ + الْ = لِلْـ</span></strong></p>
+          <p style="font-size:1.2rem;">The <strong>alif of <span class="ar">الـ</span></strong> disappears in writing.</p>
+          <p class="urdu" style="font-size:1.1rem; margin-top:10px;"><span class="ar">لِـ</span> aur <span class="ar">الـ</span> milte hain → alif gum, sirf do لَامs back-to-back.</p>
+        </div>
+      </section>
+
+      <section>
+        <h3>What it looks like</h3>
+        <p style="font-size:1.5rem; margin:30px 0;">
+          <span class="ar ar-big">لِـ</span> +
+          <span class="ar ar-big"><span class="crossed">ا</span>لْوَلَدُ</span>
+          = <span class="ar ar-big">لِلْوَلَدِ</span>
+        </p>
+        <p style="font-size:1.2rem;"><em>li- + <span class="crossed">a</span>l-waladu = lil-waladi</em></p>
+        <p style="margin-top:20px; font-size:1rem; color:#9a3412;">Cross out the alif when you first write it — make its disappearance visible to your eye.</p>
+        <p class="urdu" style="font-size:1.05rem; color:#374151;">Likhte waqt pehle alif ko pencil se cross karo — phir pakka likho.</p>
+      </section>
+
+      <section>
+        <h3>Side by side — name vs <span class="ar">الـ</span>-noun</h3>
+        <div class="grid-2">
+          <div class="card name">
+            <h4 style="color:#881337;">With name</h4>
+            <p class="ar ar-big">لِمُحَمَّدٍ</p>
+            <p class="translit">li-Muḥammad<span class="kasra-hl">in</span></p>
+            <p>kasra-<strong>tanween</strong></p>
+            <p class="urdu">doubling rehti hai</p>
+          </div>
+          <div class="card al">
+            <h4 style="color:#155e75;">With <span class="ar">الـ</span>-noun</h4>
+            <p class="ar ar-big">لِلْوَلَدِ</p>
+            <p class="translit">lil-walad<span class="kasra-hl">i</span></p>
+            <p>single <strong>kasra</strong>, alif gone</p>
+            <p class="urdu">doubling nahin, alif gaayab</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h3>Drill set — <span class="ar">الـ</span>-nouns with <span class="ar">لِـ</span></h3>
+        <table style="margin:0 auto; font-size:1.05rem;">
+          <thead>
+            <tr><th style="padding:6px 16px;">Definite</th><th style="padding:6px 16px;">After <span class="ar">لِـ</span></th><th style="padding:6px 16px;">Meaning</th></tr>
+          </thead>
+          <tr><td class="ar ar-big" style="padding:6px 14px;">الْوَلَدُ</td><td class="ar ar-big" style="padding:6px 14px;">لِلْوَلَدِ</td><td style="padding:6px 14px;">for the boy</td></tr>
+          <tr><td class="ar ar-big" style="padding:6px 14px;">الْبَيْتُ</td><td class="ar ar-big" style="padding:6px 14px;">لِلْبَيْتِ</td><td style="padding:6px 14px;">for the house</td></tr>
+          <tr><td class="ar ar-big" style="padding:6px 14px;">الْكِتَابُ</td><td class="ar ar-big" style="padding:6px 14px;">لِلْكِتَابِ</td><td style="padding:6px 14px;">for the book</td></tr>
+          <tr><td class="ar ar-big" style="padding:6px 14px;">الْمَسْجِدُ</td><td class="ar ar-big" style="padding:6px 14px;">لِلْمَسْجِدِ</td><td style="padding:6px 14px;">for the mosque</td></tr>
+          <tr><td class="ar ar-big" style="padding:6px 14px;">الْإِمَامُ</td><td class="ar ar-big" style="padding:6px 14px;">لِلْإِمَامِ</td><td style="padding:6px 14px;">for the imam</td></tr>
+        </table>
+      </section>
+
+      <section>
+        <h3>⚠️ The mistake to catch on day one</h3>
+        <div class="warn-box">
+          <p style="font-size:1.3rem;">❌ Wrong: <span class="ar ar-big">لِالْوَلَدِ</span> <em>(alif still there)</em></p>
+          <p style="font-size:1.3rem;">✅ Right: <span class="ar ar-big">لِلْوَلَدِ</span> <em>(alif dropped, two ل's)</em></p>
+          <p class="urdu" style="font-size:1.05rem; margin-top:14px;">Pehle hafte hi pakkad lo. Likhne par paper pe drill karo — bolne par kaam nahin chalega.</p>
+        </div>
+      </section>
+    </section>
+
+    <!-- RULE 3: NAMES + TANWEEN -->
+    <section>
+      <section>
+        <h2>Rule 3 · Names take tanween (surprise!)</h2>
+        <div class="ar ar-huge">مُحَمَّدٌ</div>
+        <p class="translit" style="font-size:1.4rem;">Muḥammad<span class="kasra-hl">un</span></p>
+        <p class="english" style="font-size:1.3rem;">"Muhammad" — definite, but with tanween</p>
+        <p class="urdu" style="font-size:1.2rem;">"Muhammad" — khaas, par tanween phir bhi lagi</p>
+      </section>
+
+      <section>
+        <h3>Three routes to being "definite"</h3>
+        <div class="grid-3">
+          <div class="card al">
+            <h4 style="color:#155e75;">Route 1: <span class="ar">الـ</span></h4>
+            <p class="ar ar-big">الْوَلَدُ</p>
+            <p>al-waladu</p>
+            <p>"the boy"</p>
+            <p style="font-size:0.85rem; color:#0e7490;">(Ch 1)</p>
+          </div>
+          <div class="card name">
+            <h4 style="color:#881337;">Route 2: Name</h4>
+            <p class="ar ar-big">مُحَمَّدٌ</p>
+            <p>Muḥammadun</p>
+            <p>"Muhammad"</p>
+            <p style="font-size:0.85rem; color:#be123c;">(Ch 4 — today!)</p>
+          </div>
+          <div class="card idafa">
+            <h4 style="color:#7c2d12;">Route 3: Iḍāfa</h4>
+            <p class="ar ar-big">كِتَابُ مُحَمَّدٍ</p>
+            <p>kitaabu Muḥammadin</p>
+            <p>"Muhammad's book"</p>
+            <p style="font-size:0.85rem; color:#b45309;">(Ch 4 — today!)</p>
+          </div>
+        </div>
+        <p class="urdu" style="font-size:1.05rem; margin-top:14px;">Teen door — ek hi kamre tak jaate hain. Sab "khaas" hone ke alag tareeqe.</p>
+      </section>
+
+      <section>
+        <h3>The rule for names</h3>
+        <div class="tip-box">
+          <ul style="font-size:1.15rem; line-height:1.85;">
+            <li>✅ Names are <strong>definite by themselves</strong> — no <span class="ar">الـ</span> needed.</li>
+            <li>✅ Names <strong>still carry tanween</strong> (<span class="ar">مُحَمَّدٌ</span>, <span class="ar">عَلِيٌّ</span>).</li>
+            <li>❌ <strong>Never</strong> add <span class="ar">الـ</span> to a name (no <span class="ar">الْمُحَمَّدُ</span>).</li>
+            <li>After <span class="ar">لِـ</span>: kasra-tanween (<span class="ar">لِمُحَمَّدٍ</span>).</li>
+          </ul>
+        </div>
+        <p class="urdu" style="font-size:1rem; margin-top:14px;">Yeh classical Arabic ka usool hai — accept karo. Naam alag category mein hain.</p>
+      </section>
+    </section>
+
+    <!-- RULE 4: LIMAN -->
+    <section>
+      <section>
+        <h2>Rule 4 · Asking "Whose?"</h2>
+        <div class="ar ar-huge">لِمَنْ ؟</div>
+        <p class="translit" style="font-size:1.4rem;">li-man?</p>
+        <p class="english" style="font-size:1.4rem;">= "Whose? / For whom?"</p>
+        <p class="urdu" style="font-size:1.2rem;">= "Kis ka? / Kis ke liye?"</p>
+        <p style="margin-top:20px; font-size:1.1rem; color:#0e7490;">= <span class="ar">لِـ</span> (today) + <span class="ar">مَنْ</span> (Ch 2)</p>
+      </section>
+
+      <section>
+        <h3>The pattern</h3>
+        <div style="margin:25px 0;">
+          <div class="ar ar-big" style="background:#fef3c7; padding:14px 24px; border-radius:8px; display:inline-block;">لِمَنْ هَذَا الْكِتَابُ ؟</div>
+          <p style="font-size:1.2rem; margin-top:10px;">"Whose book is this?" · <span class="urdu">"Yeh kitaab kis ki hai?"</span></p>
+        </div>
+        <div style="font-size:2rem;">⬇️</div>
+        <div style="margin:18px 0;">
+          <div class="ar ar-big" style="background:#dcfce7; padding:14px 24px; border-radius:8px; display:inline-block;">هَذَا الْكِتَابُ لِمُحَمَّدٍ</div>
+          <p style="font-size:1.2rem; margin-top:10px;">"This book is Muhammad's" · <span class="urdu">"Yeh kitaab Muhammad ki hai"</span></p>
+        </div>
+        <p style="font-size:1rem; color:#0e7490;">Question and answer both use <span class="ar">لِـ</span> — symmetry!</p>
+      </section>
+
+      <section>
+        <h3>⚠️ Three-way contrast</h3>
+        <p style="font-size:1.2rem;">Three little words, three different jobs. Don't mix them up!</p>
+        <div class="grid-3">
+          <div class="card" style="border-color:#b45309; background:#fef3c7;">
+            <h4 style="color:#7c2d12;">Ch 2</h4>
+            <div class="ar ar-huge">مَنْ</div>
+            <p class="translit">man</p>
+            <p>"who?"</p>
+            <p class="urdu">kaun?</p>
+          </div>
+          <div class="card" style="border-color:#be123c; background:#ffe4e6;">
+            <h4 style="color:#881337;">Ch 3</h4>
+            <div class="ar ar-huge">مِنْ</div>
+            <p class="translit">min</p>
+            <p>"from"</p>
+            <p class="urdu">se</p>
+          </div>
+          <div class="card" style="border-color:#166534; background:#dcfce7;">
+            <h4 style="color:#14532d;">Ch 4 (today)</h4>
+            <div class="ar ar-huge">لِمَنْ</div>
+            <p class="translit">li-man</p>
+            <p>"whose?"</p>
+            <p class="urdu">kis ka?</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h3>Q&A drill — read aloud</h3>
+        <table style="margin:0 auto; font-size:1.05rem;">
+          <tr>
+            <td class="ar ar-big" style="padding:8px 14px;">لِمَنْ هَذَا الْقَلَمُ ؟</td>
+            <td class="ar ar-big" style="padding:8px 14px;">هَذَا الْقَلَمُ لِلْوَلَدِ</td>
+          </tr>
+          <tr><td colspan="2" style="font-size:0.95rem; padding:0 14px 12px;">"Whose pen is this? — This pen is the boy's."</td></tr>
+          <tr>
+            <td class="ar ar-big" style="padding:8px 14px;">لِمَنْ هَذَا الْبَيْتُ ؟</td>
+            <td class="ar ar-big" style="padding:8px 14px;">هَذَا الْبَيْتُ لِحَامِدٍ</td>
+          </tr>
+          <tr><td colspan="2" style="font-size:0.95rem; padding:0 14px 12px;">"Whose house is this? — This house is Hamid's."</td></tr>
+          <tr>
+            <td class="ar ar-big" style="padding:8px 14px;">لِمَنْ هَذِهِ السَّيَّارَةُ ؟</td>
+            <td class="ar ar-big" style="padding:8px 14px;">هَذِهِ السَّيَّارَةُ لِلْإِمَامِ</td>
+          </tr>
+          <tr><td colspan="2" style="font-size:0.95rem; padding:0 14px 12px;">"Whose car is this? — This car is the imam's."</td></tr>
+        </table>
+      </section>
+    </section>
+
+    <!-- RULE 5: IDAAFA -->
+    <section>
+      <section>
+        <h2>Rule 5 · Iḍāfa — possession without a preposition</h2>
+        <div class="ar ar-huge">إِضَافَة</div>
+        <p class="translit" style="font-size:1.4rem;">iḍāfa</p>
+        <p class="english" style="font-size:1.4rem;">= "joining" — two nouns glued to express possession</p>
+        <p class="urdu" style="font-size:1.2rem;">= "jodne wala rishta" — bina preposition possession</p>
+        <p style="margin-top:18px; font-size:1.1rem; color:#7c2d12;">The biggest idea in this chapter — possibly in Book 1.</p>
+      </section>
+
+      <section>
+        <h3>The example you'll use forever</h3>
+        <div class="ar ar-huge">كِتَابُ مُحَمَّدٍ</div>
+        <p class="translit" style="font-size:1.6rem;">kitaabu Muḥammadin</p>
+        <p class="english" style="font-size:1.5rem;">"Muhammad's book" / "the book of Muhammad"</p>
+        <p class="urdu" style="font-size:1.4rem;">"Muhammad ki kitaab"</p>
+      </section>
+
+      <section>
+        <h3>Word order — flipped from English/Urdu!</h3>
+        <table style="margin:0 auto; font-size:1.15rem;">
+          <tr>
+            <td style="padding:8px 16px; background:#fef3c7;"><strong>English</strong></td>
+            <td style="padding:8px 16px;">"<strong>Muhammad's</strong> book"</td>
+            <td style="padding:8px 16px; color:#7c2d12;">owner first</td>
+          </tr>
+          <tr>
+            <td style="padding:8px 16px; background:#fef3c7;"><strong>Urdu</strong></td>
+            <td style="padding:8px 16px;">"<strong>Muhammad ki</strong> kitaab"</td>
+            <td style="padding:8px 16px; color:#7c2d12;">owner first</td>
+          </tr>
+          <tr>
+            <td style="padding:8px 16px; background:#dcfce7;"><strong>Arabic</strong></td>
+            <td style="padding:8px 16px;"><span class="ar ar-big">كِتَابُ مُحَمَّدٍ</span> ("book + Muhammad")</td>
+            <td style="padding:8px 16px; color:#14532d;"><strong>OWNED first!</strong></td>
+          </tr>
+        </table>
+        <p style="margin-top:20px; font-size:1rem; color:#0e7490;">Urdu's "kitaab-e-Muhammad" actually uses Arabic order — the "-e-" is the Arabic kasra!</p>
+      </section>
+
+      <section>
+        <h3>The 3 pakka rules of iḍāfa</h3>
+        <div class="warn-box">
+          <p style="font-size:1.2rem;"><strong>Take any iḍāfa, like <span class="ar">كِتَابُ مُحَمَّدٍ</span>. Three things must be true:</strong></p>
+          <ol style="font-size:1.1rem; line-height:1.9;">
+            <li>1st noun: <strong>NO <span class="ar">الـ</span></strong>. Ever.</li>
+            <li>1st noun: <strong>NO tanween</strong> (single ending vowel only).</li>
+            <li>2nd noun: <strong>in kasra</strong> (yes, without a preposition!).</li>
+          </ol>
+        </div>
+        <p class="urdu" style="font-size:1.05rem; margin-top:14px;">Teen rules: pehla par <span class="ar">الـ</span> nahin, pehla par tanween nahin, doosra zer mein. Drill mein teenon ko ek saath bolo.</p>
+      </section>
+
+      <section>
+        <h3>Diagram it</h3>
+        <div style="margin:20px 0; font-size:1.5rem;">
+          <span class="ar ar-huge" style="background:#cffafe; padding:12px 20px; border-radius:8px; border:2px solid #0e7490;">كِتَابُ</span>
+          <span style="font-size:2rem;"> → </span>
+          <span class="ar ar-huge" style="background:#ffe4e6; padding:12px 20px; border-radius:8px; border:2px solid #be123c;">مُحَمَّدٍ</span>
+        </div>
+        <table style="margin:20px auto; font-size:1.1rem;">
+          <tr>
+            <td style="padding:8px 14px; background:#cffafe; border-radius:6px;"><strong>1st noun</strong></td>
+            <td style="padding:8px 14px;">= <strong>owned</strong> · مُضَاف · single ḍamma · no <span class="ar">الـ</span>, no tanween</td>
+          </tr>
+          <tr>
+            <td style="padding:8px 14px; background:#ffe4e6; border-radius:6px;"><strong>2nd noun</strong></td>
+            <td style="padding:8px 14px;">= <strong>owner</strong> · مُضَاف إِلَيْهِ · in kasra</td>
+          </tr>
+        </table>
+      </section>
+
+      <section>
+        <h3>Examples with names</h3>
+        <table style="margin:0 auto; font-size:1.1rem;">
+          <tr>
+            <td class="ar ar-big" style="padding:8px 14px;">كِتَابُ مُحَمَّدٍ</td>
+            <td style="padding:8px 14px;">Muhammad's book</td>
+          </tr>
+          <tr>
+            <td class="ar ar-big" style="padding:8px 14px;">بَيْتُ عَلِيٍّ</td>
+            <td style="padding:8px 14px;">Ali's house</td>
+          </tr>
+          <tr>
+            <td class="ar ar-big" style="padding:8px 14px;">قَلَمُ حَامِدٍ</td>
+            <td style="padding:8px 14px;">Hamid's pen</td>
+          </tr>
+          <tr>
+            <td class="ar ar-big" style="padding:8px 14px;">ابْنُ يَاسِرٍ</td>
+            <td style="padding:8px 14px;">Yasir's son</td>
+          </tr>
+          <tr>
+            <td class="ar ar-big" style="padding:8px 14px;">عَمُّ خَالِدٍ</td>
+            <td style="padding:8px 14px;">Khalid's paternal uncle</td>
+          </tr>
+        </table>
+      </section>
+
+      <section>
+        <h3>Examples with <span class="ar">الـ</span>-nouns</h3>
+        <table style="margin:0 auto; font-size:1.1rem;">
+          <tr>
+            <td class="ar ar-big" style="padding:8px 14px;">كِتَابُ الْوَلَدِ</td>
+            <td style="padding:8px 14px;">the boy's book</td>
+          </tr>
+          <tr>
+            <td class="ar ar-big" style="padding:8px 14px;">بَيْتُ الْإِمَامِ</td>
+            <td style="padding:8px 14px;">the imam's house</td>
+          </tr>
+          <tr>
+            <td class="ar ar-big" style="padding:8px 14px;">قَلَمُ الْمُدَرِّسِ</td>
+            <td style="padding:8px 14px;">the teacher's pen</td>
+          </tr>
+          <tr>
+            <td class="ar ar-big" style="padding:8px 14px;">سَيَّارَةُ الْإِمَامِ</td>
+            <td style="padding:8px 14px;">the imam's car</td>
+          </tr>
+        </table>
+        <p style="margin-top:14px; font-size:1rem; color:#0e7490;">Second noun: single kasra (no doubling, because <span class="ar">الـ</span>-nouns don't take tanween).</p>
+      </section>
+
+      <section>
+        <h3>⚠️ The classic iḍāfa mistakes</h3>
+        <div class="warn-box">
+          <ul style="font-size:1.1rem; line-height:1.9;">
+            <li>❌ <span class="ar">الْكِتَابُ مُحَمَّدٍ</span> — <span class="ar">الـ</span> on the first noun. Wrong!</li>
+            <li>❌ <span class="ar">كِتَابٌ مُحَمَّدٍ</span> — tanween on the first noun. Wrong!</li>
+            <li>❌ <span class="ar">كِتَابُ مُحَمَّدٌ</span> — second noun not in kasra. Wrong!</li>
+            <li>✅ <span class="ar">كِتَابُ مُحَمَّدٍ</span> — correct! All 3 rules satisfied.</li>
+          </ul>
+        </div>
+      </section>
+    </section>
+
+    <!-- COMBINE -->
+    <section>
+      <h2>🎯 Putting it all together</h2>
+      <p style="font-size:1.2rem;">A Q&A using <em>everything</em> from today:</p>
+      <p class="ar ar-big" style="margin:20px 0;">لِمَنْ هَذَا الْكِتَابُ ؟</p>
+      <p style="font-size:1.2rem;"><em>li-man haadhal-kitaabu?</em> · "Whose book is this?"</p>
+      <div style="font-size:2rem; margin:20px 0;">⬇️</div>
+      <p class="ar ar-big" style="margin:10px 0;">هَذَا كِتَابُ مُحَمَّدٍ &nbsp; · &nbsp; هَذَا الْكِتَابُ لِمُحَمَّدٍ</p>
+      <p style="font-size:1.15rem;"><em>haadhaa kitaabu Muḥammadin</em> (iḍāfa) <strong>or</strong> <em>haadhal-kitaabu li-Muḥammadin</em> (with <span class="ar">لِـ</span>)</p>
+      <p style="font-size:1.15rem;">Both = "This is Muhammad's book."</p>
+      <p class="urdu" style="font-size:1.05rem; margin-top:14px;">Possession ke do tareeqe — iḍāfa (chusta jumla) ya <span class="ar">لِـ</span> (poora jumla). Dono sahi.</p>
+    </section>
+
+    <!-- VOCABULARY -->
+    <section>
+      <section>
+        <h2>📖 Today's Vocabulary</h2>
+        <p style="font-size:1.4rem;">5 family terms + 6 names + 2 grammar words</p>
+        <p class="urdu" style="font-size:1.1rem;">Rishtedaar + 6 naam + 2 grammar lafz</p>
+      </section>
+
+      <section>
+        <h3>👨‍👦 Family · <span class="urdu" style="font-size:1.05rem;">rishtedaar</span></h3>
+        <div class="vocab-grid">
+          <div class="v-card family"><span class="ar">أَبٌ</span><span class="english">a father</span><span class="translit">abun</span><span class="urdu">baap</span></div>
+          <div class="v-card family"><span class="ar">أَخٌ</span><span class="english">a brother</span><span class="translit">akhun</span><span class="urdu">bhai</span></div>
+          <div class="v-card family"><span class="ar">ابْنٌ</span><span class="english">a son</span><span class="translit">ibnun</span><span class="urdu">beta</span></div>
+          <div class="v-card family"><span class="ar">عَمٌّ</span><span class="english">paternal uncle</span><span class="translit">ʿammun</span><span class="urdu">chacha</span></div>
+          <div class="v-card family"><span class="ar">خَالٌ</span><span class="english">maternal uncle</span><span class="translit">khaalun</span><span class="urdu">maamoon</span></div>
+        </div>
+      </section>
+
+      <section>
+        <h3>📛 Names · <span class="urdu" style="font-size:1.05rem;">naam</span></h3>
+        <div class="vocab-grid">
+          <div class="v-card name"><span class="ar">مُحَمَّدٌ</span><span class="english">Muhammad</span><span class="translit">Muḥammadun</span></div>
+          <div class="v-card name"><span class="ar">عَلِيٌّ</span><span class="english">Ali</span><span class="translit">ʿAliyyun</span></div>
+          <div class="v-card name"><span class="ar">حَامِدٌ</span><span class="english">Hamid</span><span class="translit">Ḥāmidun</span></div>
+          <div class="v-card name"><span class="ar">عَبَّاسٌ</span><span class="english">Abbas</span><span class="translit">ʿAbbāsun</span></div>
+          <div class="v-card name"><span class="ar">يَاسِرٌ</span><span class="english">Yasir</span><span class="translit">Yāsirun</span></div>
+          <div class="v-card name"><span class="ar">خَالِدٌ</span><span class="english">Khalid</span><span class="translit">Khālidun</span></div>
+        </div>
+      </section>
+
+      <section>
+        <h3>🔑 Grammar words · <span class="urdu" style="font-size:1.05rem;">grammar wale lafz</span></h3>
+        <div class="vocab-grid">
+          <div class="v-card" style="background:#f0fdf4;"><span class="ar">لِـ</span><span class="english">for / belongs to</span><span class="translit">li-</span><span class="urdu">ke liye / ka</span></div>
+          <div class="v-card" style="background:#f0fdf4;"><span class="ar">لِمَنْ</span><span class="english">whose? / for whom?</span><span class="translit">li-man</span><span class="urdu">kis ka?</span></div>
+          <div class="v-card"><span class="ar">مُدَرِّسٌ</span><span class="english">a teacher</span><span class="translit">mudarrisun</span><span class="urdu">ustaad</span></div>
+        </div>
+      </section>
+    </section>
+
+    <!-- CONNECT TO QURAN -->
+    <section>
+      <section>
+        <h2>📿 Connect to the Qur'an</h2>
+        <p style="font-size:1.4rem;">Today's grammar is on every page — iḍāfa is one of the most common Qur'anic constructions.</p>
+        <p class="urdu" style="font-size:1.1rem;">Iḍāfa Qur'an ke har page par hai — aaj seekhi grammar fauran pehchaan mein aayegi.</p>
+      </section>
+
+      <section>
+        <h3>Surah Al-Fatihah · 1:2</h3>
+        <p class="ar ar-big" style="line-height:2;">الْحَمْدُ <span style="color:#be123c;">لِلَّهِ</span> <span style="color:#0e7490;">رَبِّ الْعَالَمِينَ</span></p>
+        <p style="font-size:1.2rem;">"All praise is <strong style="color:#be123c;">for Allah</strong>, <strong style="color:#0e7490;">Lord of the worlds</strong>."</p>
+        <p class="urdu" style="font-size:1.05rem;">"Sab tareef <strong>Allah ke liye</strong> hai, <strong>jahaanon ka Rabb</strong>."</p>
+        <p style="margin-top:14px; font-size:1rem;">You see:</p>
+        <ul style="font-size:1rem;">
+          <li><span class="ar" style="color:#be123c;">لِلَّهِ</span> — the <span class="ar">لِـ + الْ = لِلْـ</span> rule, in action!</li>
+          <li><span class="ar" style="color:#0e7490;">رَبِّ الْعَالَمِينَ</span> — a classic iḍāfa (no <span class="ar">الـ</span>/tanween on first, kasra on second).</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Surah Al-Fatihah · 1:4</h3>
+        <p class="ar ar-big" style="line-height:2;"><span style="color:#0e7490;">مَالِكِ يَوْمِ الدِّينِ</span></p>
+        <p style="font-size:1.2rem;">"<strong style="color:#0e7490;">Master of the Day of Recompense</strong>."</p>
+        <p class="urdu" style="font-size:1.05rem;">"Roz-e-jaza ka maalik."</p>
+        <p style="margin-top:14px; font-size:1rem;">A <strong>double iḍāfa</strong> — three nouns chained! <span class="ar">مَالِكِ</span> (Master) <strong>of</strong> <span class="ar">يَوْمِ</span> (the Day) <strong>of</strong> <span class="ar">الدِّينِ</span> (Recompense). All in kasra. Preview of Ch 5+.</p>
+      </section>
+
+      <section>
+        <h3>Surah Al-Fatihah · 1:1</h3>
+        <p class="ar ar-big" style="line-height:2;"><span style="color:#be123c;">بِسْمِ</span> <span style="color:#0e7490;">اللَّهِ</span> الرَّحْمَٰنِ الرَّحِيمِ</p>
+        <p style="font-size:1.2rem;">"In the name of Allah, the Most Gracious, the Most Merciful."</p>
+        <p style="margin-top:14px; font-size:1rem;">Inside <span class="ar" style="color:#be123c;">بِسْمِ ٱللَّـهِ</span> is an iḍāfa: <span class="ar">اسْم</span> (name) + <span class="ar">اللَّـه</span> (Allah). First noun no <span class="ar">الـ</span>/tanween, second in kasra. Every part of this opening line is Ch 4 grammar.</p>
+        <p class="urdu" style="font-size:0.95rem;">(<span class="ar">بِـ</span> ek aur preposition hai — aage chapter mein milegi. Aaj sirf iḍāfa pakdaayi gayi.)</p>
+      </section>
+
+      <section>
+        <h3>Surah Al-Baqarah · 2:284 (opening)</h3>
+        <p class="ar ar-big" style="line-height:2;"><span style="color:#be123c;">لِلَّهِ</span> مَا فِي السَّمَاوَاتِ</p>
+        <p style="font-size:1.2rem;">"<strong>To Allah</strong> belongs whatever is in the heavens..."</p>
+        <p class="urdu" style="font-size:1.05rem;">"<strong>Allah hi ka</strong> hai jo aasmaanon mein hai."</p>
+        <p style="margin-top:14px; font-size:1rem;">Pure possession with <span class="ar">لِـ</span> — "X li-Y" = "X belongs to Y". Today's rule, exactly.</p>
+      </section>
+    </section>
+
+    <!-- RECAP -->
+    <section>
+      <h2>📋 Recap — what we covered</h2>
+      <ol style="font-size:1.1rem; line-height:1.85;">
+        <li><span class="ar">لِـ</span> = "for / belongs to" — attached to next word, triggers kasra · <span class="urdu" style="font-size:1rem;">ke liye / ka</span></li>
+        <li><span class="ar">لِـ + الْ = لِلْـ</span> — alif drops in writing · <span class="urdu" style="font-size:1rem;">alif gum</span></li>
+        <li>Names: definite by themselves, but still take tanween · <span class="urdu" style="font-size:1rem;">naam khaas, par tanween</span></li>
+        <li><span class="ar">لِمَنْ</span> = "whose?" · <span class="urdu" style="font-size:1rem;">"kis ka?"</span></li>
+        <li>Iḍāfa: 1st noun (no <span class="ar">الـ</span>/tanween) + 2nd noun (in kasra) · <span class="urdu" style="font-size:1rem;">possession bina preposition</span></li>
+        <li>⚠️ Three-way: <span class="ar">مَنْ</span> (kaun) / <span class="ar">مِنْ</span> (se) / <span class="ar">لِمَنْ</span> (kis ka)</li>
+        <li>11 vocab words: 5 family terms + 6 names</li>
+      </ol>
+    </section>
+
+    <!-- HOMEWORK -->
+    <section>
+      <h2>🏠 Homework</h2>
+      <ol style="font-size:1.1rem; line-height:1.85;">
+        <li>Memorise 6 names with <span class="ar">لِـ</span> forms aloud · <span class="urdu" style="font-size:1rem;">6 naam <span class="ar">لِـ</span> ke saath yaad karo</span></li>
+        <li>Drill <span class="ar">لِلْـ</span> on paper — write 5 <span class="ar">الـ</span>-nouns, cross out alif, write <span class="ar">لِلْـ</span> form · <span class="urdu" style="font-size:1rem;">paper par alif cross karne ki drill</span></li>
+        <li>Build 8 iḍāfa pairs — apply all 3 rules · <span class="urdu" style="font-size:1rem;">teenon rules ke saath 8 iḍāfa banao</span></li>
+        <li>Complete 7 exercises on handout · <span class="urdu" style="font-size:1rem;">handout ke 7 exercises mukammal karo</span></li>
+        <li>5 family objects at home — write each as iḍāfa AND with <span class="ar">لِـ</span> · <span class="urdu" style="font-size:1rem;">ghar mein 5 cheezein — dono tareeqon se likho</span></li>
+        <li>Re-read Ch 1–3 vocab · <span class="urdu" style="font-size:1rem;">pichhle teen chapters ke lafz phir dohrao</span></li>
+      </ol>
+    </section>
+
+    <!-- CLOSING -->
+    <section class="cover">
+      <div class="ar ar-huge">جَزَاكُمُ اللهُ خَيْرًا</div>
+      <p style="font-size:1.5rem; margin-top:20px;">May Allah reward you with goodness</p>
+      <p class="urdu" style="font-size:1.3rem;">Allah aap ko bhalaai ka badla de</p>
+      <p style="font-size:1.2rem; margin-top:25px; opacity:.9;">Iḍāfa is everywhere in the Qur'an —<br>now you can recognise it on every page.<br><span class="urdu" style="font-size:1rem;">Iḍāfa Qur'an ke har page par hai — ab aap pehchaan sakte ho.</span></p>
+    </section>
+
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+<script>
+Reveal.initialize({
+  hash:true,
+  controls:true,
+  progress:true,
+  center:true,
+  transition:'slide',
+  slideNumber:'c/t'
+});
+</script>
+
+</body>
+</html>

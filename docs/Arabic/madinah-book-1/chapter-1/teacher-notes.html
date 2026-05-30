@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Madinah Book 1 · Chapter 1 · Teacher Notes</title>
+<link rel="stylesheet" href="../shared/styles.css">
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js"></script>
+</head>
+<body>
+
+<header class="page-header">
+  <div class="ar-title">الدَّرْسُ الأَوَّلُ</div>
+  <h1>Chapter 1 — Teacher Notes</h1>
+  <div class="meta">Madinah Arabic Book 1 · Dr. V. Abdur Rahim · For adult absolute beginners</div>
+</header>
+
+<main>
+
+<nav class="toc">
+  <h3>📚 In this chapter</h3>
+  <ol>
+    <li><a href="#overview">★ Master Overview — how concepts connect</a></li>
+    <li><a href="#objectives">Learning objectives</a></li>
+    <li><a href="#concept-1">Concept 1: <span class="ar">هَذَا</span> (this) — pointing to nouns</a></li>
+    <li><a href="#concept-2">Concept 2: The nominal sentence (Mubtada + Khabar)</a></li>
+    <li><a href="#concept-3">Concept 3: <span class="ar">الـ</span> — the definite article</a></li>
+    <li><a href="#concept-4">Concept 4: Sun letters vs Moon letters (intro)</a></li>
+    <li><a href="#concept-5">Concept 5: <span class="ar">أَ</span> — the question particle</a></li>
+    <li><a href="#vocab">Vocabulary list (with Roman + Urdu)</a></li>
+    <li><a href="#mistakes">Common student mistakes</a></li>
+    <li><a href="#quran">Connect to Qur'an</a></li>
+    <li><a href="#resources">Companion files</a></li>
+  </ol>
+</nav>
+
+<div class="legend">
+  <strong>Colour key:</strong>
+  <span class="chip"><span class="dot" style="background:#064e3b"></span>Root</span>
+  <span class="chip"><span class="dot" style="background:#0e7490"></span>Main concept</span>
+  <span class="chip"><span class="dot" style="background:#b45309"></span>Sub-rule</span>
+  <span class="chip"><span class="dot" style="background:#166534"></span>Detail</span>
+  <span class="chip"><span class="dot" style="background:#be123c"></span>Example</span>
+</div>
+
+<div class="callout tip" style="margin:18px 0;">
+  <h4>💡 Read <a href="deep-notes.md">deep-notes.md</a> first</h4>
+  <p>This file is your <em>in-class reference</em> — chart-driven, fast to scan while teaching. The conceptual scaffolding (why each rule works the way it does) lives in <a href="deep-notes.md">deep-notes.md</a> Part A. Read that before your first session with the chapter; this file is what you have open during class.</p>
+</div>
+
+<!-- ===== MASTER OVERVIEW ===== -->
+<section class="block overview" id="overview">
+  <h2>★ Master Overview — <span class="ar">نقشۂ الدرس</span></h2>
+  <p class="block-meta">One bird's-eye map: every concept of Chapter 1 and how they connect.</p>
+  <div class="mermaid">
+flowchart TB
+  ROOT(["الدَّرْسُ الأَوَّلُ<br/>Chapter 1"]):::root
+  ROOT --> A["هَذَا<br/>HAADHAA · this"]:::main
+  ROOT --> B["جُمْلَةٌ اِسْمِيَّةٌ<br/>Nominal sentence<br/>(Mubtada + Khabar)"]:::main
+  ROOT --> C["الـ<br/>AL- · the"]:::main
+  ROOT --> D["أَ ؟<br/>A- · is...?"]:::main
+
+  A --> A1["points to a nearby<br/>singular masculine noun"]:::sub
+  A --> A2["هَذَا بَيْتٌ<br/>haadhaa baytun<br/>= This is a house"]:::ex
+
+  B --> B1["Mubtada<br/>(the subject)"]:::sub
+  B --> B2["Khabar<br/>(the predicate)"]:::sub
+  B --> B3["No 'is/am/are'<br/>in Arabic !"]:::leaf
+
+  C --> C1["makes a noun<br/>DEFINITE"]:::sub
+  C --> C2["بَيْتٌ → الْبَيْتُ<br/>a house → the house"]:::ex
+  C --> C3["drops tanween (ـٌ)<br/>becomes single ḍamma (ـُ)"]:::leaf
+
+  C --> SL["Sun letters<br/>(الـ assimilates)"]:::sub
+  C --> ML["Moon letters<br/>(الـ pronounced)"]:::sub
+
+  D --> D1["أَهَذَا بَيْتٌ ؟<br/>Is this a house?"]:::ex
+  D --> D2["Answer: نَعَمْ / لَا<br/>Yes / No"]:::leaf
+
+  classDef root fill:#064e3b,stroke:#064e3b,color:#fff,stroke-width:3px,font-weight:bold;
+  classDef main fill:#cffafe,stroke:#0e7490,color:#0c4a6e,stroke-width:2px,font-weight:bold;
+  classDef sub  fill:#fef3c7,stroke:#b45309,color:#7c2d12,stroke-width:2px;
+  classDef leaf fill:#dcfce7,stroke:#166534,color:#14532d;
+  classDef ex   fill:#ffe4e6,stroke:#be123c,color:#881337;
+  </div>
+</section>
+
+<!-- ===== OBJECTIVES ===== -->
+<section class="block" id="objectives">
+  <h2>🎯 Learning Objectives</h2>
+  <p>By the end of this chapter, the student will be able to:</p>
+  <ol style="line-height:2;">
+    <li>Point to a nearby object and say "This is a ___" in Arabic, using <span class="ar">هَذَا</span>.</li>
+    <li>Build simple nominal sentences (Mubtada + Khabar) without using any verb "is/am/are".</li>
+    <li>Add <span class="ar">الـ</span> to a noun to make it "the ___", and pronounce the result correctly.</li>
+    <li>Hear the difference between sun-letter assimilation (e.g. <em>ash-shams</em>) and moon-letter pronunciation (e.g. <em>al-qamar</em>).</li>
+    <li>Ask a yes/no question using <span class="ar">أَ</span>, and answer with <span class="ar">نَعَمْ</span> or <span class="ar">لَا</span>.</li>
+    <li>Recognize, write, and use ~20 common nouns (house, mosque, book, pen, key, etc.).</li>
+  </ol>
+</section>
+
+<!-- ===== CONCEPT 1: HAADHAA ===== -->
+<section class="block" id="concept-1">
+  <h2>1 · <span class="ar">هَذَا</span> — "This"</h2>
+  <p class="block-meta">The book opens with this single word — the foundation for every sentence the student will make today.</p>
+
+  <div class="breadcrumb">
+    <b>Where this fits:</b> we are at the very first node of the master map.
+  </div>
+
+  <div class="mermaid">
+flowchart TB
+  H["هَذَا<br/>HAADHAA"]:::root
+  H --> M1["Meaning:<br/>'This is...'<br/>(pointing to something near)"]:::sub
+  H --> M2["Used for SINGULAR<br/>MASCULINE nouns only"]:::sub
+  H --> M3["The ا (alif) is silent —<br/>spelled هذا but said 'haa-dhaa'"]:::leaf
+
+  M1 --> E1["هَذَا بَيْتٌ<br/>haadhaa baytun<br/>'This is a house'"]:::ex
+  M1 --> E2["هَذَا مَسْجِدٌ<br/>haadhaa masjidun<br/>'This is a mosque'"]:::ex
+  M1 --> E3["هَذَا كِتَابٌ<br/>haadhaa kitaabun<br/>'This is a book'"]:::ex
+
+  classDef root fill:#064e3b,stroke:#064e3b,color:#fff,stroke-width:2px,font-weight:bold;
+  classDef sub  fill:#fef3c7,stroke:#b45309,color:#7c2d12;
+  classDef leaf fill:#dcfce7,stroke:#166534,color:#14532d;
+  classDef ex   fill:#ffe4e6,stroke:#be123c,color:#881337;
+  </div>
+
+  <div class="defs">
+    <div class="def-card">
+      <h4>هَذَا <span class="ar"></span></h4>
+      <div class="def-row">
+        <div class="label">Meaning</div>
+        <div class="body english"><b>"This"</b> — used when pointing to something nearby.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Roman Urdu</div>
+        <div class="body roman">"Yeh" / "yeh hai" (jab kisi qareeb cheez ki taraf ishaara kar rahe hon).</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Important</div>
+        <div class="body english">Two things to remember from day one:
+          <ol style="margin:4px 0; padding-left:20px;">
+            <li><b>هَذَا</b> is only for <b>singular masculine</b> objects (e.g. a book, a man, a pen). The feminine "this" (<span class="ar">هَذِهِ</span>) comes later.</li>
+            <li>The spelling has an alif (<span class="ar">ا</span>) after <span class="ar">ه</span>, but it is <b>silent</b>. Pronounce it "<b>haa-dhaa</b>" not "ha-aa-dhaa".</li>
+          </ol>
+        </div>
+      </div>
+      <div class="def-row">
+        <div class="label">Example</div>
+        <div class="body ar">هَذَا بَيْتٌ
+          <span class="translit">haadhaa baytun · "This is a house" · "Yeh ek ghar hai"</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="callout tip">
+    <h4>💡 Teaching tip</h4>
+    <p>Don't explain grammar yet. Hold up a real pen, point at it, and say <em>"haadhaa qalamun"</em>. Hold up a book: <em>"haadhaa kitaabun"</em>. Repeat with 8–10 objects in the room. Students will absorb the pattern before they hear the word "grammar". This is exactly how Shaykh Vaniya teaches it — direct method, no English explanation first.</p>
+  </div>
+</section>
+
+<!-- ===== CONCEPT 2: NOMINAL SENTENCE ===== -->
+<section class="block" id="concept-2">
+  <h2>2 · The Nominal Sentence — <span class="ar">جُمْلَةٌ اِسْمِيَّةٌ</span></h2>
+  <p class="block-meta">The biggest surprise for English/Urdu speakers — Arabic has no word for "is/am/are" in the present tense.</p>
+
+  <div class="breadcrumb">
+    <b>Where this fits:</b> every sentence the student says today (haadhaa baytun) is technically a nominal sentence — two parts joined without a verb.
+  </div>
+
+  <div class="mermaid">
+flowchart TB
+  J["جُمْلَةٌ اِسْمِيَّةٌ<br/>Nominal Sentence"]:::root
+  J --> P1["مُبْتَدَأٌ<br/>MUBTADA'<br/>(the subject — what we talk about)"]:::main
+  J --> P2["خَبَرٌ<br/>KHABAR<br/>(the news — what we say about it)"]:::main
+
+  P1 --> EX1["هَذَا<br/>haadhaa"]:::ex
+  P2 --> EX2["بَيْتٌ<br/>baytun"]:::ex
+
+  EX1 --> R["= هَذَا بَيْتٌ<br/>'This (is) a house'"]:::ex
+  EX2 --> R
+
+  classDef root fill:#064e3b,stroke:#064e3b,color:#fff,stroke-width:2px,font-weight:bold;
+  classDef main fill:#cffafe,stroke:#0e7490,color:#0c4a6e,stroke-width:2px,font-weight:bold;
+  classDef ex   fill:#ffe4e6,stroke:#be123c,color:#881337;
+  </div>
+
+  <div class="defs">
+    <div class="def-card">
+      <h4>The two parts</h4>
+      <div class="def-row">
+        <div class="label">Mubtada'</div>
+        <div class="body english"><span class="ar">مُبْتَدَأٌ</span> — literally "the one we begin with". This is the <b>subject</b>; what the sentence is about.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Roman</div>
+        <div class="body roman">Jis ke baare mein baat ki jaa rahi hai — woh "mubtada" hai.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Khabar</div>
+        <div class="body english"><span class="ar">خَبَرٌ</span> — literally "news". This is the <b>predicate</b>; what we are saying about the mubtada.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Roman</div>
+        <div class="body roman">Mubtada ke baare mein jo khabar di jaa rahi hai — woh "khabar" hai.</div>
+      </div>
+    </div>
+
+    <div class="def-card">
+      <h4>The "no verb" rule — <span class="ar">لَا فِعْلَ</span></h4>
+      <div class="def-row">
+        <div class="label">Rule</div>
+        <div class="body english">In the present tense, Arabic does <b>NOT</b> use a word for "is/am/are". The two nouns simply sit next to each other.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Roman</div>
+        <div class="body roman">Arabi mein "hai/hain/hoon" jaisa koi lafz nahin aata — bas dono lafz ek doosre ke pass rakh diye jaate hain. Tarjuma karte waqt hum English/Urdu mein "is/hai" daal lete hain.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Compare</div>
+        <div class="body english">
+          English: "This <b>is</b> a house" (3 words)<br>
+          Urdu: "Yeh ek ghar <b>hai</b>" (4 words)<br>
+          Arabic: <span class="ar">هَذَا بَيْتٌ</span> (only 2 words — no "is")
+        </div>
+      </div>
+      <div class="def-row">
+        <div class="label">More examples</div>
+        <div class="body ar">هَذَا قَلَمٌ
+          <span class="translit">haadhaa qalamun · "This (is) a pen" · "Yeh ek qalam hai"</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="callout warn">
+    <h4>⚠️ Common mistake</h4>
+    <p>Beginners often try to insert a word for "is" — e.g. they make up something like <em>haadhaa huwa baytun</em>. Stop this early. Tell them: <strong>"In Arabic, silence does the work of 'is'."</strong> The gap between the two words IS the "is".</p>
+  </div>
+</section>
+
+<!-- ===== CONCEPT 3: AL- ===== -->
+<section class="block" id="concept-3">
+  <h2>3 · <span class="ar">الـ</span> — The Definite Article ("the")</h2>
+  <p class="block-meta">In one stroke, this turns any noun from "a thing" into "the (specific) thing".</p>
+
+  <div class="breadcrumb">
+    <b>Where this fits:</b> after the student can say "haadhaa baytun" (this is a house), we now teach them to say "this is the house" — <em>haadhal-baytu</em>.
+  </div>
+
+  <div class="mermaid">
+flowchart TB
+  AL["الـ<br/>AL- · 'the'"]:::root
+  AL --> R1["Attached to the<br/>beginning of a noun"]:::sub
+  AL --> R2["Makes the noun<br/>DEFINITE (specific)"]:::sub
+  AL --> R3["The tanween (ـٌ ـٍ ـً)<br/>DROPS — becomes a<br/>single short vowel (ـُ ـِ ـَ)"]:::sub
+
+  R1 --> EA["بَيْتٌ → الْبَيْتُ<br/>baytun → al-baytu<br/>'a house' → 'the house'"]:::ex
+  R3 --> EB["كِتَابٌ → الْكِتَابُ<br/>kitaabun → al-kitaabu"]:::ex
+  R3 --> EC["قَلَمٌ → الْقَلَمُ<br/>qalamun → al-qalamu"]:::ex
+
+  classDef root fill:#064e3b,stroke:#064e3b,color:#fff,stroke-width:2px,font-weight:bold;
+  classDef sub  fill:#fef3c7,stroke:#b45309,color:#7c2d12;
+  classDef ex   fill:#ffe4e6,stroke:#be123c,color:#881337;
+  </div>
+
+  <div class="defs">
+    <div class="def-card">
+      <h4>The rule of <span class="ar">الـ</span></h4>
+      <div class="def-row">
+        <div class="label">English</div>
+        <div class="body english"><span class="ar">الـ</span> is equivalent to English "the". Attach it to the front of any indefinite noun to make it definite.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Roman</div>
+        <div class="body roman">"Al-" = "the" / "woh khaas". Kisi bhi nakira (indefinite) ism ke shuru mein lagaa do, woh maʿrifa (definite) ban jaata hai.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Tanween rule</div>
+        <div class="body english">Indefinite Arabic nouns end in <b>tanween</b> — a doubled short vowel: ـٌ (un), ـٍ (in), or ـً (an). When you add <span class="ar">الـ</span>, that <b>doubling drops</b> and you are left with a single short vowel: ـُ, ـِ, or ـَ.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Roman</div>
+        <div class="body roman">Nakira ism ke aakhir mein "tanween" hota hai (jaise baytun, qalamun). Jab "al-" lagao, tanween hat jaata hai aur sirf ek harakat reh jaati hai (al-baytu, al-qalamu).</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Compare</div>
+        <div class="body ar">
+          بَيْتٌ → الْبَيْتُ
+          <span class="translit">baytun → al-baytu · "a house" → "the house"</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="callout tip">
+    <h4>💡 Teaching tip</h4>
+    <p>Draw two columns on the board: <strong>Indefinite (a/an)</strong> and <strong>Definite (the)</strong>. Write each new vocab word in both forms side by side: <em>baytun / al-baytu, qalamun / al-qalamu, kitaabun / al-kitaabu</em>. After 6–7 words, students see the pattern themselves.</p>
+  </div>
+</section>
+
+<!-- ===== CONCEPT 4: SUN/MOON LETTERS ===== -->
+<section class="block" id="concept-4">
+  <h2>4 · Sun Letters & Moon Letters — <span class="ar">حُرُوفُ شَمْسِيَّةٌ وَقَمَرِيَّةٌ</span></h2>
+  <p class="block-meta">The pronunciation rule that confuses learners forever if it's not introduced clearly now.</p>
+
+  <div class="breadcrumb">
+    <b>Where this fits:</b> when you add <span class="ar">الـ</span> to certain letters, the <b>ل</b> stops being pronounced — it "melts" into the next letter. This is purely a sound rule. The spelling stays the same.
+  </div>
+
+  <div class="mermaid">
+flowchart TB
+  AL["الـ<br/>The 'al-'"]:::root
+  AL --> MOON["حُرُوفٌ قَمَرِيَّةٌ<br/>Moon letters<br/>(14 letters)"]:::main
+  AL --> SUN["حُرُوفٌ شَمْسِيَّةٌ<br/>Sun letters<br/>(14 letters)"]:::main
+
+  MOON --> MR["ل is pronounced<br/>clearly: 'al-'"]:::sub
+  MOON --> MEX["الْقَمَرُ<br/>'al-qamar' = the moon<br/>(say: al-qa-mar)"]:::ex
+
+  SUN --> SR["ل goes SILENT<br/>and the next letter doubles<br/>(shadda ّ)"]:::sub
+  SUN --> SEX["الشَّمْسُ<br/>'ash-shams' = the sun<br/>(say: ash-shams, NOT al-shams)"]:::ex
+
+  classDef root fill:#064e3b,stroke:#064e3b,color:#fff,stroke-width:2px,font-weight:bold;
+  classDef main fill:#cffafe,stroke:#0e7490,color:#0c4a6e,stroke-width:2px,font-weight:bold;
+  classDef sub  fill:#fef3c7,stroke:#b45309,color:#7c2d12;
+  classDef ex   fill:#ffe4e6,stroke:#be123c,color:#881337;
+  </div>
+
+  <div class="defs">
+    <div class="def-card">
+      <h4>The names</h4>
+      <div class="def-row">
+        <div class="label">Why?</div>
+        <div class="body english">The names come from the test words: the moon = <span class="ar">الْقَمَرُ</span> (al-<b>q</b>amar) — the <b>ق</b> belongs to one group. The sun = <span class="ar">الشَّمْسُ</span> (a<b>sh</b>-shams) — the <b>ش</b> belongs to the other.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Roman</div>
+        <div class="body roman">"Qamar" (chand) ke <b>ق</b> par "al-" saaf bolaa jaata hai — to ق jaisi 14 letters "Qamariyya" (moon letters) hain. "Shams" (sooraj) ke <b>ش</b> par "al-" ki "l" gum ho jaati hai, ش double ho jaata hai — to ش jaisi 14 letters "Shamsiyya" (sun letters) hain.</div>
+      </div>
+    </div>
+
+    <div class="def-card">
+      <h4>Moon letters (ل is pronounced) · 14 letters</h4>
+      <div class="def-row">
+        <div class="label">Letters</div>
+        <div class="body ar" style="font-size:1.5rem;">ا · ب · ج · ح · خ · ع · غ · ف · ق · ك · م · هـ · و · ي</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Examples</div>
+        <div class="body ar">الْبَيْتُ · الْقَمَرُ · الْكِتَابُ · الْمَسْجِدُ
+          <span class="translit">al-baytu, al-qamaru, al-kitaabu, al-masjidu — the "L" is fully pronounced.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="def-card">
+      <h4>Sun letters (ل goes silent, next letter doubles) · 14 letters</h4>
+      <div class="def-row">
+        <div class="label">Letters</div>
+        <div class="body ar" style="font-size:1.5rem;">ت · ث · د · ذ · ر · ز · س · ش · ص · ض · ط · ظ · ل · ن</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Examples</div>
+        <div class="body ar">الشَّمْسُ · النَّجْمُ · السُّكَّرُ · الرَّجُلُ
+          <span class="translit">ash-shamsu, an-najmu, as-sukkaru, ar-rajulu — NOT "al-shams", say "ash-shams".</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="callout tip">
+    <h4>💡 Memory hook for adult learners</h4>
+    <p>Tell them: <strong>"The Sun is loud — it eats the L."</strong> When you point at the sun (الشمس), say <em>ash-shams</em>; the "L" is swallowed. The Moon is gentle (القمر) — it lets the L through. After this image, students rarely forget.</p>
+  </div>
+
+  <div class="callout warn">
+    <h4>⚠️ Important note</h4>
+    <p>This is purely a <b>pronunciation</b> rule. The spelling always stays the same — you always write <span class="ar">الـ</span>. Whether you say the L or not depends on what comes next. Many students try to write "ash" instead of "al-sh" — correct them.</p>
+  </div>
+</section>
+
+<!-- ===== CONCEPT 5: QUESTION PARTICLE ===== -->
+<section class="block" id="concept-5">
+  <h2>5 · <span class="ar">أَ</span> — The Question Particle</h2>
+  <p class="block-meta">A single letter that turns any statement into a yes/no question. Beautifully simple.</p>
+
+  <div class="breadcrumb">
+    <b>Where this fits:</b> students have built "this is a house" — now they will ask "is this a house?".
+  </div>
+
+  <div class="mermaid">
+flowchart TB
+  Q["أَ<br/>A- · question particle"]:::root
+  Q --> R1["Attach to the start<br/>of any statement"]:::sub
+  Q --> R2["Makes it a<br/>yes/no question"]:::sub
+
+  R1 --> E1["هَذَا بَيْتٌ<br/>'This is a house'"]:::ex
+  E1 --> E2["أَهَذَا بَيْتٌ ؟<br/>a-haadhaa baytun ?<br/>'Is this a house?'"]:::ex
+
+  R2 --> ANS["Answer with:"]:::sub
+  ANS --> Y["نَعَمْ<br/>na'am · YES"]:::ex
+  ANS --> N["لَا<br/>laa · NO"]:::ex
+
+  classDef root fill:#064e3b,stroke:#064e3b,color:#fff,stroke-width:2px,font-weight:bold;
+  classDef sub  fill:#fef3c7,stroke:#b45309,color:#7c2d12;
+  classDef ex   fill:#ffe4e6,stroke:#be123c,color:#881337;
+  </div>
+
+  <div class="defs">
+    <div class="def-card">
+      <h4>The question pattern</h4>
+      <div class="def-row">
+        <div class="label">English</div>
+        <div class="body english">Just put <span class="ar">أَ</span> (a-, with a fatḥa) before any nominal sentence to ask "Is...?".</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Roman</div>
+        <div class="body roman">Jumle ke shuru mein "a-" (alif par zabar) lagao — sawal ban jaata hai. English mein "is/are/am" jumle ke aage daalte hain — wahi kaam Arabi mein "أَ" karta hai.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Examples</div>
+        <div class="body ar">
+          أَهَذَا قَلَمٌ ؟ — نَعَمْ ، هَذَا قَلَمٌ
+          <span class="translit">a-haadhaa qalamun? — na'am, haadhaa qalamun. · "Is this a pen? — Yes, this is a pen."</span>
+        </div>
+      </div>
+      <div class="def-row">
+        <div class="label"></div>
+        <div class="body ar">
+          أَهَذَا بَابٌ ؟ — لَا ، هَذَا قَلَمٌ
+          <span class="translit">a-haadhaa baabun? — laa, haadhaa qalamun. · "Is this a door? — No, this is a pen."</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== VOCABULARY ===== -->
+<section class="block" id="vocab">
+  <h2>📖 Vocabulary — <span class="ar">المُفْرَدَاتُ</span></h2>
+  <p class="block-meta">The ~22 words introduced in Chapter 1. Drill them with real objects in the room before any grammar.</p>
+
+  <table class="vocab-table">
+    <thead>
+      <tr>
+        <th>Arabic</th>
+        <th>Transliteration</th>
+        <th>English</th>
+        <th>Roman Urdu</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="ar">بَيْتٌ</td><td class="translit">baytun</td><td>a house</td><td>ek ghar</td></tr>
+      <tr><td class="ar">مَسْجِدٌ</td><td class="translit">masjidun</td><td>a mosque</td><td>ek masjid</td></tr>
+      <tr><td class="ar">بَابٌ</td><td class="translit">baabun</td><td>a door</td><td>ek darwaaza</td></tr>
+      <tr><td class="ar">كِتَابٌ</td><td class="translit">kitaabun</td><td>a book</td><td>ek kitaab</td></tr>
+      <tr><td class="ar">قَلَمٌ</td><td class="translit">qalamun</td><td>a pen</td><td>ek qalam</td></tr>
+      <tr><td class="ar">مِفْتَاحٌ</td><td class="translit">miftaaḥun</td><td>a key</td><td>ek chaabi</td></tr>
+      <tr><td class="ar">مَكْتَبٌ</td><td class="translit">maktabun</td><td>a desk</td><td>ek mez</td></tr>
+      <tr><td class="ar">سَرِيرٌ</td><td class="translit">sareerun</td><td>a bed</td><td>ek palang</td></tr>
+      <tr><td class="ar">كُرْسِيٌّ</td><td class="translit">kursiyyun</td><td>a chair</td><td>ek kursi</td></tr>
+      <tr><td class="ar">نَجْمٌ</td><td class="translit">najmun</td><td>a star</td><td>ek sitara</td></tr>
+      <tr><td class="ar">قَمَرٌ</td><td class="translit">qamarun</td><td>a moon</td><td>chand</td></tr>
+      <tr><td class="ar">وَلَدٌ</td><td class="translit">waladun</td><td>a boy</td><td>ek ladka</td></tr>
+      <tr><td class="ar">رَجُلٌ</td><td class="translit">rajulun</td><td>a man</td><td>ek aadmi</td></tr>
+      <tr><td class="ar">تَاجِرٌ</td><td class="translit">taajirun</td><td>a merchant</td><td>ek taajir</td></tr>
+      <tr><td class="ar">طَبِيبٌ</td><td class="translit">ṭabeebun</td><td>a doctor</td><td>ek doctor</td></tr>
+      <tr><td class="ar">طَالِبٌ</td><td class="translit">ṭaalibun</td><td>a student</td><td>ek taalib-e-ilm</td></tr>
+      <tr><td class="ar">كَلْبٌ</td><td class="translit">kalbun</td><td>a dog</td><td>ek kutta</td></tr>
+      <tr><td class="ar">حِمَارٌ</td><td class="translit">ḥimaarun</td><td>a donkey</td><td>ek gadha</td></tr>
+      <tr><td class="ar">حِصَانٌ</td><td class="translit">ḥiṣaanun</td><td>a horse</td><td>ek ghoda</td></tr>
+      <tr><td class="ar">جَمَلٌ</td><td class="translit">jamalun</td><td>a camel</td><td>ek oont</td></tr>
+      <tr><td class="ar">دِيكٌ</td><td class="translit">deekun</td><td>a rooster</td><td>ek murgha</td></tr>
+      <tr><td class="ar">قَمِيصٌ</td><td class="translit">qameeṣun</td><td>a shirt</td><td>ek kameez</td></tr>
+      <tr><td class="ar">مِنْدِيلٌ</td><td class="translit">mindeelun</td><td>a handkerchief</td><td>ek rumaal</td></tr>
+      <tr><td class="ar">نَعَمْ</td><td class="translit">naʿam</td><td>yes</td><td>haan</td></tr>
+      <tr><td class="ar">لَا</td><td class="translit">laa</td><td>no</td><td>nahin</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- ===== COMMON MISTAKES ===== -->
+<section class="block" id="mistakes">
+  <h2>⚠️ Common Student Mistakes — Watch For These</h2>
+
+  <div class="callout warn">
+    <h4>1. Inserting "is/hai" into the sentence</h4>
+    <p>Student says <em>"haadhaa huwa baytun"</em> (mixing in <span class="ar">هُوَ</span> = he/it). Correct them gently: in Arabic, the silence between the two words IS the "is". No extra word is needed.</p>
+  </div>
+
+  <div class="callout warn">
+    <h4>2. Pronouncing the silent ا in هَذَا</h4>
+    <p>Student says "ha-aa-dhaa" with a long pause. Correct: it's spelled with an alif but said "<strong>haadhaa</strong>" — one short "ha" then "dhaa".</p>
+  </div>
+
+  <div class="callout warn">
+    <h4>3. Forgetting the tanween drops</h4>
+    <p>Student says "al-baytun" (keeps the doubling). Correct: when al- is attached, the doubling drops — <em>al-baytu</em>, not <em>al-baytun</em>.</p>
+  </div>
+
+  <div class="callout warn">
+    <h4>4. Saying "al-shams" instead of "ash-shams"</h4>
+    <p>Sun-letter assimilation is unfamiliar to English speakers. Drill it specifically: have them say <em>ash-shams, an-najm, ar-rajul, as-sareer</em> aloud, comparing to <em>al-bayt, al-qamar, al-kitaab</em>.</p>
+  </div>
+
+  <div class="callout warn">
+    <h4>5. Mixing up هَذَا (masculine) vs هَذِهِ (feminine)</h4>
+    <p>Chapter 1 only uses <span class="ar">هَذَا</span>. If students ask "what about feminine?", say "we'll learn that in Chapter 3 — stay with <span class="ar">هَذَا</span> for now". Don't overload them.</p>
+  </div>
+</section>
+
+<!-- ===== CONNECT TO QURAN ===== -->
+<section class="block" id="quran">
+  <h2>📿 Connect to the Qur'an</h2>
+  <p class="block-meta">Adult learners stay motivated when they see Chapter 1 vocabulary in the actual Qur'an. Use 1–2 of these in class.</p>
+
+  <div class="callout quran">
+    <h4>Surah Al-Baqarah · 2:35</h4>
+    <p class="ar" style="font-size:1.6rem;">اسْكُنْ أَنتَ وَزَوْجُكَ الْجَنَّةَ</p>
+    <p><em>uskun anta wa zawjuka <b>al-jannah</b></em> — "Dwell, you and your wife, in <b>the Garden</b>."</p>
+    <p><strong>Students recognise:</strong> the prefix <span class="ar">الـ</span> on a noun → "the". Just learned this!</p>
+  </div>
+
+  <div class="callout quran">
+    <h4>Surah Yasin · 36:38</h4>
+    <p class="ar" style="font-size:1.6rem;">وَالشَّمْسُ تَجْرِي لِمُسْتَقَرٍّ لَّهَا</p>
+    <p><em>wa-<b>ash-shamsu</b> tajrī li-mustaqarrin lahā</em> — "And <b>the sun</b> runs to its resting place."</p>
+    <p><strong>Students recognise:</strong> <span class="ar">الشَّمْسُ</span> — sun letter assimilation, just learned!</p>
+  </div>
+
+  <div class="callout quran">
+    <h4>Surah Al-Fatihah · 1:2</h4>
+    <p class="ar" style="font-size:1.6rem;">الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ</p>
+    <p><em><b>al-ḥamdu</b> lillāhi rabbi <b>al-ʿālamīn</b></em> — "All praise is for Allah, Lord of the worlds."</p>
+    <p><strong>Students recognise:</strong> two <span class="ar">الـ</span> prefixes — both moon letters (ح, ع). The L is heard.</p>
+  </div>
+</section>
+
+<!-- ===== COMPANION FILES ===== -->
+<section class="block" id="resources">
+  <h2>🔗 Companion files for this chapter</h2>
+  <div class="resources">
+    <ul>
+      <li>📝 <a href="deep-notes.md">Deep Notes</a> — Ramsha's prose deep-dive (read this <em>first</em> to internalise the chapter before teaching)</li>
+      <li>🧑‍🎓 <a href="student-handout.html">Student Handout</a> — printable, with exercises for classmates</li>
+      <li>📽️ <a href="slides.html">Slide Deck</a> — for classroom projection</li>
+    </ul>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  Madinah Arabic Book 1 · Chapter 1 · Teacher Notes · eMahad<br>
+  Source text: Dr. V. Abdur Rahim, <em>Duroos al-Lughah al-ʿArabiyyah</em>, Vol 1, Lesson 1.
+</footer>
+
+<script>
+mermaid.initialize({
+  startOnLoad:true,
+  securityLevel:'loose',
+  flowchart:{ htmlLabels:true, useMaxWidth:true, curve:'basis', nodeSpacing:40, rankSpacing:55 },
+  theme:'base',
+  themeVariables:{ fontFamily:'"Scheherazade New","Amiri","Noto Nastaliq Urdu","Inter",sans-serif', fontSize:'15px' }
+});
+</script>
+
+</body>
+</html>

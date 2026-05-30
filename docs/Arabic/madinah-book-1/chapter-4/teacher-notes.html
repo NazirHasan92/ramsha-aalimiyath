@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Madinah Book 1 · Chapter 4 · Teacher Notes</title>
+<link rel="stylesheet" href="../shared/styles.css">
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js"></script>
+</head>
+<body>
+
+<header class="page-header">
+  <div class="ar-title">الدَّرْسُ الرَّابِعُ</div>
+  <h1>Chapter 4 — Teacher Notes</h1>
+  <div class="meta">Madinah Arabic Book 1 · Dr. V. Abdur Rahim · For adult absolute beginners</div>
+</header>
+
+<main>
+
+<nav class="toc">
+  <h3>📚 In this chapter</h3>
+  <ol>
+    <li><a href="#overview">★ Master Overview — how concepts connect</a></li>
+    <li><a href="#objectives">Learning objectives</a></li>
+    <li><a href="#concept-1">Concept 1: <span class="ar">لِـ</span> — "for / belongs to" (+ <span class="ar">لِلْـ</span> rule)</a></li>
+    <li><a href="#concept-2">Concept 2: Proper nouns — names take tanween</a></li>
+    <li><a href="#concept-3">Concept 3: <span class="ar">لِمَنْ ؟</span> — "whose? / for whom?"</a></li>
+    <li><a href="#concept-4">Concept 4: Iḍāfa — possessing without a preposition</a></li>
+    <li><a href="#vocab">Vocabulary list (with Roman + Urdu)</a></li>
+    <li><a href="#mistakes">Common student mistakes</a></li>
+    <li><a href="#quran">Connect to Qur'an</a></li>
+    <li><a href="#resources">Companion files</a></li>
+  </ol>
+</nav>
+
+<div class="legend">
+  <strong>Colour key:</strong>
+  <span class="chip"><span class="dot" style="background:#064e3b"></span>Root</span>
+  <span class="chip"><span class="dot" style="background:#0e7490"></span>Main concept</span>
+  <span class="chip"><span class="dot" style="background:#b45309"></span>Sub-rule</span>
+  <span class="chip"><span class="dot" style="background:#166534"></span>Detail</span>
+  <span class="chip"><span class="dot" style="background:#be123c"></span>Example</span>
+</div>
+
+<div class="callout tip" style="margin:18px 0;">
+  <h4>💡 Read <a href="deep-notes.md">deep-notes.md</a> first</h4>
+  <p>This file is your <em>in-class reference</em> — chart-driven, fast to scan while teaching. The conceptual scaffolding (why names take tanween, why iḍāfa's first noun loses <span class="ar">الـ</span>, why the second noun is in kasra without a preposition) lives in <a href="deep-notes.md">deep-notes.md</a> Part A. Read that before your first session with the chapter; this file is what you have open during class.</p>
+</div>
+
+<!-- ===== MASTER OVERVIEW ===== -->
+<section class="block overview" id="overview">
+  <h2>★ Master Overview — <span class="ar">نقشۂ الدرس</span></h2>
+  <p class="block-meta">One bird's-eye map: every concept of Chapter 4 — and how it extends Ch 3's kasra system into a fuller case system.</p>
+  <div class="mermaid">
+flowchart TB
+  ROOT(["الدَّرْسُ الرَّابِعُ<br/>Chapter 4"]):::root
+  ROOT --> A["لِـ<br/>LI- · 'for / belongs to'<br/>(5th preposition)"]:::main
+  ROOT --> B["Proper nouns<br/>names take tanween<br/>but are already definite"]:::main
+  ROOT --> C["لِمَنْ ؟<br/>LI-MAN · 'whose?'<br/>= لِـ + مَنْ"]:::main
+  ROOT --> D["إِضَافَة<br/>Iḍāfa · possessive<br/>noun-noun"]:::main
+
+  A --> A1["same kasra rule<br/>as Ch 3"]:::sub
+  A --> A2["⚠️ spelling rule:<br/>لِـ + الْ = لِلْـ<br/>(alif drops)"]:::sub
+  A --> A3["لِمُحَمَّدٍ · لِلْوَلَدِ"]:::ex
+
+  B --> B1["definite by themselves<br/>(no الـ needed)"]:::sub
+  B --> B2["BUT keep tanween<br/>(مُحَمَّدٌ, عَلِيٌّ)"]:::leaf
+  B --> B3["after لِـ → kasra-tanween<br/>(لِمُحَمَّدٍ)"]:::sub
+
+  C --> C1["asks about<br/>possession / belonging"]:::sub
+  C --> C2["لِمَنْ هَذَا ؟<br/>— هَذَا لِمُحَمَّدٍ"]:::ex
+  C --> C3["⚠️ NOT مِنْ ! NOT مَنْ alone !<br/>three-way contrast"]:::leaf
+
+  D --> D1["1st noun: no الـ,<br/>no tanween"]:::sub
+  D --> D2["2nd noun: in kasra<br/>(jarr — NEW: no preposition!)"]:::sub
+  D --> D3["كِتَابُ مُحَمَّدٍ<br/>'Muhammad's book'"]:::ex
+  D --> D4["First non-prepositional jarr<br/>(extends the case system)"]:::leaf
+
+  classDef root fill:#064e3b,stroke:#064e3b,color:#fff,stroke-width:3px,font-weight:bold;
+  classDef main fill:#cffafe,stroke:#0e7490,color:#0c4a6e,stroke-width:2px,font-weight:bold;
+  classDef sub  fill:#fef3c7,stroke:#b45309,color:#7c2d12,stroke-width:2px;
+  classDef leaf fill:#dcfce7,stroke:#166534,color:#14532d;
+  classDef ex   fill:#ffe4e6,stroke:#be123c,color:#881337;
+  </div>
+
+  <div class="callout tip" style="margin-top:12px;">
+    <h4>How Ch 4 connects back</h4>
+    <p>Two threads from earlier chapters land here:</p>
+    <ul>
+      <li><strong>Ch 3's kasra rule</strong> extends. <span class="ar">لِـ</span> is just another preposition — same kasra ending on the next noun. AND iḍāfa is a *new* place where the kasra appears — without any visible preposition. Two new contexts for the same ending.</li>
+      <li><strong>Definiteness from Ch 1</strong> gets richer. Ch 1: <span class="ar">الـ</span> makes a noun definite. Ch 4: names are definite without <span class="ar">الـ</span>; and the first noun of iḍāfa is definite via the second noun. Three routes to the same destination.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ===== OBJECTIVES ===== -->
+<section class="block" id="objectives">
+  <h2>🎯 Learning Objectives</h2>
+  <p>By the end of this chapter, the student will be able to:</p>
+  <ol style="line-height:2;">
+    <li>Use the preposition <span class="ar">لِـ</span> (for / belongs to) — attached to the next word.</li>
+    <li>Apply Ch 3's kasra rule to <span class="ar">لِـ</span>: <em>li-Muḥammadin, li-ʿAliyyin</em>, etc.</li>
+    <li>Apply the spelling rule <span class="ar">لِـ + الْ = لِلْـ</span> (the alif of <span class="ar">الـ</span> drops in writing).</li>
+    <li>Recognise that <strong>proper nouns (names)</strong> are definite by themselves but still carry tanween.</li>
+    <li>Ask <strong>"Whose ___?"</strong> using <span class="ar">لِمَنْ</span>, and answer with <span class="ar">لِـ</span> + name (or <span class="ar">الـ</span>-noun).</li>
+    <li>Build a basic iḍāfa (possessive) — <span class="ar">كِتَابُ مُحَمَّدٍ</span> — applying its three rules.</li>
+    <li>Recognize and use names: <span class="ar">مُحَمَّد، عَلِيّ، حَامِد، عَبَّاس، يَاسِر، خَالِد</span>, plus family terms <span class="ar">أَب، أَخ، ابْن، عَمّ</span>.</li>
+  </ol>
+</section>
+
+<!-- ===== CONCEPT 1: LI- ===== -->
+<section class="block" id="concept-1">
+  <h2>1 · <span class="ar">لِـ</span> — "for / belongs to" (a new preposition with a twist)</h2>
+  <p class="block-meta">The 5th preposition — same kasra rule as last week, but with a tricky spelling rule when it meets <span class="ar">الـ</span>.</p>
+
+  <div class="breadcrumb">
+    <b>Where this fits:</b> Ch 3 introduced 4 prepositions (<span class="ar">فِي · عَلَى · إِلَى · مِنْ</span>) and the rule "after a preposition → kasra ending". <span class="ar">لِـ</span> joins that family — same rule, plus the new <span class="ar">لِلْـ</span> spelling complication.
+  </div>
+
+  <div class="mermaid">
+flowchart TB
+  L["لِـ<br/>LI- · 'for / belongs to'"]:::root
+  L --> R1["attached to next word<br/>(no space)"]:::sub
+  L --> R2["next noun in kasra<br/>(same Ch 3 rule)"]:::sub
+  L --> R3["⚠️ لِـ + الْ = لِلْـ<br/>(alif of الْ drops in writing)"]:::sub
+
+  R1 --> E1["لِمُحَمَّدٍ<br/>li-Muḥammadin<br/>'for Muhammad' / 'Muhammad's'"]:::ex
+  R2 --> E2["لِعَلِيٍّ<br/>li-ʿAliyyin<br/>'for Ali'"]:::ex
+  R3 --> E3["الْوَلَدُ → لِلْوَلَدِ<br/>al-waladu → lil-waladi<br/>'for the boy'"]:::ex
+  R3 --> E4["الْكِتَابُ → لِلْكِتَابِ<br/>al-kitaabu → lil-kitaabi<br/>'for the book'"]:::ex
+
+  classDef root fill:#064e3b,stroke:#064e3b,color:#fff,stroke-width:2px,font-weight:bold;
+  classDef sub  fill:#fef3c7,stroke:#b45309,color:#7c2d12;
+  classDef ex   fill:#ffe4e6,stroke:#be123c,color:#881337;
+  </div>
+
+  <div class="defs">
+    <div class="def-card">
+      <h4><span class="ar">لِـ</span> · <em>li-</em> · for / belongs to</h4>
+      <div class="def-row">
+        <div class="label">Meaning</div>
+        <div class="body english"><b>"for / belongs to"</b> — expresses possession, intent, or recipient. <em>"For Muhammad"</em> = <em>"Muhammad's"</em>.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Roman Urdu</div>
+        <div class="body roman">"Ke liye" / "ka/ki/ke" — jaisa <em>"Muhammad ke liye"</em> ya <em>"Muhammad ka kitaab"</em>.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Important</div>
+        <div class="body english">Two things from day one:
+          <ol style="margin:4px 0; padding:0 20px;">
+            <li><span class="ar">لِـ</span> is a <b>single letter</b> — written <b>attached</b> to the next word. No space. (Different from <span class="ar">فِي</span>, <span class="ar">عَلَى</span> etc. which stand alone.)</li>
+            <li>The noun after <span class="ar">لِـ</span> takes <b>kasra</b> — exactly like Ch 3's preposition rule.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="def-row">
+        <div class="label">Example</div>
+        <div class="body ar">هَذَا الْكِتَابُ لِمُحَمَّدٍ
+          <span class="translit">haadhal-kitaabu li-Muḥammadin · "This book is Muhammad's" · "Yeh kitaab Muhammad ki hai"</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="def-card">
+      <h4>⚠️ The big spelling rule — <span class="ar">لِـ + الْ = لِلْـ</span></h4>
+      <div class="def-row">
+        <div class="label">Rule</div>
+        <div class="body english">When <span class="ar">لِـ</span> meets a noun starting with <span class="ar">الـ</span>, the <b>alif of <span class="ar">الـ</span> drops</b> in writing. You write <span class="ar">لِلْـ</span> — two ل letters back-to-back.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Roman Urdu</div>
+        <div class="body roman">Jab <span class="ar">لِـ</span> aur <span class="ar">الـ</span> milti hain — <span class="ar">الـ</span> ki alif gum ho jaati hai. Likhne mein bhi, bolne mein bhi. Sirf do ل reh jaati hain.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Pattern</div>
+        <div class="body ar">
+          لِـ + الْوَلَدُ → لِلْوَلَدِ
+          <span class="translit">li- + al-waladu → lil-waladi</span>
+        </div>
+      </div>
+      <div class="def-row">
+        <div class="label">Important</div>
+        <div class="body english">The definiteness is <b>still there</b> — the boy is still "the boy". Only the alif's *visual mark* disappeared. The ل of <span class="ar">الـ</span> remains (silent, with sukoon).</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Compare</div>
+        <div class="body english">
+          With name (no <span class="ar">الـ</span>): <span class="ar">لِمُحَمَّدٍ</span> — kasra-tanween (-in)<br>
+          With <span class="ar">الـ</span>-noun: <span class="ar">لِلْوَلَدِ</span> — single kasra (-i), alif dropped
+        </div>
+      </div>
+    </div>
+
+    <div class="def-card">
+      <h4>Drill set — read aloud, both columns</h4>
+      <div class="def-row">
+        <div class="label">With name</div>
+        <div class="body ar">
+          لِمُحَمَّدٍ · لِعَلِيٍّ · لِحَامِدٍ · لِعَبَّاسٍ · لِيَاسِرٍ · لِخَالِدٍ
+          <span class="translit">li-Muḥammadin · li-ʿAliyyin · li-Ḥāmidin · li-ʿAbbāsin · li-Yāsirin · li-Khālidin</span>
+        </div>
+      </div>
+      <div class="def-row">
+        <div class="label">With <span class="ar">الـ</span>-noun</div>
+        <div class="body ar">
+          لِلْوَلَدِ · لِلْبَيْتِ · لِلْكِتَابِ · لِلْمَسْجِدِ · لِلْإِمَامِ
+          <span class="translit">lil-waladi · lil-bayti · lil-kitaabi · lil-masjidi · lil-imaami</span>
+        </div>
+      </div>
+      <div class="def-row">
+        <div class="label">Roman</div>
+        <div class="body roman">Baayein wali column (naam wala): "-in" doubling sunaayi de. Daayein wali column (<span class="ar">الـ</span> wala): single kasra, alif gum, do ل back-to-back.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="callout tip">
+    <h4>💡 Teaching tip — write, don't just speak</h4>
+    <p>For the <span class="ar">لِلْـ</span> rule, drill on <strong>paper</strong>, not just verbally. Have classmates write <span class="ar">الْوَلَدُ</span>, then write <span class="ar">لِـ</span> in front, then physically <strong>cross out</strong> the alif with a pencil mark before writing the final form <span class="ar">لِلْوَلَدِ</span>. The crossing-out makes the alif's disappearance visible. Repeat with 5 nouns. The hand learns what the eye doesn't quite trust.</p>
+  </div>
+
+  <div class="callout warn">
+    <h4>⚠️ Don't pre-teach <span class="ar">بِـ</span> or other attached prepositions</h4>
+    <p>Arabic has another single-letter preposition: <span class="ar">بِـ</span> ("with / by"). It works the same way as <span class="ar">لِـ</span> (attached to next word, triggers kasra). Don't teach it in Ch 4. If you show <span class="ar">بِسْمِ ٱللَّـهِ</span> in the Qur'an section, just say: <em>"yeh ek aur attached preposition hai, aage chapter mein milegi — par dekh sakte ho ke kasra rule yahaan bhi chal raha hai."</em></p>
+  </div>
+</section>
+
+<!-- ===== CONCEPT 2: PROPER NOUNS ===== -->
+<section class="block" id="concept-2">
+  <h2>2 · Proper nouns — names take tanween (but are already definite)</h2>
+  <p class="block-meta">A subtle surprise: names like <span class="ar">مُحَمَّد، عَلِيّ، حَامِد</span> don't take <span class="ar">الـ</span>, but they DO take tanween. This breaks the "tanween = indefinite" pattern from Ch 1.</p>
+
+  <div class="breadcrumb">
+    <b>Where this fits:</b> Ch 1 taught: definite = with <span class="ar">الـ</span>, indefinite = with tanween. Today reveals: there's a third category — proper nouns are definite-by-themselves but still carry tanween. Definiteness has more than one route.
+  </div>
+
+  <div class="mermaid">
+flowchart TB
+  N["Proper Noun<br/>(name · ism al-ʿalam)"]:::root
+  N --> R1["definite by itself<br/>(NO الـ needed)"]:::sub
+  N --> R2["BUT carries tanween<br/>(مُحَمَّدٌ, عَلِيٌّ)"]:::sub
+  N --> R3["after لِـ → kasra-tanween<br/>like an indefinite noun"]:::sub
+
+  R1 --> E1["مُحَمَّدٌ<br/>'Muhammad'<br/>(definite — no الـ)"]:::ex
+  R2 --> E2["عَلِيٌّ<br/>'Ali'<br/>(definite — but tanween)"]:::ex
+  R3 --> E3["لِمُحَمَّدٍ<br/>li-Muḥammadin<br/>'for Muhammad'"]:::ex
+
+  classDef root fill:#064e3b,stroke:#064e3b,color:#fff,stroke-width:2px,font-weight:bold;
+  classDef sub  fill:#fef3c7,stroke:#b45309,color:#7c2d12;
+  classDef ex   fill:#ffe4e6,stroke:#be123c,color:#881337;
+  </div>
+
+  <div class="defs">
+    <div class="def-card">
+      <h4>Three routes to definiteness — the picture</h4>
+      <div class="def-row">
+        <div class="label">Route 1: <span class="ar">الـ</span></div>
+        <div class="body ar">الْوَلَدُ
+          <span class="translit">al-waladu · "the boy" (definite via الـ — Ch 1)</span>
+        </div>
+      </div>
+      <div class="def-row">
+        <div class="label">Route 2: Name</div>
+        <div class="body ar">مُحَمَّدٌ
+          <span class="translit">Muḥammadun · "Muhammad" (definite by being a name — Ch 4)</span>
+        </div>
+      </div>
+      <div class="def-row">
+        <div class="label">Route 3: Iḍāfa</div>
+        <div class="body ar">كِتَابُ مُحَمَّدٍ
+          <span class="translit">kitaabu Muḥammadin · "Muhammad's book" (first noun definite via the second — Ch 4)</span>
+        </div>
+      </div>
+      <div class="def-row">
+        <div class="label">Roman</div>
+        <div class="body roman">Definite hone ke teen tareeqe — <span class="ar">الـ</span> ke saath, naam ke roop mein, ya iḍāfa mein. Sab ek hi maqsad — lafz ko khaas banana.</div>
+      </div>
+    </div>
+
+    <div class="def-card">
+      <h4>The 6 names of Chapter 4</h4>
+      <div class="def-row">
+        <div class="label">Citing forms</div>
+        <div class="body ar" style="font-size:1.5rem;">
+          مُحَمَّدٌ · عَلِيٌّ · حَامِدٌ · عَبَّاسٌ · يَاسِرٌ · خَالِدٌ
+          <span class="translit" style="font-size:0.85rem;">Muḥammadun · ʿAliyyun · Ḥāmidun · ʿAbbāsun · Yāsirun · Khālidun</span>
+        </div>
+      </div>
+      <div class="def-row">
+        <div class="label">After <span class="ar">لِـ</span></div>
+        <div class="body ar" style="font-size:1.4rem;">
+          لِمُحَمَّدٍ · لِعَلِيٍّ · لِحَامِدٍ · لِعَبَّاسٍ · لِيَاسِرٍ · لِخَالِدٍ
+          <span class="translit" style="font-size:0.85rem;">li-Muḥammadin · li-ʿAliyyin · li-Ḥāmidin · li-ʿAbbāsin · li-Yāsirin · li-Khālidin</span>
+        </div>
+      </div>
+      <div class="def-row">
+        <div class="label">Rule</div>
+        <div class="body english">All 6 names are <em>munṣarif</em> (regular) — they take full tanween. Pesh-tanween in citing form (<span class="ar">ـٌ</span>), kasra-tanween after a preposition (<span class="ar">ـٍ</span>).</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Roman</div>
+        <div class="body roman">Yeh 6 naam sab "regular" hain — tanween lagti hai. Doosre naam (Yusuf, Ibrahim, Maryam) "special" hain — un par tanween nahin lagti — par yeh aage ke chapters ka kaam hai.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="callout tip">
+    <h4>💡 Teaching tip — acknowledge the surprise</h4>
+    <p>Classmates will look puzzled when they see <span class="ar">مُحَمَّدٌ</span> for the first time — <em>"par tanween to indefinite ki nishaani thi! Aur agar definite hai to <span class="ar">الـ</span> kyun nahin?"</em>. Don't dodge it. Say openly: <em>"Yeh ek surprise rule hai — naam alag category mein hain. Khaas hote hain, par tanween phir bhi lagi hai. Yeh classical Arabic ka usool hai — accept karo, sawal mat poochho. Definite hone ke teen alag tareeqe hain — aaj teesra dekh rahe ho."</em></p>
+  </div>
+
+  <div class="callout warn">
+    <h4>⚠️ Don't say "no, you can't add <span class="ar">الـ</span> to names" without explanation</h4>
+    <p>A classmate may try writing <span class="ar">الْمُحَمَّدُ</span>. Correct gently: <em>"Naam apne aap khaas hota hai — <span class="ar">الـ</span> ki zaroorat nahin. Hum kabhi 'al-Muhammad' nahin likhte. Yeh Arabic ka pakka rule hai."</em> Don't open the door to <em>al-Madinah, al-Riyad</em> etc. — those are place-name conventions, Ch 12+ territory.</p>
+  </div>
+</section>
+
+<!-- ===== CONCEPT 3: LIMAN ===== -->
+<section class="block" id="concept-3">
+  <h2>3 · <span class="ar">لِمَنْ ؟</span> — "Whose? / For whom?"</h2>
+  <p class="block-meta">A new question word — built by gluing today's <span class="ar">لِـ</span> to Ch 2's <span class="ar">مَنْ</span> (who?).</p>
+
+  <div class="breadcrumb">
+    <b>Where this fits:</b> 6th member of the question family (after <span class="ar">أَ</span>, <span class="ar">مَا</span>, <span class="ar">مَنْ</span>, <span class="ar">أَمْ</span>, <span class="ar">أَيْنَ</span>). It's the natural question for today's <span class="ar">لِـ</span> — asking <em>"for whom?"</em> demands an answer with <em>"for X"</em>.
+  </div>
+
+  <div class="mermaid">
+flowchart TB
+  LM["لِمَنْ ؟<br/>LI-MAN · 'whose? / for whom?'"]:::root
+  LM --> R1["= لِـ + مَنْ"]:::sub
+  LM --> R2["asks about<br/>possession / belonging"]:::sub
+  LM --> R3["answer uses لِـ"]:::sub
+
+  R1 --> E1["لِمَنْ هَذَا الْكِتَابُ ؟<br/>li-man haadhal-kitaabu?<br/>'Whose book is this?'"]:::ex
+  R3 --> E2["هَذَا الْكِتَابُ لِمُحَمَّدٍ<br/>haadhal-kitaabu li-Muḥammadin<br/>'This book is Muhammad's'"]:::ex
+
+  R1 --> E3["لِمَنْ هَذَا الْقَلَمُ ؟<br/>li-man haadhal-qalamu?<br/>'Whose pen is this?'"]:::ex
+  R3 --> E4["هَذَا الْقَلَمُ لِلْوَلَدِ<br/>haadhal-qalamu lil-waladi<br/>'This pen is the boy's'"]:::ex
+
+  R2 --> WARN["⚠️ three-way:<br/>مَنْ (who? Ch 2)<br/>مِنْ (from, Ch 3)<br/>لِمَنْ (whose? Ch 4)"]:::leaf
+
+  classDef root fill:#064e3b,stroke:#064e3b,color:#fff,stroke-width:2px,font-weight:bold;
+  classDef sub  fill:#fef3c7,stroke:#b45309,color:#7c2d12;
+  classDef leaf fill:#dcfce7,stroke:#166534,color:#14532d;
+  classDef ex   fill:#ffe4e6,stroke:#be123c,color:#881337;
+  </div>
+
+  <div class="defs">
+    <div class="def-card">
+      <h4><span class="ar">لِمَنْ</span> · <em>li-man</em> · whose? / for whom?</h4>
+      <div class="def-row">
+        <div class="label">English</div>
+        <div class="body english"><span class="ar">لِمَنْ</span> = <span class="ar">لِـ</span> + <span class="ar">مَنْ</span> — combines today's preposition with Ch 2's "who?" word. Asks about possession or recipient.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Roman Urdu</div>
+        <div class="body roman">"Kis ka? / Kis ke liye?" — possession ka sawal. Arabic mein dono ke liye ek hi lafz.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Pattern</div>
+        <div class="body english">
+          Q: <span class="ar">لِمَنْ ___ ؟</span> (li-man ___?)<br>
+          A: <span class="ar">___ لِـ___</span> (subject + lī- + name or <span class="ar">الـ</span>-noun)
+        </div>
+      </div>
+      <div class="def-row">
+        <div class="label">Example 1</div>
+        <div class="body ar">لِمَنْ هَذَا الْكِتَابُ ؟ — هَذَا الْكِتَابُ لِمُحَمَّدٍ
+          <span class="translit">li-man haadhal-kitaabu? — haadhal-kitaabu li-Muḥammadin · "Whose book is this? — This book is Muhammad's" · "Yeh kitaab kis ki hai? — Yeh kitaab Muhammad ki hai"</span>
+        </div>
+      </div>
+      <div class="def-row">
+        <div class="label">Example 2</div>
+        <div class="body ar">لِمَنْ هَذَا الْقَلَمُ ؟ — هَذَا الْقَلَمُ لِلْوَلَدِ
+          <span class="translit">li-man haadhal-qalamu? — haadhal-qalamu lil-waladi · "Whose pen is this? — This pen is the boy's"</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="def-card">
+      <h4>⚠️ The three-way contrast — <span class="ar">مَنْ / مِنْ / لِمَنْ</span></h4>
+      <div class="def-row">
+        <div class="label"><span class="ar">مَنْ</span> (Ch 2)</div>
+        <div class="body english"><em>man</em> — "who?" — for asking about a person. Fatḥa on م.</div>
+      </div>
+      <div class="def-row">
+        <div class="label"><span class="ar">مِنْ</span> (Ch 3)</div>
+        <div class="body english"><em>min</em> — "from" — a preposition. Kasra on م.</div>
+      </div>
+      <div class="def-row">
+        <div class="label"><span class="ar">لِمَنْ</span> (Ch 4)</div>
+        <div class="body english"><em>li-man</em> — "whose? / for whom?" — <span class="ar">لِـ</span> attached to <span class="ar">مَنْ</span>. The ل clearly marks it apart.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Roman</div>
+        <div class="body roman">Teen alag lafz, teen alag kaam. Pehli do same letters magar alag vowels. Teesri pehli wali se لِـ judi hui hai — pehchaan saaf hai (ل dikhe to لِمَنْ, nahin to مَنْ ya مِنْ — vowel se distinguish karo).</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="callout tip">
+    <h4>💡 Teaching tip — symmetry between Q and A</h4>
+    <p>Both the question (<span class="ar">لِمَنْ</span>) and the answer (<span class="ar">لِمُحَمَّدٍ</span>) use <span class="ar">لِـ</span>. This symmetry is a teaching gift — drill it: <em>"li-man ___? — ___ li-Muḥammadin"</em>. The repeated ل reinforces both the new question word AND the new preposition simultaneously.</p>
+  </div>
+
+  <div class="callout warn">
+    <h4>⚠️ Three-way contrast — put on board from minute one</h4>
+    <p>Write all three side by side, with vowels visible:</p>
+    <ul style="line-height:1.9;">
+      <li><span class="ar" style="font-size:1.3rem;">مَنْ</span> = <em>man</em> = "who?" (Ch 2)</li>
+      <li><span class="ar" style="font-size:1.3rem;">مِنْ</span> = <em>min</em> = "from" (Ch 3)</li>
+      <li><span class="ar" style="font-size:1.3rem;">لِمَنْ</span> = <em>li-man</em> = "whose?" (Ch 4)</li>
+    </ul>
+    <p>Drill alternating: point at a classmate (<em>"man haadhaa?"</em>), point at a doorway (<em>"min ayna?"</em>), hold up a pen (<em>"li-man haadhal-qalamu?"</em>). All three back-to-back builds the contrast.</p>
+  </div>
+</section>
+
+<!-- ===== CONCEPT 4: IDAAFA ===== -->
+<section class="block" id="concept-4">
+  <h2>4 · Iḍāfa — possessing without a preposition</h2>
+  <p class="block-meta">The biggest idea in the chapter — and one of the most powerful in all of Arabic. Two nouns glued side-by-side to express possession. Get this right, and vast amounts of Qur'anic phrasing become parseable.</p>
+
+  <div class="breadcrumb">
+    <b>Where this fits:</b> Ch 3 said: "kasra appears after a preposition". Today reveals: "kasra ALSO appears in iḍāfa, even with no preposition". The second noun is in jarr without anything visibly "pulling" it. This is the first non-prepositional jarr in the course — and the doorway to a huge piece of Arabic grammar.
+  </div>
+
+  <div class="mermaid">
+flowchart TB
+  I["إِضَافَة<br/>Iḍāfa · noun-noun possessive"]:::root
+  I --> P1["1st noun (مُضَاف)<br/>= the owned thing"]:::main
+  I --> P2["2nd noun (مُضَاف إِلَيْهِ)<br/>= the owner"]:::main
+
+  P1 --> R1["❌ NO الـ"]:::sub
+  P1 --> R2["❌ NO tanween"]:::sub
+  P1 --> R3["takes whatever<br/>case the sentence needs<br/>(usually pesh in Ch 4)"]:::leaf
+
+  P2 --> R4["✅ in kasra<br/>(jarr — even without preposition!)"]:::sub
+  P2 --> R5["can be a name<br/>(kasra-tanween: مُحَمَّدٍ)"]:::leaf
+  P2 --> R6["can be الـ-noun<br/>(single kasra: الْوَلَدِ)"]:::leaf
+
+  P1 --> EX["كِتَابُ مُحَمَّدٍ<br/>kitaabu Muḥammadin<br/>'Muhammad's book'"]:::ex
+  P2 --> EX
+
+  classDef root fill:#064e3b,stroke:#064e3b,color:#fff,stroke-width:2px,font-weight:bold;
+  classDef main fill:#cffafe,stroke:#0e7490,color:#0c4a6e,stroke-width:2px,font-weight:bold;
+  classDef sub  fill:#fef3c7,stroke:#b45309,color:#7c2d12;
+  classDef leaf fill:#dcfce7,stroke:#166534,color:#14532d;
+  classDef ex   fill:#ffe4e6,stroke:#be123c,color:#881337;
+  </div>
+
+  <div class="defs">
+    <div class="def-card">
+      <h4>What is iḍāfa?</h4>
+      <div class="def-row">
+        <div class="label">English</div>
+        <div class="body english">Iḍāfa (<span class="ar">إِضَافَة</span>) is a way to glue two nouns together to express <b>possession</b> — without a preposition.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Roman Urdu</div>
+        <div class="body roman">"Jodne wala rishta" — do isms ko ek doosre ke pass rakh do, malik aur cheez ka rishta apne aap ban jaata hai. Bina preposition. Urdu ka "kitaab-e-Muhammad" wala "-e-" — bilkul yahi se aaya hai.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Word order</div>
+        <div class="body english">
+          ARABIC: <strong>owned</strong> first, <strong>owner</strong> second. <span class="ar">كِتَابُ مُحَمَّدٍ</span> = literally <em>"book + Muhammad"</em>.<br>
+          ENGLISH: owner first, owned second. <em>"Muhammad's book"</em>.<br>
+          URDU: owner first, owned second. <em>"Muhammad ki kitaab"</em>.
+        </div>
+      </div>
+      <div class="def-row">
+        <div class="label">Roman</div>
+        <div class="body roman">Arabic mein ULTA order — pehle owned, doosre mein owner. Urdu/English ke ulta. Yeh order classmates ko initially confuse karega — diagram banao.</div>
+      </div>
+    </div>
+
+    <div class="def-card">
+      <h4>The 3 rules of iḍāfa</h4>
+      <div class="def-row">
+        <div class="label">Rule 1</div>
+        <div class="body english">First noun: <b>NO <span class="ar">الـ</span></b> — ever. Even if the meaning is "the book of Muhammad" (definite), you do NOT write <span class="ar">الْكِتَابُ</span> on the first noun.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Rule 2</div>
+        <div class="body english">First noun: <b>NO tanween</b> — also dropped. Just a single ending vowel (usually ḍamma in Ch 4 examples).</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Rule 3</div>
+        <div class="body english">Second noun: <b>in kasra (jarr)</b> — always. Whether it's a name (kasra-tanween) or an <span class="ar">الـ</span>-noun (single kasra). This is the new bit — kasra without a preposition.</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Roman</div>
+        <div class="body roman">Teen pakke rules: (1) pehla lafz par <span class="ar">الـ</span> nahin, (2) pehla lafz par tanween nahin, (3) doosra lafz hamesha zer mein. In teenon ko ek saath drill karna padega — classmates ek bhi miss karenge to iḍāfa toot jaayega.</div>
+      </div>
+    </div>
+
+    <div class="def-card">
+      <h4>Examples — read aloud</h4>
+      <div class="def-row">
+        <div class="label">With names</div>
+        <div class="body ar">
+          كِتَابُ مُحَمَّدٍ · بَيْتُ عَلِيٍّ · قَلَمُ حَامِدٍ · ابْنُ يَاسِرٍ · عَمُّ خَالِدٍ
+          <span class="translit">kitaabu Muḥammadin · baytu ʿAliyyin · qalamu Ḥāmidin · ibnu Yāsirin · ʿammu Khālidin</span>
+        </div>
+      </div>
+      <div class="def-row">
+        <div class="label">Translations</div>
+        <div class="body english">Muhammad's book · Ali's house · Hamid's pen · Yasir's son · Khalid's (paternal) uncle</div>
+      </div>
+      <div class="def-row">
+        <div class="label">With <span class="ar">الـ</span>-nouns</div>
+        <div class="body ar">
+          كِتَابُ الْوَلَدِ · بَيْتُ الْإِمَامِ · قَلَمُ الْمُدَرِّسِ · سَيَّارَةُ الْوَلَدِ
+          <span class="translit">kitaabul-waladi · baytul-imaami · qalamul-mudarrisi · sayyāratul-waladi</span>
+        </div>
+      </div>
+      <div class="def-row">
+        <div class="label">Translations</div>
+        <div class="body english">the boy's book · the imam's house · the teacher's pen · the boy's car</div>
+      </div>
+      <div class="def-row">
+        <div class="label">Roman</div>
+        <div class="body roman">Pehla lafz har baar single pesh (`ـُ`) — bina <span class="ar">الـ</span>, bina doubling. Doosra lafz naam ho to doubling rakhta hai zer ke saath, <span class="ar">الـ</span> wala ho to single zer.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="callout tip">
+    <h4>💡 Teaching tip — the "hidden preposition" image</h4>
+    <p>When a classmate asks <em>"par yahaan to preposition nahin hai, kasra kyun?"</em>, give them this metaphor: <strong>"Iḍāfa ke andar ek chhupi hui preposition hoti hai — woh dikhti nahin, par doosra lafz ko kasra mein le aati hai."</strong> ("There's a hidden preposition inside iḍāfa — invisible, but it pulls the second noun into kasra.") The image isn't 100% technically accurate, but it gives classmates a mental hook for *why* the kasra is there. Theory comes later.</p>
+  </div>
+
+  <div class="callout warn">
+    <h4>⚠️ The Ch 4 hammer — repeat this in every drill</h4>
+    <p>For every iḍāfa example, say all three rules out loud:</p>
+    <ol>
+      <li>Pehla lafz — <strong>koi <span class="ar">الـ</span> nahin</strong>.</li>
+      <li>Pehla lafz — <strong>koi tanween nahin</strong>.</li>
+      <li>Doosra lafz — <strong>kasra mein</strong>.</li>
+    </ol>
+    <p>Classmates will skip one of the three. Catch it on the spot. The ritual repetition builds the muscle.</p>
+  </div>
+
+  <div class="callout warn">
+    <h4>⚠️ Don't teach the first noun's full case behaviour yet</h4>
+    <p>Technically the first noun of iḍāfa can be in any case (rafʿ, naṣb, jarr) depending on the sentence. In Ch 4 examples, it's almost always in rafʿ (single ḍamma). Don't open the three-case behaviour now — Ch 5+ territory. Just teach: <em>"pehla lafz par single pesh"</em> for now.</p>
+  </div>
+</section>
+
+<!-- ===== VOCABULARY ===== -->
+<section class="block" id="vocab">
+  <h2>📖 Vocabulary — <span class="ar">المُفْرَدَاتُ</span></h2>
+  <p class="block-meta">Family terms + 6 proper names + grammar words. Family relations are highlighted blue; names are highlighted rose; grammar words are highlighted green.</p>
+
+  <table class="vocab-table">
+    <thead>
+      <tr>
+        <th>Arabic</th>
+        <th>Transliteration</th>
+        <th>English</th>
+        <th>Roman Urdu</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background:#cffafe;"><td class="ar">أَبٌ</td><td class="translit">abun</td><td>a father</td><td>ek baap / waalid</td></tr>
+      <tr style="background:#cffafe;"><td class="ar">أَخٌ</td><td class="translit">akhun</td><td>a brother</td><td>ek bhai</td></tr>
+      <tr style="background:#cffafe;"><td class="ar">ابْنٌ</td><td class="translit">ibnun</td><td>a son</td><td>ek beta</td></tr>
+      <tr style="background:#cffafe;"><td class="ar">عَمٌّ</td><td class="translit">ʿammun</td><td>a paternal uncle</td><td>ek chacha / taya</td></tr>
+      <tr style="background:#cffafe;"><td class="ar">خَالٌ</td><td class="translit">khaalun</td><td>a maternal uncle (review)</td><td>ek maamoon</td></tr>
+      <tr style="background:#ffe4e6;"><td class="ar">مُحَمَّدٌ</td><td class="translit">Muḥammadun</td><td>Muhammad (name)</td><td>Muhammad</td></tr>
+      <tr style="background:#ffe4e6;"><td class="ar">عَلِيٌّ</td><td class="translit">ʿAliyyun</td><td>Ali (name)</td><td>Ali</td></tr>
+      <tr style="background:#ffe4e6;"><td class="ar">حَامِدٌ</td><td class="translit">Ḥāmidun</td><td>Hamid (name)</td><td>Hamid</td></tr>
+      <tr style="background:#ffe4e6;"><td class="ar">عَبَّاسٌ</td><td class="translit">ʿAbbāsun</td><td>Abbas (name)</td><td>Abbas</td></tr>
+      <tr style="background:#ffe4e6;"><td class="ar">يَاسِرٌ</td><td class="translit">Yāsirun</td><td>Yasir (name)</td><td>Yasir</td></tr>
+      <tr style="background:#ffe4e6;"><td class="ar">خَالِدٌ</td><td class="translit">Khālidun</td><td>Khalid (name)</td><td>Khalid</td></tr>
+      <tr><td class="ar">مُدَرِّسٌ</td><td class="translit">mudarrisun</td><td>a teacher</td><td>ek ustaad</td></tr>
+      <tr style="background:#f0fdf4;"><td class="ar">لِـ</td><td class="translit">li-</td><td>for / belongs to</td><td>ke liye / ka / ki / ke</td></tr>
+      <tr style="background:#f0fdf4;"><td class="ar">لِمَنْ</td><td class="translit">li-man</td><td>whose? / for whom?</td><td>kis ka? / kis ke liye?</td></tr>
+    </tbody>
+  </table>
+
+  <p style="margin-top:14px; font-size:0.95rem; color:#6b7280;"><em>Blue rows = family terms. Rose rows = proper names (all <em>munṣarif</em> — take tanween). Green rows = grammar words.</em></p>
+
+  <div class="callout warn" style="margin-top:14px;">
+    <h4>⚠️ Note on <span class="ar">أَبٌ</span> and <span class="ar">أَخٌ</span> — special declension later</h4>
+    <p>These two words are part of a class called <em>asmaa al-khamsah</em> (the five nouns). They have a special case-marking system using long vowels (<span class="ar">أَبُو / أَبَا / أَبِي</span>) when they appear in iḍāfa — but the full rule comes in a later chapter. For Chapter 4, just teach the citing forms (<span class="ar">أَبٌ</span>, <span class="ar">أَخٌ</span>) and use the other family terms (<span class="ar">ابْنٌ</span>, <span class="ar">عَمٌّ</span>, <span class="ar">خَالٌ</span>) for iḍāfa practice. If a classmate asks about <span class="ar">أَبُو مُحَمَّدٍ</span> from the Qur'an: <em>"Yeh special form hai — aage chapter mein full rule milega."</em></p>
+  </div>
+</section>
+
+<!-- ===== COMMON MISTAKES ===== -->
+<section class="block" id="mistakes">
+  <h2>⚠️ Common Student Mistakes — Watch For These</h2>
+
+  <div class="callout warn">
+    <h4>1. Writing <span class="ar">لِالْـ</span> instead of <span class="ar">لِلْـ</span></h4>
+    <p>The single trickiest spelling rule in the chapter. Classmates' instinct is to keep the alif of <span class="ar">الـ</span> visible — <span class="ar">لِالْوَلَدِ</span>. <strong>The alif drops.</strong> Drill on paper, not just verbally: have classmates write the long form, then physically cross out the alif before writing the final compressed form. <strong>Catch this in the first 10 minutes</strong> — if you let it slide, every <span class="ar">لِلْـ</span> word in the future will be wrong.</p>
+  </div>
+
+  <div class="callout warn">
+    <h4>2. Forgetting the kasra after <span class="ar">لِـ</span></h4>
+    <p>Ch 3's main mistake reappearing with a new preposition. Classmates say <em>"li-Muḥammadun"</em> (wrong) instead of <em>"li-Muḥammadin"</em>. Always link <span class="ar">لِـ</span> back to last week's 4 prepositions — same rule, same ending.</p>
+  </div>
+
+  <div class="callout warn">
+    <h4>3. Putting <span class="ar">الـ</span> on the first noun of iḍāfa</h4>
+    <p>Classmates think "Muhammad's book = THE book of Muhammad" → so they write <span class="ar">الْكِتَابُ مُحَمَّدٍ</span>. <strong>Wrong.</strong> First noun of iḍāfa never takes <span class="ar">الـ</span>. The second noun handles definiteness. Present this as a strict prohibition: <em>"Iḍāfa ka pehla pakka rule — pehle lafz par <span class="ar">الـ</span> nahin, kabhi nahin."</em></p>
+  </div>
+
+  <div class="callout warn">
+    <h4>4. Leaving the second noun of iḍāfa in rafʿ</h4>
+    <p>Classmates say <em>"kitaabu Muḥammadun"</em> — keeping the citing form of the name — instead of <em>"kitaabu Muḥammadin"</em>. Even though there's no visible preposition, the second noun is in kasra (jarr). Teach the "hidden preposition" image — iḍāfa contains an invisible preposition that pulls the second noun into kasra.</p>
+  </div>
+
+  <div class="callout warn">
+    <h4>5. Confusing names + tanween — "if Muhammad is definite, why tanween?"</h4>
+    <p>Address this surprise directly. Tell classmates: <em>"Naam alag category hai — woh khaas hota hai (`الـ` ki zaroorat nahin), par tanween phir bhi lagi rehti hai. Yeh classical Arabic ka usool hai — accept karo."</em> Show the three routes to definiteness side by side: <span class="ar">الْوَلَدُ</span>, <span class="ar">مُحَمَّدٌ</span>, <span class="ar">كِتَابُ مُحَمَّدٍ</span>.</p>
+  </div>
+
+  <div class="callout warn">
+    <h4>6. Word-order flip in iḍāfa — owner before owned</h4>
+    <p>Urdu/English put the owner first ("Muhammad's book"). Arabic puts the owned first (<span class="ar">كِتَابُ مُحَمَّدٍ</span> — literally "book of Muhammad"). Classmates may try to write <span class="ar">مُحَمَّدٌ كِتَابٍ</span> (wrong, owner first). Draw the arrow on the board: <span class="ar">كِتَابُ → مُحَمَّدٍ</span>, label "owned → owner".</p>
+  </div>
+</section>
+
+<!-- ===== CONNECT TO QURAN ===== -->
+<section class="block" id="quran">
+  <h2>📿 Connect to the Qur'an</h2>
+  <p class="block-meta">Chapter 4's grammar appears on every page of the Qur'an. Iḍāfa is one of the most common constructions in classical Arabic. Use 1–2 of these in class — students recognise the structures they just learned.</p>
+
+  <div class="callout quran">
+    <h4>Surah Al-Fatihah · 1:2</h4>
+    <p class="ar" style="font-size:1.6rem;">الْحَمْدُ <span style="color:#be123c;">لِلَّهِ</span> <span style="color:#0e7490;">رَبِّ الْعَالَمِينَ</span></p>
+    <p><em>al-ḥamdu <b>li-llāhi</b> <b>rabbi l-ʿālamīna</b></em> — "All praise is <b>for Allah</b>, <b>Lord of the worlds</b>."</p>
+    <p><strong>Students recognise:</strong></p>
+    <ul>
+      <li><span class="ar" style="color:#be123c;">لِلَّهِ</span> — the <span class="ar">لِـ + الْ = لِلْـ</span> rule in action! <span class="ar">لِـ</span> + <span class="ar">اللَّـه</span> = <span class="ar">لِلَّـه</span>. The alif of <span class="ar">الـ</span> dropped, and the name "Allah" is in kasra after the preposition.</li>
+      <li><span class="ar" style="color:#0e7490;">رَبِّ الْعَالَمِينَ</span> — a classic iḍāfa! "Lord of the worlds". First noun (<span class="ar">رَبِّ</span>) has no <span class="ar">الـ</span>, no tanween. Second noun (<span class="ar">الْعَالَمِينَ</span>) is in jarr.</li>
+    </ul>
+  </div>
+
+  <div class="callout quran">
+    <h4>Surah Al-Fatihah · 1:4</h4>
+    <p class="ar" style="font-size:1.6rem;"><span style="color:#0e7490;">مَالِكِ يَوْمِ الدِّينِ</span></p>
+    <p><em><b>māliki yawmi d-dīn</b></em> — "Master of the Day of Recompense."</p>
+    <p><strong>Students recognise:</strong> a <em>double iḍāfa</em> — three nouns chained! <span class="ar">مَالِكِ</span> (Master) is mudāf of <span class="ar">يَوْمِ</span> (the Day), which is itself mudāf of <span class="ar">الدِّينِ</span> (Recompense). All in kasra. Don't drill multi-layer iḍāfa in Ch 4 — just show this verse as a preview of what's coming.</p>
+  </div>
+
+  <div class="callout quran">
+    <h4>Surah Al-Fatihah · 1:1</h4>
+    <p class="ar" style="font-size:1.6rem;"><span style="color:#be123c;">بِسْمِ</span> <span style="color:#0e7490;">اللَّهِ</span> الرَّحْمَٰنِ الرَّحِيمِ</p>
+    <p><em><b>bi-smi llāhi</b> r-Raḥmāni r-Raḥīm</em> — "In the name of Allah, the Most Gracious, the Most Merciful."</p>
+    <p><strong>Students recognise:</strong> <span class="ar">بِسْمِ ٱللَّـهِ</span> contains an iḍāfa — <span class="ar">اسْم</span> (name) + <span class="ar">اللَّـه</span> = "name of Allah". First noun (<span class="ar">اسْم</span>) has no <span class="ar">الـ</span>, no tanween. Second noun (<span class="ar">اللَّـه</span>) in kasra. The <span class="ar">بِـ</span> at the start is another attached preposition (you'll learn it later) — and it's putting <span class="ar">اسْم</span> in kasra too. Powerful sentence — every part of it is Ch 4 grammar.</p>
+  </div>
+
+  <div class="callout quran">
+    <h4>Surah Al-Baqarah · 2:284 (opening)</h4>
+    <p class="ar" style="font-size:1.6rem;"><span style="color:#be123c;">لِلَّهِ</span> مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ</p>
+    <p><em><b>li-llāhi</b> mā fi s-samāwāti wa-mā fi l-arḍ</em> — "<b>To Allah</b> belongs whatever is in the heavens and whatever is on the earth."</p>
+    <p><strong>Students recognise:</strong> <span class="ar">لِلَّهِ</span> — the <span class="ar">لِلْـ</span> form again, expressing <em>possession</em> ("belongs to Allah"). This is exactly today's <span class="ar">لِـ</span> usage — <em>"X li-Y"</em> = "X belongs to Y".</p>
+  </div>
+</section>
+
+<!-- ===== COMPANION FILES ===== -->
+<section class="block" id="resources">
+  <h2>🔗 Companion files for this chapter</h2>
+  <div class="resources">
+    <ul>
+      <li>📝 <a href="deep-notes.md">Deep Notes</a> — Ramsha's prose deep-dive (read this <em>first</em> to internalise the chapter before teaching)</li>
+      <li>🧑‍🎓 <a href="student-handout.html">Student Handout</a> — printable, with exercises for classmates</li>
+      <li>📽️ <a href="slides.html">Slide Deck</a> — for classroom projection</li>
+    </ul>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  Madinah Arabic Book 1 · Chapter 4 · Teacher Notes · eMahad<br>
+  Source text: Dr. V. Abdur Rahim, <em>Duroos al-Lughah al-ʿArabiyyah</em>, Vol 1, Lesson 4.
+</footer>
+
+<script>
+mermaid.initialize({
+  startOnLoad:true,
+  securityLevel:'loose',
+  flowchart:{ htmlLabels:true, useMaxWidth:true, curve:'basis', nodeSpacing:40, rankSpacing:55 },
+  theme:'base',
+  themeVariables:{ fontFamily:'"Scheherazade New","Amiri","Noto Nastaliq Urdu","Inter",sans-serif', fontSize:'15px' }
+});
+</script>
+
+</body>
+</html>

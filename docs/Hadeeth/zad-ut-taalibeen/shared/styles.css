@@ -1,0 +1,335 @@
+/* ============================================================
+   Zad ut-Taalibeen — Shared styles for all chapters
+   Used by teacher-notes.html, student-handout.html, index.html
+   (slides.html uses reveal.js separately)
+   Hadeeth subject theme — deep olive/forest root colour.
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Scheherazade+New:wght@400;700&family=Noto+Nastaliq+Urdu:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root{
+  --c-root: #14532d;     /* deep olive/forest - Hadeeth theme */
+  --c-l1:   #0e7490;     /* teal */
+  --c-l2:   #b45309;     /* amber */
+  --c-l3:   #6b21a8;     /* purple */
+  --c-leaf: #166534;     /* green */
+  --c-ex:   #be123c;     /* rose - examples */
+  --c-bg:   #fafaf7;
+  --c-panel:#ffffff;
+  --c-text: #1f2937;
+  --c-muted:#4b5563;
+  --c-border:#e5e7eb;
+}
+
+*{ box-sizing:border-box; }
+
+body{
+  margin:0; padding:0;
+  font-family:'Inter', system-ui, sans-serif;
+  background:var(--c-bg);
+  color:var(--c-text);
+  line-height:1.6;
+}
+
+.ar{
+  font-family:'Scheherazade New','Amiri', serif;
+  font-size:1.2em;
+  direction:rtl;
+  unicode-bidi:embed;
+}
+.ar-big{
+  font-family:'Scheherazade New', serif;
+  font-size:2rem;
+  direction:rtl;
+  font-weight:700;
+}
+.ur{
+  font-family:'Noto Nastaliq Urdu', serif;
+  direction:rtl;
+  unicode-bidi:embed;
+  line-height:2.2;
+}
+
+header.page-header{
+  background:linear-gradient(135deg, #14532d 0%, #0e7490 100%);
+  color:#fff;
+  padding:32px 24px;
+  text-align:center;
+  box-shadow:0 4px 14px rgba(0,0,0,.08);
+}
+header.page-header h1{ margin:0 0 6px; font-size:1.9rem; font-weight:700; }
+header.page-header .ar-title{
+  font-family:'Scheherazade New', serif;
+  font-size:2.4rem; font-weight:700; margin-bottom:8px;
+}
+header.page-header .meta{ opacity:.92; font-size:.95rem; }
+
+main{ max-width:1200px; margin:0 auto; padding:24px 20px 60px; }
+
+nav.toc{
+  background:var(--c-panel);
+  border:1px solid var(--c-border);
+  border-radius:10px;
+  padding:14px 18px;
+  margin:18px 0 22px;
+}
+nav.toc h3{ margin:0 0 8px; font-size:1rem; color:var(--c-root); }
+nav.toc ol{ margin:0; padding-left:20px; columns:2; column-gap:30px; }
+nav.toc a{ color:#0e7490; text-decoration:none; line-height:1.85; }
+nav.toc a:hover{ text-decoration:underline; }
+
+.legend{
+  background:var(--c-panel);
+  border:1px solid var(--c-border);
+  border-radius:10px;
+  padding:12px 18px;
+  margin-bottom:24px;
+  display:flex; flex-wrap:wrap; gap:10px 22px; align-items:center;
+  font-size:.9rem;
+}
+.legend .chip{ display:inline-flex; align-items:center; gap:8px; }
+.legend .dot{ width:14px; height:14px; border-radius:4px; }
+
+/* Section blocks */
+section.block{
+  background:var(--c-panel);
+  border:1px solid var(--c-border);
+  border-radius:12px;
+  padding:20px 22px;
+  margin-bottom:26px;
+  box-shadow:0 1px 3px rgba(0,0,0,.04);
+}
+section.block > h2{
+  margin:0 0 4px; font-size:1.25rem;
+  color:var(--c-root);
+  display:flex; flex-wrap:wrap; align-items:baseline; gap:12px;
+}
+section.block > h2 .ar{ font-size:1.6rem; color:#0f172a; }
+section.block > .block-meta{
+  font-size:.85rem; color:var(--c-muted);
+  margin:0 0 14px; font-style:italic;
+}
+
+/* Master overview - purple themed */
+section.overview{
+  background:linear-gradient(135deg, #fdf4ff 0%, #ecfeff 100%);
+  border:2px solid #c4b5fd;
+  border-radius:14px;
+  padding:24px;
+  margin-bottom:32px;
+}
+section.overview > h2{ color:#4c1d95; }
+section.overview > h2 .ar{ color:#1e1b4b; }
+
+/* Mermaid container */
+.mermaid{
+  background:#fcfcfa;
+  border:1px dashed #d1d5db;
+  border-radius:10px;
+  padding:16px 10px;
+  text-align:center;
+  min-height:100px;
+}
+.mermaid svg{ max-width:100%; height:auto; }
+
+/* Breadcrumb */
+.breadcrumb{
+  background:#eef2ff;
+  color:#3730a3;
+  border-left:4px solid #6366f1;
+  padding:8px 12px;
+  border-radius:0 6px 6px 0;
+  font-size:.88rem;
+  margin:12px 0 4px;
+}
+
+/* Definition cards (amber) */
+.defs{ display:grid; gap:14px; margin:16px 0 4px; }
+.def-card{
+  background:#fffefb;
+  border:1px solid #fde68a;
+  border-left:5px solid #d97706;
+  border-radius:8px;
+  padding:14px 16px;
+}
+.def-card h4{
+  margin:0 0 8px; color:#92400e; font-size:1.05rem;
+  display:flex; flex-wrap:wrap; align-items:baseline; gap:10px;
+}
+.def-card h4 .ar{ font-size:1.45rem; color:#0f172a; font-weight:700; }
+
+.def-row{
+  display:grid;
+  grid-template-columns:90px 1fr;
+  gap:6px 14px;
+  padding:6px 0;
+  border-top:1px dashed #fde68a;
+  align-items:start;
+}
+.def-row:first-of-type{ border-top:0; }
+.def-row .label{
+  font-size:.75rem; font-weight:700;
+  text-transform:uppercase;
+  color:#92400e; letter-spacing:.05em;
+  padding-top:4px;
+}
+.def-row .body{ color:#1f2937; }
+.def-row .body.ar{
+  text-align:right; font-size:1.3rem;
+  color:#7c2d12; line-height:2;
+}
+.def-row .body.roman{ color:#374151; font-style:italic; }
+.def-row .body.english{ color:#111827; }
+.def-row .translit{
+  display:block; font-style:italic;
+  color:#9a3412; font-size:.9rem; margin-top:3px;
+}
+
+/* Hadeeth main text card — large display of the matn */
+.hadith-card{
+  background:linear-gradient(180deg, #f0fdf4 0%, #ecfdf5 100%);
+  border:2px solid #14532d;
+  border-radius:12px;
+  padding:22px 24px;
+  margin:14px 0 18px;
+  text-align:center;
+}
+.hadith-card .ar-matn{
+  font-family:'Scheherazade New', serif;
+  font-size:2.3rem;
+  color:#14532d;
+  font-weight:700;
+  line-height:1.9;
+  direction:rtl;
+  margin:0 0 12px;
+}
+.hadith-card .translit{
+  color:#9a3412; font-style:italic;
+  font-size:1rem; display:block; margin:4px 0 10px;
+}
+.hadith-card .english{
+  color:#111827; font-size:1.1rem;
+  font-weight:500; margin:4px 0;
+}
+.hadith-card .urdu{
+  color:#374151; font-style:italic; font-size:1rem;
+}
+.hadith-card .source{
+  display:inline-block;
+  margin-top:10px;
+  padding:4px 12px;
+  background:#14532d;
+  color:#fff;
+  border-radius:14px;
+  font-size:.82rem;
+  font-weight:600;
+  letter-spacing:.02em;
+}
+
+/* Vocabulary table */
+.vocab-table{
+  width:100%; border-collapse:collapse;
+  margin:14px 0; background:#fff;
+  border-radius:8px; overflow:hidden;
+  box-shadow:0 1px 2px rgba(0,0,0,.04);
+}
+.vocab-table th{
+  background:#14532d; color:#fff;
+  padding:10px 12px; text-align:left;
+  font-size:.85rem; font-weight:600;
+  text-transform:uppercase; letter-spacing:.04em;
+}
+.vocab-table td{
+  padding:10px 12px;
+  border-bottom:1px solid #e5e7eb;
+  vertical-align:middle;
+}
+.vocab-table td.ar{
+  font-family:'Scheherazade New', serif;
+  font-size:1.4rem;
+  text-align:right;
+  color:#14532d;
+  font-weight:600;
+}
+.vocab-table tr:last-child td{ border-bottom:0; }
+.vocab-table tr:hover{ background:#f0fdf4; }
+.vocab-table .translit{
+  color:#9a3412; font-style:italic; font-size:.92rem;
+}
+
+/* Callouts */
+.callout{
+  border-left:5px solid;
+  padding:12px 16px;
+  border-radius:0 8px 8px 0;
+  margin:14px 0;
+}
+.callout.tip{ background:#ecfeff; border-color:#0891b2; }
+.callout.warn{ background:#fef2f2; border-color:#dc2626; }
+.callout.quran{ background:#f0fdf4; border-color:#16a34a; }
+.callout h4{ margin:0 0 6px; font-size:.95rem; }
+.callout.tip h4{ color:#155e75; }
+.callout.warn h4{ color:#991b1b; }
+.callout.quran h4{ color:#14532d; }
+
+/* Exercise blocks (for handouts) */
+.exercise{
+  background:#fffbeb;
+  border:1px dashed #f59e0b;
+  border-radius:8px;
+  padding:14px 16px;
+  margin:14px 0;
+}
+.exercise h4{
+  margin:0 0 10px;
+  color:#92400e;
+  font-size:1rem;
+}
+.exercise ol{ margin:6px 0; padding-left:24px; }
+.exercise li{ margin:8px 0; line-height:1.9; }
+.blank{
+  display:inline-block;
+  min-width:80px;
+  border-bottom:1.5px solid #6b7280;
+  margin:0 4px;
+}
+
+/* Resources panel */
+.resources{
+  background:#f8fafc;
+  border:1px solid #cbd5e1;
+  border-radius:10px;
+  padding:16px 18px;
+  margin:20px 0;
+}
+.resources h3{ margin:0 0 10px; color:#0f172a; font-size:1.05rem; }
+.resources ul{ margin:0; padding-left:20px; }
+.resources li{ margin:6px 0; line-height:1.7; }
+.resources a{ color:#0e7490; text-decoration:none; }
+.resources a:hover{ text-decoration:underline; }
+
+footer{
+  text-align:center; color:var(--c-muted);
+  font-size:.85rem;
+  padding:24px 16px 40px;
+  border-top:1px solid var(--c-border);
+  margin-top:30px;
+}
+
+@media (max-width:720px){
+  header.page-header h1{ font-size:1.4rem; }
+  header.page-header .ar-title{ font-size:1.9rem; }
+  nav.toc ol{ columns:1; }
+  section.block{ padding:14px; }
+  .def-row{ grid-template-columns:1fr; gap:2px; }
+  .hadith-card .ar-matn{ font-size:1.7rem; }
+}
+
+/* Print friendly (for student handouts) */
+@media print{
+  header.page-header{ background:#14532d !important; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  nav.toc, .resources, .legend{ display:none; }
+  section.block{ break-inside:avoid; box-shadow:none; }
+  .exercise{ break-inside:avoid; }
+  .hadith-card{ break-inside:avoid; }
+}

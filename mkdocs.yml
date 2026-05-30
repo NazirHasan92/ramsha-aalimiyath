@@ -1,0 +1,119 @@
+site_name: Ramsha's eMahad Notes
+site_description: Page-by-page Aalim-course notes (Arabic, Fiqh, Hadeeth) — student-teacher method, 4 deliverables per chapter.
+site_url: https://nazirhasan92.github.io/ramsha-aalimiyath/
+repo_url: https://github.com/NazirHasan92/ramsha-aalimiyath
+repo_name: NazirHasan92/ramsha-aalimiyath
+edit_uri: edit/main/
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    repo: fontawesome/brands/github
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/NazirHasan92/ramsha-aalimiyath
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      permalink_title: Anchor link to this section
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - search:
+      lang:
+        - en
+
+hooks:
+  - hooks.py
+
+exclude_docs: |
+  README.md
+  CLAUDE.md
+  ROADMAP.md
+  handoff-note.md
+  chapter-prompts.md
+  templates/
+  Quran/
+  .claude/
+  _planning/
+  _archive/
+  site/
+  .venv/
+
+nav:
+  - Home: index.md
+  - Arabic — Madinah Book 1:
+      - Chapter 1 — Hādhā · Al- · A-?: Arabic/madinah-book-1/chapter-1/deep-notes.md
+      - Chapter 2 — Dhālika · Man/Mā · Am: Arabic/madinah-book-1/chapter-2/deep-notes.md
+      - Chapter 3 — Prepositions + Ayna · Hādhihi: Arabic/madinah-book-1/chapter-3/deep-notes.md
+      - Chapter 4: Arabic/madinah-book-1/chapter-4/deep-notes.md
+      - Chapter 5: Arabic/madinah-book-1/chapter-5/deep-notes.md
+  - Fiqh — Nur al-Idah · Book I (Purification):
+      - Chapter 1 — Water & wells: Fiqh/nur-al-idah/book-1-purification/chapter-1-water-and-wells/deep-notes.md
+      - Chapter 2 — Istinja & toilet adab: Fiqh/nur-al-idah/book-1-purification/chapter-2-istinja-and-toilet-adab/deep-notes.md
+      - Chapter 3a — Wudu — pillars & sunnas: Fiqh/nur-al-idah/book-1-purification/chapter-3a-wudu-pillars-sunnas/deep-notes.md
+  - Hadeeth — Zad ut-Taalibeen:
+      - Chapter 1: Hadeeth/zad-ut-taalibeen/chapter-1/deep-notes.md
+      - Chapter 2: Hadeeth/zad-ut-taalibeen/chapter-2/deep-notes.md
+      - Chapter 3: Hadeeth/zad-ut-taalibeen/chapter-3/deep-notes.md
+      - Chapter 4: Hadeeth/zad-ut-taalibeen/chapter-4/deep-notes.md
