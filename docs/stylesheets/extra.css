@@ -1,24 +1,19 @@
 /* ============================================================
  * Ramsha's eMahad Notes — typography + theme
- * Urdu/Arabic body: Noori Nastaliq (local) → Noto Nastaliq Urdu (web)
- * Quran verses: Amiri Quran (web)
- * Latin body: Inter · Headings: Reem Kufi
+ *
+ * Font strategy: direct font-family chain (NO @font-face wrapper).
+ * Browser does per-character fallback automatically:
+ *   - Arabic chars: tries local Noori Nastaliq → Jameel → Alvi → Faiz Lahori
+ *                   → Inter (no Arabic, skips) → Noto Nastaliq Urdu (web) → uses
+ *   - Latin chars:  local Nastaliq fonts have no Latin → skips → Inter → uses
+ *
+ * !important on --md-text-font-family ensures Material can't override.
+ * theme.font: false in mkdocs.yml ensures Material doesn't inject a body font.
+ *
  * Palette: deep indigo + saffron + cream
  * ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&family=Amiri+Quran&family=Reem+Kufi:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap');
-
-@font-face {
-  font-family: 'NastaliqUrdu';
-  src: local('Noori Nastaliq'),
-       local('Jameel Noori Nastaleeq'),
-       local('Alvi Nastaleeq'),
-       local('Faiz Lahori Nastaleeq'),
-       local('Noto Nastaliq Urdu');
-  unicode-range: U+0600-06FF, U+0750-077F, U+FB50-FDFF, U+FE70-FEFF;
-  size-adjust: 180%;
-  font-display: swap;
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&family=Amiri+Quran&family=Inter:wght@400;500;600;700&display=swap');
 
 /* ---- Palette ---- */
 [data-md-color-scheme="default"] {
@@ -49,34 +44,35 @@
   --md-code-fg-color: #f59e0b;
 }
 
+/* ---- Font cascade ---- */
 :root {
-  --md-text-font-family: 'NastaliqUrdu', 'Inter', system-ui, sans-serif;
-  --md-code-font-family: 'JetBrains Mono', Consolas, monospace;
+  --md-text-font-family:
+    'Noori Nastaliq', 'Jameel Noori Nastaleeq', 'Alvi Nastaleeq', 'Faiz Lahori Nastaleeq',
+    'Inter',
+    'Noto Nastaliq Urdu',
+    sans-serif !important;
+  --md-code-font-family: 'JetBrains Mono', Consolas, monospace !important;
 }
 
-/* ---- Base typography: larger body so Nastaliq is legible ---- */
+/* ---- Base typography ---- */
 .md-typeset {
-  font-size: 1.15rem;
-  line-height: 1.95;
+  font-size: 1.3rem;
+  line-height: 2.05;
 }
 
 /* ---- Headings ---- */
-.md-typeset h1, .md-typeset h2, .md-typeset h3, .md-typeset h4 {
-  font-family: 'Reem Kufi', 'Inter', sans-serif;
-  font-weight: 600;
-}
-
 .md-typeset h1 {
   color: var(--md-primary-fg-color);
   font-weight: 700;
-  font-size: 2.1em;
+  font-size: 1.9em;
   padding-bottom: 0.4em;
   border-bottom: 3px solid var(--md-primary-fg-color);
 }
 
 .md-typeset h2 {
   color: var(--md-primary-fg-color);
-  font-size: 1.55em;
+  font-weight: 600;
+  font-size: 1.45em;
   margin-top: 1.8em;
   padding-bottom: 0.3em;
   border-bottom: 2px solid var(--md-default-fg-color--light);
@@ -84,30 +80,32 @@
 
 .md-typeset h3 {
   color: var(--md-accent-fg-color);
-  font-size: 1.25em;
+  font-weight: 600;
+  font-size: 1.2em;
   margin-top: 1.5em;
 }
 
 .md-typeset h4 {
   color: var(--md-accent-fg-color);
-  font-size: 1.08em;
+  font-weight: 500;
+  font-size: 1.05em;
 }
 
 /* ---- RTL ---- */
 [lang="ar"], [lang="ur"], .arabic, .urdu {
   direction: rtl;
   text-align: right;
-  font-family: 'NastaliqUrdu', serif;
-  line-height: 2.3;
+  line-height: 2.4;
+  font-size: 1.1em;
 }
 
 /* ---- Blockquotes ---- */
 .md-typeset blockquote {
   font-size: 1.05em;
-  line-height: 2.05;
+  line-height: 2.15;
   border-left: 4px solid var(--md-accent-fg-color);
   background: var(--md-accent-fg-color--transparent);
-  padding: 0.95em 1.4em;
+  padding: 1em 1.4em;
   margin: 1.3em 0;
   border-radius: 0 6px 6px 0;
   color: var(--md-default-fg-color);
@@ -115,7 +113,7 @@
 
 .md-typeset blockquote.quran,
 .md-typeset blockquote[lang="ar"] {
-  font-family: 'Amiri Quran', serif;
+  font-family: 'Amiri Quran', serif !important;
   font-size: 1.7em;
   line-height: 2.5;
   text-align: center;
@@ -145,9 +143,8 @@
 }
 
 .md-typeset blockquote.hadith {
-  font-family: 'NastaliqUrdu', serif;
   font-size: 1.3em;
-  line-height: 2.3;
+  line-height: 2.4;
   text-align: center;
   direction: rtl;
   padding: 1.3em 1.8em;
@@ -173,7 +170,6 @@
 .md-typeset table:not([class]) th {
   background: var(--md-primary-fg-color);
   color: var(--md-primary-bg-color);
-  font-family: 'Reem Kufi', 'Inter', sans-serif;
   font-weight: 600;
   padding: 0.85em 1.05em;
   text-align: left;
@@ -182,7 +178,7 @@
 
 .md-typeset table:not([class]) td {
   padding: 0.85em 1.05em;
-  line-height: 1.95;
+  line-height: 2.0;
   vertical-align: top;
   border-top: 1px solid rgba(0, 0, 0, 0.06);
   border-left: none;
@@ -216,7 +212,7 @@
   border: 1px solid rgba(0, 0, 0, 0.06);
 }
 
-/* ---- Deliverable banner (hooks.py injects on each deep-notes page) ---- */
+/* ---- Deliverable banner ---- */
 .md-typeset .admonition.info {
   border-left-color: var(--md-primary-fg-color);
   background: rgba(49, 46, 129, 0.05);
@@ -227,7 +223,6 @@
 }
 
 .md-typeset .admonition.info > .admonition-title {
-  font-family: 'Reem Kufi', 'Inter', sans-serif;
   color: var(--md-primary-fg-color);
   background: rgba(49, 46, 129, 0.08);
 }
@@ -236,7 +231,7 @@
   background: rgba(99, 102, 241, 0.12);
 }
 
-/* ---- Hero cards on landing ---- */
+/* ---- Hero cards ---- */
 .md-typeset .grid.cards > ol > li,
 .md-typeset .grid.cards > ul > li {
   border-radius: 8px;
@@ -249,12 +244,6 @@
 .md-typeset .grid.cards > ul > li:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 16px rgba(49, 46, 129, 0.14);
-}
-
-/* ---- Navigation polish ---- */
-.md-tabs__link, .md-nav__title {
-  font-family: 'Reem Kufi', 'Inter', sans-serif;
-  font-weight: 500;
 }
 
 /* ---- Print ---- */
