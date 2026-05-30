@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zad ut-Taalibeen · Chapter 7 · Slides</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/white.css">
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Scheherazade+New:wght@400;700&family=Noto+Nastaliq+Urdu:wght@400;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+  .reveal { font-family:'Inter',sans-serif; }
+  .reveal h1, .reveal h2, .reveal h3 { color:#14532d; font-weight:700; }
+  .reveal .ar {
+    font-family:'Scheherazade New','Amiri',serif;
+    direction:rtl;
+    color:#14532d;
+    font-weight:700;
+  }
+  .reveal .ar-huge { font-size:3.4rem; line-height:1.6; }
+  .reveal .ar-big { font-size:2.4rem; line-height:1.7; }
+  .reveal .ar-med { font-size:1.8rem; line-height:1.7; }
+  .reveal .translit { color:#9a3412; font-style:italic; font-size:1.05rem; }
+  .reveal .english { color:#1f2937; font-size:1.3rem; }
+  .reveal .urdu { color:#374151; font-style:italic; font-size:1.15rem; }
+  .reveal .source-pill {
+    display:inline-block;
+    margin-top:14px;
+    padding:5px 14px;
+    background:#14532d;
+    color:#fff;
+    border-radius:14px;
+    font-size:.85rem;
+    font-weight:600;
+    letter-spacing:.02em;
+  }
+  .reveal .cover {
+    background:linear-gradient(135deg, #14532d 0%, #0e7490 100%);
+    color:#fff !important;
+    padding:60px 40px;
+    border-radius:14px;
+  }
+  .reveal .cover h1, .reveal .cover .ar { color:#fff; }
+  .reveal .cover .urdu { color:#e0f2fe; }
+  .reveal .theme-banner {
+    background:#0e7490;
+    color:#fff;
+    padding:8px 18px;
+    border-radius:20px;
+    display:inline-block;
+    font-size:1rem;
+    font-weight:600;
+    letter-spacing:.05em;
+    margin-bottom:18px;
+  }
+  .reveal .key-box {
+    background:#f0fdf4;
+    border:2px solid #14532d;
+    border-radius:12px;
+    padding:18px 24px;
+    margin:18px auto;
+    max-width:80%;
+  }
+  .reveal .warn-box {
+    background:#fef2f2;
+    border-left:5px solid #dc2626;
+    padding:12px 18px;
+    border-radius:0 8px 8px 0;
+    margin:14px 0;
+    text-align:left;
+  }
+  .reveal .arrow { font-size:2rem; vertical-align:middle; color:#14532d; }
+  .reveal table { margin:0 auto; font-size:1.1rem; }
+  .reveal table th, .reveal table td { padding:8px 14px; vertical-align:middle; }
+  .reveal table th { background:#14532d; color:#fff; font-size:.9rem; }
+  .reveal .three-cols {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:14px;
+    margin:14px 0;
+  }
+  .reveal .three-cols .col {
+    background:#f9fafb;
+    border:2px solid #14532d;
+    border-radius:10px;
+    padding:14px;
+  }
+  .reveal .three-cols .col h4 { color:#14532d; margin:0 0 6px; }
+</style>
+</head>
+<body>
+<div class="reveal">
+  <div class="slides">
+
+    <!-- COVER -->
+    <section class="cover">
+      <div class="ar ar-huge">زَادُ الطَّالِبِيْنَ</div>
+      <h1 style="font-size:2rem; margin-top:20px;">Provisions for the Seekers</h1>
+      <p style="font-size:1.2rem; opacity:.95;">Chapter 7 — Aḥādīth 61 to 70</p>
+      <p style="font-size:1.1rem; opacity:.9;">Answer for your watch · stand together · keep your heart alive</p>
+      <p class="urdu" style="font-size:1.1rem;">Aaj ki kitaab — das hadithein: hisaab, jamāʿat, aur dil ka dhikr</p>
+      <p style="font-size:.95rem; opacity:.85; margin-top:30px;">Press → to begin · Press F for fullscreen</p>
+    </section>
+
+    <!-- OBJECTIVES -->
+    <section>
+      <h2>What we'll cover today</h2>
+      <p style="font-size:1.3rem;">10 short aḥādīth — falling into 3 movements:</p>
+      <div class="three-cols" style="margin-top:24px;">
+        <div class="col">
+          <h4>1 · Answer for your watch</h4>
+          <p style="margin:0;"><strong>Responsibility, place &amp; death</strong></p>
+          <p style="font-size:.95rem; margin:6px 0 0;">Aḥādīth 61, 62, 64</p>
+          <p style="font-size:.85rem; margin:4px 0 0;">(you will be questioned)</p>
+        </div>
+        <div class="col">
+          <h4>2 · Stand together, guard your tongue</h4>
+          <p style="margin:0;"><strong>Community &amp; speech</strong></p>
+          <p style="font-size:.95rem; margin:6px 0 0;">Aḥādīth 65, 63, 66</p>
+          <p style="font-size:.85rem; margin:4px 0 0;">(whom &amp; how to speak)</p>
+        </div>
+        <div class="col">
+          <h4>3 · Keep your heart alive</h4>
+          <p style="margin:0;"><strong>Dhikr &amp; living knowledge</strong></p>
+          <p style="font-size:.95rem; margin:6px 0 0;">Aḥādīth 67, 68, 69, 70</p>
+          <p style="font-size:.85rem; margin:4px 0 0;">(remember Allah)</p>
+        </div>
+      </div>
+      <p style="margin-top:24px; font-size:1.1rem;">The deep thread: <strong>muḥāsaba → dhikr</strong> — you'll be questioned, so keep your heart awake.</p>
+      <p class="urdu" style="font-size:1rem;">Hisaab → jamāʿat aur zubaan → dil ka dhikr. Dhaaga: hisaab hoga, isliye dil ko jaag-ta rakho.</p>
+    </section>
+
+    <!-- ============ THEME 1 BANNER ============ -->
+    <section>
+      <span class="theme-banner">MOVEMENT 1 · ANSWER FOR YOUR WATCH</span>
+      <h1>Responsibility, place &amp; death</h1>
+      <p style="font-size:1.3rem;">Aḥādīth 61, 62, 64 — you will be questioned for it all.</p>
+      <p class="urdu" style="font-size:1.1rem;">Har ek charwaaha · masjid ka maahaul · maut ka tohfa.</p>
+    </section>
+
+    <!-- ============ ḤADĪTH 61 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 61</h3>
+        <div class="ar ar-med">كُلُّكُمْ رَاعٍ وَكُلُّكُمْ مَسْؤُولٌ عَنْ رَعِيَّتِهِ</div>
+        <p class="translit" style="font-size:1.05rem;">kullukum rāʿin wa kullukum masʾūlun ʿan raʿiyyatih</p>
+        <p class="english" style="margin-top:18px;">"Each of you is a shepherd, and each will be questioned about his flock."</p>
+        <p class="urdu">"Tum mein se har ek charwaaha hai, aur har ek se uske galle ka hisaab hoga."</p>
+        <span class="source-pill">Bukhārī · Muslim</span>
+      </section>
+
+      <section>
+        <h3>Everyone has a flock</h3>
+        <div class="key-box">
+          <p style="margin:0; font-size:1.2rem;"><em>Kullukum</em> — <strong>all of you</strong>. Not just rulers.</p>
+        </div>
+        <table>
+          <tr><td>a ruler</td><td class="arrow">→</td><td>his subjects</td></tr>
+          <tr><td>a man</td><td class="arrow">→</td><td>his household</td></tr>
+          <tr><td>a woman</td><td class="arrow">→</td><td>her husband's home</td></tr>
+        </table>
+        <p style="margin-top:18px;">Authority is a <strong>trust (amānah)</strong>, not a trophy. The bigger the flock, the heavier the questioning.</p>
+        <p class="urdu" style="font-size:1.05rem;">Ikhtiyaar inʿaam nahin — amānah hai.</p>
+      </section>
+
+      <section>
+        <h3>📿 Qurʾān · 37:24</h3>
+        <div class="ar ar-big">وَقِفُوهُمْ إِنَّهُم مَّسْئُولُونَ</div>
+        <p class="english">"And stop them; indeed, they are to be questioned."</p>
+        <p style="margin-top:14px;">The verse names the scene; #61 names the subject: <strong>your flock</strong>.</p>
+        <p class="urdu">Aayat manzar dikhaati hai; #61 batati hai kis baare mein — tumhara galla.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 62 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 62</h3>
+        <div class="ar ar-med">أَحَبُّ الْبِلَادِ إِلَى اللهِ مَسَاجِدُهَا وَأَبْغَضُ الْبِلَادِ إِلَى اللهِ أَسْوَاقُهَا</div>
+        <p class="translit" style="font-size:1rem;">aḥabbu l-bilādi ilā Llāhi masājiduhā, wa abghaḍu l-bilādi ilā Llāhi aswāquhā</p>
+        <p class="english" style="margin-top:16px;">"The most beloved places to Allah are the masjids; the most disliked are the markets."</p>
+        <p class="urdu">"Allah ko sab se mehboob masjidein, sab se na-pasand bazaar."</p>
+        <span class="source-pill">Muslim</span>
+      </section>
+
+      <section>
+        <h3>It's about atmosphere</h3>
+        <table>
+          <tr>
+            <td style="background:#dcfce7; padding:16px; border:2px solid #14532d; vertical-align:top;">
+              <h4 style="color:#14532d; margin:0;">MASJID — most loved</h4>
+              <p style="font-size:1rem;">where one <strong>draws near</strong> Allah</p>
+            </td>
+            <td style="background:#fef2f2; padding:16px; border:2px solid #dc2626; vertical-align:top;">
+              <h4 style="color:#991b1b; margin:0;">MARKET — most disliked</h4>
+              <p style="font-size:1rem;">where greed, deceit &amp; <strong>heedlessness</strong> gather</p>
+            </td>
+          </tr>
+        </table>
+        <div class="warn-box">
+          <strong>NOT against trade.</strong> The dislike is for the heedlessness, not commerce. <em>Carry the masjid into the market.</em>
+        </div>
+        <p class="urdu" style="font-size:1.05rem;">Tijaarat jaayaz — na-pasand ghaflat hai. Bazaar mein bhi Allah ko yaad rakho.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 64 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 64</h3>
+        <div class="ar ar-big">الْمَوْتُ تُحْفَةُ الْمُؤْمِنِ</div>
+        <p class="translit" style="font-size:1.05rem;">al-mawtu tuḥfatu l-muʾmin</p>
+        <p class="english" style="margin-top:18px;">"Death is a gift for a believer."</p>
+        <p class="urdu">"Maut momin ke liye ek tohfa hai."</p>
+        <span class="source-pill">Bayhaqī · Shuʿab al-Īmān</span>
+      </section>
+
+      <section>
+        <h3>The thing we fear, reframed</h3>
+        <div class="key-box">
+          <p style="margin:0; font-size:1.2rem;">The gateway of death → the door to <strong>eternal contentment</strong>.</p>
+        </div>
+        <p>The world was the waiting room; death opens onto meeting Allah.</p>
+        <div class="warn-box">
+          <strong>Do NOT wish for death.</strong> This is how the believer <em>views</em> death (hope, not dread) — the Prophet ﷺ forbade longing for it. Reassurance, not a summons.
+        </div>
+        <p class="urdu" style="font-size:1.05rem;">Maut ko umeed se dekho — magar maango mat.</p>
+      </section>
+    </section>
+
+    <!-- ============ THEME 2 BANNER ============ -->
+    <section>
+      <span class="theme-banner">MOVEMENT 2 · STAND TOGETHER, GUARD YOUR TONGUE</span>
+      <h1>Community &amp; speech</h1>
+      <p style="font-size:1.3rem;">Aḥādīth 65, 63, 66 — whom to stand with, and how to speak.</p>
+      <p class="urdu" style="font-size:1.1rem;">Jamāʿat ke saath · achhi sohbat aur achhi baat · zubaan ka hisaab.</p>
+    </section>
+
+    <!-- ============ ḤADĪTH 65 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 65</h3>
+        <div class="ar ar-big">يَدُ اللهِ مَعَ الْجَمَاعَةِ</div>
+        <p class="translit" style="font-size:1.05rem;">yadu Llāhi maʿa l-jamāʿa</p>
+        <p class="english" style="margin-top:18px;">"Allah's hand is with the group." <span style="font-size:1rem;">(…and whoever splits away is set apart in the Fire.)</span></p>
+        <p class="urdu">"Allah ka haath jamāʿa ke saath hai."</p>
+        <span class="source-pill">Tirmidhī</span>
+      </section>
+
+      <section>
+        <h3>Stay with the body</h3>
+        <p>"Allah's hand" — affirmed as the salaf did, its reality left to Allah — alludes to His <strong>help, guidance, mercy &amp; protection</strong>, and it is <em>with the jamāʿa</em>: the believers united on truth.</p>
+        <div class="warn-box">
+          <strong>Two cautions:</strong> (1) "jamāʿa" = the body on <em>truth</em>, not any majority. (2) The warning is against <em>deviation</em>, not respectful difference of opinion.
+        </div>
+        <p class="urdu" style="font-size:1.05rem;">Jamāʿa = haq par muttahid guroh. Tambeeh gumraahi ke khilaaf, ikhtilaaf-e-raaye ke nahin.</p>
+      </section>
+
+      <section>
+        <h3>📿 Qurʾān · 3:103</h3>
+        <div class="ar ar-med">وَاعْتَصِمُوا بِحَبْلِ اللَّهِ جَمِيعًا وَلَا تَفَرَّقُوا</div>
+        <p class="english">"Hold firmly to the rope of Allah all together, and do not become divided."</p>
+        <p class="urdu">Sab mil kar Allah ki rassi thaamo, tafarqa mat daalo — yahi #65 ki wahdat.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 63 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 63</h3>
+        <p class="english" style="font-size:1.25rem; margin-top:20px;">"Solitude is better than bad company; good company is better than solitude. Good speech is better than silence; silence is better than bad speech."</p>
+        <p class="urdu">"Tanhaai buri sohbat se behtar; achhi sohbat tanhaai se behtar. Achhi baat khaamoshi se behtar; khaamoshi buri baat se behtar."</p>
+        <span class="source-pill">Mustadrak · Bayhaqī</span>
+        <p style="font-size:.85rem; color:#666; margin-top:10px;">(Arabic read from the book.)</p>
+      </section>
+
+      <section>
+        <h3>Two ladders</h3>
+        <table>
+          <tr><th>Company</th><th>Speech</th></tr>
+          <tr><td>good company <strong>(best)</strong></td><td>saying good <strong>(best)</strong></td></tr>
+          <tr><td>solitude (safe)</td><td>silence (safe)</td></tr>
+          <tr><td>bad company (worst)</td><td>saying bad (worst)</td></tr>
+        </table>
+        <p style="margin-top:18px;">The middle rung is a <em>safe fallback</em> — not the ideal. The <strong>top</strong> of each ladder is active good.</p>
+        <p class="urdu" style="font-size:1.05rem;">Tanhaai aur khaamoshi panaah hain — manzil achhi sohbat aur achhi baat.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 66 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 66</h3>
+        <div class="ar ar-med">كُلُّ كَلَامِ ابْنِ آدَمَ عَلَيْهِ لَا لَهُ، إِلَّا أَمْرٌ بِمَعْرُوفٍ أَوْ نَهْيٌ عَنْ مُنْكَرٍ أَوْ ذِكْرُ اللهِ</div>
+        <p class="translit" style="font-size:.95rem;">kullu kalāmi bni ādama ʿalayhi lā lah, illā amrun bi-maʿrūfin aw nahyun ʿan munkarin aw dhikru Llāh</p>
+        <p class="english" style="margin-top:14px;">"Every word counts against a person, not for him — except enjoining good, forbidding wrong, and the remembrance of Allah."</p>
+        <p class="urdu">"Har baat khilaaf jaati hai — siwaaye neki ka hukm, burai se rokne, aur Allah ki yaad ke."</p>
+        <span class="source-pill">Tirmidhī · Ibn Māja</span>
+      </section>
+
+      <section>
+        <h3>Make your words count</h3>
+        <p style="font-size:1.2rem;">Speech defaults to <strong>liability</strong>. Three categories flip it to <strong>asset</strong>:</p>
+        <div class="three-cols">
+          <div class="col"><h4>Enjoin good</h4><p style="font-size:.9rem;">amr bi-l-maʿrūf</p></div>
+          <div class="col"><h4>Forbid wrong</h4><p style="font-size:.9rem;">nahy ʿani-l-munkar</p></div>
+          <div class="col"><h4>Remembrance</h4><p style="font-size:.9rem;">dhikr, duʿāʾ, Qurʾān, ṣalawāt</p></div>
+        </div>
+        <div class="warn-box">
+          <strong>Not a vow of silence</strong> — recall #63: good speech beats silence. Make your words <em>count</em>.
+        </div>
+        <p class="urdu" style="font-size:1.05rem;">Zubaan band mat karo — qeemti banao.</p>
+      </section>
+
+      <section>
+        <h3>📿 Qurʾān · 50:18</h3>
+        <div class="ar ar-med">مَّا يَلْفِظُ مِن قَوْلٍ إِلَّا لَدَيْهِ رَقِيبٌ عَتِيدٌ</div>
+        <p class="english">"He utters not a word except that with him is a ready observer."</p>
+        <p class="urdu">Har lafz ek nigraan farishta likh leta hai — isi liye har baat ka hisaab.</p>
+      </section>
+    </section>
+
+    <!-- ============ THEME 3 BANNER ============ -->
+    <section>
+      <span class="theme-banner">MOVEMENT 3 · KEEP YOUR HEART ALIVE</span>
+      <h1>Dhikr &amp; living knowledge</h1>
+      <p style="font-size:1.3rem;">Aḥādīth 67, 68, 69, 70 — remembrance is the heart's life.</p>
+      <p class="urdu" style="font-size:1.1rem;">Dil ko Allah ki yaad se zinda rakho.</p>
+    </section>
+
+    <!-- ============ ḤADĪTH 67 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 67</h3>
+        <div class="ar ar-med">مَثَلُ الَّذِي يَذْكُرُ رَبَّهُ وَالَّذِي لَا يَذْكُرُ رَبَّهُ مَثَلُ الْحَيِّ وَالْمَيِّتِ</div>
+        <p class="translit" style="font-size:.95rem;">mathalu lladhī yadhkuru rabbahu wa-lladhī lā yadhkuru rabbahu mathalu l-ḥayyi wa-l-mayyit</p>
+        <p class="english" style="margin-top:14px;">"The one who remembers his Lord and the one who does not are like the living and the dead."</p>
+        <p class="urdu">"Jo Rabb ko yaad kare aur jo nahin — zinda aur murde jaise."</p>
+        <span class="source-pill">Bukhārī · Muslim</span>
+      </section>
+
+      <section>
+        <h3>Dhikr is the pulse of the heart</h3>
+        <div class="key-box">
+          <p style="margin:0; font-size:1.2rem;">Remembrance is <strong>nourishment</strong> for the heart. Without it, the heart is — in this likeness — <strong>dead</strong>.</p>
+        </div>
+        <p>The body may walk, eat, talk, and trade while the heart inside has gone cold.</p>
+        <p class="urdu" style="font-size:1.05rem;">Yaad dil ki ghiza hai — iske baghair dil murda.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 68 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 68</h3>
+        <p class="english" style="font-size:1.3rem; margin-top:24px;">"Knowledge from which no benefit is derived is like a treasure from which nothing is spent in the path of Allah."</p>
+        <p class="urdu">"Jis ʿilm se faayda nahin liya jaata, woh dafan khazaane jaisa hai jisme se kuch kharch nahin hota."</p>
+        <span class="source-pill">Aḥmad · Dārimī</span>
+        <p style="font-size:.85rem; color:#666; margin-top:10px;">(Arabic read from the book.)</p>
+      </section>
+
+      <section>
+        <h3>Knowledge must be activated</h3>
+        <p>A treasure sealed in the ground feeds no one — and becomes a <strong>burden</strong> on the Day of Judgement.</p>
+        <div class="key-box">
+          <p style="margin:0; font-size:1.15rem;">#67 — dhikr activates the <strong>heart</strong>.<br>#68 — action activates <strong>knowledge</strong>.</p>
+        </div>
+        <p class="urdu" style="font-size:1.05rem;">Dil dhikr se zinda; ʿilm ʿamal se zinda.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 69 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 69</h3>
+        <div class="ar ar-med">أَفْضَلُ الذِّكْرِ لَا إِلَهَ إِلَّا اللهُ وَأَفْضَلُ الدُّعَاءِ الْحَمْدُ لِلَّهِ</div>
+        <p class="translit" style="font-size:1rem;">afḍalu dh-dhikri lā ilāha illa Llāh, wa afḍalu d-duʿāʾi l-ḥamdu li-Llāh</p>
+        <p class="english" style="margin-top:14px;">"The best remembrance is <em>Lā ilāha illa 'Llāh</em>, and the best supplication is <em>Al-ḥamdu li 'Llāh</em>."</p>
+        <p class="urdu">"Behtareen dhikr Lā ilāha illa 'Llāh, behtareen duʿā Al-ḥamdu li 'Llāh."</p>
+        <span class="source-pill">Tirmidhī · Ibn Māja</span>
+      </section>
+
+      <section>
+        <h3>Two crowns</h3>
+        <table>
+          <tr>
+            <td style="background:#dcfce7; padding:16px; border:2px solid #14532d; vertical-align:top;">
+              <h4 style="color:#14532d; margin:0;">Best dhikr</h4>
+              <p style="font-size:1rem;"><em>Lā ilāha</em> = renounce all false gods;<br><em>illa 'Llāh</em> = affirm Allah alone. <strong>Purifies the heart.</strong></p>
+            </td>
+            <td style="background:#e0f2fe; padding:16px; border:2px solid #0e7490; vertical-align:top;">
+              <h4 style="color:#0c4a6e; margin:0;">Best duʿāʾ</h4>
+              <p style="font-size:1rem;">Praise = gratitude = asking for more.<br>"If you are grateful, I will increase you" (14:7).</p>
+            </td>
+          </tr>
+        </table>
+        <p style="margin-top:18px;"><em>Al-ḥamdu li-Llāh</em> is dhikr, duʿāʾ, and shukr — three acts in three words.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 70 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 70</h3>
+        <p class="english" style="font-size:1.3rem; margin-top:24px;">"The first to be called to Paradise will be those who praised Allah in prosperity and in adversity."</p>
+        <p class="urdu">"Sab se pehle Jannat woh bulaaye jaayenge jo khushhaali aur tangi — dono — mein Allah ki taʿreef karte rahe."</p>
+        <span class="source-pill">Bayhaqī · Shuʿab al-Īmān</span>
+        <p style="font-size:.85rem; color:#666; margin-top:10px;">(Arabic read from the book.)</p>
+      </section>
+
+      <section>
+        <h3>Praise in both weathers</h3>
+        <div class="key-box">
+          <p style="margin:0; font-size:1.15rem;">Praise in ease is easy. Praise in <strong>hardship</strong> is the mark of a heart anchored in Allah.</p>
+        </div>
+        <p>The constant praiser (#69's al-ḥamd, in <em>every</em> condition) is <strong>called first</strong> — the happiest answer to #61's "you will be questioned".</p>
+        <p class="urdu" style="font-size:1.05rem;">Mushkil mein bhi taʿreef — yahi pehle Jannat ki daʿwat.</p>
+      </section>
+    </section>
+
+    <!-- ============ RECAP ============ -->
+    <section>
+      <h2>🔑 The chapter in one picture</h2>
+      <div class="three-cols" style="margin-top:18px;">
+        <div class="col">
+          <h4>1 · Answer for your watch</h4>
+          <p style="font-size:.9rem;"><strong>#61</strong> Each is a shepherd, questioned</p>
+          <p style="font-size:.9rem;"><strong>#62</strong> Masjid loved, market disliked</p>
+          <p style="font-size:.9rem;"><strong>#64</strong> Death is a gift</p>
+        </div>
+        <div class="col">
+          <h4>2 · Stand together, guard your tongue</h4>
+          <p style="font-size:.9rem;"><strong>#65</strong> Allah's hand with the group</p>
+          <p style="font-size:.9rem;"><strong>#63</strong> Good company &amp; good speech</p>
+          <p style="font-size:.9rem;"><strong>#66</strong> Every word counts — except 3</p>
+        </div>
+        <div class="col">
+          <h4>3 · Keep your heart alive</h4>
+          <p style="font-size:.9rem;"><strong>#67</strong> Remembering heart = alive</p>
+          <p style="font-size:.9rem;"><strong>#68</strong> Unused knowledge = buried treasure</p>
+          <p style="font-size:.9rem;"><strong>#69</strong> Best dhikr &amp; best duʿāʾ</p>
+          <p style="font-size:.9rem;"><strong>#70</strong> Praisers called first</p>
+        </div>
+      </div>
+      <p style="font-size:1.15rem; margin-top:20px; color:#14532d;"><strong>Hisaab → jamāʿat/zubaan → dhikr. The thread: muḥāsaba → dhikr.</strong></p>
+      <p class="urdu" style="font-size:1.05rem;">Hisaab hoga — isliye dil ko Allah ki yaad se zinda rakho.</p>
+    </section>
+
+    <!-- ============ HOMEWORK ============ -->
+    <section>
+      <h2>🏠 Homework</h2>
+      <ol style="font-size:1.1rem; line-height:1.9; text-align:left; max-width:85%; margin:0 auto;">
+        <li>Memorise the Arabic of <strong>4 aḥādīth</strong> (the short ones: 61, 64, 65, 67).</li>
+        <li>Know all 10 in translation + their sources.</li>
+        <li>Complete Exercises 1–4 from the handout.</li>
+        <li>Reflection journal (Ex. 5) — private, for yourself.</li>
+        <li><strong>Daily dhikr</strong> — fix a habit of <em>Lā ilāha illa 'Llāh</em> &amp; <em>Al-ḥamdu li-Llāh</em> (living #67 &amp; #69).</li>
+        <li><strong>The "for or against me?" check</strong>: before you speak, pause — <em>"Will this count for me or against me?"</em> (#66).</li>
+      </ol>
+      <p class="urdu" style="font-size:1rem; margin-top:18px;">Hisaab do, jamāʿat aur zubaan sambhaalo, dil ko dhikr se zinda rakho.</p>
+    </section>
+
+    <!-- ============ CLOSING ============ -->
+    <section class="cover">
+      <div class="ar ar-huge">جَزَاكُمُ اللهُ خَيْرًا</div>
+      <p style="font-size:1.4rem; margin-top:24px;">May Allah reward you</p>
+      <p class="urdu" style="font-size:1.15rem;">Allah aap sab ko jazaa-e-khair de</p>
+      <p style="font-size:1.05rem; opacity:.9; margin-top:24px;">Ten aḥādīth — answer for your watch, stand together, keep your heart alive. May Allah make us of those whose hearts never forget Him, and who are called first to His Garden.</p>
+      <p class="urdu" style="font-size:1rem; opacity:.9;">Das hadithein — hisaab, jamāʿat, dil ka dhikr. Allah hamein un mein se banaye jinke dil Use kabhi na bhoolein, aur jo sab se pehle Jannat bulaaye jaayein. Aameen.</p>
+    </section>
+
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+<script>
+  Reveal.initialize({
+    hash: true,
+    slideNumber: 'c/t',
+    controls: true,
+    progress: true,
+    transition: 'slide',
+    width: 1280,
+    height: 800,
+    margin: 0.06
+  });
+</script>
+</body>
+</html>
