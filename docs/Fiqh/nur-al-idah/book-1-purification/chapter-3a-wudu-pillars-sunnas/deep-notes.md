@@ -196,7 +196,7 @@ Now we move up one tier: from **farḍ** (do-or-it's-invalid) to **sunna** (the 
 ### The big insight you must take from §4
 
 Two facts about this list change how the cohort prays for the rest of their lives:
-1. **Niyyah, tartīb, and muwālāt are all sunna in the Ḥanafī school — not farḍ.** This means a Ḥanafī's wudū is technically valid even if they forgot the intention, or washed the limbs out of order, or paused mid-wudū. (It is *deficient* and you should never do it on purpose — but it is not *invalid*.) Students who came up thinking these were obligatory will be surprised; this is the doctrinal heart of the lesson.
+1. **Niyyah and tartīb are sunna in the Ḥanafī school — not farḍ.** (Muwālāt is also a sunna — it is listed as sunna #13 — but the book makes its explicit *sunna-not-farḍ* argument, from al-Māʾidah 5:6, only for niyyah and tartīb.) This means a Ḥanafī's wudū is technically valid even if they forgot the intention or washed the limbs out of order. (It is *deficient* and you should never do it on purpose — but it is not *invalid*.) Students who came up thinking these were obligatory will be surprised; this is the doctrinal heart of the lesson.
 2. The Prophet ﷺ modelled the threefold wash himself and called it *"the wudu of the Prophets before me."* The sunnas are not optional extras bolted on — they are how the Prophet ﷺ actually made wudū. Teach them as **the complete picture**, with the four pillars as the irreducible minimum inside it.
 
 ---
@@ -217,7 +217,7 @@ Tier three. The book defines *adab* precisely: ***"that which the Prophet perfor
 10. **Gargle and draw water into the nose with the right hand; remove the nasal mucus with the left.**
 11. **Perform wudū before the prayer time enters** — *except for a person who is "excused"* (one with a chronic condition such as constant wind/incontinence; their wudū is tied to the prayer time).
 12. **Recite the two shahādahs after finishing, while standing.** (Abū Dāwūd 169 — *"…all the eight doors of Paradise will be opened for him…"*)
-13. **Drink from the leftover wudū water while standing**, facing the qibla. (Bukhārī 1637 — the Prophet ﷺ drank standing from the excess of Zamzam.)
+13. **Drink from the leftover wudū water while standing**, facing the qibla. (Bukhārī 1637 — the Prophet ﷺ "drank standing from the excess of wudu, the water of Zamzam.")
 14. **Say:** *"Allāhumma ijʿalnī min at-tawwābīn wa-jʿalnī min al-mutaṭahhirīn"* — *"O Allah, make me of those who repent and of those who purify themselves."*
 
 **Yaad rakho:** Adab = ***Nabi ﷺ ne ek-do baar kiya*** (sunna = hamesha kiya). Karne par sawaab, na karne par **koi gunaah nahin**. Atthaarah sunna se in chaudah adab ko alag rakho — varna cohort har cheez ko "lazmi" samajhne lagega. Adab ki **rooh**: wudū ko ek **dhikr aur du'a** ka lamha bana do — qibla rukh, har aʿzaa par Bismillah, aakhir mein shahādatain aur tawwābīn waali du'a.

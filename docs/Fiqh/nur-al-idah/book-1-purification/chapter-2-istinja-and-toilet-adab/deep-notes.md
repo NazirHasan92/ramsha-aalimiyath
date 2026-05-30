@@ -205,15 +205,15 @@ The final section of the chapter zooms out from the act of cleaning to the **who
 1. **Enter with the LEFT foot.**
 2. **Seek refuge in Allah from Satan** before entering. The book quotes two hadiths:
    - *"The cover between the eyes of the jinn and the private parts of the children of Adam is when the person enters the lavatory, he says, 'In the name of Allah'."* (At-Tirmidhi 606)
-   - *"The evil ones of the jinns are present, so if anyone enters the lavatory, he should say, 'I seek refuge with Allah from the unclean spirits, male and female'."*
+   - *"The evil ones of the jinns are present, so if anyone enters the lavatory, he should say, 'I seek refuge with Allah from the unclean spirits, male and female'."* (Abu Dawud 6)
 
 The standard du'a — *Bismillah, Allahumma inni a'udhu bika min al-khubuthi wal-khaba'ith* — combines both. **Bismillah is the cover; the seeking refuge is the protection.**
 
 ### While inside
 
 3. **Sit leaning on the LEFT side.** This is a physical lean — weight on the left, pressure released on the right. Anatomically this assists the body in releasing waste.
-4. **Don't talk** unless there is a need. The book quotes: *"When two persons go together for relieving themselves uncovering their private parts and talking together, Allah the Great and Majestic, becomes wrathful at this action."* (Abu Dawud 6)
-5. **Prohibitively disliked** (*makruh tahriman*): facing the qibla, or turning the back to the qibla — *even within a building*. The Prophet's words: *"If the need to defecate arose, then do not face the qibla, and do not turn around giving it your back, however turn east or west."* (Abu Dawud 15)
+4. **Don't talk** unless there is a need. The book quotes: *"When two persons go together for relieving themselves uncovering their private parts and talking together, Allah the Great and Majestic, becomes wrathful at this action."* (Abu Dawud 15)
+5. **Prohibitively disliked** (*makruh tahriman*): facing the qibla, or turning the back to the qibla — *even within a building*. The Prophet's words: *"If the need to defecate arose, then do not face the qibla, and do not turn around giving it your back, however turn east or west."* (Bukhari 144)
 6. **Disliked to face the sun or moon** directly — *"because they are great signs of Allah's creation."*
 7. **Disliked to face a blowing wind** — *"the filth is likely to be blown back onto one's body or clothes."* (Practical hygiene reason.)
 8. **Disliked to urinate/defecate in water** — even flowing water.
@@ -221,14 +221,14 @@ The standard du'a — *Bismillah, Allahumma inni a'udhu bika min al-khubuthi wal
 10. **Disliked to relieve oneself in a hole, on a road, or in a cemetery.** The "two cursed" hadith:
     > *"Fear the two that are cursed."* They asked: *"Who are those that are cursed, O Messenger of Allah?"* He said: *"The one that relieves himself in the road or walkway of the people or in their shade."* (Muslim 269)
 11. **Disliked to relieve oneself under a fruit tree.**
-12. **Disliked to urinate standing** unless there is a reason (e.g. an injured back). Anas's hadith: *"If the Prophet wanted to attend to a need, he would not lift his clothes until he was close to the ground."* (Abu Dawud 30)
+12. **Disliked to urinate standing** unless there is a reason (e.g. an injured back). Anas's hadith: *"If the Prophet wanted to attend to a need, he would not lift his clothes until he was close to the ground."* (At-Tirmidhi, The Book of Purification 14)
 13. **Disliked to urinate in the place of wudu** — *"due to the onset of satanic whispers which may be brought on by such a practice."*
 
 ### Exiting
 
 14. **Exit with the RIGHT leg** — *"because it has more right to be advanced when exiting such a place."*
 15. **Say a du'a on exit:**
-    > *"All praise be to Allah, the One who has repelled harm from me and protected me."* And the Prophet ﷺ said at the time of exiting: *"I ask Your forgiveness."* (*Ghufranak*)
+    > *"All praise be to Allah, the One who has repelled harm from me and protected me."* And the Prophet ﷺ said at the time of exiting: *"I ask Your forgiveness."* (*Ghufranak* — Abu Dawud 30)
 
 So a complete bathroom visit, sunna-aligned, looks like:
 - Left foot in + *Bismillah, A'udhu billahi min al-khubuthi wal-khaba'ith*
@@ -360,7 +360,7 @@ Before the class, make sure:
 - [ ] You can list the **three method levels** in order — stones / water / both — without notes. *(Stones, paani, dono — teenon ka darja zubaani.)*
 - [ ] You can explain why the **three-stones rule is mandub, not emphasized sunna** — including the *"there is no blame"* hadith. *(Hadith zubaani.)*
 - [ ] You can describe the **male long-scrotum procedure** in three movements without flinching. *(Front-rear-front, bina jhijhak ke.)*
-- [ ] You can recite the **two qibla hadiths** — At-Tirmidhi 606 (the "cover" hadith) and Abu Dawud 15 (the "do not face/back" hadith). *(Donon zubaani.)*
+- [ ] You can recite the **two qibla hadiths** — At-Tirmidhi 606 (the "cover" hadith) and Bukhari 144 (the "do not face/back" hadith). *(Donon zubaani.)*
 - [ ] You can recite the **Salman hadith** word-for-word from the book. *(Salman hadith.)*
 - [ ] You can give the **entering and exiting du'as** in Arabic + Roman Urdu meaning. *(*Bismillah + isteʿaadhah* andar; *Ghufranak* bahar.)*
 - [ ] You can explain the **fasting precaution** — why it's there, what the *jawf* principle is.

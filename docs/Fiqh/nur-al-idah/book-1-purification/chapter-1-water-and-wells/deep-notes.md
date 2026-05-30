@@ -213,7 +213,7 @@ So a pond ~5×5 m square is exactly at the threshold (10 arms × 48 cm ≈ 4.8 m
 
 ### A side-note: the Shafi'i 216-litre rule
 
-Imam Shafi'i defined "small water" differently — as **less than qullatayn** (≈ 216 litres). The Hadith: *"If the water reaches qullatayn, then it does not carry filth."* (Reported by the five; Ibn Hibban graded it sound.)
+Imam Shafi'i defined "small water" differently — as **less than qullatayn** (≈ 216 litres). The Hadith: *"If the water reaches qullatayn (or 216 litres), it does not carry filth."* (Reported by the five, and Ibn Habban graded it as sound — the book's spelling of Ibn Ḥibbān.)
 
 The Hanafis explain this hadith by noting that *the narrations conflict* — some say *one bulla*, some say *three*, some say *forty*. So they don't take qullatayn as a fixed threshold and use the 10×10 arms rule instead.
 

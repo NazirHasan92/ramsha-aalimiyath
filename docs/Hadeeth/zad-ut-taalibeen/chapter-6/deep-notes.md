@@ -56,7 +56,7 @@ Don't over-romanticise the first half. The praised hunger is for *beneficial, sa
 
 ---
 
-## 52 · أَفْضَلُ الْجِهَادِ كَلِمَةُ حَقٍّ عِنْدَ سُلْطَانٍ جَائِرٍ — "The most virtuous jihād is a word of truth before a tyrant ruler"
+## 52 · أَفْضَلُ الْجِهَادِ مَنْ قَالَ كَلِمَةَ حَقٍّ عِنْدَ سُلْطَانٍ جَائِرٍ — "The most virtuous jihād is when one speaks a word of truth before an unjust ruler"
 
 **Source:** Abū Dāwūd, Tirmidhī, Ibn Mājah.
 
@@ -74,7 +74,7 @@ This is a ḥadīth about *moral courage*, and it must be taught as such — **n
 
 ---
 
-## 53 · غَدْوَةٌ فِي سَبِيلِ اللهِ — "A morning or an evening in the path of Allah…"
+## 53 · لَغَدْوَةٌ فِي سَبِيلِ اللهِ — "A morning or an evening in the path of Allah…"
 
 **Full wording:** *A morning or an evening spent in the path of Allah is more superior than the world and whatever it contains.*
 **Source:** Bukhārī, Muslim.
@@ -96,7 +96,7 @@ Don't shrink "*fī sabīli Llāh*" to one narrow meaning. Its primary sense is s
 
 ---
 
-## 54 · لَفَقِيهٌ وَاحِدٌ أَشَدُّ عَلَى الشَّيْطَانِ — "A single jurist is harder on Satan than a thousand worshippers"
+## 54 · فَقِيهٌ وَاحِدٌ أَشَدُّ عَلَى الشَّيْطَانِ — "A single jurist is harder on Satan than a thousand worshippers"
 
 **Source:** Tirmidhī, Ibn Mājah.
 
@@ -205,6 +205,8 @@ Here is the trap, and you must close it before anyone opens it: *"everyone sins 
 
 **Full wording:** *How many there are who fast but do not gain anything from it but hunger, and how many there are who pass the night standing in prayer but do not gain anything from it but sleeplessness.*
 **Source:** Dārimī.
+
+> **Matn note (read off the book, p.46):** the book's *printed Arabic* uses **إِلَّا الظَّمَأُ** — *illā l-ẓamaʾ*, "nothing but **thirst**" — while its *English* translation renders it "hunger." We reproduce the Arabic exactly as the book prints it (*al-ẓamaʾ*) and keep the English as the book translates it (*hunger*); both are authentic wordings of this ḥadīth and the lesson is identical. When you display the Arabic in class, say *ẓamaʾ* (pyaas), even though the English line reads "hunger." *(Pehle galti se الْجُوعُ "hunger" likha gaya tha — kitaab ki chhapi Arabic الظَّمَأُ hai; theek kar diya.)*
 
 ### When the form is full but the heart is empty
 

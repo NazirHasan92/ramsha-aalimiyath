@@ -46,7 +46,7 @@ The book opens: *"The major bath is compulsory if one of the following occurs."*
 
 ### Group B — Penetration: the head disappears (#2)
 
-- **#2 · The head of the penis disappearing in a passage** — vagina or anus — *"makes the major bath compulsory on both persons"* (the one penetrating and the one penetrated), **even without ejaculation.** The measure is *"the size of the head from the section removed in circumcision"* (i.e. the head of a living man's penis). The proof is the hadith: *"When the private parts [of male and female] cohabit with each other and the penis disappears in the vagina, bathing becomes obligatory on both the male and female."* (Ibn Mājah 611). This is master-key 2 — **penetration is its own trigger.**
+- **#2 · The head of the penis disappearing in a passage** — vagina or anus — *"makes the major bath compulsory on both persons"* (the one penetrating and the one penetrated), **even without ejaculation.** The measure is *"the size of the head from the section removed in circumcision"* (i.e. the head of a living man's penis). The proof is the hadith: *"When the private parts [of the male and female] cohabit with each other and the penis disappears in the vagina, bathing becomes obligatory [for both the male and female]."* (Ibn Mājah 611). This is master-key 2 — **penetration is its own trigger.**
 
 ### Group C — The end of a woman's bleeding (#6–7)
 
@@ -99,7 +99,7 @@ This is the heart of the practical chapter. The book heads it *"That Which Is Co
 | 2 | **Rinse the nostrils** (istinshāq) | water reaches the soft part of the nose |
 | 3 | **Wash the entire body once** | every washable part of the skin, one time |
 
-The Qur'anic proof the book gives is **al-Māʾidah 6**: *"If you are in a state of ceremonial impurity, bathe your whole body."* The book notes this is *"a clear command requiring the washing of the entire body, which includes the nose and mouth"* — which is **why the mouth and nose are farḍ in ghusl** even though they are only *sunna* in wudū. (Imām Shāfiʿī disagreed, holding mouth/nose to be sunna even in ghusl; the Ḥanafī answer: the wudū verse orders washing the *face*, which excludes the inside of the mouth/nose — but the ghusl verse orders washing the whole body, which includes them.)
+The Qur'anic proof the book gives is **al-Māʾidah 6**: *"If you are in a state of ceremonial impurity, bath your whole body."* The book notes this is *"a clear command requiring the washing of the entire body, which includes the nose and mouth"* — which is **why the mouth and nose are farḍ in ghusl** even though they are only *sunna* in wudū. (Imām Shāfiʿī disagreed, holding mouth/nose to be sunna even in ghusl; the Ḥanafī answer: the wudū verse orders washing the *face*, which excludes the inside of the mouth/nose — but the ghusl verse orders washing the whole body, which includes them.)
 
 ### "Wash the entire body" means *reach every spot* — the obligatory thoroughness
 
