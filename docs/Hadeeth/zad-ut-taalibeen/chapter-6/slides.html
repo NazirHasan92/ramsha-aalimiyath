@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zad ut-Taalibeen · Chapter 6 · Slides</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/white.css">
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Scheherazade+New:wght@400;700&family=Noto+Nastaliq+Urdu:wght@400;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+  .reveal { font-family:'Inter',sans-serif; }
+  .reveal h1, .reveal h2, .reveal h3 { color:#14532d; font-weight:700; }
+  .reveal .ar {
+    font-family:'Scheherazade New','Amiri',serif;
+    direction:rtl;
+    color:#14532d;
+    font-weight:700;
+  }
+  .reveal .ar-huge { font-size:3.4rem; line-height:1.6; }
+  .reveal .ar-big { font-size:2.4rem; line-height:1.7; }
+  .reveal .ar-med { font-size:1.8rem; line-height:1.7; }
+  .reveal .translit { color:#9a3412; font-style:italic; font-size:1.05rem; }
+  .reveal .english { color:#1f2937; font-size:1.3rem; }
+  .reveal .urdu { color:#374151; font-style:italic; font-size:1.15rem; }
+  .reveal .source-pill {
+    display:inline-block;
+    margin-top:14px;
+    padding:5px 14px;
+    background:#14532d;
+    color:#fff;
+    border-radius:14px;
+    font-size:.85rem;
+    font-weight:600;
+    letter-spacing:.02em;
+  }
+  .reveal .cover {
+    background:linear-gradient(135deg, #14532d 0%, #0e7490 100%);
+    color:#fff !important;
+    padding:60px 40px;
+    border-radius:14px;
+  }
+  .reveal .cover h1, .reveal .cover .ar { color:#fff; }
+  .reveal .cover .urdu { color:#e0f2fe; }
+  .reveal .theme-banner {
+    background:#0e7490;
+    color:#fff;
+    padding:8px 18px;
+    border-radius:20px;
+    display:inline-block;
+    font-size:1rem;
+    font-weight:600;
+    letter-spacing:.05em;
+    margin-bottom:18px;
+  }
+  .reveal .key-box {
+    background:#f0fdf4;
+    border:2px solid #14532d;
+    border-radius:12px;
+    padding:18px 24px;
+    margin:18px auto;
+    max-width:80%;
+  }
+  .reveal .warn-box {
+    background:#fef2f2;
+    border-left:5px solid #dc2626;
+    padding:12px 18px;
+    border-radius:0 8px 8px 0;
+    margin:14px 0;
+    text-align:left;
+  }
+  .reveal .arrow { font-size:2rem; vertical-align:middle; color:#14532d; }
+  .reveal table { margin:0 auto; font-size:1.1rem; }
+  .reveal table th, .reveal table td { padding:8px 14px; vertical-align:middle; }
+  .reveal table th { background:#14532d; color:#fff; font-size:.9rem; }
+  .reveal .three-cols {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:14px;
+    margin:14px 0;
+  }
+  .reveal .three-cols .col {
+    background:#f9fafb;
+    border:2px solid #14532d;
+    border-radius:10px;
+    padding:14px;
+  }
+  .reveal .three-cols .col h4 { color:#14532d; margin:0 0 6px; }
+</style>
+</head>
+<body>
+<div class="reveal">
+  <div class="slides">
+
+    <!-- COVER -->
+    <section class="cover">
+      <div class="ar ar-huge">زَادُ الطَّالِبِيْنَ</div>
+      <h1 style="font-size:2rem; margin-top:20px;">Provisions for the Seekers</h1>
+      <p style="font-size:1.2rem; opacity:.95;">Chapter 6 — Aḥādīth 51 to 60</p>
+      <p style="font-size:1.1rem; opacity:.9;">Aim your hunger · honour your ties · guard your heart</p>
+      <p class="urdu" style="font-size:1.1rem;">Aaj ki kitaab — das hadithein: bhook, ʿizzat, aur dil</p>
+      <p style="font-size:.95rem; opacity:.85; margin-top:30px;">Press → to begin · Press F for fullscreen</p>
+    </section>
+
+    <!-- OBJECTIVES -->
+    <section>
+      <h2>What we'll cover today</h2>
+      <p style="font-size:1.3rem;">10 short aḥādīth — falling into 3 movements:</p>
+      <div class="three-cols" style="margin-top:24px;">
+        <div class="col">
+          <h4>1 · Aim your hunger</h4>
+          <p style="margin:0;"><strong>Knowledge &amp; striving</strong></p>
+          <p style="font-size:.95rem; margin:6px 0 0;">Aḥādīth 51, 52, 53, 54</p>
+          <p style="font-size:.85rem; margin:4px 0 0;">(what to strive for)</p>
+        </div>
+        <div class="col">
+          <h4>2 · Honour your ties</h4>
+          <p style="margin:0;"><strong>Parents &amp; elders</strong></p>
+          <p style="font-size:.95rem; margin:6px 0 0;">Aḥādīth 56, 57</p>
+          <p style="font-size:.85rem; margin:4px 0 0;">(whom to honour)</p>
+        </div>
+        <div class="col">
+          <h4>3 · Guard your heart</h4>
+          <p style="margin:0;"><strong>Sincerity &amp; repentance</strong></p>
+          <p style="font-size:.95rem; margin:6px 0 0;">Aḥādīth 55, 58, 59, 60</p>
+          <p style="font-size:.85rem; margin:4px 0 0;">(keep it sincere)</p>
+        </div>
+      </div>
+      <p style="margin-top:24px; font-size:1.1rem;">The deep thread: <strong>ikhlāṣ</strong> — everything <em>for Allah</em>.</p>
+      <p class="urdu" style="font-size:1rem;">Bhook → ʿizzat → dil. Sab ke neeche: ikhlāṣ — sab kuch Allah ke liye.</p>
+    </section>
+
+    <!-- ============ THEME 1 BANNER ============ -->
+    <section>
+      <span class="theme-banner">MOVEMENT 1 · AIM YOUR HUNGER</span>
+      <h1>Knowledge &amp; striving for Allah</h1>
+      <p style="font-size:1.3rem;">Aḥādīth 51, 52, 53, 54 — point your drive at what lasts.</p>
+      <p class="urdu" style="font-size:1.1rem;">ʿIlm ki bhook · haq ki himmat · Allah ka raasta · samajh ka hathiyaar.</p>
+    </section>
+
+    <!-- ============ ḤADĪTH 51 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 51</h3>
+        <div class="ar ar-med">مَنْهُومَانِ لَا يَشْبَعَانِ: طَالِبُ الْعِلْمِ وَطَالِبُ الدُّنْيَا</div>
+        <p class="translit" style="font-size:1.05rem;">manhūmāni lā yashbaʿān: ṭālibu l-ʿilmi wa ṭālibu l-dunyā</p>
+        <p class="english" style="margin-top:18px;">"Two greedy ones are never satisfied: one greedy for knowledge, and one greedy for the world."</p>
+        <p class="urdu">"Do log kabhi nahin bharte: ʿilm ka talabgaar, aur dunya ka talabgaar."</p>
+        <span class="source-pill">Bayhaqī · Shuʿab al-Īmān</span>
+      </section>
+
+      <section>
+        <h3>One appetite, two destinations</h3>
+        <table>
+          <tr>
+            <td style="background:#dcfce7; padding:16px; border:2px solid #14532d; vertical-align:top;">
+              <h4 style="color:#14532d; margin:0;">Hunger for KNOWLEDGE</h4>
+              <p style="font-size:1rem;">never fills — and it <strong>ennobles</strong> you</p>
+            </td>
+            <td style="background:#fef2f2; padding:16px; border:2px solid #dc2626; vertical-align:top;">
+              <h4 style="color:#991b1b; margin:0;">Hunger for the WORLD</h4>
+              <p style="font-size:1rem;">never fills — and it <strong>destroys</strong> you (= Ch 5 #49)</p>
+            </td>
+          </tr>
+        </table>
+        <p style="margin-top:18px;">Don't <em>kill</em> the appetite — <strong>re-aim</strong> it toward knowledge of Allah.</p>
+        <p class="urdu" style="font-size:1.05rem;">Bhook ko maaro mat — uska rukh badlo.</p>
+      </section>
+
+      <section>
+        <div class="warn-box">
+          <p style="margin:0;"><strong>⚠️ The catch:</strong> even the hunger for knowledge must be <em>for Allah</em>.</p>
+          <p style="margin:8px 0 0; font-size:1.05rem;">Knowledge for pride, debate, or position is just the world in a scholar's cloak.</p>
+        </div>
+        <p style="margin-top:14px;">Connect to Qurʾān · 20:114 — <em>"My Lord, increase me in knowledge."</em></p>
+        <p class="urdu" style="font-size:1.05rem;">ʿIlm bhi Allah ke liye — ghuroor ya maqaam ke liye nahin.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 52 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 52</h3>
+        <div class="ar ar-med">أَفْضَلُ الْجِهَادِ كَلِمَةُ حَقٍّ عِنْدَ سُلْطَانٍ جَائِرٍ</div>
+        <p class="translit" style="font-size:1.05rem;">afḍalu l-jihādi kalimatu ḥaqqin ʿinda sulṭānin jāʾir</p>
+        <p class="english" style="margin-top:18px;">"The most virtuous jihād is a word of truth before a tyrant ruler."</p>
+        <p class="urdu">"Sab se afzal jihād zaalim hukmraan ke saamne haq baat kehna."</p>
+        <span class="source-pill">Abū Dāwūd · Tirmidhī · Ibn Mājah</span>
+      </section>
+
+      <section>
+        <h3>Why the highest jihād?</h3>
+        <div class="key-box">
+          <p style="margin:0;"><strong>1.</strong> The speaker risks himself — like a warrior in battle.</p>
+          <p style="margin:10px 0 0;"><strong>2.</strong> If the word stops oppression, the benefit reaches a <strong>far larger</strong> group than a battlefield victory.</p>
+        </div>
+        <p style="margin-top:14px;">One brave sentence can shelter a whole people.</p>
+        <p class="urdu" style="font-size:1.05rem;">Ek bahaadur jumla poori riʿaaya ko zulm se bacha sakta hai.</p>
+      </section>
+
+      <section>
+        <div class="warn-box">
+          <p style="margin:0;"><strong>⚠️ Courage, not chaos.</strong></p>
+          <p style="margin:8px 0 0; font-size:1.05rem;">Not a license to stir trouble, humiliate, or rebel. The virtue is truth said <em>for Allah</em> and for the oppressed — accepting the risk.</p>
+        </div>
+        <p style="margin-top:18px; font-size:1.1rem;">For Allah — not to be a hero.</p>
+        <p class="urdu" style="font-size:1.05rem;">Akhlaqi himmat — fasaad ya baghaawat nahin.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 53 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 53</h3>
+        <div class="ar ar-med">غَدْوَةٌ فِي سَبِيلِ اللهِ أَوْ رَوْحَةٌ خَيْرٌ مِنَ الدُّنْيَا وَمَا فِيهَا</div>
+        <p class="translit" style="font-size:1.05rem;">ghadwatun fī sabīli Llāhi aw rawḥatun khayrun mina l-dunyā wa mā fīhā</p>
+        <p class="english" style="margin-top:18px;">"A morning or an evening in the path of Allah is better than the world and all it contains."</p>
+        <p class="urdu">"Allah ke raaste mein ek subah ya shaam — dunya aur jo kuch usme hai, us se behtar."</p>
+        <span class="source-pill">Bukhārī · Muslim</span>
+      </section>
+
+      <section>
+        <h3>Two ways to read it</h3>
+        <div class="key-box">
+          <p style="margin:0;"><strong>1. It lasts.</strong> Its reward is eternal; the world is transient.</p>
+          <p style="margin:10px 0 0;"><strong>2. It out-weighs charity.</strong> Even giving the <em>whole world</em> away would not match it.</p>
+        </div>
+        <p style="margin-top:14px; font-size:1.1rem;">Time given to Allah &gt; wealth given for Allah.</p>
+        <p style="margin-top:6px;">Connect to Qurʾān · 4:77 — <em>"the enjoyment of this world is little."</em></p>
+        <p class="urdu" style="font-size:1.05rem;">Allah ko diya waqt, maal se bhi qeemti.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 54 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 54</h3>
+        <div class="ar ar-med">لَفَقِيهٌ وَاحِدٌ أَشَدُّ عَلَى الشَّيْطَانِ مِنْ أَلْفِ عَابِدٍ</div>
+        <p class="translit" style="font-size:1.05rem;">la-faqīhun wāḥidun ashaddu ʿalā l-shayṭāni min alfi ʿābid</p>
+        <p class="english" style="margin-top:18px;">"A single jurist is harder on Satan than a thousand worshippers."</p>
+        <p class="urdu">"Ek faqīh Shaytaan par hazaar ʿaabidon se zyada bhaari hai."</p>
+        <span class="source-pill">Tirmidhī · Ibn Mājah</span>
+      </section>
+
+      <section>
+        <h3>Understanding is eyesight</h3>
+        <div class="key-box">
+          <p style="margin:0;">The battleground is <strong>against Satan</strong>. The faqīh <em>recognises</em> his ploys, <em>warns</em> others, and <em>enjoins good</em>.</p>
+          <p style="margin:10px 0 0; font-size:1.05rem;">The ordinary worshipper — sincere, but without understanding — is more easily trapped, because he can't see it coming.</p>
+        </div>
+        <p class="urdu" style="font-size:1.05rem;">ʿIlm rooh ki jang mein aankh hai.</p>
+      </section>
+
+      <section>
+        <div class="warn-box">
+          <p style="margin:0;"><strong>⚠️ This does NOT belittle worship.</strong></p>
+          <p style="margin:8px 0 0; font-size:1.05rem;">Narrow comparison — <em>against Satan</em>, understanding is the sharper weapon. ʿIlm and ʿibādah belong together. A "faqīh" is one who understands, acts, and warns — not a title.</p>
+        </div>
+        <p style="margin-top:14px; font-size:1.1rem;">Satan simply fears the one who can <em>see</em> him.</p>
+        <p class="urdu" style="font-size:1.05rem;">ʿIbādat bekaar nahin — bas Shaytaan samajh wale se zyada darta hai.</p>
+      </section>
+    </section>
+
+    <!-- ============ THEME 2 BANNER ============ -->
+    <section>
+      <span class="theme-banner">MOVEMENT 2 · HONOUR YOUR TIES</span>
+      <h1>Parents &amp; elders</h1>
+      <p style="font-size:1.3rem;">Aḥādīth 56, 57 — don't trample the people closest to you.</p>
+      <p class="urdu" style="font-size:1.1rem;">Baap ki khushi mein Allah ki khushi · baray bhai ka haq baap jaisa.</p>
+    </section>
+
+    <!-- ============ ḤADĪTH 56 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 56</h3>
+        <div class="ar ar-med">رِضَا الرَّبِّ فِي رِضَا الْوَالِدِ وَسَخَطُ الرَّبِّ فِي سَخَطِ الْوَالِدِ</div>
+        <p class="translit" style="font-size:1.05rem;">riḍā l-rabbi fī riḍā l-wālid, wa sakhaṭu l-rabbi fī sakhaṭi l-wālid</p>
+        <p class="english" style="margin-top:18px;">"The pleasure of the Lord (Allah) is in the pleasure of the father, and His displeasure in the father's displeasure."</p>
+        <p class="urdu">"Rabb ki khushi baap ki khushi mein, naaraazi baap ki naaraazi mein."</p>
+        <span class="source-pill">Tirmidhī</span>
+      </section>
+
+      <section>
+        <h3>Your standing with Allah runs through your parent</h3>
+        <div class="key-box">
+          <p style="margin:0;">Not merely "be kind" — Allah's own pleasure is <strong>bound up with</strong> the father's.</p>
+          <p style="margin:10px 0 0; font-size:1.05rem;">Pleasing him → a route to pleasing Allah. Angering him → a route to His anger.</p>
+        </div>
+        <p style="margin-top:14px;">Connect to Qurʾān · 17:23 — kindness to parents, right after worship of Allah.</p>
+        <p class="urdu" style="font-size:1.05rem;">Maamla akhlaaq se uth kar Allah ke taʿalluq ka ban jaata hai.</p>
+      </section>
+
+      <section>
+        <h3>⚠️ Two limits — hold them firmly</h3>
+        <table>
+          <tr>
+            <td style="background:#fef2f2; padding:16px; border:2px solid #dc2626; vertical-align:top;">
+              <h4 style="color:#991b1b; margin:0;">No obedience in SIN</h4>
+              <p style="font-size:1rem;">A ḥarām command is not obeyed — but kindness &amp; respect remain.</p>
+            </td>
+            <td style="background:#fef2f2; padding:16px; border:2px solid #dc2626; vertical-align:top;">
+              <h4 style="color:#991b1b; margin:0;">The MOTHER is not lowered</h4>
+              <p style="font-size:1rem;">Her right is even greater: "your mother" ×3, then "your father."</p>
+            </td>
+          </tr>
+        </table>
+        <p style="margin-top:16px;">Naming the father does not rank him over the mother.</p>
+        <p class="urdu" style="font-size:1.05rem;">Gunaah mein itaaʿat nahin; aur maa ka haq aur bhi zyada.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 57 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 57</h3>
+        <p class="english" style="font-size:1.5rem; margin-top:30px;">"The right of an elder brother over the younger ones is like the right of the father over his children."</p>
+        <p class="urdu">"Baray bhai ka chhoton par haq waisa jaisa baap ka aulaad par."</p>
+        <span class="source-pill">Bayhaqī · Shuʿab al-Īmān</span>
+        <p style="font-size:.85rem; color:#666; margin-top:16px;">(Arabic read directly from the book.)</p>
+      </section>
+
+      <section>
+        <h3>Seniority carries weight</h3>
+        <div class="key-box">
+          <p style="margin:0;">The eldest often helps raise, protect, and provide for the younger ones — so he carries a <strong>father-like right</strong> of respect.</p>
+        </div>
+        <p style="margin-top:14px;">"<em>Like</em> a father's right" = respect &amp; care, <strong>not</strong> identical in every ruling. And it's two-way — the elder owes the younger a father's care.</p>
+        <p class="urdu" style="font-size:1.05rem;">Ehtiraam upar, shafqat neeche — do-tarfa rishta.</p>
+      </section>
+    </section>
+
+    <!-- ============ THEME 3 BANNER ============ -->
+    <section>
+      <span class="theme-banner">MOVEMENT 3 · GUARD YOUR HEART</span>
+      <h1>Sincerity, repentance &amp; restraint</h1>
+      <p style="font-size:1.3rem;">Aḥādīth 55, 58, 59, 60 — keep the heart sincere and returning.</p>
+      <p class="urdu" style="font-size:1.1rem;">Istighfār · sab gunaah karte hain, palto · ikhlāṣ · faaltu chhodo.</p>
+    </section>
+
+    <!-- ============ ḤADĪTH 55 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 55</h3>
+        <div class="ar ar-med">طُوبَى لِمَنْ وَجَدَ فِي صَحِيفَتِهِ اسْتِغْفَارًا كَثِيرًا</div>
+        <p class="translit" style="font-size:1.05rem;">ṭūbā li-man wajada fī ṣaḥīfatihi istighfāran kathīrā</p>
+        <p class="english" style="margin-top:18px;">"Glad tidings for the one who finds in his record abundant seeking of forgiveness."</p>
+        <p class="urdu">"Khushkhabri us ke liye jo apne aʿmaal-naame mein kasrat se istighfār paaye."</p>
+        <span class="source-pill">Ibn Mājah</span>
+      </section>
+
+      <section>
+        <h3>The page that delights you on the worst day</h3>
+        <div class="key-box">
+          <p style="margin:0;">On the Day of Judgement, the records open — and blessed is the one who finds page after page of <strong>sincere istighfār</strong> that Allah accepted.</p>
+        </div>
+        <p style="margin-top:14px;">The cheapest investment with the richest return. Make it a daily habit — after every prayer, when you slip, before sleep.</p>
+        <p class="urdu" style="font-size:1.05rem;">Sab se sasta sauda, sab se bara nafa.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 58 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 58</h3>
+        <div class="ar ar-med">كُلُّ بَنِي آدَمَ خَطَّاءٌ وَخَيْرُ الْخَطَّائِينَ التَّوَّابُونَ</div>
+        <p class="translit" style="font-size:1.05rem;">kullu banī ādama khaṭṭāʾun wa khayru l-khaṭṭāʾīna l-tawwābūn</p>
+        <p class="english" style="margin-top:18px;">"All the children of Adam are sinners, and the best of sinners are those who repent."</p>
+        <p class="urdu">"Tamaam bani Aadam khataa-kaar; in mein behtareen woh jo tawba karte hain."</p>
+        <span class="source-pill">Tirmidhī</span>
+      </section>
+
+      <section>
+        <h3>A diagnosis and a door</h3>
+        <table>
+          <tr>
+            <td style="background:#fef3c7; padding:16px; border:2px solid #b45309; vertical-align:top;">
+              <h4 style="color:#7c2d12; margin:0;">Humbling</h4>
+              <p style="font-size:1rem;">All of us sin — only the prophets are infallible. Sinning makes you a child of Adam, not a monster.</p>
+            </td>
+            <td style="background:#dcfce7; padding:16px; border:2px solid #14532d; vertical-align:top;">
+              <h4 style="color:#14532d; margin:0;">Hopeful</h4>
+              <p style="font-size:1rem;">The best of sinners <strong>return</strong>. The door of tawba is open to everyone.</p>
+            </td>
+          </tr>
+        </table>
+        <p class="urdu" style="font-size:1.05rem;">Giro to maayoos mat ho — darwaza tawba hai.</p>
+      </section>
+
+      <section>
+        <div class="warn-box">
+          <p style="margin:0;"><strong>⚠️ Not a permission slip.</strong></p>
+          <p style="margin:8px 0 0; font-size:1.05rem;">"Everyone sins" ≠ "so the harm is small." The praise is on <em>returning</em>, never on the sinning. (And #20: one who truly repents is like one who never sinned.)</p>
+        </div>
+        <p style="margin-top:14px;">Connect to Qurʾān · 2:222 — <em>"Allah loves those who turn to Him in repentance."</em></p>
+        <p class="urdu" style="font-size:1.05rem;">Taʿreef tawba par — gunaah se dosti mat karo.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 59 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 59</h3>
+        <div class="ar ar-med">كَمْ مِنْ صَائِمٍ لَيْسَ لَهُ مِنْ صِيَامِهِ إِلَّا الْجُوعُ</div>
+        <p class="translit" style="font-size:1rem;">kam min ṣāʾimin laysa lahu min ṣiyāmihi illā l-jūʿ …</p>
+        <p class="english" style="margin-top:18px;">"How many fast but gain nothing but hunger, and how many stand in night prayer but gain nothing but sleeplessness."</p>
+        <p class="urdu">"Kitne roza-daar jinhe sirf bhook milti hai, aur kitne raat ko khaday jinhe sirf bedaari."</p>
+        <span class="source-pill">Dārimī</span>
+      </section>
+
+      <section>
+        <h3>Full form, empty heart</h3>
+        <div class="key-box">
+          <p style="margin:0;">The body does the work; the heart gets no reward — when the <strong>sincerity</strong> is missing.</p>
+          <p style="margin:10px 0 0; font-size:1.05rem;">(1) Fasting without seeking Allah's reward / without leaving sin. (2) Night prayer done to <em>show off</em> (riyāʾ).</p>
+        </div>
+        <p style="margin-top:14px; font-size:1.1rem;"><strong>Ikhlāṣ is the soul of every act of worship.</strong></p>
+        <p class="urdu" style="font-size:1.05rem;">ʿIbādat ki shakl poori, rooh ghaayab.</p>
+      </section>
+
+      <section>
+        <h3>⚠️ A mirror — not a telescope</h3>
+        <table>
+          <tr>
+            <td style="background:#fef2f2; padding:16px; border:2px solid #dc2626; vertical-align:top;">
+              <h4 style="color:#991b1b; margin:0;">Don't despair</h4>
+              <p style="font-size:1rem;">The minimal obligation <em>is</em> fulfilled — this is a push to raise sincerity, not a verdict of "void."</p>
+            </td>
+            <td style="background:#fef2f2; padding:16px; border:2px solid #dc2626; vertical-align:top;">
+              <h4 style="color:#991b1b; margin:0;">Don't judge others</h4>
+              <p style="font-size:1rem;">Only Allah sees intentions. Turn it on yourself.</p>
+            </td>
+          </tr>
+        </table>
+        <p style="margin-top:16px;">Ask: <em>"Am I doing this for Allah, or for hunger, or for eyes?"</em></p>
+        <p style="margin-top:6px;">Connect to Qurʾān · 98:5 — <em>"…sincere to Him in religion."</em></p>
+        <p class="urdu" style="font-size:1.05rem;">Aaina, door-been nahin.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 60 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 60 — the chapter's close</h3>
+        <div class="ar ar-med">مِنْ حُسْنِ إِسْلَامِ الْمَرْءِ تَرْكُهُ مَا لَا يَعْنِيهِ</div>
+        <p class="translit" style="font-size:1.05rem;">min ḥusni islāmi l-marʾi tarkuhu mā lā yaʿnīh</p>
+        <p class="english" style="margin-top:18px;">"Part of the excellence of a person's Islam is his leaving what does not concern him."</p>
+        <p class="urdu">"Aadmi ke Islam ki khoobi: woh chhod de jo us se taʿalluq nahin."</p>
+        <span class="source-pill">Tirmidhī · Aḥmad</span>
+      </section>
+
+      <section>
+        <h3>A clean, focused life</h3>
+        <div class="key-box">
+          <p style="margin:0;">The beauty of your Islam shows in one habit: <strong>leave the futile</strong> — gossip, prying, meddling — and stay occupied with what Allah loves.</p>
+        </div>
+        <p style="margin-top:14px;">Reward: endless bliss and salvation in the Hereafter. (One of the famous <em>Forty</em> traditions.)</p>
+        <p class="urdu" style="font-size:1.05rem;">Faaltu chhodo, asal par lago.</p>
+      </section>
+
+      <section>
+        <div class="warn-box">
+          <p style="margin:0;"><strong>⚠️ Focus, not withdrawal.</strong></p>
+          <p style="margin:8px 0 0; font-size:1.05rem;">"What does not concern you" = the futile — not your real duties to family or the dīn. Prune the wasteful; don't become cold or cut off.</p>
+        </div>
+        <p style="margin-top:14px; font-size:1.1rem;">#60 is the habit that protects all the rest.</p>
+        <p class="urdu" style="font-size:1.05rem;">Tawajjuh — kinaara-kashi nahin.</p>
+      </section>
+    </section>
+
+    <!-- ============ RECAP ============ -->
+    <section>
+      <h2>The chapter, on one slide</h2>
+      <div class="three-cols">
+        <div class="col">
+          <h4>1 · Aim your hunger</h4>
+          <p style="font-size:.9rem;"><strong>#51</strong> Greedy for knowledge, not the world</p>
+          <p style="font-size:.9rem;"><strong>#52</strong> Best jihād = truth before a tyrant</p>
+          <p style="font-size:.9rem;"><strong>#53</strong> An hour in Allah's path &gt; the world</p>
+          <p style="font-size:.9rem;"><strong>#54</strong> One faqīh &gt; 1000 worshippers (vs Satan)</p>
+        </div>
+        <div class="col">
+          <h4>2 · Honour your ties</h4>
+          <p style="font-size:.9rem;"><strong>#56</strong> Allah's pleasure in the father's</p>
+          <p style="font-size:.9rem;"><strong>#57</strong> Elder brother's right = like a father's</p>
+        </div>
+        <div class="col">
+          <h4>3 · Guard your heart</h4>
+          <p style="font-size:.9rem;"><strong>#55</strong> Glad tidings for abundant istighfār</p>
+          <p style="font-size:.9rem;"><strong>#58</strong> All sin; the best repent</p>
+          <p style="font-size:.9rem;"><strong>#59</strong> Worship without sincerity = nothing</p>
+          <p style="font-size:.9rem;"><strong>#60</strong> Excellence = leaving the trivial</p>
+        </div>
+      </div>
+      <p style="font-size:1.15rem; margin-top:20px; color:#14532d;"><strong>Hunger → ties → heart. The thread: ikhlāṣ — everything for Allah.</strong></p>
+      <p class="urdu" style="font-size:1.05rem;">Bhook → ʿizzat → dil. Dhaaga: ikhlāṣ — sab kuch Allah ke liye.</p>
+    </section>
+
+    <!-- ============ HOMEWORK ============ -->
+    <section>
+      <h2>🏠 Homework</h2>
+      <ol style="font-size:1.1rem; line-height:1.9; text-align:left; max-width:85%; margin:0 auto;">
+        <li>Memorise the Arabic of <strong>5 aḥādīth</strong> (the short ones: 51, 52, 56, 58, 60).</li>
+        <li>Know all 10 in translation + their sources.</li>
+        <li>Complete Exercises 1–4 from the handout.</li>
+        <li>Reflection journal (Ex. 5) — private, for yourself.</li>
+        <li><strong>Daily istighfār</strong> — begin a fixed habit and don't drop it (living #55).</li>
+        <li><strong>The "who is it for?" check</strong>: before an act of worship, pause and ask — <em>"For Allah, or for eyes?"</em> (#59).</li>
+      </ol>
+      <p class="urdu" style="font-size:1rem; margin-top:18px;">Bhook sahi rukh, rishtay nibhaao, dil saaf rakho — sab Allah ke liye.</p>
+    </section>
+
+    <!-- ============ CLOSING ============ -->
+    <section class="cover">
+      <div class="ar ar-huge">جَزَاكُمُ اللهُ خَيْرًا</div>
+      <p style="font-size:1.4rem; margin-top:24px;">May Allah reward you</p>
+      <p class="urdu" style="font-size:1.15rem;">Allah aap sab ko jazaa-e-khair de</p>
+      <p style="font-size:1.05rem; opacity:.9; margin-top:24px;">Ten aḥādīth — aim your hunger, honour your ties, guard your heart. May Allah make our striving, our ties, and our worship sincerely for Him.</p>
+      <p class="urdu" style="font-size:1rem; opacity:.9;">Das hadithein — bhook, ʿizzat, dil. Allah hamari koshish, rishtay, aur ibādat khaalis apne liye qubool farmaye. Aameen.</p>
+    </section>
+
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+<script>
+  Reveal.initialize({
+    hash: true,
+    slideNumber: 'c/t',
+    controls: true,
+    progress: true,
+    transition: 'slide',
+    width: 1280,
+    height: 800,
+    margin: 0.06
+  });
+</script>
+</body>
+</html>

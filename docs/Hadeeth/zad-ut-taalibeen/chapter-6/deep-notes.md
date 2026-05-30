@@ -185,7 +185,7 @@ Two words carry the ḥadīth: *kathīr* (abundant) and the book's gloss, *since
 
 ## 58 · كُلُّ بَنِي آدَمَ خَطَّاءٌ — "All the children of Adam are sinners, and the best of sinners are those who repent"
 
-**Source:** Tirmidhī (and Ibn Mājah).
+**Source:** Tirmidhī.
 
 ### A diagnosis and a door, in one sentence
 

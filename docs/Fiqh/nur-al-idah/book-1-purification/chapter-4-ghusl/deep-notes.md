@@ -125,7 +125,7 @@ Once the 3 farḍ are met, the ghusl is **valid**. But the **complete, Prophetic
 
 ### The 12 sunnas — the Prophetic method (sunan al-ghusl)
 
-The book says *"Twelve things are sunna in the major bath."* They describe, in order, the **masnūn ghusl** — essentially the method of the Maimūna hadith (Muslim 311 & 316). Teach it as a **sequence**, not a numbered list:
+The book says *"Twelve things are sunna in the major bath."* They describe, in order, the **masnūn ghusl** — essentially the method of the Maimūna hadith (Muslim 316 & 317). Teach it as a **sequence**, not a numbered list:
 
 1. **Bismillah (tasmiyya)** — *"In the name of God, the Most Merciful, the Most Compassionate."*
 2. **The intention (niyyah)** — on the tongue (tasmiyya) and in the heart (niyyah) together. *"Just as a person is rewarded for an intention in wudū, the same applies to bathing."*
