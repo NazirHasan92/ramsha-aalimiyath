@@ -27,7 +27,7 @@ Why? Because **every act of worship — salah, tawaf, touching the Mushaf — ha
 
 The text defines **tahara** in two senses:
 
-- **Linguistic (lughwi):** cleanliness — physical or spiritual. The Qur'an says *"Take from their wealth so that you might purify and sanctify them"* (Q9:103). Here, *tahara* is purifying the *soul*.
+- **Linguistic (lughwi):** cleanliness — physical or spiritual. The Qur'an says *"Take from their wealth that you might purify and sanctify them"* (Q9:103). Here, *tahara* is purifying the *soul*.
 - **Juristic (shar'i):** "the ruling given to the place where prayer is concerned (the body, the clothes, the area where one prays!), the cause being **clean water** or **clean earth** which is deemed suitable for tayammum when there is no water." (Nur al-Idah)
 
 So in fiqh, *tahara* isn't a vague feeling of cleanliness. It is a **legal state** of the body, clothes, and prayer-area. And the **cause** that gets you into that state is one of two things: water, or — in its absence — clean earth.
@@ -42,14 +42,14 @@ Nur al-Idah opens with: *"The types of water permissible for purification are se
 
 > Rain water · Ocean water · River water · Well water · Melted snow · Melted hail · Spring water.
 >
-> *(Maa' al-matar · maa' al-bahr · maa' al-nahr · maa' al-bi'r · maa' al-thalj · maa' al-barad · maa' al-'ayn)*
+> *(Maa' al-samaa' · maa' al-bahr · maa' al-nahr · maa' al-bi'r · maa' al-thalj · maa' al-barad · maa' al-'ayn)*
 
 The proof is two-fold:
 
 1. **Qur'an (Q25:48):** *"He (Allah) caused rain to descend from the heaven, to clean you therewith."*
 2. **Two Hadith of the Prophet (ﷺ):**
    - *"Water is pure and is not rendered impure by anything, except a thing that alters its colour, taste or smell."*
-   - On ocean water specifically: *"Its water is pure, and the dead things in it are permissible."*
+   - Regarding rivers specifically: *"Its water is pure and the dead things in it are permissible."*
 
 Notice what the book is doing: it defines purifying water **positively** — these 7 natural sources — not negatively (*"water is anything not chemical"*). The list is finite and clear.
 
@@ -160,7 +160,7 @@ The test for whether water is still "water": **can it still flow naturally?**
 | Leaves, fruit, saffron fall in — water still flows thin | Still water. Wudu OK. **Even if colour/taste/smell change.** |
 | Lentils cooked until water thickens / dries | No longer water. Not OK for wudu. |
 
-**Hadith proof:** The Prophet (ﷺ) said about a man who fell from his camel and died (during Hajj): *"Wash him with water and lotus leaves, and shroud him in two garments."* (Bukhari 1268)
+**Hadith proof:** The Prophet (ﷺ) said about a man who fell from his camel and died: *"Wash him with water and lotus leaves, and shroud him in two garments."* (Bukhari 1268)
 
 The Prophet (ﷺ) said *"water and lotus leaves"* — the leaves don't ruin the water as long as it stays flowing.
 

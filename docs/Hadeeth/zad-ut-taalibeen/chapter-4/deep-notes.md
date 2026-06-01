@@ -29,7 +29,7 @@ Work through each ḥadīth below. For each, ask yourself: *can I explain this h
 
 ---
 
-## 31 · الْمُسْلِمُ مَنْ سَلِمَ الْمُسْلِمُوْنَ مِنْ لِسَانِهِ وَيَدِهِ — "The Muslim is the one *from whom* other believers are safe"
+## 31 · الْمُسْلِمُ مَنْ سَلِمَ الْمُسْلِمُونَ مِنْ لِسَانِهِ وَيَدِهِ — "The Muslim is the one *from whom* other believers are safe"
 
 **Source:** Bukhārī, Muslim. *(The book gives only the collections — no Companion is named in its attribution.)*
 
@@ -102,7 +102,7 @@ In practice: do people leave their children with you? Their elderly parents? The
 
 ---
 
-## 33 · وَالْمُجَاهِدُ مَنْ جَاهَدَ نَفْسَهُ فِيْ طَاعَةِ اللهِ — "And the *mujāhid* is one who *strives* against his own nafs in obedience to Allah"
+## 33 · وَالْمُجَاهِدُ مَنْ جَاهَدَ نَفْسَهُ فِي طَاعَةِ الله — "And the *mujāhid* is one who *strives* against his own nafs in obedience to Allah"
 
 **Source:** Aḥmad, Bayhaqī (*Shuʿab al-Īmān*). Part of a longer compound narration including #31, #32, and #34.
 
@@ -146,7 +146,7 @@ Classmates may take this ḥadīth as "so battlefield jihad doesn't matter / is 
 
 ---
 
-## 34 · وَالْمُهَاجِرُ مَنْ هَجَرَ الْخَطَايَا وَالذُّنُوْبَ — "And the *muhājir* is one who *abandons* mistakes and sins"
+## 34 · وَالْمُهَاجِرُ مَنْ هَجَرَ الْخَطَايَا وَالذُّنُوبَ — "And the *muhājir* is one who *abandons* mistakes and sins"
 
 **Source:** Aḥmad, Bayhaqī. (A widely-attested version is also in Bukhārī with slightly different wording: *al-muhājiru man hajara mā nahā Llāhu ʿanhu* — "the emigrant is one who abandons what Allah has forbidden".)
 
@@ -187,7 +187,7 @@ Each rung is a *higher* test. The labels are nested: a *muʾmin* is a *muslim* w
 
 ---
 
-## 35 · الْبَيِّنَةُ عَلَى الْمُدَّعِيْ وَالْيَمِيْنُ عَلَى الْمُدَّعَى عَلَيْهِ — "The burden of proof is on the accuser; the oath is on the one accused"
+## 35 · الْبَيِّنَةُ عَلَى الْمُدَّعِيْ وَالْيَمِينُ عَلَى الْمُدَّعَى عَلَيْهِ — "The burden of proof is on the accuser; the oath is on the one accused"
 
 **Source:** Bayhaqī. (Also reported with similar wording in Tirmidhī, Dāraqutnī, and the well-known forty-ḥadīth collection of Imam al-Nawawī as Ḥadīth 33.)
 
@@ -284,7 +284,7 @@ This is the *exact opposite* of the worldly pattern: the worldly pattern is *fla
 
 ---
 
-## 37 · الْمُؤْمِنُوْنَ كَرَجُلٍ وَّاحِدٍ إِنِ اشْتَكَى عَيْنُهُ اشْتَكَى كُلُّهُ وَإِنِ اشْتَكَى رَأْسُهُ اشْتَكَى كُلُّهُ — "Believers are like a *single person*"
+## 37 · الْمُؤْمِنُونَ كَرَجُلٍ وَّاحِدٍ إِنِ اشْتَكَى عَيْنُهُ اشْتَكَى كُلُّهُ وَإِنِ اشْتَكَى رَأْسُهُ اشْتَكَى كُلُّهُ — "Believers are like a *single person*"
 
 **Source:** Muslim. *(This is the exact wording Zad ut-Taalibeen prints — the compact eye-and-head form. A famous fuller version exists in Bukhārī & Muslim — "the believers in their mutual love, mercy, and affection are like one body…" — but the book gives only this compact form, so that is what we use.)*
 
@@ -419,7 +419,7 @@ This is *prophetic generosity*. Allah counts the *intention chain*, not just the
 
 ## 40 · سَيِّدُ الْقَوْمِ فِي السَّفَرِ خَادِمُهُمْ — "The leader of a group on a journey is their servant"
 
-**Source:** Ibn Mājah, Bayhaqī (*Shuʿab al-Īmān*). (The general form *"sayyidu l-qawmi khādimuhum"* — "the leader of a people is their servant" — is widely attested across collections.)
+**Source:** Ibn Māja, Bayhaqī (*Shuʿab al-Īmān*). (The general form *"sayyidu l-qawmi khādimuhum"* — "the leader of a people is their servant" — is widely attested across collections.)
 
 ### The closing of the chapter — servant-leadership
 

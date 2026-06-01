@@ -461,7 +461,7 @@ That order *defangs* the controversy without diluting the ḥadīth.
 
 ## 20 · التَّائِبُ مِنَ الذَّنْبِ كَمَنْ لَا ذَنْبَ لَهُ — "The one who repents from a sin is like one who has no sin"
 
-**Source:** Ibn Mājah, Ṭabarānī (*al-Muʿjam al-Kabīr*).
+**Source:** Ibn Māja, Ṭabarānī (*al-Muʿjam al-Kabīr*).
 
 ### The healing promise
 

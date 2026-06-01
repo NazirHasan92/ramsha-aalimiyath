@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zad ut-Taalibeen · Chapter 10 · Slides</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/white.css">
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Scheherazade+New:wght@400;700&family=Noto+Nastaliq+Urdu:wght@400;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+  .reveal { font-family:'Inter',sans-serif; }
+  .reveal h1, .reveal h2, .reveal h3 { color:#14532d; font-weight:700; }
+  .reveal .ar {
+    font-family:'Scheherazade New','Amiri',serif;
+    direction:rtl;
+    color:#14532d;
+    font-weight:700;
+  }
+  .reveal .ar-huge { font-size:3.4rem; line-height:1.6; }
+  .reveal .ar-big { font-size:2.4rem; line-height:1.7; }
+  .reveal .ar-med { font-size:1.8rem; line-height:1.7; }
+  .reveal .ar-sm { font-size:1.5rem; line-height:1.8; }
+  .reveal .translit { color:#9a3412; font-style:italic; font-size:1.05rem; }
+  .reveal .english { color:#1f2937; font-size:1.3rem; }
+  .reveal .urdu { color:#374151; font-style:italic; font-size:1.15rem; }
+  .reveal .source-pill {
+    display:inline-block;
+    margin-top:14px;
+    padding:5px 14px;
+    background:#14532d;
+    color:#fff;
+    border-radius:14px;
+    font-size:.85rem;
+    font-weight:600;
+    letter-spacing:.02em;
+  }
+  .reveal .cover {
+    background:linear-gradient(135deg, #14532d 0%, #0e7490 100%);
+    color:#fff !important;
+    padding:60px 40px;
+    border-radius:14px;
+  }
+  .reveal .cover h1, .reveal .cover .ar { color:#fff; }
+  .reveal .cover .urdu { color:#e0f2fe; }
+  .reveal .theme-banner {
+    background:#0e7490;
+    color:#fff;
+    padding:8px 18px;
+    border-radius:20px;
+    display:inline-block;
+    font-size:1rem;
+    font-weight:600;
+    letter-spacing:.05em;
+    margin-bottom:18px;
+  }
+  .reveal .key-box {
+    background:#f0fdf4;
+    border:2px solid #14532d;
+    border-radius:12px;
+    padding:18px 24px;
+    margin:18px auto;
+    max-width:80%;
+  }
+  .reveal .warn-box {
+    background:#fef2f2;
+    border-left:5px solid #dc2626;
+    padding:12px 18px;
+    border-radius:0 8px 8px 0;
+    margin:14px 0;
+    text-align:left;
+  }
+  .reveal .arrow { font-size:2rem; vertical-align:middle; color:#14532d; }
+  .reveal table { margin:0 auto; font-size:1.1rem; }
+  .reveal table th, .reveal table td { padding:8px 14px; vertical-align:middle; }
+  .reveal table th { background:#14532d; color:#fff; font-size:.9rem; }
+  .reveal .three-cols, .reveal .four-cols {
+    display:grid;
+    gap:14px;
+    margin:14px 0;
+  }
+  .reveal .three-cols { grid-template-columns:1fr 1fr 1fr; }
+  .reveal .four-cols { grid-template-columns:1fr 1fr 1fr 1fr; }
+  .reveal .three-cols .col, .reveal .four-cols .col {
+    background:#f9fafb;
+    border:2px solid #14532d;
+    border-radius:10px;
+    padding:12px;
+  }
+  .reveal .four-cols .col h4 { color:#14532d; margin:0 0 6px; font-size:1rem; }
+  .reveal .three-cols .col h4 { color:#14532d; margin:0 0 6px; }
+</style>
+</head>
+<body>
+<div class="reveal">
+  <div class="slides">
+
+    <!-- COVER -->
+    <section class="cover">
+      <div class="ar ar-huge">زَادُ الطَّالِبِيْنَ</div>
+      <h1 style="font-size:2rem; margin-top:20px;">Provisions for the Seekers</h1>
+      <p style="font-size:1.2rem; opacity:.95;">Chapter 10 — Aḥādīth 91 to 100</p>
+      <p style="font-size:1.1rem; opacity:.9;">The real measure · the hundred complete</p>
+      <p class="urdu" style="font-size:1.1rem;">Aaj ki kitaab — sau ki aakhri das hadithein: Allah dil-amal-sach taulta hai</p>
+      <p style="font-size:.95rem; opacity:.85; margin-top:30px;">Press → to begin · Press F for fullscreen</p>
+    </section>
+
+    <!-- OBJECTIVES -->
+    <section>
+      <h2>What we'll cover today</h2>
+      <p style="font-size:1.2rem;">10 short aḥādīth — the <strong>last ten of the hundred</strong> — in 4 movements:</p>
+      <div class="four-cols" style="margin-top:20px;">
+        <div class="col">
+          <h4>1 · Provision</h4>
+          <p style="margin:0; font-size:.9rem;"><strong>Keep it clean</strong></p>
+          <p style="font-size:.85rem; margin:6px 0 0;">91, 92, 93</p>
+        </div>
+        <div class="col">
+          <h4>2 · The heart</h4>
+          <p style="margin:0; font-size:.9rem;"><strong>Allah's real scale</strong></p>
+          <p style="font-size:.85rem; margin:6px 0 0;">94, 95</p>
+        </div>
+        <div class="col">
+          <h4>3 · To people</h4>
+          <p style="margin:0; font-size:.9rem;"><strong>An open face</strong></p>
+          <p style="font-size:.85rem; margin:6px 0 0;">96, 97</p>
+        </div>
+        <div class="col">
+          <h4>4 · The fork</h4>
+          <p style="margin:0; font-size:.9rem;"><strong>Ruins / saves</strong></p>
+          <p style="font-size:.85rem; margin:6px 0 0;">98, 99, 100</p>
+        </div>
+      </div>
+      <p style="margin-top:20px; font-size:1.1rem;">The deep thread: <strong>the real measure — Allah weighs the heart, the deed, the truth.</strong></p>
+      <p class="urdu" style="font-size:1rem;">Rizq saaf rakho → Allah dil taulta hai → logon tak pahonchao → kya giraata/bachaata hai.</p>
+    </section>
+
+    <!-- ============ THEME 1 BANNER ============ -->
+    <section>
+      <span class="theme-banner">MOVEMENT 1 · PROVISION — KEEP IT CLEAN</span>
+      <h1>Your rizq is decreed</h1>
+      <p style="font-size:1.3rem;">Aḥādīth 91, 92, 93 — sin costs barakah, yet your provision arrives in full, so give from it.</p>
+      <p class="urdu" style="font-size:1.1rem;">Gunaah ki chhupi qeemat · rizq poora aata hai · sadaqa rehmat kheenchta hai.</p>
+    </section>
+
+    <!-- ============ ḤADĪTH 91 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 91</h3>
+        <div class="ar ar-med">إِنَّ الرَّجُلَ لَيُحْرَمُ الرِّزْقَ بِالذَّنْبِ يُصِيْبُهُ</div>
+        <p class="translit" style="font-size:1rem;">inna r-rajula la-yuḥramu r-rizqa bi-dh-dhanbi yuṣībuh</p>
+        <p class="english" style="margin-top:14px;">"A person is deprived of livelihood by the sins he commits."</p>
+        <p class="urdu">"Insaan ek gunaah ki wajah se rizq se mehroom ho jaata hai."</p>
+        <span class="source-pill">Ibn Māja · Mustadrak</span>
+      </section>
+
+      <section>
+        <h3>Sin has a hidden cost</h3>
+        <div class="key-box">
+          <p style="margin:0; font-size:1.15rem;">"Provision" = the reward of the next world, <strong>or</strong> a worldly barakah withdrawn (which can be a mercy that wipes the sin).</p>
+        </div>
+        <div class="warn-box">
+          <strong>Not a wealth-meter.</strong> Not "the poor are sinful." #92 (next) guarantees your decreed rizq in full.
+        </div>
+        <p class="urdu" style="font-size:1.05rem;">Gunaah muft nahin — magar maal/gareebi se faisla mat karo.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 92 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 92</h3>
+        <div class="ar ar-med">إِنَّ نَفْسًا لَّنْ تَمُوْتَ حَتَّى تَسْتَكْمِلَ رِزْقَهَا</div>
+        <p class="translit" style="font-size:1rem;">inna nafsan lan tamūta ḥattā tastakmila rizqahā</p>
+        <p class="english" style="margin-top:14px;">"A soul will never die until it fully receives all of its livelihood."</p>
+        <p class="urdu">"Koi jaan tab tak nahin marti jab tak apna poora rizq paa na le."</p>
+        <span class="source-pill">Ibn Māja</span>
+      </section>
+
+      <section>
+        <h3>Your provision arrives in full</h3>
+        <div class="key-box">
+          <p style="margin:0; font-size:1.15rem;">You won't die until you've received <strong>every morsel decreed</strong> for you. (Book: "See ḥadīth 87 and 91.")</p>
+        </div>
+        <p>So #91's "deprivation" is a barakah/reward — never your guaranteed floor.</p>
+        <p class="urdu" style="font-size:1.05rem;">Freed twice: na rizq ke peechhe gunaah, na maal se faisla. Sukoon se halaal koshish.</p>
+      </section>
+
+      <section>
+        <h3>📿 Qurʾān · 51:22</h3>
+        <div class="ar ar-med">وَفِي السَّمَاءِ رِزْقُكُمْ وَمَا تُوعَدُونَ</div>
+        <p class="english">"And in the heaven is your provision and whatever you are promised."</p>
+        <p style="margin-top:12px;">Provision is decreed "in the heaven" — guaranteed, not down to your scramble.</p>
+        <p class="urdu">Rizq "aasman mein" muqarrar hai. Isi liye koi jaan use poora hue baghair nahin marti.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 93 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 93</h3>
+        <div class="ar ar-sm">إِنَّ الصَّدَقَةَ لَتُطْفِئُ غَضَبَ الرَّبِّ وَتَدْفَعُ مِيْتَةَ السُّوْءِ</div>
+        <p class="translit" style="font-size:.95rem;">inna ṣ-ṣadaqata la-tuṭfiʾu ghaḍaba r-rabbi wa-tadfaʿu mītata s-sūʾ</p>
+        <p class="english" style="margin-top:14px;">"Voluntary charity extinguishes the anger of the Lord and prevents an unpleasant death."</p>
+        <p class="urdu">"Sadaqa Rabb ke ghusse ko bujha deta hai aur buri maut ko taal deta hai."</p>
+        <span class="source-pill">Tirmidhī · Ibn Ḥibbān</span>
+      </section>
+
+      <section>
+        <h3>The open hand draws mercy back</h3>
+        <div class="key-box">
+          <p style="margin:0; font-size:1.15rem;">Giving from the rizq Allah guaranteed (92) does the <strong>opposite</strong> of sin: it puts out His anger and wards off an evil death.</p>
+        </div>
+        <div class="warn-box">
+          <strong>Sincere, not a transaction.</strong> Not "drop a coin, dodge a bad death." The heart behind the hand is what Allah weighs (#95).
+        </div>
+        <p class="urdu" style="font-size:1.05rem;">Dil se do — sauda nahin, sakhaawat ka roohani rawayya.</p>
+      </section>
+    </section>
+
+    <!-- ============ THEME 2 BANNER ============ -->
+    <section>
+      <span class="theme-banner">MOVEMENT 2 · ALLAH WEIGHS THE HEART</span>
+      <h1>The real scale</h1>
+      <p style="font-size:1.3rem;">Aḥādīth 94, 95 — the chapter's pivot: only taqwā raises you, and Allah looks at hearts &amp; deeds.</p>
+      <p class="urdu" style="font-size:1.1rem;">Rang nahin, taqwa · soorat-o-maal nahin, dil-o-amal.</p>
+    </section>
+
+    <!-- ============ ḤADĪTH 94 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 94</h3>
+        <div class="ar ar-sm">إِنَّكَ لَسْتَ بِخَيْرٍ مِّنْ أَحْمَرَ وَلَا أَسْوَدَ إِلَّا أَنْ تَفْضُلَهُ بِتَقْوَى</div>
+        <p class="translit" style="font-size:.95rem;">innaka lasta bi-khayrin min aḥmara wa-lā aswada illā an tafḍulahu bi-taqwā</p>
+        <p class="english" style="margin-top:14px;">"You are not superior to a white- [lit., red], or black-skinned person, unless you excel him in piety."</p>
+        <p class="urdu">"Tum kisi gore ya kaale shakhs se behtar nahin — siwaaye taqwa ke."</p>
+        <span class="source-pill">Aḥmad</span>
+      </section>
+
+      <section>
+        <h3>The only superiority is taqwā</h3>
+        <div class="key-box">
+          <p style="margin:0; font-size:1.15rem;">Race, colour, lineage, nation — all <strong>wiped off the scale</strong>. The one axis left: taqwā.</p>
+        </div>
+        <div class="warn-box">
+          <strong>…and watch the reverse.</strong> Taqwā you <em>parade</em> is gone the moment you look down on the "less religious." Real taqwā humbles.
+        </div>
+        <p class="urdu" style="font-size:1.05rem;">Nasl-parasti giraana — aur roohani ghuroor se bachna.</p>
+      </section>
+
+      <section>
+        <h3>📿 Qurʾān · 49:13 <span style="font-size:1rem; font-weight:400;">(cited by the book)</span></h3>
+        <div class="ar ar-med">إِنَّ أَكْرَمَكُمْ عِندَ اللَّهِ أَتْقَاكُمْ</div>
+        <p class="english">"The most noble of you in the sight of Allah is the most righteous of you."</p>
+        <p style="margin-top:12px;">The Qurʾānic root of the ḥadīth — nations and tribes only to <em>know</em> one another.</p>
+        <p class="urdu">Izzat ka واحد paimana taqwa — rang ya qabeela nahin.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 95 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 95</h3>
+        <div class="ar ar-sm">إِنَّ اللهَ لَا يَنْظُرُ إِلَى صُوَرِكُمْ وَأَمْوَالِكُمْ، وَلٰكِنْ يَنْظُرُ إِلَى قُلُوْبِكُمْ وَأَعْمَالِكُمْ</div>
+        <p class="translit" style="font-size:.9rem;">inna Llāha lā yanẓuru ilā ṣuwarikum wa-amwālikum, wa-lākin yanẓuru ilā qulūbikum wa-aʿmālikum</p>
+        <p class="english" style="margin-top:12px;">"Allāh does not look at your appearance or wealth but looks at your heart and actions."</p>
+        <p class="urdu">"Allah sooraton aur maal ko nahin, dilon aur aʿmaal ko dekhta hai."</p>
+        <span class="source-pill">Muslim</span>
+      </section>
+
+      <section>
+        <h3>He photographs the heart</h3>
+        <div class="key-box">
+          <p style="margin:0; font-size:1.15rem;">NOT your forms &amp; wealth — but your <strong>hearts &amp; deeds</strong> (sincerity, and whether it shows in action).</p>
+        </div>
+        <p>Heart <em>and</em> deed, paired. A sound heart must show up in sound action.</p>
+        <p class="urdu" style="font-size:1.05rem;">Allah ki nazar chehre/maal par nahin — dil aur amal par.</p>
+      </section>
+
+      <section>
+        <h3>📿 Qurʾān · 26:88–89</h3>
+        <div class="ar ar-sm">يَوْمَ لَا يَنفَعُ مَالٌ وَلَا بَنُونَ ۝ إِلَّا مَنْ أَتَى اللَّهَ بِقَلْبٍ سَلِيمٍ</div>
+        <p class="english">"The Day when neither wealth nor children will avail — except him who comes to Allah with a sound heart."</p>
+        <p style="margin-top:12px;">On the Day that decides everything, the one currency is a <em>sound heart</em>.</p>
+        <p class="urdu">Us din ek hi sikka: saleem dil. Yahi #95 ka taraazu.</p>
+      </section>
+    </section>
+
+    <!-- ============ THEME 3 BANNER ============ -->
+    <section>
+      <span class="theme-banner">MOVEMENT 3 · CARRY IT TO PEOPLE</span>
+      <h1>An open face, the first salām</h1>
+      <p style="font-size:1.3rem;">Aḥādīth 96, 97 — the heart's soundness shows: a cheerful face and greeting first.</p>
+      <p class="urdu" style="font-size:1.1rem;">Khula chehra neki hai · pehla salaam Allah ke qareeb karta hai.</p>
+    </section>
+
+    <!-- ============ ḤADĪTH 96 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 96</h3>
+        <div class="ar ar-med">إِنَّ مِنَ الْمَعْرُوْفِ أَنْ تَلْقَى أَخَاكَ بِوَجْهٍ طَلْقٍ</div>
+        <p class="translit" style="font-size:1rem;">inna mina l-maʿrūfi an talqā akhāka bi-wajhin ṭalq</p>
+        <p class="english" style="margin-top:14px;">"It is a good deed that you meet your [Muslim] brother with a smiling face."</p>
+        <p class="urdu">"Neki mein se yeh bhi hai ke apne bhai se khile chehre se milo."</p>
+        <span class="source-pill">Muslim · Tirmidhī</span>
+      </section>
+
+      <section>
+        <h3>The cheapest good deed, and a real one</h3>
+        <div class="key-box">
+          <p style="margin:0; font-size:1.15rem;">A warm face is counted <strong>maʿrūf</strong> — costs nothing, needs no wealth, yet a real ṣadaqa of the face.</p>
+        </div>
+        <p>And it can't be faked — a sound heart (#95) naturally produces a kind face.</p>
+        <p class="urdu" style="font-size:1.05rem;">Muskurahat sirf aadaab nahin — dil ki saaf-dili ka zaahir hona.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 97 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 97</h3>
+        <div class="ar ar-med">إِنَّ أَوْلَى النَّاسِ بِاللهِ مَنْ بَدَأَهُمْ بِالسَّلَام</div>
+        <p class="translit" style="font-size:1rem;">inna awlā n-nāsi bi-Llāhi man badaʾahum bi-s-salām</p>
+        <p class="english" style="margin-top:14px;">"The closest to Allāh of people is the one who begins the salām."</p>
+        <p class="urdu">"Logon mein Allah ke sab se qareeb woh hai jo salaam mein pehl kare."</p>
+        <span class="source-pill">Abū Dāwūd</span>
+      </section>
+
+      <section>
+        <h3>Beat them to the peace</h3>
+        <div class="key-box">
+          <p style="margin:0; font-size:1.15rem;">Greeting first takes a <strong>small death of the ego</strong> — you give honour and peace first, to high and low alike.</p>
+        </div>
+        <p>The theme complete: heart (#95) → face (#96) → tongue quick to greet (#97).</p>
+        <p class="urdu" style="font-size:1.05rem;">Pehle salaam karo — yeh tawazuʿ Allah ke qareeb kar deta hai.</p>
+      </section>
+    </section>
+
+    <!-- ============ THEME 4 BANNER ============ -->
+    <section>
+      <span class="theme-banner">MOVEMENT 4 · WHAT RUINS, WHAT SAVES</span>
+      <h1>The closing fork</h1>
+      <p style="font-size:1.3rem;">Aḥādīth 98, 99, 100 — interest ruins, anger rots, and the capstone: truth → Paradise.</p>
+      <p class="urdu" style="font-size:1.1rem;">Sood tabaahi · ghussa imaan ko · aur sach Jannat ki taraf.</p>
+    </section>
+
+    <!-- ============ ḤADĪTH 98 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 98</h3>
+        <div class="ar ar-sm">إِنَّ الرِّبَا وَإِنْ كَثُرَ فَإِنَّ عَاقِبَتَهُ تَصِيْرُ إِلَى قُلٍّ</div>
+        <p class="translit" style="font-size:.95rem;">inna r-ribā wa-in kathura fa-inna ʿāqibatahu taṣīru ilā qull</p>
+        <p class="english" style="margin-top:14px;">"Interest, however much it might accrue, leads in the end to penury."</p>
+        <p class="urdu">"Sood, chahe kitna bhi barhe, uska anjaam qillat par aata hai."</p>
+        <span class="source-pill">Ibn Māja · Aḥmad · Mustadrak</span>
+      </section>
+
+      <section>
+        <h3>What looks like increase ends in ruin</h3>
+        <div class="key-box">
+          <p style="margin:0; font-size:1.15rem;">The number grows — but read the <strong>ʿāqiba</strong> (end-state): it comes to ruin.</p>
+        </div>
+        <div class="warn-box">
+          <strong>Spiritual, not naive.</strong> Not "all interest-earners go broke" — the ruin is barakah-stripped, faith-endangering. #91 at full volume.
+        </div>
+        <p class="urdu" style="font-size:1.05rem;">Upar-upar barhta number mat parho — rooh ka anjaam parho.</p>
+      </section>
+
+      <section>
+        <h3>📿 Qurʾān · 2:276</h3>
+        <div class="ar ar-med">يَمْحَقُ اللَّهُ الرِّبَا وَيُرْبِي الصَّدَقَاتِ</div>
+        <p class="english">"Allah destroys interest and gives increase for charities."</p>
+        <p style="margin-top:12px;">The exact inversion — and it ties #98 to #93. The real measure runs opposite to the surface.</p>
+        <p class="urdu">Jo barhta dikhe (sood) Allah mitaata hai; jo nuqsaan lage (sadaqa) barhaata hai.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 99 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 99</h3>
+        <div class="ar ar-sm">إِنَّ الْغَضَبَ لَيُفْسِدُ الْإِيْمَانَ كَمَا يُفْسِدُ الصَّبِرُ الْعَسَلَ</div>
+        <p class="translit" style="font-size:.95rem;">inna l-ghaḍaba la-yufsidu l-īmāna kamā yufsidu ṣ-ṣabiru l-ʿasal</p>
+        <p class="english" style="margin-top:14px;">"Anger ruins faith just as the aloe plant ruins honey."</p>
+        <p class="urdu">"Ghussa imaan ko aise saada deta hai jaise kadwa aloe shahad ko."</p>
+        <span class="source-pill">Bayhaqī · Shuʿab al-Īmān</span>
+      </section>
+
+      <section>
+        <h3>The corrosive that eats faith's sweetness</h3>
+        <div class="key-box">
+          <p style="margin:0; font-size:1.15rem;">"Ruins" = ruins faith's <strong>completeness, light &amp; beauty</strong> — bitter dropped in honey.</p>
+        </div>
+        <div class="warn-box">
+          <strong>Not every flash.</strong> Not "feeling angry = losing īmān"; righteous anger for Allah exists. The target is uncontrolled, ego-driven rage.
+        </div>
+        <p class="urdu" style="font-size:1.05rem;">(الصَّبِر = kadwa aloe, "sabar" nahin.) Be-qaaboo ghusse se imaan ki mithaas bachaao.</p>
+      </section>
+
+      <section>
+        <h3>📿 Qurʾān · 3:134</h3>
+        <div class="ar ar-med">وَالْكَاظِمِينَ الْغَيْظَ وَالْعَافِينَ عَنِ النَّاسِ</div>
+        <p class="english">"…those who restrain anger and who pardon people."</p>
+        <p style="margin-top:12px;">The cure for the corrosive: swallow the rage, and pardon.</p>
+        <p class="urdu">Ghussa <em>peena</em> aur maaf karna — #99 ke zang ka ilaaj.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 100 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 100 · the capstone of the hundred</h3>
+        <div class="ar ar-sm">إِنَّ الصِّدْقَ بِرٌّ وَإِنَّ الْبِرَّ يَهْدِي إِلَى الْجَنَّةِ، وَإِنَّ الْكَذِبَ فُجُوْرٌ وَإِنَّ الْفُجُوْرَ يَهْدِي إِلَى النَّارِ</div>
+        <p class="translit" style="font-size:.85rem;">inna ṣ-ṣidqa birr, wa-inna l-birra yahdī ilā l-jannah, wa-inna l-kadhiba fujūr, wa-inna l-fujūra yahdī ilā n-nār</p>
+        <p class="english" style="margin-top:12px;">"Truth is a piety, and piety leads to Paradise; falsehood is an iniquity, and iniquity leads to Hellfire."</p>
+        <p class="urdu">"Sach neki hai, aur neki Jannat ki taraf; jhoot badi hai, aur badi Aag ki taraf."</p>
+        <span class="source-pill">Muslim · Abū Dāwūd</span>
+      </section>
+
+      <section>
+        <h3>Two roads, one choice</h3>
+        <p style="font-size:1.2rem;"><span class="ar ar-sm">صِدْق → بِرّ →</span> <span class="arrow">→</span> <strong>Paradise</strong></p>
+        <p style="font-size:1.2rem;"><span class="ar ar-sm">كَذِب → فُجُور →</span> <span class="arrow">→</span> <strong>the Fire</strong></p>
+        <div class="warn-box">
+          <strong>A habituated direction — framed as hope.</strong> Not "one lie damns you." Truth is the road <em>back</em> too: return to ṣidq by being truthful now.
+        </div>
+        <p class="urdu" style="font-size:1.05rem;">Har sach zindagi ko Jannat ki taraf modta hai → ṣiddīq. Sach wapsi ka raasta bhi hai.</p>
+      </section>
+
+      <section>
+        <h3>📿 Qurʾān · 9:119 — the hundred in one verse</h3>
+        <div class="ar ar-med">اتَّقُوا اللَّهَ وَكُونُوا مَعَ الصَّادِقِينَ</div>
+        <p class="english">"Fear Allah, and be with the truthful."</p>
+        <p style="margin-top:12px;">Taqwā (the #94 axis) paired with ṣidq — and the command to keep the company of the truthful.</p>
+        <p class="urdu">Taqwa aur sach ek saath — sacchon ke <em>saath</em> raho.</p>
+      </section>
+    </section>
+
+    <!-- ============ RECAP ============ -->
+    <section>
+      <h2>🔑 The chapter in one picture</h2>
+      <div class="four-cols" style="margin-top:16px;">
+        <div class="col">
+          <h4>1 · Provision</h4>
+          <p style="font-size:.82rem;"><strong>#91</strong> Sin costs barakah</p>
+          <p style="font-size:.82rem;"><strong>#92</strong> Rizq arrives in full</p>
+          <p style="font-size:.82rem;"><strong>#93</strong> Charity draws mercy</p>
+        </div>
+        <div class="col">
+          <h4>2 · The heart</h4>
+          <p style="font-size:.82rem;"><strong>#94</strong> Only taqwā raises</p>
+          <p style="font-size:.82rem;"><strong>#95</strong> Hearts &amp; deeds, not forms &amp; wealth</p>
+        </div>
+        <div class="col">
+          <h4>3 · To people</h4>
+          <p style="font-size:.82rem;"><strong>#96</strong> A cheerful face = a good deed</p>
+          <p style="font-size:.82rem;"><strong>#97</strong> Greet first → closest to Allah</p>
+        </div>
+        <div class="col">
+          <h4>4 · The fork</h4>
+          <p style="font-size:.82rem;"><strong>#98</strong> Interest → ruin</p>
+          <p style="font-size:.82rem;"><strong>#99</strong> Anger rots faith</p>
+          <p style="font-size:.82rem;"><strong>#100</strong> Truth → Paradise</p>
+        </div>
+      </div>
+      <p style="font-size:1.1rem; margin-top:18px; color:#14532d;"><strong>The thread: the real measure — Allah weighs the heart, the deed, the truth.</strong></p>
+      <p class="urdu" style="font-size:1rem;">Asal taraazu — upar-upar nahin, dil-amal-sach.</p>
+    </section>
+
+    <!-- ============ MILESTONE ============ -->
+    <section>
+      <h2>★ The hundred complete <span class="ar ar-sm">تَمَّتِ الْمِائَةُ</span></h2>
+      <p style="font-size:1.2rem;">Ḥadīth 100 is the last of the first hundred Comprehensive Sayings — the whole journey, complete.</p>
+      <div class="three-cols" style="margin-top:16px;">
+        <div class="col">
+          <h4>Ch 8</h4>
+          <p style="font-size:.9rem;">Weigh the reality, not the label (baṣīra)</p>
+        </div>
+        <div class="col">
+          <h4>Ch 9</h4>
+          <p style="font-size:.9rem;">Trust the unseen</p>
+        </div>
+        <div class="col">
+          <h4>Ch 10</h4>
+          <p style="font-size:.9rem;">The real measure — and the final fork</p>
+        </div>
+      </div>
+      <p style="font-size:1.1rem; margin-top:18px;">The hundred ends not with information but with a <strong>fork</strong>, and one habit — <em>ṣidq</em> — that walks you through the right gate.</p>
+      <p class="urdu" style="font-size:1rem;">Sau ka anjaam ek do-raahe par — aur ek aadat, sach, jo sahi darwaze se le jaati hai.</p>
+    </section>
+
+    <!-- ============ HOMEWORK ============ -->
+    <section>
+      <h2>🏠 Homework</h2>
+      <ol style="font-size:1.05rem; line-height:1.85; text-align:left; max-width:88%; margin:0 auto;">
+        <li>Memorise the Arabic of <strong>4 aḥādīth</strong> (the short ones: 94, 95, 96, 97).</li>
+        <li>Know all 10 in translation + their sources.</li>
+        <li>Complete Exercises 1–4 from the handout.</li>
+        <li>Reflection journal (Ex. 5) — private, for yourself.</li>
+        <li><strong>The "real measure" challenge</strong>: catch yourself ranking someone by wealth/looks/background — and ask instead, <em>"what is in the heart, what does the deed show?"</em> (#94 + #95).</li>
+        <li><strong>The ṣidq commitment</strong> (#100): one situation this week — choose the harder truth over the easy lie.</li>
+      </ol>
+      <p class="urdu" style="font-size:1rem; margin-top:16px;">Rizq saaf rakho, taqwa se uthho, khula chehra rakho, aur sach ke raaste par chalo.</p>
+    </section>
+
+    <!-- ============ CLOSING ============ -->
+    <section class="cover">
+      <div class="ar ar-huge">جَزَاكُمُ اللهُ خَيْرًا</div>
+      <p style="font-size:1.4rem; margin-top:20px;">May Allah reward you</p>
+      <p class="urdu" style="font-size:1.15rem;">Allah aap sab ko jazaa-e-khair de</p>
+      <p style="font-size:1.05rem; opacity:.95; margin-top:20px;">One hundred aḥādīth, complete — faith, character, and the world. May Allah make us of those Allah looks at the heart and finds it sound, and write us among the truthful (ṣiddīqīn) who walk the road to Paradise.</p>
+      <p class="urdu" style="font-size:1rem; opacity:.9;">Sau hadithein mukammal — imaan, akhlaaq, duniya. Allah hamein un mein se banaaye jin ke dil ko dekh kar saleem paaye, aur hamein sacchon (ṣiddīqīn) mein likh de jo Jannat ke raaste par chalte hain. Aameen. الْحَمْدُ لِلّٰهِ.</p>
+    </section>
+
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+<script>
+  Reveal.initialize({
+    hash: true,
+    slideNumber: 'c/t',
+    controls: true,
+    progress: true,
+    transition: 'slide',
+    width: 1280,
+    height: 800,
+    margin: 0.06
+  });
+</script>
+</body>
+</html>

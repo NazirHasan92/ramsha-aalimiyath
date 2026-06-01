@@ -82,7 +82,7 @@ So the three-stone count is **recommended** (mandub), not an emphasized sunna. T
 
 Imam Shafi'i held that three is **necessary**, citing the hadith *"Perform istinja with three stones"*. The Hanafis rely on a different prophetic hadith:
 
-> *"Whoever cleaned, then he should clean in odd numbers, and whoever observed this, has done well and whoever did not, there is no blame."* (Abu Dawud 35, as quoted in Nur al-Idah)
+> *"Whomever cleaned, then he should clean in odd numbers, and whoever observed this, has done well and whoever did not, there is no blame."* (Abu Dawud 35, as quoted in Nur al-Idah)
 
 The phrase **"there is no blame"** (*la haraj*) is the Hanafi proof — it shows the count is not strict. *Odd numbers preferred* is the additional refinement (1, 3, 5, 7…).
 
@@ -178,9 +178,9 @@ The book lists **six categories** of disliked materials/practices:
 
 The right-hand rule has its own foundation — the **Salman hadith**:
 
-> *"The Prophet forbade us from cleaning the private parts with the right hand, and from cleansing with less than three stones, or cleansing with dung or bone."* (Abu Dawud 31, as quoted in Nur al-Idah)
+> *"The Prophet forbade us from cleaning the private parts with the right hand, and from cleansing with less than three stones, or cleansing with dung or bone."* (Bukhari and Muslim 267, as quoted in Nur al-Idah)
 
-And another prophetic hadith — *"When anyone of you urinates, he must not touch his penis with his right hand, and when he goes to relieve himself he must not wipe with his right hand, and when he drinks, he must not drink in one breath."* (Bukhari/Muslim 267)
+And another prophetic hadith — *"When anyone of you urinates, he must not touch his penis with his right hand, and when he goes to relieve himself he must not wipe with his right hand, and when he drinks, he must not drink in one breath."* (Abu Dawud 31)
 
 The principle is: **the right hand is for honour — eating, drinking, greeting, holding the Mushaf. The left hand is for cleaning the body. Don't reverse them.**
 

@@ -219,7 +219,7 @@ A simple location pointer. Pairs with the demonstrative system:
 
 ## 4 · مُضَاف and مُضَافٌ إِلَيْهِ — the formal names you already know
 
-In Chapter 4 you taught iḍāfa as "first noun + second noun". You also internally knew the technical names (we listed them in Ch 4 deep notes Part A). Chapter 5 is when the book *officially* gives the names to the class. Page 31 of the textbook shows this diagram:
+In Chapter 4 you taught iḍāfa as "first noun + second noun". You also internally knew the technical names (we listed them in Ch 4 deep notes Part A). Chapter 5 is when the book *officially* gives the names to the class. Page 32 of the textbook shows this diagram:
 
 ```
                 سَيَّارَةُ الْمُدَرِّسِ
@@ -270,12 +270,12 @@ Chapter 5 adds two more common cases:
 
 ### Examples from Lesson 5
 
-The book gives these (page 31 of textbook):
+The book gives these (page 32 of textbook, the hamzat-al-waṣl reading exercise — the book prints the items unvocalised; harakāt added here only to show the pronunciation):
 
-> ١) اِبْنُ مُحَمَّدٍ فِي الْعِرَاقِ.
-> *"Ibnu Muḥammadin fi l-ʿIrāq."* — *"Muhammad's son is in Iraq."*
+> ١) ابْنُ مُحَمَّدٍ فِي الْعِرَاقِ وَابْنُ حَامِدٍ فِي الْهِنْدِ.
+> *"Ibnu Muḥammadin fi l-ʿIrāqi wa-bnu Ḥāmidin fi l-Hind."* — *"Muhammad's son is in Iraq and Hamid's son is in India."*
 
-`اِبْن` starts the sentence here — its alif gets full vowel value: *"ibnu"*.
+`ابْن` starts the sentence here — its alif gets full vowel value: *"ibnu"*. Notice the **second** `وابن` (after `وَ`) loses its initial *i* in speech: *"wa-bnu"*.
 
 > ٢) خَرَجَ ابْنُ الطَّبِيبِ مِنَ الْبَيْتِ.
 > *"Kharaja bnu ṭ-ṭabībi mina l-bayt."* — *"The doctor's son left the house."*
@@ -297,7 +297,7 @@ You don't need classmates to *write* this differently. You just need them to *pr
 
 You can present hamzat al-waṣl to classmates as: *"yeh wahi phenomenon hai jo `مِنَ الْـ` mein dekhi thi, aur `لِلْـ` mein dekhi thi — bas ab `ابْن` aur `اسْم` jaise lafzon mein bhi aati hai."* The principle is one: Arabic doesn't like to start a syllable with a consonant cluster, so it adds a temporary vowel via this alif at the start; the moment another vowel precedes, the temporary vowel becomes unnecessary and drops.
 
-This is *not* a rule to drill heavily in Ch 5. Just point it out when reading aloud. The exercises in the textbook (page 31, item ٧) explicitly say *"اقرأ ما يلي مراعياً قواعد نطق همزة الوصل"* — *"Read the following observing the rules of pronouncing hamzat al-waṣl."* So the book itself wants this as a reading exercise, not a written one.
+This is *not* a rule to drill heavily in Ch 5. Just point it out when reading aloud. The exercise instruction in the textbook (page 32) explicitly says *"اقرأ ما يلي مراعياً قواعد نطق همزة الوصل"* — *"Read the following observing the rules of pronouncing hamzat al-waṣl."* So the book itself wants this as a reading exercise, not a written one.
 
 **Yaad rakho:** Hamzat al-waṣl Ch 5 mein "naam" milta hai magar phenomenon purana hai. Read-aloud drill mein pakdaao — *"khaaraja-bnu, mina l-bayti, lil-walad-i"* — beech mein alif ki vowel gum. Likhne mein zyaada farq nahin. Class ko stress mat dilao — sirf pronunciation mein dhyaan dilao.
 
@@ -311,7 +311,7 @@ Chapter 5 introduces three words you'll meet in nearly every page of the Qur'an 
 - **`الرَّسُول`** (*ar-rasūl* — "the messenger"). Combined with `اللَّه`: *Rasūlu llāhi* — "Messenger of Allah" — said of the Prophet ﷺ.
 - **`الْكَعْبَة`** (*al-Kaʿbah*) — the Ka'ba. Famously: *al-Kaʿbatu baytu llāhi* — "the Ka'ba is the House of Allah."
 
-The book's exercise (page 28) walks classmates through these very phrases:
+The book's exercise (pages 28–29) walks classmates through these very phrases:
 
 - `الْكَعْبَةُ بَيْتُ اللَّـهِ` — *"The Ka'ba is the House of Allah."*
 - `مُحَمَّدٌ صَلَّى اللَّـهُ عَلَيْهِ وَسَلَّمَ رَسُولُ اللَّـهِ` — *"Muhammad ﷺ is the Messenger of Allah."*

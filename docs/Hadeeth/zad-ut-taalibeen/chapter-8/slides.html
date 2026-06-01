@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zad ut-Taalibeen · Chapter 8 · Slides</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/white.css">
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Scheherazade+New:wght@400;700&family=Noto+Nastaliq+Urdu:wght@400;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+  .reveal { font-family:'Inter',sans-serif; }
+  .reveal h1, .reveal h2, .reveal h3 { color:#14532d; font-weight:700; }
+  .reveal .ar {
+    font-family:'Scheherazade New','Amiri',serif;
+    direction:rtl;
+    color:#14532d;
+    font-weight:700;
+  }
+  .reveal .ar-huge { font-size:3.4rem; line-height:1.6; }
+  .reveal .ar-big { font-size:2.4rem; line-height:1.7; }
+  .reveal .ar-med { font-size:1.8rem; line-height:1.7; }
+  .reveal .translit { color:#9a3412; font-style:italic; font-size:1.05rem; }
+  .reveal .english { color:#1f2937; font-size:1.3rem; }
+  .reveal .urdu { color:#374151; font-style:italic; font-size:1.15rem; }
+  .reveal .source-pill {
+    display:inline-block;
+    margin-top:14px;
+    padding:5px 14px;
+    background:#14532d;
+    color:#fff;
+    border-radius:14px;
+    font-size:.85rem;
+    font-weight:600;
+    letter-spacing:.02em;
+  }
+  .reveal .cover {
+    background:linear-gradient(135deg, #14532d 0%, #0e7490 100%);
+    color:#fff !important;
+    padding:60px 40px;
+    border-radius:14px;
+  }
+  .reveal .cover h1, .reveal .cover .ar { color:#fff; }
+  .reveal .cover .urdu { color:#e0f2fe; }
+  .reveal .theme-banner {
+    background:#0e7490;
+    color:#fff;
+    padding:8px 18px;
+    border-radius:20px;
+    display:inline-block;
+    font-size:1rem;
+    font-weight:600;
+    letter-spacing:.05em;
+    margin-bottom:18px;
+  }
+  .reveal .key-box {
+    background:#f0fdf4;
+    border:2px solid #14532d;
+    border-radius:12px;
+    padding:18px 24px;
+    margin:18px auto;
+    max-width:80%;
+  }
+  .reveal .warn-box {
+    background:#fef2f2;
+    border-left:5px solid #dc2626;
+    padding:12px 18px;
+    border-radius:0 8px 8px 0;
+    margin:14px 0;
+    text-align:left;
+  }
+  .reveal .arrow { font-size:2rem; vertical-align:middle; color:#14532d; }
+  .reveal table { margin:0 auto; font-size:1.1rem; }
+  .reveal table th, .reveal table td { padding:8px 14px; vertical-align:middle; }
+  .reveal table th { background:#14532d; color:#fff; font-size:.9rem; }
+  .reveal .three-cols {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:14px;
+    margin:14px 0;
+  }
+  .reveal .three-cols .col {
+    background:#f9fafb;
+    border:2px solid #14532d;
+    border-radius:10px;
+    padding:14px;
+  }
+  .reveal .three-cols .col h4 { color:#14532d; margin:0 0 6px; }
+</style>
+</head>
+<body>
+<div class="reveal">
+  <div class="slides">
+
+    <!-- COVER -->
+    <section class="cover">
+      <div class="ar ar-huge">زَادُ الطَّالِبِيْنَ</div>
+      <h1 style="font-size:2rem; margin-top:20px;">Provisions for the Seekers</h1>
+      <p style="font-size:1.2rem; opacity:.95;">Chapter 8 — Aḥādīth 71 to 80</p>
+      <p style="font-size:1.1rem; opacity:.9;">Weigh the reality, not the label</p>
+      <p class="urdu" style="font-size:1.1rem;">Aaj ki kitaab — das hadithein: asal ko taulo, zaahir ko nahin</p>
+      <p style="font-size:.95rem; opacity:.85; margin-top:30px;">Press → to begin · Press F for fullscreen</p>
+    </section>
+
+    <!-- OBJECTIVES -->
+    <section>
+      <h2>What we'll cover today</h2>
+      <p style="font-size:1.3rem;">10 short aḥādīth — falling into 3 movements:</p>
+      <div class="three-cols" style="margin-top:24px;">
+        <div class="col">
+          <h4>1 · The foundations</h4>
+          <p style="margin:0;"><strong>No substitute for these</strong></p>
+          <p style="font-size:.95rem; margin:6px 0 0;">Aḥādīth 71, 72, 73</p>
+          <p style="font-size:.85rem; margin:4px 0 0;">("Lā" sayings)</p>
+        </div>
+        <div class="col">
+          <h4>2 · Faith in the world</h4>
+          <p style="margin:0;"><strong>Within limits</strong></p>
+          <p style="font-size:.95rem; margin:6px 0 0;">Aḥādīth 74, 75, 76</p>
+          <p style="font-size:.85rem; margin:4px 0 0;">("Lā" sayings)</p>
+        </div>
+        <div class="col">
+          <h4>3 · Weigh what you take in</h4>
+          <p style="margin:0;"><strong>&amp; why you give</strong></p>
+          <p style="font-size:.95rem; margin:6px 0 0;">Aḥādīth 77, 78, 79, 80</p>
+          <p style="font-size:.85rem; margin:4px 0 0;">("Inna" sayings)</p>
+        </div>
+      </div>
+      <p style="margin-top:24px; font-size:1.1rem;">The deep thread: <strong>baṣīra — weigh the reality, not the label.</strong></p>
+      <p class="urdu" style="font-size:1rem;">Buniyaadein → dunya mein hudood ke andar → jo lo use taulo. Dhaaga: asal ko taulo, zaahir ko nahin.</p>
+    </section>
+
+    <!-- ============ THEME 1 BANNER ============ -->
+    <section>
+      <span class="theme-banner">MOVEMENT 1 · THE FOUNDATIONS</span>
+      <h1>No substitute for these</h1>
+      <p style="font-size:1.3rem;">Aḥādīth 71, 72, 73 — what the believer is truly built on.</p>
+      <p class="urdu" style="font-size:1.1rem;">Amaanat · asli sharaafat · tajrube se hikmat.</p>
+    </section>
+
+    <!-- ============ ḤADĪTH 71 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 71</h3>
+        <div class="ar ar-med">لَا إِيْمَانَ لِمَنْ لَّا أَمَانَةَ لَهُ، وَلَا دِينَ لِمَنْ لَّا عَهْدَ لَهُ</div>
+        <p class="translit" style="font-size:1rem;">lā īmāna li-man lā amānata lah, wa lā dīna li-man lā ʿahda lah</p>
+        <p class="english" style="margin-top:14px;">"There is no faith for one with no trustworthiness, and no religion for one who keeps no covenant."</p>
+        <p class="urdu">"Jis mein amaanat nahin uska īmān nahin; jo waada na nibhaaye uska deen nahin."</p>
+        <span class="source-pill">Bayhaqī · Shuʿab al-īmān</span>
+      </section>
+
+      <section>
+        <h3>Faith shows in what you do</h3>
+        <div class="key-box">
+          <p style="margin:0; font-size:1.2rem;">You can't inspect a heart — but you can see if a person keeps <strong>trusts</strong> and <strong>promises</strong>.</p>
+        </div>
+        <div class="warn-box">
+          <strong>Not takfīr.</strong> The negation is of the <em>completeness</em> of faith — a promise-breaker is unbecoming of a believer, but does not leave Islam.
+        </div>
+        <p class="urdu" style="font-size:1.05rem;">Yeh poore īmān ki nafi hai — kufr ka fatwa nahin. Sakht tambeeh.</p>
+      </section>
+
+      <section>
+        <h3>📿 Qurʾān · 23:8</h3>
+        <div class="ar ar-big">وَالَّذِينَ هُمْ لِأَمَانَاتِهِمْ وَعَهْدِهِمْ رَاعُونَ</div>
+        <p class="english">"And they who are attentive to their trusts and covenants."</p>
+        <p style="margin-top:14px;">Among the signs of the successful believers: guarding <strong>amāna &amp; ʿahd</strong> — the very proof #71 names.</p>
+        <p class="urdu">Kaamyaab momineen ki nishaani — amaanat aur ahd ki hifaazat.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 72 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 72</h3>
+        <div class="ar ar-med">لَا عَقْلَ كَالتَّدْبِيرِ، وَلَا حَسَبَ كَحُسْنِ الْخُلُقِ، وَلَا وَرَعَ كَالْكَفِّ</div>
+        <p class="translit" style="font-size:.95rem;">lā ʿaqla ka-t-tadbīr, wa lā ḥasaba ka-ḥusni l-khuluq, wa lā waraʿa ka-l-kaff</p>
+        <p class="english" style="margin-top:14px;">"No intelligence like planning, no nobility like good character, no piety like restraint."</p>
+        <p class="urdu">"Koi ʿaql tadbeer jaisi nahin, koi sharaafat akhlaaq jaisi nahin, koi taqwa rukne jaisa nahin."</p>
+        <span class="source-pill">Bayhaqī · Shuʿab al-īmān</span>
+      </section>
+
+      <section>
+        <h3>Three labels, reset to reality</h3>
+        <table>
+          <tr><th>Label</th><th>Real measure</th></tr>
+          <tr><td>Intelligence (ʿaql)</td><td>planning toward the Hereafter</td></tr>
+          <tr><td>Nobility (ḥasab)</td><td>good character, <em>not</em> lineage</td></tr>
+          <tr><td>Piety (waraʿ)</td><td>restraint — what you <em>don't</em> do</td></tr>
+        </table>
+        <p style="margin-top:18px;">The chapter's "weigh the reality, not the label" — in a single breath.</p>
+        <p class="urdu" style="font-size:1.05rem;">Teen labels — har ek apne asal se taula gaya.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 73 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 73</h3>
+        <div class="ar ar-med">لَا حَلِيمَ إِلَّا ذُو عَثْرَةٍ، وَلَا حَكِيمَ إِلَّا ذُو تَجْرِبَةٍ</div>
+        <p class="translit" style="font-size:1rem;">lā ḥalīma illā dhū ʿathra, wa lā ḥakīma illā dhū tajriba</p>
+        <p class="english" style="margin-top:14px;">"No clement person except one who has stumbled, no wise person except one of experience."</p>
+        <p class="urdu">"Koi bardaasht-waala nahin siwaaye jo thokar kha chuka; koi hakeem nahin siwaaye tajrubekaar ke."</p>
+        <span class="source-pill">Tirmidhī · Mustadrak</span>
+      </section>
+
+      <section>
+        <h3>Forged, not granted</h3>
+        <div class="key-box">
+          <p style="margin:0; font-size:1.2rem;">The one who has <strong>slipped</strong> knows the worth of forgiveness — so he is gentler when others slip.</p>
+        </div>
+        <p>Your past stumbles, handled rightly, become the <em>raw material</em> of clemency. The one who never failed is often the harshest judge.</p>
+        <p class="urdu" style="font-size:1.05rem;">Pichli thokarein ḥilm ka khaam maal ban jaati hain.</p>
+      </section>
+    </section>
+
+    <!-- ============ THEME 2 BANNER ============ -->
+    <section>
+      <span class="theme-banner">MOVEMENT 2 · FAITH IN THE WORLD</span>
+      <h1>Within limits</h1>
+      <p style="font-size:1.3rem;">Aḥādīth 74, 75, 76 — engage with life, on Allah's terms.</p>
+      <p class="urdu" style="font-size:1.1rem;">Rahbaaniyat nahin · itaa'at ki hadd · taqwa ke saath maal.</p>
+    </section>
+
+    <!-- ============ ḤADĪTH 74 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 74</h3>
+        <div class="ar ar-big">لَا صَرُورَةَ فِي الْإِسْلَامِ</div>
+        <p class="translit" style="font-size:1.05rem;">lā ṣarūrata fi l-islām</p>
+        <p class="english" style="margin-top:18px;">"There is no celibacy in Islam."</p>
+        <p class="urdu">"Islam mein koi (rahbaaniyat jaisi) be-nikaahi nahin."</p>
+        <span class="source-pill">Abū Dāwūd · Mustadrak</span>
+      </section>
+
+      <section>
+        <h3>The path runs through the world</h3>
+        <div class="key-box">
+          <p style="margin:0; font-size:1.2rem;">Islam rejects <strong>withdrawal-as-piety</strong>. The Prophetic way: marry, build a household, engage.</p>
+        </div>
+        <div class="warn-box">
+          <strong>Not marriage-policing.</strong> It condemns the monk's renunciation — not every unmarried person, nor one who can't marry.
+        </div>
+        <p class="urdu" style="font-size:1.05rem;">Rahbaaniyat ka radd — har ghair-shaadi-shuda par taana nahin.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 75 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 75</h3>
+        <div class="ar ar-med">لَا طَاعَةَ لِمَخْلُوقٍ فِي مَعْصِيَةِ الْخَالِقِ</div>
+        <p class="translit" style="font-size:1.05rem;">lā ṭāʿata li-makhlūqin fī maʿṣiyati l-khāliq</p>
+        <p class="english" style="margin-top:16px;">"There is no obedience to any creation in disobedience of the Creator."</p>
+        <p class="urdu">"Kisi makhlooq ki itaa'at us cheez mein nahin jisme Khaaliq ki naafarmaani ho."</p>
+        <span class="source-pill">Baghawī · Sharḥ al-Sunna</span>
+      </section>
+
+      <section>
+        <h3>The one ceiling on obedience</h3>
+        <p>Obey parents, rulers, elders — seriously. But every obedience has a ceiling: a command of <strong>sin</strong> loses its claim on you. <em>(Even parents — yet keep honouring them.)</em></p>
+        <div class="warn-box">
+          <strong>A limit, not a licence.</strong> Not permission to rebel or be rude. Decline only the <em>sinful command</em>, gently — keep the relationship and general obedience intact.
+        </div>
+        <p class="urdu" style="font-size:1.05rem;">Itaa'at ki hadd — baghaawat nahin. Sirf gunaah waale hukm par narmi se inkaar.</p>
+      </section>
+
+      <section>
+        <h3>📿 Qurʾān · 31:15</h3>
+        <div class="ar ar-med">وَإِن جَاهَدَاكَ عَلَىٰ أَن تُشْرِكَ بِي ... فَلَا تُطِعْهُمَا</div>
+        <p class="english">"If they strive to make you associate with Me… do not obey them."</p>
+        <p style="margin-top:12px;">Even <em>parents</em> — yet the verse still commands kindness to them. The relationship stays; only the sinful command is refused.</p>
+        <p class="urdu">Maa-baap bhi — magar aage hukm: dunya mein unse achha bartaao. Rishta qaayam.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 76 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 76</h3>
+        <div class="ar ar-med">لَا بَأْسَ بِالْغِنَى لِمَنِ اتَّقَى اللهَ عَزَّ وَجَلَّ</div>
+        <p class="translit" style="font-size:1.05rem;">lā baʾsa bi-l-ghinā li-mani-ttaqā Llāha ʿazza wa jall</p>
+        <p class="english" style="margin-top:16px;">"There is no harm in wealth for one who fears Allah, the Mighty and Majestic."</p>
+        <p class="urdu">"Maal mein koi harj nahin us ke liye jo Allah se darta hai."</p>
+        <span class="source-pill">Ibn Māja · Aḥmad · Mustadrak</span>
+      </section>
+
+      <section>
+        <h3>Wealth is neutral</h3>
+        <div class="key-box">
+          <p style="margin:0; font-size:1.15rem;">The variable is not the money — it's the <strong>taqwā</strong> of the hand that holds it.</p>
+        </div>
+        <p>"How excellent is pure wealth in the possession of a righteous person." <em>(Al-Adab al-mufrad)</em></p>
+        <div class="warn-box">
+          <strong>No contradiction</strong> with "love of the world is the root of sin" — the danger is <em>love of</em> wealth, not <em>possessing</em> it with taqwā.
+        </div>
+        <p class="urdu" style="font-size:1.05rem;">Khatra maal ki mohabbat hai — muttaqī ke haath mein maal achha.</p>
+      </section>
+    </section>
+
+    <!-- ============ THEME 3 BANNER ============ -->
+    <section>
+      <span class="theme-banner">MOVEMENT 3 · WEIGH WHAT YOU TAKE IN</span>
+      <h1>&amp; why you give</h1>
+      <p style="font-size:1.3rem;">Aḥādīth 77, 78, 79, 80 — sift speech, poetry, knowledge — and your own intention.</p>
+      <p class="urdu" style="font-size:1.1rem;">Jo lo use taulo, aur jo do uski niyyat dekho.</p>
+    </section>
+
+    <!-- ============ ḤADĪTH 77 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 77</h3>
+        <div class="ar ar-big">إِنَّ مِنَ الْبَيَانِ لَسِحْرًا</div>
+        <p class="translit" style="font-size:1.05rem;">inna mina l-bayāni la-siḥran</p>
+        <p class="english" style="margin-top:18px;">"Indeed, some eloquent speech is [like] magic."</p>
+        <p class="urdu">"Beshak baʿz fasaahat mein jaadu hota hai."</p>
+        <span class="source-pill">Bukhārī</span>
+      </section>
+
+      <section>
+        <h3>Eloquence cuts both ways</h3>
+        <div class="key-box">
+          <p style="margin:0; font-size:1.15rem;">Beautiful speech can bewitch — <strong>"whether for good or otherwise."</strong></p>
+        </div>
+        <table style="margin-top:10px;">
+          <tr><td><strong>As a listener</strong></td><td>charm ≠ proof — weigh the content</td></tr>
+          <tr><td><strong>As a speaker</strong></td><td>aim the gift at truth, never deceit</td></tr>
+        </table>
+        <p class="urdu" style="font-size:1.05rem;">Charm nahin — content taulo. Apni fasaahat haq ki taraf chalaao.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 78 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 78</h3>
+        <div class="ar ar-big">إِنَّ مِنَ الشِّعْرِ حِكْمَةً</div>
+        <p class="translit" style="font-size:1.05rem;">inna mina sh-shiʿri ḥikmatan</p>
+        <p class="english" style="margin-top:18px;">"Indeed, some poetry is wisdom."</p>
+        <p class="urdu">"Beshak baʿz shaayri mein hikmat hoti hai."</p>
+        <span class="source-pill">Bukhārī</span>
+      </section>
+
+      <section>
+        <h3>Judge the content, not the container</h3>
+        <div class="key-box">
+          <p style="margin:0; font-size:1.15rem;">Don't <strong>accept</strong> a thing for being eloquent (#77). Don't <strong>reject</strong> a thing for being "just poetry" (#78).</p>
+        </div>
+        <p><em>Some</em> poetry is wisdom — not all. The form doesn't decide worth; the content does. Open it and weigh what's inside.</p>
+        <p class="urdu" style="font-size:1.05rem;">Dabbe se nahin — andar ke maal se faisla.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 79 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 79</h3>
+        <div class="ar ar-med">إِنَّ مِنَ الْعِلْمِ جَهْلًا، وَإِنَّ مِنَ الْقَوْلِ عِيَالًا</div>
+        <p class="translit" style="font-size:.95rem;">inna mina l-ʿilmi jahlan, wa inna mina l-qawli ʿiyālan</p>
+        <p class="english" style="margin-top:14px;">"Indeed, some 'knowledge' is ignorance, and some speech is a burden."</p>
+        <p class="urdu">"Beshak baʿz 'ilm' mein jahaalat hai, aur baʿz baat bojh hai."</p>
+        <span class="source-pill">Abū Dāwūd</span>
+      </section>
+
+      <section>
+        <h3>Not everything called "knowledge" benefits</h3>
+        <p>Non-beneficial "knowledge" derails you from what benefits; knowledge never acted on is <strong>a donkey carrying books</strong> (62:5).</p>
+        <div class="warn-box">
+          <strong>Not anti-knowledge.</strong> Beneficial ʿilm is praised. The cure is <em>more</em> beneficial knowledge, acted upon.
+        </div>
+        <p class="urdu" style="font-size:1.05rem;">Be-faayda aur be-amal ilm nishaana hai — ilaaj: faayda-mand ilm + amal.</p>
+      </section>
+
+      <section>
+        <h3>📿 Qurʾān · 62:5</h3>
+        <div class="ar ar-big">كَمَثَلِ الْحِمَارِ يَحْمِلُ أَسْفَارًا</div>
+        <p class="english">"…like a donkey carrying volumes of books."</p>
+        <p style="margin-top:12px;">The verse the book itself cites: knowledge not upheld is no knowledge at all.</p>
+        <p class="urdu">Be-amal ilm goya ilm hi nahin.</p>
+      </section>
+    </section>
+
+    <!-- ============ ḤADĪTH 80 ============ -->
+    <section>
+      <section>
+        <h3>Ḥadīth 80</h3>
+        <div class="ar ar-big">إِنَّ يَسِيرَ الرِّيَاءِ شِرْكٌ</div>
+        <p class="translit" style="font-size:1.05rem;">inna yasīra r-riyāʾi shirk</p>
+        <p class="english" style="margin-top:18px;">"Indeed, even the slightest ostentation is shirk."</p>
+        <p class="urdu">"Beshak thoda sa riyāʾ (dikhaawa) bhi shirk hai."</p>
+        <span class="source-pill">Ibn Māja</span>
+      </section>
+
+      <section>
+        <h3>Now weigh <em>why</em> you act</h3>
+        <div class="key-box">
+          <p style="margin:0; font-size:1.15rem;">A deed done <strong>to be seen</strong> earns its "reward" only from those eyes — nothing from Allah.</p>
+        </div>
+        <p>The Prophet ﷺ feared <em>al-shirk al-aṣghar</em> (lesser shirk) most for us — and named it: <strong>riyāʾ</strong>.</p>
+        <div class="warn-box">
+          <strong>Lesser shirk — not waswasa.</strong> It does not exit Islam, and natural gladness that good was seen is not riyāʾ. Cure: do it for Allah alone.
+        </div>
+        <p class="urdu" style="font-size:1.05rem;">Chhota shirk, niyyat ka — waswasa nahin. Ilaaj: niyyat sirf Allah ke liye.</p>
+      </section>
+
+      <section>
+        <h3>📿 Qurʾān · 18:110</h3>
+        <div class="ar ar-med">فَلْيَعْمَلْ عَمَلًا صَالِحًا وَلَا يُشْرِكْ بِعِبَادَةِ رَبِّهِ أَحَدًا</div>
+        <p class="english">"…let him do righteous deeds and associate none in the worship of his Lord."</p>
+        <p style="margin-top:12px;">The exact remedy: a deed for Allah alone, no audience "associated" into it.</p>
+        <p class="urdu">Nek amal sirf Allah ke liye — ʿibaadat mein kisi ko shareek na karo.</p>
+      </section>
+    </section>
+
+    <!-- ============ RECAP (master overview placed at end) ============ -->
+    <section>
+      <h2>🔑 The chapter in one picture</h2>
+      <div class="three-cols" style="margin-top:18px;">
+        <div class="col">
+          <h4>1 · The foundations</h4>
+          <p style="font-size:.9rem;"><strong>#71</strong> Faith = trust &amp; covenant</p>
+          <p style="font-size:.9rem;"><strong>#72</strong> Nobility = character, not lineage</p>
+          <p style="font-size:.9rem;"><strong>#73</strong> Wisdom forged by experience</p>
+        </div>
+        <div class="col">
+          <h4>2 · Faith in the world (limits)</h4>
+          <p style="font-size:.9rem;"><strong>#74</strong> No withdrawal/celibacy</p>
+          <p style="font-size:.9rem;"><strong>#75</strong> Obedience has one ceiling</p>
+          <p style="font-size:.9rem;"><strong>#76</strong> Wealth safe in a God-fearing hand</p>
+        </div>
+        <div class="col">
+          <h4>3 · Weigh what you take in</h4>
+          <p style="font-size:.9rem;"><strong>#77</strong> Eloquence bewitches — both ways</p>
+          <p style="font-size:.9rem;"><strong>#78</strong> Some poetry is wisdom</p>
+          <p style="font-size:.9rem;"><strong>#79</strong> Some "knowledge" is ignorance</p>
+          <p style="font-size:.9rem;"><strong>#80</strong> The slightest show-off = shirk</p>
+        </div>
+      </div>
+      <p style="font-size:1.15rem; margin-top:20px; color:#14532d;"><strong>The thread: baṣīra — weigh the reality, not the label.</strong></p>
+      <p class="urdu" style="font-size:1.05rem;">Asal ko taulo, zaahir ko nahin — apni ʿibaadat ki niyyat samet.</p>
+    </section>
+
+    <!-- ============ HOMEWORK ============ -->
+    <section>
+      <h2>🏠 Homework</h2>
+      <ol style="font-size:1.1rem; line-height:1.9; text-align:left; max-width:85%; margin:0 auto;">
+        <li>Memorise the Arabic of <strong>4 aḥādīth</strong> (the short ones: 74, 75, 77, 78, 80).</li>
+        <li>Know all 10 in translation + their sources.</li>
+        <li>Complete Exercises 1–4 from the handout.</li>
+        <li>Reflection journal (Ex. 5) — private, for yourself.</li>
+        <li><strong>The "weigh the reality" challenge</strong>: when something impresses you, ask — <em>"what is the substance behind the surface?"</em> (#72, #77).</li>
+        <li><strong>The intention check</strong>: before a good deed, renew silently — <em>"this is for Allah alone."</em> (#80).</li>
+      </ol>
+      <p class="urdu" style="font-size:1rem; margin-top:18px;">Buniyaadein banao, dunya mein hudood ke andar jiyo, jo lo use taulo, niyyat saaf rakho.</p>
+    </section>
+
+    <!-- ============ CLOSING ============ -->
+    <section class="cover">
+      <div class="ar ar-huge">جَزَاكُمُ اللهُ خَيْرًا</div>
+      <p style="font-size:1.4rem; margin-top:24px;">May Allah reward you</p>
+      <p class="urdu" style="font-size:1.15rem;">Allah aap sab ko jazaa-e-khair de</p>
+      <p style="font-size:1.05rem; opacity:.9; margin-top:24px;">Ten aḥādīth — weigh the reality, not the label. May Allah give us the discernment to see things, and ourselves, as they truly are — and to act for Him alone.</p>
+      <p class="urdu" style="font-size:1rem; opacity:.9;">Das hadithein — asal ko taulo, zaahir ko nahin. Allah hamein woh basheerat de jo cheezon ko, aur khud ko, asal mein dekhe — aur sirf Uske liye amal kare. Aameen.</p>
+    </section>
+
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+<script>
+  Reveal.initialize({
+    hash: true,
+    slideNumber: 'c/t',
+    controls: true,
+    progress: true,
+    transition: 'slide',
+    width: 1280,
+    height: 800,
+    margin: 0.06
+  });
+</script>
+</body>
+</html>

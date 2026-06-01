@@ -114,7 +114,7 @@ A man came to the Prophet ﷺ and asked: *"O Messenger of Allah, what about some
 
 The phrase *"unable to join"* refers to someone who *aspires* to be like the righteous but hasn't reached their station. The reassurance: aspiration counts. On the Day of Judgement, this person will be raised with those they loved.
 
-This is **the Qurʾānic principle of association by love** — directly echoing the verse: *"Whosoever obeys Allah and the Messenger — they will be with those upon whom Allah has bestowed favour: of the Prophets, the truthful, the martyrs, and the righteous. The best of company are they."* (Qurʾān 4:69)
+This is **the Qurʾānic principle of association by love** — directly echoing the verse: *"Whosoever obeys Allah and the Messenger — they will be with those upon whom Allah has bestowed favour: of the Prophets, the truthful, the martyrs, and the righteous. The best of company are they."* (Qurʾān 4:69-70)
 
 **Yaad rakho:** Hadith ka asbāb (sabab-e-wurud) yaad rakho — ek aspiring sahabi ne pucha tha. Jawab dilasa bhi tha aur warning bhi. Tum jin ko *dil se* chahti ho — woh tumhari manzil hain Akhirah mein.
 
@@ -171,7 +171,7 @@ When you slow down, you give your *ʿaql* (intellect) time to engage. When you r
 
 ---
 
-## 5 · الْمَجَالِسُ بِالأَمَانَةِ — "Gatherings are with trust"
+## 5 · الْمَجَالِسُ بِالْأَمَانَةِ — "Gatherings are with trust"
 
 **Source:** Abū Dāwūd.
 
@@ -208,7 +208,7 @@ These all fall under the three exceptions. The ḥadīth protects *gossip*, not 
 
 ---
 
-## 6 · الْحَيَاءُ شُعْبَةٌ مِّنَ الإِيمَانِ — "*Ḥayāʾ* is a branch of faith"
+## 6 · الْحَيَاءُ شُعْبَةٌ مِّنَ الْإِيمَانِ — "*Ḥayāʾ* is a branch of faith"
 
 **Source:** Bukhārī, Muslim.
 
@@ -255,7 +255,7 @@ This is the **operational definition** of *ḥayāʾ* of faith. It's not a feeli
 
 ---
 
-## 7 · الْخَمْرُ جُمَّاعُ الإِثْمِ — "*Khamr* is the gathering of sin"
+## 7 · الْخَمْرُ جُمَّاعُ الْإِثْمِ — "*Khamr* is the gathering of sin"
 
 **Source:** Razīn.
 
@@ -398,7 +398,7 @@ The ḥadīth is **comparative, not absolute**.
 
 ### The proper reading — comparative
 
-Imam al-Nawawī's commentary on Sahih Muslim (and Mullā ʿAlī al-Qārī echoes it in *Mirqāt al-Mafātīḥ* 9:7) lays it out:
+Mullā ʿAlī al-Qārī lays it out in *Mirqāt al-Mafātīḥ* 9:7 (the source the book itself cites here):
 
 **For the believer**, the world is a "prison" because:
 - They are constrained by Allah's law (no zina, no riba, no khamr, etc.)

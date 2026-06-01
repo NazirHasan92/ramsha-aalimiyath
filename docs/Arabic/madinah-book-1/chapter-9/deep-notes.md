@@ -84,7 +84,7 @@ Chapter 5 gave the class their first pronouns: `هُوَ` (he/it) and `هِيَ`
 - `أَنْتَ` (*anta*) — **"you"** (masculine; spoken *to* a male).
 
 > `مَنْ أَنْتَ ؟ — أَنَا طَالِبٌ .` — "Who are you? — I am a student."
-> `أَنْتَ طَالِبٌ جَدِيدٌ ؟ — نَعَمْ، أَنَا طَالِبٌ جَدِيدٌ .` — "Are you a new student? — Yes, I am a new student."
+> `أَأَنْتَ طَالِبٌ جَدِيدٌ ؟ — نَعَمْ . أَنَا طَالِبٌ جَدِيدٌ .` — "Are you a new student? — Yes, I am a new student."
 
 They work exactly like `هُوَ`/`هِيَ`: they sit at the front of a nominal sentence as the mubtadaʾ. `أَنَا طَالِبٌ` = "I am a student" (no word for "am" — same as every nominal sentence since Ch 1).
 
