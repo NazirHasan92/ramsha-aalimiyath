@@ -122,7 +122,7 @@ This is **the Qurʾānic principle of association by love** — directly echoing
 
 This ḥadīth is profoundly **two-sided**. Most people quote only the comforting half: *"don't worry, if you love the pious, you'll be with them"*. But Imam Mullā ʿAlī al-Qārī and others extend the principle:
 
-> *"This ḥadīth could also be applied to those who aspire to be with evil people and sinners and secretly admire their actions, even though they may not have perpetrated those evil actions themselves. They will be gathered with the sinners on the Day of Judgement."* (Mirqāt al-Mafātīḥ 8:740)
+> *"This ḥadīth could also be applied more generally to those who aspire to be with evil people and sinners and secretly admire their actions, even though they may not have perpetrated those evil actions themselves. They will be gathered with the sinners on the Day of Judgement."* (Mirqāt al-Mafātīḥ 8:740)
 
 So the rule is: **your eternal companions are determined by who you truly love, not just what you outwardly do.** A person who secretly admires fāsiqs, who is entertained by their lifestyles, who consumes their stories — even if they don't commit those sins themselves — is recording their loyalty.
 
@@ -214,7 +214,7 @@ These all fall under the three exceptions. The ḥadīth protects *gossip*, not 
 
 ### The "branches" tradition
 
-Other aḥādīth (also in Bukhārī and Muslim) state that *al-īmānu biḍʿ wa sabʿūna shuʿbatan* — "faith has 70-something branches" (the exact number varies by narration: 73, 77). The Prophet ﷺ then specified a few — and *ḥayāʾ* is the only one explicitly named in this short ḥadīth.
+The book notes here only that *"Ḥadīth narrations mention that there are more than seventy branches of faith."* (The fuller, well-known narration — *al-īmānu biḍʿ wa sabʿūna shuʿbatan* — is **not quoted on this page**; mentioned here just for your own context.) Out of those many branches, the Prophet ﷺ specified a few — and *ḥayāʾ* is the only one explicitly named in this short ḥadīth.
 
 That's significant. Out of 70+ branches, he picks *ḥayāʾ* for this single-line distillation. **Why?**
 

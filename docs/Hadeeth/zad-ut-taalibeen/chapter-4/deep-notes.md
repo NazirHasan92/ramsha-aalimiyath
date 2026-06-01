@@ -29,7 +29,7 @@ Work through each ḥadīth below. For each, ask yourself: *can I explain this h
 
 ---
 
-## 31 · الْمُسْلِمُ مَنْ سَلِمَ الْمُسْلِمُونَ مِنْ لِسَانِهِ وَيَدِهِ — "The Muslim is the one *from whom* other believers are safe"
+## 31 · الْمُسْلِمُ مَنْ سَلِمَ الْمُسْلِمُونَ مِن لِّسَانِهِ وَيَدِهِ — "The Muslim is the one *from whom* other believers are safe"
 
 **Source:** Bukhārī, Muslim. *(The book gives only the collections — no Companion is named in its attribution.)*
 

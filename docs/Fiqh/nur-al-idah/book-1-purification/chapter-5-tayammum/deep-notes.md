@@ -84,7 +84,7 @@ As master-key 2 said, **niyyah is a condition** here (not merely a sunna). *"Its
 
 ### Conditions 4–6 — The action: face + arms, whole hand, two strikes
 
-- **(4) Completely wipe the parts:** *"the face and the hands up to the elbows. One must remove his ring, interlace or rub between his fingers, and wipe the entire skin of his face."* The proof: *"Tayammum is two strikes, a strike for the face and a strike for the arms to his elbows."* (Hakim, al-Mustadrak 1/287) — and the method hadith: *"He struck the ground with his palms, then raised them to his face; then he struck the ground again and wiped his arms, the inner part and the outer part, until he touched his elbows with his hands."* (Ad-Daraqutni, Sunan vol. 1, 179)
+- **(4) Completely wipe the parts:** *"the face and the hands up to the elbows. One must remove his ring, interlace or rub between his fingers, and wipe the entire skin of his face."* The proof: *"Tayammum is two strikes, a strike for the face and a strike for the arms to his elbows."* (Hakim, al-Mustadrak 1/287) — and the method hadith: *"He struck the ground with his palms, then raised them to his face, after which he struck the ground again and then wiped his arms, the inner part and outer part until he touched his elbows with his hands."* (Ad-Daraqutni, Sunan vol. 1, 179)
 - **(5) Wipe with the *whole* hand or most of it:** *"it is not valid if a person wipes with only two fingers, even repeatedly."* (Contrast wudū, where the head may be wiped with two fingers.)
 - **(6) Two strikes** with the inside of the palms on the soil — *"even if the two strikes are from the same place."* (If a dust-storm covers you and you wipe that dust over face and arms *with the intention*, that counts.)
 
@@ -119,7 +119,7 @@ Once the conditions and two pillars are met, tayammum is **valid**. The seven su
 6. **Nafḍ** — **shaking** the hands after striking (to drop the excess dust — "bumping the index fingers").
 7. **Tafrīj al-aṣābiʿ** — keeping the **fingers open and spread**, *"so the earth gets in between the fingers to ensure optimum cleaning."*
 
-The method hadith again: *"He struck the ground with his palms, then raised them to his face, then struck the ground again and wiped his arms, the inner and outer part, until he touched his elbows."* (Ad-Daraqutni 1/179)
+The method hadith again: *"He struck the ground with his palms, then raised them to his face, after which he struck the ground again and then wiped his arms, the inner part and outer part until he touched his elbows with his hands."* (Ad-Daraqutni 1/179)
 
 **Yaad rakho:** 7 sunan ek tarteeb mein: (1) **Bismillah**, (2) **tartīb** (chehra pehle, baazu baad mein), (3) **muwālāt** (bila-rukey), (4) haath mitti par **aage** kheencho, (5) **peeche**, (6) haath **jhaad** lo (zyada mitti gira do), (7) **ungliyaan khuli** rakho (mitti beech mein pahunche). Daleel: Daraqutni 1/179.
 

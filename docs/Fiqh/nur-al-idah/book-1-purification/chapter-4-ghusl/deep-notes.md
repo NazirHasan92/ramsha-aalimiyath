@@ -113,7 +113,7 @@ Farḍ #3 is not vague — the book spells out the awkward spots water **must** 
 ### The braids rule — the one place men and women differ
 
 - **A man must undo his braids** and wash inside them *every* time he makes ghusl — and even if water reaches the root **while the hair is tied, it is not valid**; he must undo them. *"A man does not receive a dispensation based on beautification, although the woman does."*
-- **A woman need NOT undo her braids**, *provided the water reaches the roots* — by agreement. The proof is the Umm Salama hadith: she asked, *"I am a woman who keeps my hair closely plaited. Should I undo it when I wash after sexual relations?"* The Prophet ﷺ replied, *"It is enough for you to throw three handfuls over it, then pour water all over your body and you will be purified."* (Abū Dāwūd 251) — the dispensation is because undoing and redoing the hair is a real hardship for her.
+- **A woman need NOT undo her braids**, *provided the water reaches the roots* — by agreement. The proof is the Umm Salama hadith: she asked, *"I am a woman who keeps my hair closely plated [book's spelling]. Should I undo it when I wash after sexual relations?"* The Prophet ﷺ replied, *"It is enough for you to throw three handfuls over it, then pour water all over your body and you will be purified."* (Abū Dāwūd 251) — the dispensation is because undoing and redoing the hair is a real hardship for her.
 
 **Yaad rakho:** Ghusl ke **3 farḍ**: (1) **kulli** (muh dhona), (2) **naak mein paani** (narm jagah tak), (3) **poora jism ek baar**. Daleel: al-Māʾidah 6 — "agar janābat mein ho to poora badan dho lo" — isi liye muh aur naak ghusl mein **farḍ** hain (wudū mein sirf sunnat the). "Poora jism" ka matlab: **har jagah paani pahunche** — khatne ki andaruni jagah, naaf ka andar, khula chhed/piercing, daadhi/bhanwon ke neeche ki khaal. **Choti ka mas'ala:** mard ko choti **kholna farḍ** hai (bandhi choti ki jad tak paani pahunch bhi jaaye to kaafi nahin); aurat ko **kholna zaroori nahin** agar jad tak paani pahunch jaaye (Umm Salama — "teen chullu daal lo", Abū Dāwūd 251).
 
@@ -146,7 +146,7 @@ The book says *"Twelve things are sunna in the major bath."* They describe, in o
 *"The etiquettes of the major bath are the same as that of wudū"* — **with two differences**:
 
 1. **Do not face the qibla** during ghusl, *"because one is naked almost always."*
-2. Bathe **where no one can see you.** The proof: *"God is Ever Living and Ever Concealed… and He likes those who acquire modesty and concealment; so when anyone of you wants to bathe, let him observe secrecy."* (Abū Dāwūd) — and if you must bathe among others (men with men, women with women), choose the least-exposed spot. *(The sin of exposure is on an onlooker who looks at another's uncovered ʿawra.)*
+2. Bathe **where no one can see you.** The proof: *"God is Ever Living and Ever Concealed… and He likes those who acquire the qualities of modesty and concealment; so when anyone of you wants to bathe, let him observe secrecy."* (Abū Dāwūd) — and if you must bathe among others (men with men, women with women), choose the least-exposed spot. *(The sin of exposure is on an onlooker who looks at another's uncovered ʿawra.)*
 3. And whereas in wudū supplication is encouraged, **in ghusl it is disliked to speak — even du'ā** — because the private parts are exposed.
 
 ### When ghusl is *sunna* — 4 occasions
