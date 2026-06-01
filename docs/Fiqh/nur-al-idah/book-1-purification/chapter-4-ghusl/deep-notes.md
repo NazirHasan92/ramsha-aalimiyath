@@ -70,7 +70,7 @@ The book's heading: *"There are ten things a person is not required to perform t
 **The two look-alike fluids (key 3 — "it isn't sperm"):**
 
 1. **Madhī** — *"a white, thin, sticky fluid released from a man's penis when he is aroused… long before orgasm,"* due to romantic play or kissing. (The female equivalent from amorous play is also termed madhī.) It is *minor* impurity → wash it + wudū, **no ghusl.**
-2. **Wadī** — *"a white cloudy fluid that is thick and warm and has no smell, released generally after urinating."* Again minor impurity → **no ghusl.**
+2. **Wadī** — *"a white cloudy fluid that is thick and warm and has no smell. It is released generally after urinating and occasionally before."* Again minor impurity → **no ghusl.**
 
 **The "no actual emission / no trace" cases (key 1 — "no sperm with desire"):**
 
